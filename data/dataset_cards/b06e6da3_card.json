@@ -1,0 +1,83 @@
+{
+    "dataset_id": "b06e6da3",
+    "name": "Fall-Human-Detection",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "This dataset contains images of people with annotations indicating whether and where a fall has occurred. Each sample pairs an image and a generic text prompt with a labeled bounding box around a fallen person. It evaluates visual detection of human falls in everyday scenes.",
+    "card_text": "This is a small multimodal dataset for fall detection in images. Each example consists of an image showing one or more people, plus a generic textual prompt that is not semantically specific to the image. The output is a set of bounding boxes, each labeled \"Fall\", that localize a person who is in a fallen posture or situation. Bounding boxes are specified as numeric coordinates in a simple structured format. The dataset focuses on safety-related visual recognition, especially detecting humans who may have fallen in various environments. It is suitable for evaluating object detection or localization models tailored to human fall detection and related safety monitoring scenarios.",
+    "tasks": [
+        "detection",
+        "localization",
+        "visual_question_answering"
+    ],
+    "domain": "safety monitoring",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This field contains a generic user-defined prompt intended for different models. It serves as the textual part of the input but is not specific to the content of each image. It provides a minimal instruction-like context accompanying the visual input.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "medium",
+                "style": "other",
+                "semantics": "This field points to the image file for each sample, typically showing one or more people in a scene where a fall may have occurred. It is the primary visual content from which the model must detect and localize fallen individuals.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "bbox": {
+                "paths": [
+                    "output.bbox"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "This field contains a list of bounding box annotations, each mapped to the label \"Fall\" and defined by four numeric coordinates. It specifies the spatial locations in the image where a fallen person is present and serves as the ground-truth detection target.",
+                "path_types": [
+                    "list"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample includes an image reference as the main visual input, a short generic text prompt as context, and an output structure containing one or more labeled bounding boxes. The image shows people in various scenes, the context provides a simple prompt accompanying the image, and the bounding boxes mark the regions where a fall is detected, linking labels to coordinates for evaluation of visual fall localization."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/fall-human-detection/json/annotation_v2.json",
+        "existing_tags": {
+            "task": "fall-human-detection",
+            "type": "comprehension",
+            "skill": "Safety Detection",
+            "domain": "General",
+            "general_capability": [
+                "Content Recognition"
+            ],
+            "set_type": "openset"
+        },
+        "original_raw_domain": "General"
+    }
+}

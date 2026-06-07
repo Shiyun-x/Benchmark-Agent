@@ -1,0 +1,63 @@
+# ======================================
+# Scenario definition (closed set)
+# ======================================
+
+domain:
+  canonical:
+    # knowledge & science
+    - general          # everyday knowledge, common sense
+    - science          # physics, biology, chemistry, etc.
+    - geography        # geography, geology, etc.
+    - humanities       # history, philosophy, culture
+
+    # professional
+    - medical          # clinical, biomedical, healthcare
+    - legal            # law, regulation, contracts
+    - finance          # economy, business, accounting
+    - engineering      # technical / system / applied science
+    - industrial       # manufacturing, inspection, safety
+    - education        # exams, teaching, learning content
+
+    # culture & lifestyle
+    - art              # painting, sculpture, architecture, etc.
+    - sports
+    - animal           # animal behavior, animal science, etc.
+    - plant            # plant behavior, plant science, etc.
+
+    # digital
+    - code             # programming, software development
+    - web              # web documents, forms, web QA
+    - social           # social media, opinion, public discourse
+
+    - other
+
+input_structure:
+  canonical:
+    - single_turn        # one-shot input → output
+    - multi_turn         # dialogue or conversational context
+    - long_context       # long text / long audio / multi-page
+    - multi_modal        # multiple modalities jointly
+    - structured_input  # table / form / schema-like input
+
+content_type:
+  canonical:
+    # text
+    - natural_language
+    - table
+    - document
+
+    # audio
+    - speech
+    - environmental_sound
+    - music
+
+    # image / vision
+    - natural_image
+    - document_image
+    - chart_or_diagram
+
+    # mixed
+    - multimodal
+
+    # fallback
+    - other

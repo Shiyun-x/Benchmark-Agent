@@ -1,0 +1,93 @@
+{
+    "dataset_id": "5f3dbd05",
+    "name": "Art Image Visual Question Answering",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "This dataset contains visual question answering examples on artwork images, where each sample pairs an art image with a short natural language question and a brief textual answer. It evaluates a model's ability to understand visual content in artistic scenes and respond with a concise, correct answer.",
+    "card_text": "This dataset focuses on visual question answering over images of artworks. Each example includes an art image and a short, often simple, question about visible objects or actions in the scene, such as what people are sitting on or walking through. The answers are brief text spans, typically single words or very short phrases naming objects, entities, or scene elements present in the image. Questions are phrased in natural but sometimes slightly ungrammatical English and assume that the model can interpret visual details in artistic rather than photographic depictions. The data is well suited for evaluating content recognition and basic reasoning in the context of paintings, illustrations, or other art images, testing whether models can connect textual queries to visual evidence in stylized scenes.",
+    "tasks": [
+        "visual_question_answering",
+        "open_ended_qa",
+        "question_answering"
+    ],
+    "domain": "art images",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "medium",
+                "style": "illustration",
+                "semantics": "This field points to the artwork image that forms the main visual context for the question. It contains the scene, objects, and people that the question refers to. The model must inspect this image to identify the visual evidence needed to answer the associated question.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This is the natural language question about the image, typically asking what an object is, what someone is doing, or what appears in a certain part of the scene. It directs the model's attention to specific aspects of the artwork that are relevant for producing the answer.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field contains the ground-truth textual answer to the question, usually a single word or short phrase naming an object or visual element. It represents the expected response a model should give when correctly interpreting both the image and the question.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "medium",
+                "style": "illustration",
+                "semantics": "This is the actual image reference for the artwork in each sample, reused as the main visual input. It shows the artistic scene on which the question is based and must be processed jointly with the question to derive the answer.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of an artwork image file reference as the main visual context, a short text question about the content of that image, and a short text answer giving the correct response. The question targets specific objects or elements visible in the image, and the answer is a concise label or phrase grounded in the visual content."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/ArtImageVisualQuestionAnswering/art_image_visual_question_answering.json",
+        "existing_tags": {
+            "task": "Art Image Visual Question Answering",
+            "type": "image comprehension",
+            "skill": "Image Visual Question Answering",
+            "domain": "Art",
+            "general_capability": "Content Recognition, Reasoning Ability",
+            "set_type": "openset"
+        },
+        "original_raw_domain": "Art"
+    }
+}

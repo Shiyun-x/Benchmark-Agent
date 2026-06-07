@@ -1,0 +1,110 @@
+{
+    "dataset_id": "9155fd9c",
+    "name": "Chemistry Vqa",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 44,
+    "description": "This dataset consists of chemistry-focused visual question answering (VQA) items where models must interpret simple diagrams or illustrations and answer short textual questions. Each sample pairs a chemistry-related image with a multiple-choice style question and a single correct textual answer. It evaluates the ability to combine visual understanding of chemistry diagrams with basic conceptual reasoning.",
+    "card_text": "The Chemistry VQA dataset contains a small collection of image–text pairs centered on basic chemistry concepts and representations. Each example provides an image file depicting simple chemistry content such as particle diagrams, solution concentration illustrations, or symbolic representations of substances, alongside a natural language question. Questions often embed a small set of candidate choices within the text, requiring the model to visually inspect the diagram (e.g., comparing particle counts or identifying substance types) and then select the correct option as the answer. Outputs are short text strings that exactly match one of the provided options. The dataset focuses on comprehension and reasoning within the chemistry domain, assuming familiarity with elementary concepts like elements vs. compounds and concentration comparisons.",
+    "tasks": [
+        "visual_question_answering",
+        "multiple_choice_qa",
+        "question_answering"
+    ],
+    "domain": "chemistry",
+    "meta": {
+        "fields": {
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "short",
+                "style": "diagram",
+                "semantics": "This field points to an image file containing a simple chemistry-related diagram or illustration, such as particle models or symbolic representations. The visual content provides the primary information needed to answer the associated question. The question and answer both depend on correctly interpreting this image.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This text field states a direct question about the accompanying chemistry image, often embedding the list of candidate answer choices in bracketed form. It guides the model on what aspect of the image to focus on, such as identifying a substance type or comparing concentrations, and constrains the possible answers to a small set.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "context": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This field provides a brief generic instruction telling the model to answer the question based on the image and to select one of the given choices. It frames the task but does not add chemistry content beyond what is in the question and image.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "options": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "Within the question text, the candidate answer choices are explicitly listed in a structured bracketed form (e.g., ['Solution A', 'Solution B', 'neither; their concentrations are the same']). These embedded options define the allowed responses and the model's output should match exactly one of them.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field contains the ground-truth answer as a short text string that corresponds exactly to one of the candidate choices specified in the question. It represents the correct interpretation and reasoning outcome given the image and the question.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains an image reference with a chemistry diagram, a short natural language question that often embeds a list of candidate answer options, a brief generic instruction prompt about how to answer, and a gold textual answer. The image provides the visual information, the question specifies the task and options, the prompt frames the response style, and the answer records the correct choice among the listed options."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/chemistry_vqa/json/annotation.json",
+        "existing_tags": {
+            "task": "chemistry vqa",
+            "type": "comprehension",
+            "skill": "Image Visual Question Answering",
+            "domain": [
+                "Chemistry"
+            ],
+            "general_capability": [
+                "Reasoning Ability"
+            ]
+        },
+        "original_raw_domain": [
+            "Chemistry"
+        ]
+    }
+}

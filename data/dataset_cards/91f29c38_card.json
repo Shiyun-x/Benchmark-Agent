@@ -1,0 +1,111 @@
+{
+    "dataset_id": "91f29c38",
+    "name": "Mathematical Word Problem Vqa",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 8,
+    "description": "This dataset contains mathematical word problem visual question answering samples that combine images with short textual questions and multiple-choice options. Models must read visual information such as clocks or schedules and select the correct textual answer.",
+    "card_text": "This dataset focuses on mathematical word problem visual question answering, where each example pairs an image with a concise question and a small set of candidate answers. Images typically depict simple mathematical or time-related content such as analog clocks, schedules, or other structured visual information. The text question explicitly references the image and lists multiple-choice options, often involving temporal reasoning (e.g., telling time, reading timetables) or basic math-related interpretation. The model’s task is to interpret the visual content, understand the question phrasing, and output the correct choice as a short text string. The dataset assumes familiarity with everyday time expressions and simple mathematical conventions, and it evaluates both visual understanding and basic reasoning over the depicted information.",
+    "tasks": [
+        "visual_question_answering",
+        "multiple_choice_qa",
+        "question_answering",
+        "constrained_output"
+    ],
+    "domain": "mathematics and everyday time/schedule reasoning",
+    "meta": {
+        "fields": {
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "short",
+                "style": "diagram",
+                "semantics": "This field references the image associated with each problem, such as a clock face or schedule table, which contains the visual information needed to answer the question.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This field presents a short natural-language question that instructs the model to inspect the image and choose the correct answer from provided candidate options, often about time or scheduled activities.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "context": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This field is a generic instruction prompt telling the model how to respond (e.g., to select one of the given choices), providing task-level guidance but not problem-specific facts.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "options": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "Within the question text, this field embeds a small list of candidate answer choices in bracketed form, specifying the discrete options from which the model must select exactly one.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field contains the correct answer as a short text token, matching exactly one of the candidate choices mentioned in the question.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of an image reference, a short task-level instruction prompt, and a problem-specific natural-language question that also lists multiple-choice answer options. The model must inspect the image, interpret the question and options, and output the correct option text as the answer. The image provides the visual content, the question encodes the task about that image and the options, and the answer field specifies the ground truth choice."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/mathematical_word_problem_vqa/json/annotation.json",
+        "existing_tags": {
+            "task": "mathematical word problem vqa",
+            "type": "comprehension",
+            "skill": "Image Visual Question Answering",
+            "domain": [
+                "Mathematics"
+            ],
+            "general_capability": [
+                "Reasoning Ability"
+            ]
+        },
+        "original_raw_domain": [
+            "Mathematics"
+        ]
+    }
+}

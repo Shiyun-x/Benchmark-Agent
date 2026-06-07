@@ -1,0 +1,78 @@
+{
+    "dataset_id": "2681e85c",
+    "name": "Document-Level-Causal-Reasoning",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 226,
+    "description": "Document-Level-Causal-Reasoning is a text-only dataset of question answering examples where each item contains a relatively long narrative context and a question whose answer must be inferred from the document. Many questions involve causal or explanatory reasoning about entities and events described in the passage.",
+    "card_text": "This dataset consists of 226 text samples, each pairing a multi-paragraph narrative or expository passage with a natural-language question and a short free-form answer. Contexts resemble talks, essays, or stories that unfold over time, often touching on social issues, personal experiences, or descriptive explanations. The questions require understanding information that may be distributed across the passage, sometimes focusing on causal or relational aspects (e.g., why something happened, where someone is from, how one process depends on another). Answers are short textual spans or paraphrases rather than fixed labels, making the task open-ended question answering rather than multiple-choice. The data is single-modality (text), with inputs and outputs both as free-form language, and is suitable for evaluating document-level reading comprehension and causal reasoning over long contexts.",
+    "tasks": [
+        "question_answering",
+        "open_ended_qa",
+        "multi_hop_response",
+        "explanation_required",
+        "paraphrasing"
+    ],
+    "domain": "everyday life stories",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.context"
+                ],
+                "modality": "text",
+                "content_extent": "long",
+                "style": "narrative",
+                "semantics": "A multi-paragraph passage that provides the full textual background for the question. It typically describes events, talks, or situations, sometimes with causal or temporal structure, and contains all information needed to answer the associated question.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "A concise natural-language query about the accompanying context, often asking for a specific fact, relation, or causal explanation that must be derived from the passage.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.answer"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The reference textual answer to the question, usually a short phrase or sentence that may be an explicit span from the context or a brief paraphrase capturing the required information.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains a long text `input.context` that serves as the main document, a short natural-language query `input.question` that asks about information in that document, and a short textual `output.answer` providing the ground-truth response. The question depends on the information in the context, and the answer is supported by or derivable from that context."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Document-Level-Causal-Reasoning/annotation.json",
+        "existing_tags": {
+            "task": "Document-Level Causal",
+            "type": "OpenQA",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

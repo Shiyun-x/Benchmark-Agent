@@ -1,0 +1,62 @@
+{
+    "dataset_id": "f219959e",
+    "name": "Multi-Turn-Daily-Dialogue-Generation",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 222,
+    "description": "This dataset contains short multi-turn daily-life dialogues where the model must generate a natural next response to complete the conversation. It evaluates dialogue generation ability, coherence, and pragmatic appropriateness in everyday scenarios.",
+    "card_text": "The Multi-Turn-Daily-Dialogue-Generation dataset consists of text-only conversational data from everyday situations such as social interactions, phone calls, and casual discussions. Each sample includes a short multi-turn dialog represented as a sequence of utterances, followed by a target response that continues or concludes the conversation naturally. The dialogues resemble realistic spoken English, with informal phrasing and context-dependent references. Models trained or evaluated on this data must understand conversational context, implicit social norms, and turn-taking patterns to produce coherent, polite, and contextually appropriate replies. The dataset focuses on pragmatic language use in ordinary, non-specialized domains rather than technical or expert knowledge.",
+    "tasks": [
+        "dialogue_generation"
+    ],
+    "domain": "everyday life dialog",
+    "meta": {
+        "fields": {
+            "dialog": {
+                "paths": [
+                    "dialog"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "dialog",
+                "semantics": "A list of utterances forming a multi-turn conversation in everyday settings. The sequence provides the conversational context that the model must use to infer an appropriate next response. It captures both sides of the dialogue leading up to the point where the target response should occur.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.response"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "dialog",
+                "semantics": "The target next utterance or concluding reply for the given conversation. It is a single turn that should logically and pragmatically follow from the preceding dialog and serves as the gold-standard output for dialogue generation.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains a multi-turn conversational history stored in `dialog` as an ordered list of utterances, representing both speakers in an everyday dialogue. An associated `output.response` field provides the single target next turn that continues or finishes the conversation appropriately given the preceding dialog."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Multi-Turn-Daily-Dialogue-Generation/annotation.json",
+        "existing_tags": {
+            "task": "Multi-Turn_Daily_Dialogue_Generationid",
+            "type": "Dialogue",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

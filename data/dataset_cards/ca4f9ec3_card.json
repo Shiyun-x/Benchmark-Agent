@@ -1,0 +1,74 @@
+{
+    "dataset_id": "ca4f9ec3",
+    "name": "Temporal-Event-Reasoning",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "A temporal event reasoning dataset where models read news-style passages and determine the temporal relation between two highlighted events. Each sample provides a text, two target events with their types, a fixed label set of temporal relations, and the correct relation label.",
+    "card_text": "This dataset contains English text passages, typically news articles or expository narratives, paired with a temporal reasoning task. For each sample, the input is a multi-sentence passage plus an appended instruction that specifies two target events drawn from the passage along with their semantic event types. The model must select the correct temporal relation between these two events from a fixed inventory of relation types such as BEFORE, AFTER, SIMULTANEOUS, INCLUDES, and IS_INCLUDED, among others. Outputs are single-label textual class names, making the problem a multiclass classification task over a constrained label set. The content focuses largely on news, politics, business, and general world events, and requires understanding event ordering, overlap, and inclusion in time rather than surface-level word matching.",
+    "tasks": [
+        "classification_multiclass"
+    ],
+    "domain": "news temporal reasoning",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.raw_text"
+                ],
+                "modality": "text",
+                "content_extent": "long",
+                "style": "narrative",
+                "semantics": "A multi-sentence passage, typically a news or expository narrative, describing events, actions, and states over time. It provides the source from which the two referenced events and their temporal relationship must be inferred.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "instruction",
+                "semantics": "An instruction string that repeats the passage placeholder, then explicitly names two target events (with their types) and asks for the temporal relation between them from a fixed set of labels. It explains the task and specifies which events in the context are relevant.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The gold temporal relation label (e.g., BEFORE, AFTER, SIMULTANEOUS) describing how Event 1 relates to Event 2 in time. It is a single class name drawn from the predefined relation set.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a long text context in `input.raw_text` containing multiple temporally ordered events, an instructional prompt in `input.prompt` that identifies two specific events and asks for their temporal relation from a fixed label set, and an `output.text` field that provides the correct temporal relation label as a short text token."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Temporal-Event-Reasoning/annotation.json",
+        "existing_tags": {
+            "task": "temporal_event_reasoning",
+            "type": "classification",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

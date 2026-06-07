@@ -1,0 +1,63 @@
+{
+    "dataset_id": "37a67448",
+    "name": "Temporal-Reasoning",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 204,
+    "description": "Temporal-Reasoning is a text-only dataset of short everyday dialogues where a temporal span is masked and must be inferred from context. Models must understand natural language descriptions of durations and time-related constraints to generate appropriate time expressions that fit the conversation.",
+    "card_text": "This dataset consists of short conversational snippets in English, typically between two speakers, where a temporal expression such as a duration or time span is replaced by a <MASK> token. The task is to predict a suitable time phrase that completes the dialogue naturally, for example inferring \"two days\" or \"five months\" from contextual clues about trips, leases, or activities. Answers are provided as small sets of semantically equivalent phrases describing the same duration, including numeric forms (\"48 hours\"), paraphrases (\"a couple of days\"), or more descriptive variants. The data focuses on everyday scenarios like renting, vacations, or hobbies, emphasizing temporal reasoning over world knowledge. Inputs and outputs are free-form text, without explicit options, making this an open-ended temporal question answering task grounded in dialogue-style context.",
+    "tasks": [
+        "open_ended_qa",
+        "question_answering"
+    ],
+    "domain": "everyday life dialogues",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "dialog",
+                "semantics": "This field contains the full dialogue-like text with one or more speakers and a single <MASK> token where a temporal expression (e.g., a duration of time) has been removed. It provides all contextual cues needed to infer what time span should fill the mask, including activities, plans, and constraints mentioned in the conversation.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.answer"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field is a list of acceptable target completions for the masked temporal expression in the dialogue, each being a short phrase describing the same duration in different but equivalent forms. These phrases are the gold-standard outputs that correctly fill the <MASK> position in the context text.",
+                "path_types": [
+                    "list"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a single text field with a short multi-turn dialogue containing a <MASK> token where a temporal expression is missing, and an associated answer field listing several equivalent textual realizations of the correct time span. The context provides everyday conversational cues to infer the missing duration, while the answer list defines all acceptable phrases that can replace the mask."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Temporal-Reasoning/annotation.json",
+        "existing_tags": {
+            "task": "Temporal Reasoning",
+            "type": "OpenQA",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

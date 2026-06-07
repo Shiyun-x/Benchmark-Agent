@@ -1,0 +1,97 @@
+{
+    "dataset_id": "791bc8ca",
+    "name": "Chinese-Fine-Art",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 158,
+    "description": "This dataset consists of Chinese fine art paintings paired with short textual prompts asking for the painter's identity and the correct artist name as the answer. Each sample provides an artwork image and a recognition prompt, evaluating a model's ability to identify the Chinese artist from visual style. It targets visual recognition of artist-specific painting characteristics rather than general object categories.",
+    "card_text": "The Chinese-Fine-Art dataset contains 158 samples, each combining an image of a Chinese painting with a brief text prompt and a short text answer. The input modality is mixed: an artwork image file (e.g., traditional ink painting or contemporary Chinese fine art) and a simple English instruction such as \"Recognize which Chinese artist paint this picture.\" The output is the artist’s name in text form (e.g., \"Zou Chuan An\", \"Qin Feng\"). Despite the open-ended natural language prompt, the task is effectively a multiclass visual classification problem over a finite set of artists. The images are artistic illustrations rather than photographs, emphasizing style recognition and art domain knowledge. Samples are compact, with no multi-turn dialog or complex context, focusing purely on mapping visual style to the correct painter identity.",
+    "tasks": [
+        "visual_question_answering",
+        "classification_multiclass"
+    ],
+    "domain": "art recognition",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "medium",
+                "style": "illustration",
+                "semantics": "This field points to the image file containing the Chinese fine art painting. It is the primary visual context from which the model must infer the painting style and characteristics. The artist identity in the answer is determined based on the visual content of this image.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This short text prompt instructs the model to recognize which Chinese artist painted the given image. It frames the task explicitly as an artist-identification question tied to the accompanying painting image.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field contains the ground truth artist name corresponding to the painting image, such as a specific Chinese painter's full name. It is the target label the model should output when given the image and the recognition prompt.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "medium",
+                "style": "illustration",
+                "semantics": "This is the same painting image referenced as context, representing a Chinese fine art work. It provides the visual data (brushwork, composition, color, and style) necessary to identify the artist.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains an artwork image file as the main visual context, a short textual prompt asking which Chinese artist painted the image, and a short text answer giving the correct artist name. The image and prompt together form the input, while the artist name is the output label to be predicted from the painting’s visual style."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/chinese-fine-art/json/annotation.json",
+        "existing_tags": {
+            "task": "chinese fine art recognition",
+            "type": "comprehension",
+            "skill": "Object Recognition",
+            "domain": [
+                "Art"
+            ],
+            "general_capability": [
+                "Commonsense Knowledge"
+            ]
+        },
+        "original_raw_domain": [
+            "Art"
+        ]
+    }
+}

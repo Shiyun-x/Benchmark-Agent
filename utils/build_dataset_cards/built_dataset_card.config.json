@@ -1,0 +1,15 @@
+{
+  "build": {
+    "root_dir": "data/datasets/image",
+    "modality": "image",
+    "out_dir": "data/dataset_cards",
+    "tasks_yaml": "../resources/tasks.yaml",
+    "scenario_yaml": "../resources/scenario.yaml",
+    "model": "gpt-5.4",
+    "max_workers": 16
+  },
+  "path_types": {
+    "card_dir": "data/dataset_cards",
+    "source_root": null
+  }
+}

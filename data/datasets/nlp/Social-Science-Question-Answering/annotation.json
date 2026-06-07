@@ -1,0 +1,3016 @@
+{
+  "task": "Social Science Question Answering",
+  "type": "MultipleChoiceQA",
+  "modality": {
+    "in": [
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "version": "1.0",
+  "data": [
+    {
+      "id": "ssqa113",
+      "input": {
+        "question": "How would others feel after Alex grew closer to his brother during their camping trip?",
+        "text": "Alex and his brother didn't have much in common. They went on a camping trip and Alex grew closer to their brother.",
+        "options": [
+          "Lonely",
+          "Happy",
+          "Upset"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa365",
+      "input": {
+        "question": "What should Remy have done before calling her friends for a ride to the fair?",
+        "text": "Remy didn't have a ride to the fair and kept calling all her friends for help with transportation.",
+        "options": [
+          "Ask her parents for a ride instead of relying on friends",
+          "Take public transport to the fair",
+          "Walk to the fair instead of bothering friends"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa197",
+      "input": {
+        "question": "What will Maria do next after teaching the children about healthy eating?",
+        "text": "Maria taught the children about nutrition and brought new foods for them to try, which affected their health.",
+        "options": [
+          "Eat the good nutritious foods in front of the children and let them eat cake",
+          "Bring in more and more unusual foods for the children to try that are nutritious",
+          "Teach the children more and more about the healthy aspects of cake"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa168",
+      "input": {
+        "question": "What will happen to others after Mark received a big bonus from his company?",
+        "text": "Mark received a substantial bonus for his excellent work, making everyone in the office wonder if they too would get a raise.",
+        "options": [
+          "Become hungry",
+          "Work harder for the company",
+          "Receive more money from the company"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa083",
+      "input": {
+        "question": "What will Lee do next after Kendall persisted and had a positive effect on her?",
+        "text": "Kendall persisted after being told no, and eventually had a positive effect on Lee.",
+        "options": [
+          "Give into Kendall",
+          "Refuse to help Kendall",
+          "Give a punch to Kendall's face"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa015",
+      "input": {
+        "question": "What might the others want to do after joining Sydney on the trick-or-treating adventure?",
+        "text": "Sydney led the group on a trick-or-treating adventure, and the others eagerly followed him.",
+        "options": [
+          "Go home",
+          "Collect as much candy as possible",
+          "Get their candy"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa223",
+      "input": {
+        "question": "What does Lily need to do before taking her kids to their dentist appointment during the school day?",
+        "text": "Lily had scheduled a dentist appointment for her kids, but it conflicted with their school hours.",
+        "options": [
+          "Make arrangements for the kids to miss school",
+          "Change the appointment time",
+          "Ask the school for permission"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa055",
+      "input": {
+        "question": "Why did Sydney help Robin trace her fingers?",
+        "text": "Sydney works as a preschool teacher and helped trace Robin's fingers.",
+        "options": [
+          "Make popcorn",
+          "Teach her class the alphabet",
+          "Create artwork"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa493",
+      "input": {
+        "question": "What will happen to Kai after confessing they stole money from Kendall?",
+        "text": "Kai told Kendall the reason they stole money from Kendall was because Kai didn’t think they deserved it.",
+        "options": [
+          "They will experience remorse",
+          "They will make restitutions",
+          "Get in trouble"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa460",
+      "input": {
+        "question": "How would you describe Cameron after he stole from the store?",
+        "text": "Cameron left the store like a thief, carrying items that he had taken without paying.",
+        "options": [
+          "A person who was shopping around",
+          "Guilty",
+          "A person who was concealing things"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa403",
+      "input": {
+        "question": "What does Casey need to do before deciding to break up with his girlfriend?",
+        "text": "After some reflection, Casey decided that it would be better if he ended his relationship with his girlfriend.",
+        "options": [
+          "Think about what he wants",
+          "Discuss his feelings",
+          "Attend a social event"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa125",
+      "input": {
+        "question": "Why did Anna shake Ben’s head in a playful manner?",
+        "text": "Anna playfully grabbed Ben’s head and gave it a light shake as part of a joke.",
+        "options": [
+          "To tease him in a fun way",
+          "To playfully mess with him",
+          "To make him laugh"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa124",
+      "input": {
+        "question": "What might happen to Tom after he becomes close with his circle of friends?",
+        "text": "Tom was very sociable and had many friends who he enjoyed spending time with.",
+        "options": [
+          "Enjoy more social interactions",
+          "Be surrounded by friends",
+          "Have frequent hangouts"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa277",
+      "input": {
+        "question": "How would Ava feel after singing a song she wrote for her partner, Sam?",
+        "text": "Ava wrote a song for Sam, singing it to express her feelings. She hoped Sam would appreciate the gesture.",
+        "options": [
+          "Glad Sam liked the song",
+          "Proud of her creative expression",
+          "Persuasive, hoping Sam would be moved"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa247",
+      "input": {
+        "question": "How would Mia feel after setting fire to the trash at the family farm, only for the flames to get out of control?",
+        "text": "Mia decided to burn the trash at the family farm, but the fire quickly grew out of control, making her panic.",
+        "options": [
+          "Feel proud",
+          "Feel guilty",
+          "Feel upset about the uncontrolled fire"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa060",
+      "input": {
+        "question": "What will Jan likely do next after receiving the highest title of the kingdom?",
+        "text": "Riley granted Jan the highest title of the kingdom and celebrated with a feast.",
+        "options": [
+          "Celebrate all night with the kingdom",
+          "Feel proud",
+          "Feel indifferent"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa229",
+      "input": {
+        "question": "How would Lucy feel after meeting a stranger at the park while stopping by a pond?",
+        "text": "Lucy was walking in the park one day when she decided to stop by a pond and unexpectedly met a stranger.",
+        "options": [
+          "Nervous",
+          "Curious",
+          "Excited"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa475",
+      "input": {
+        "question": "What does Bella need to do before celebrating her birthday weekend?",
+        "text": "To celebrate her 21st birthday, Bella decided to spend the weekend with family at the beach.",
+        "options": [
+          "Pack her suitcase and buy a new swimsuit",
+          "Have fun",
+          "Pack her purse and buy a new jacket"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa240",
+      "input": {
+        "question": "What will others want to do after Nathan escaped to another country to avoid the consequences of his crimes?",
+        "text": "Nathan had been involved in several illegal activities and eventually escaped to another country to avoid capture.",
+        "options": [
+          "Avoid getting caught",
+          "Try to track Nathan down",
+          "Let him go"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa281",
+      "input": {
+        "question": "What does Mark need to do before speaking to his children about their behavior?",
+        "text": "Mark wanted his children to understand the consequences of their actions, so he prepared to have a serious conversation about their misbehavior.",
+        "options": [
+          "Punish his children",
+          "Set the right tone",
+          "Laugh with them"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa155",
+      "input": {
+        "question": "What did Ben do after the fight with Nate?",
+        "text": "Ben tried to confront Nate after the heated argument, but now Ben is unsure about how to resolve the situation.",
+        "options": [
+          "Apologize",
+          "Do nothing",
+          "Confront Nate again"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa045",
+      "input": {
+        "question": "How would Riley feel after Robin shut their eyes to the movie scene?",
+        "text": "Robin shut Riley's eyes to the fact that he didn't want her to see the sex scene from the movie.",
+        "options": [
+          "Scared of the scene",
+          "Like a child",
+          "Protective of Riley"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa255",
+      "input": {
+        "question": "How would the rest of the team feel after Sarah took charge of the game when the team was losing?",
+        "text": "Sarah saw her team struggling, so she decided to take over and lead them to victory in the final moments of the game.",
+        "options": [
+          "Proud of Sarah's leadership",
+          "Resentful for Sarah taking over",
+          "Grateful for Sarah's determination"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa066",
+      "input": {
+        "question": "What will happen to Kendall after Sydney pretended to be interested in him at the party?",
+        "text": "Sydney played with Kendall's heart when she pretended to be interested in him at the party.",
+        "options": [
+          "Be angry at Sydney",
+          "Be excited",
+          "Date Sydney"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa017",
+      "input": {
+        "question": "How would Robin feel after their paper blew away?",
+        "text": "Robin lit the paper on fire, and it blew away with the wind.",
+        "options": [
+          "Happy the paper was gone",
+          "Surprised by what happened",
+          "Upset about the lost paper"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa259",
+      "input": {
+        "question": "What did Emily do to comfort her children during the thunderstorm?",
+        "text": "Emily's kids were scared during a thunderstorm. She made them hot chocolate and read them a calming story to help ease their fears.",
+        "options": [
+          "Tuck them into bed",
+          "Made her kids hot chocolate",
+          "Have them go to sleep"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa293",
+      "input": {
+        "question": "What will Ava want to do after reading the unflattering description of her in Beth's book?",
+        "text": "Ava was mentioned in a chapter of Beth's book, but the portrayal of her was not very positive. Ava was upset and thinking of her next steps.",
+        "options": [
+          "Confront Beth about the description",
+          "Ask Beth to remove the chapter",
+          "Ignore the book and move on"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa489",
+      "input": {
+        "question": "What does Jesse need to do before taking notes throughout the book?",
+        "text": "Jesse was having a difficult time remembering information, so he made notes throughout his book.",
+        "options": [
+          "Get a pen",
+          "Finish the book",
+          "Take a test"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa485",
+      "input": {
+        "question": "What does Sydney need to do before starting the fire?",
+        "text": "Sydney set a brush pile on fire in the fire pit, after gathering and trimming the branches.",
+        "options": [
+          "Wait for it to rain",
+          "Pour gasoline on the pile",
+          "Make a neat pile and clear debris"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa100",
+      "input": {
+        "question": "Why did Robin let Carson go without a ticket after pulling him over?",
+        "text": "Robin pulled Carson over for speeding and then didn't write him a ticket.",
+        "options": [
+          "Thought he was cute",
+          "Issue a warning",
+          "Hated him"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa342",
+      "input": {
+        "question": "How would you describe Alex after he disrupted his roommate's sleep with loud noise all night?",
+        "text": "Alex stayed up late and played music loudly, not caring that it kept his roommate awake all night.",
+        "options": [
+          "Thoughtful and considerate",
+          "Unaware of the impact",
+          "Indifferent to his roommate's sleep"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa428",
+      "input": {
+        "question": "Why did Riley watch Jesse closely?",
+        "text": "Riley, being a cop, regarded Jesse with keen, observant eyes.",
+        "options": [
+          "He was suspicious of Jesse",
+          "He wanted to date Jesse",
+          "Make observations"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa198",
+      "input": {
+        "question": "Why did Mark decide to go camping over the weekend?",
+        "text": "Mark was looking for something to do over the weekend and went camping.",
+        "options": [
+          "Need to pack a water bottle",
+          "Was bored",
+          "Need to pack a tent"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa375",
+      "input": {
+        "question": "What did Bailey need to do before mastering their special basketball shot?",
+        "text": "Bailey was a skilled basketball player with a unique shot in their repertoire.",
+        "options": [
+          "Practice more",
+          "Stretch and warm up",
+          "Take a break"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa468",
+      "input": {
+        "question": "What will Emily do after reviewing Jake's test paper?",
+        "text": "Emily, the teacher, carefully examined Jake's test paper to ensure accurate grading.",
+        "options": [
+          "Double-check the questions she was unsure about",
+          "Wait to see if she gets a good grade",
+          "Hand the graded paper back to Jake"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa469",
+      "input": {
+        "question": "What will Taylor want to do next after working the night shift?",
+        "text": "Taylor worked a night shift and finished late. Upon arriving home, they pulled the shades over their eyes and laid down.",
+        "options": [
+          "Sleep",
+          "Wake up",
+          "Get active"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa179",
+      "input": {
+        "question": "How would Emily feel after teaching her friend how to swim and giving instructions?",
+        "text": "Emily is teaching Olivia how to swim. She told Olivia to hold her breath.",
+        "options": [
+          "Tired of teaching Olivia how to swim",
+          "Good about teaching Olivia to swim",
+          "Exhausted"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa042",
+      "input": {
+        "question": "What does Jordan need to do before taking the girl to the shoe store?",
+        "text": "Jordan wanted to be nice to a girl so he took her to the shoe store.",
+        "options": [
+          "Buy the girl some shoes",
+          "Ask the girl on a date",
+          "Be kind to her"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa314",
+      "input": {
+        "question": "Why did Nora choose to walk with James after their argument?",
+        "text": "Nora knew better than to argue with James, so she decided to walk with him to avoid further conflict.",
+        "options": [
+          "To keep the peace",
+          "To enjoy a quiet walk",
+          "To argue again"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa381",
+      "input": {
+        "question": "How would Tracy feel after taking a group of students on a field trip?",
+        "text": "Tracy, the bus driver, took a group of students on a field trip to a remote location.",
+        "options": [
+          "Proud of successfully managing the trip",
+          "Confident about the experience",
+          "Relieved it went well"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa395",
+      "input": {
+        "question": "What does Ted need to do after Aubrey fell out of the boat during the shark encounter?",
+        "text": "While Aubrey and Ted were on a fishing trip, a shark hit their boat, causing Aubrey to fall out into the water.",
+        "options": [
+          "Call out to Aubrey and try to pull her back into the boat",
+          "Row the boat away from the danger zone",
+          "Panic and forget about helping Aubrey"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa311",
+      "input": {
+        "question": "Why did Olivia leave the house early in the morning?",
+        "text": "Olivia had a flight to catch, so she left home shortly after waking up to avoid missing the plane.",
+        "options": [
+          "To make sure she didn't miss her flight",
+          "To enjoy some quiet time before departure",
+          "To take an earlier flight"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa120",
+      "input": {
+        "question": "How would the other students react when Mia joins the high school as a new student?",
+        "text": "Mia was a new student at a local high school in a suburban town.",
+        "options": [
+          "Excited to meet Mia and make friends",
+          "Nervous about welcoming her",
+          "Curious about her first day"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa228",
+      "input": {
+        "question": "What will Nathan want to do after he paid Sam for the items he bought?",
+        "text": "Nathan bought some items from Sam and made sure to pay for them promptly.",
+        "options": [
+          "Enjoy the items he purchased",
+          "Think about his next purchase",
+          "Make a plan for future shopping"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa167",
+      "input": {
+        "question": "Why did Ethan start dancing to the funky beat at the club?",
+        "text": "The beat was so infectious that Ethan couldn’t help but start moving his body, enjoying the rhythm of the music.",
+        "options": [
+          "Let himself go",
+          "Dance more",
+          "Invite others to join him"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa024",
+      "input": {
+        "question": "What will Taylor likely do after proving their wrestling skills?",
+        "text": "Taylor proved they were the strongest wrestler after the tournament.",
+        "options": [
+          "Celebrate with friends",
+          "Train for the next competition",
+          "Take a break from wrestling"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa383",
+      "input": {
+        "question": "How would Addison feel after turning their loud music down?",
+        "text": "Addison was listening to music very loudly, but later decided to turn it down.",
+        "options": [
+          "Content with the change",
+          "Annoyed by the noise",
+          "Feeling like a better listener"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa325",
+      "input": {
+        "question": "How would Jack feel after recovering from being sick for several weeks?",
+        "text": "After weeks of illness, Jack started feeling better after taking new medication.",
+        "options": [
+          "Relieved",
+          "Energized",
+          "Grateful for the recovery"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa009",
+      "input": {
+        "question": "What does Riley need before wrapping up to stay warm?",
+        "text": "Riley bundled up their arms in a blanket to stay warm during the chilly evening.",
+        "options": [
+          "Turn on the heater",
+          "Open the windows",
+          "Grab a blanket from the closet"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa165",
+      "input": {
+        "question": "What will Ava do after pulling over a driver for speeding?",
+        "text": "Ava, a police officer, stopped a car speeding down the highway and now needs to talk to the driver.",
+        "options": [
+          "Apologize",
+          "Run from the driver",
+          "Talk to the driver"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa327",
+      "input": {
+        "question": "What does Leo need to do before feeling safe enough to sit on his friend's lap?",
+        "text": "Leo became frightened and ran to sit on his friend’s lap for comfort.",
+        "options": [
+          "Encounter something frightening",
+          "Feel secure",
+          "Be reassured by his friend"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa374",
+      "input": {
+        "question": "What does Addison want to do after running to find a hiding spot during a game?",
+        "text": "Addison and friends were playing hide-and-seek at recess, and Addison ran off to find a perfect hiding spot.",
+        "options": [
+          "Win the game of hide and seek",
+          "Join another game",
+          "Find the best place to hide"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa097",
+      "input": {
+        "question": "What does Remy need to do before finding a fun place to get treats and ice cream?",
+        "text": "Remy went into town and found a fun place to get treats and ate some ice cream.",
+        "options": [
+          "Lock his house when leaving",
+          "Have excitement",
+          "Settle down"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa339",
+      "input": {
+        "question": "What will happen to Max after playing video games with his new friend Chris every day?",
+        "text": "Max became close friends with Chris, and soon, Max was visiting Chris every day to play video games.",
+        "options": [
+          "Start neglecting school",
+          "Become addicted to gaming",
+          "Enjoy hanging out with Chris"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa212",
+      "input": {
+        "question": "How might Josh feel after seeing his cousin spend more time with their family than with him?",
+        "text": "Josh felt that his cousin was growing closer to their family and spending less time with him.",
+        "options": [
+          "Neglected",
+          "Left out",
+          "Confused"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa264",
+      "input": {
+        "question": "What will Emma do after a man made an inappropriate comment about her outfit?",
+        "text": "Emma was out shopping when a man made an uncomfortable comment about her outfit.",
+        "options": [
+          "Walk away",
+          "Confront the man",
+          "Smile at the man"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa244",
+      "input": {
+        "question": "Why did Natalie act on the rumor she overheard and prevent her company from going under?",
+        "text": "Natalie overheard a troubling rumor and took immediate action to save her company from financial ruin.",
+        "options": [
+          "To avoid losing her job",
+          "To secure a promotion",
+          "To protect the company from disaster"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa338",
+      "input": {
+        "question": "How would Sarah feel after running away from a dog chasing her in the park?",
+        "text": "Sarah was startled when a large dog started chasing her, so she ran quickly to her car to escape.",
+        "options": [
+          "Panicked",
+          "Shocked",
+          "Calm"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa352",
+      "input": {
+        "question": "What might John feel after experiencing an intense emotional struggle?",
+        "text": "John had been dealing with inner turmoil for some time, leaving him feeling mentally exhausted and needing support.",
+        "options": [
+          "Seeking comfort from others",
+          "Overwhelmed by sadness",
+          "Hopeful for resolution"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa317",
+      "input": {
+        "question": "What will Lucy want to do after asking her mom for a dollar for candy?",
+        "text": "Lucy asked her mom for a dollar to buy some candy and was hoping her mom would agree.",
+        "options": [
+          "Ask for more money",
+          "Go buy the candy",
+          "Help her mom with chores"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa232",
+      "input": {
+        "question": "What will happen to Liam after eating Sarah's candy and taking a nap?",
+        "text": "Liam ate some candy that belonged to Sarah and then took a long nap afterward.",
+        "options": [
+          "Feel guilty",
+          "Feel sleepy",
+          "Feel energetic"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa189",
+      "input": {
+        "question": "What will the others want to do after finding out Liam is such a good friend?",
+        "text": "Liam was the best of friends with Jack, and the others were relieved they had someone to lean on.",
+        "options": [
+          "Talk with Jack",
+          "Relax about Liam",
+          "Help Jack"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa128",
+      "input": {
+        "question": "What does Sam need to do before taking the SATs for his friend Alex?",
+        "text": "Sam was hired by his friend Alex to impersonate him during the SAT exam.",
+        "options": [
+          "Research how to impersonate someone for an exam",
+          "Prepare to answer the SAT questions",
+          "Make sure he has Alex’s ID"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa359",
+      "input": {
+        "question": "How would Taylor feel after sharing their story of being held hostage?",
+        "text": "Taylor recounted their experience of being kidnapped and held for ransom, which formed the basis of their advocacy work.",
+        "options": [
+          "Angry for having to relive it",
+          "Compassionate toward others",
+          "Sad for revisiting those memories"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa144",
+      "input": {
+        "question": "What will Mia likely do next after waiting two weeks for her priority package that never arrived?",
+        "text": "Mia had ordered a package with priority shipping, but two weeks passed, and the package was still missing.",
+        "options": [
+          "Keep waiting",
+          "File a complaint",
+          "Wait another week"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa272",
+      "input": {
+        "question": "How would Noah feel after leading a project to success and receiving a bonus from his boss?",
+        "text": "Noah had worked tirelessly on the project, ensuring everything was on track, and was rewarded with a significant bonus from his boss.",
+        "options": [
+          "Proud of his hard work",
+          "Excited about the bonus",
+          "Bored after the project finished"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa063",
+      "input": {
+        "question": "What will Alex likely do next after giving birth to Sasha?",
+        "text": "Alex was no longer raising Sasha, but she did give birth to Sasha.",
+        "options": [
+          "Build a relationship with Sasha",
+          "Visit Sasha",
+          "Kidnap Sasha from her home"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa399",
+      "input": {
+        "question": "How would you describe Kai after enjoying a particular video on YouTube?",
+        "text": "Kai spent some time watching videos on YouTube, and one particular video caught their interest.",
+        "options": [
+          "Someone who appreciates videos",
+          "Someone who asks about videos",
+          "Someone who creates videos"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa014",
+      "input": {
+        "question": "What might Taylor want to do after proving their wrestling strength?",
+        "text": "Taylor demonstrated their wrestling skills and showed they were the strongest of the group.",
+        "options": [
+          "Be the best at wrestling",
+          "Feel bored",
+          "Keep improving"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa072",
+      "input": {
+        "question": "How would Skylar feel after Kendall accommodated their difficult work schedule when planning the vacation?",
+        "text": "Kendall knew that Skylar has a difficult work schedule and needed to accommodate that when planning the vacation.",
+        "options": [
+          "Grateful to Kendall",
+          "Excited about work",
+          "Looking forward to their vacation"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa206",
+      "input": {
+        "question": "How would Erin feel after pointing out a major error in Liam's plans?",
+        "text": "Erin saw a significant mistake in Liam's project and made changes to his course of action.",
+        "options": [
+          "Angry that Liam messed up",
+          "Frustrated by Liam's advice",
+          "Glad to have caught the mistake"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa478",
+      "input": {
+        "question": "How would Kai feel after improving Jan's work, only for Jan to stop talking to him?",
+        "text": "Kai worked on improving Jan's project, but Jan stopped talking to him afterward.",
+        "options": [
+          "Annoyed",
+          "Satisfied",
+          "Happy"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa234",
+      "input": {
+        "question": "How would Jack feel after regaining strength in his legs following months of physical therapy?",
+        "text": "Jack had been working hard with physical therapy for months and was finally starting to regain strength in his legs.",
+        "options": [
+          "Proud of his progress",
+          "Frustrated at the slow progress",
+          "Determined to keep pushing"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa002",
+      "input": {
+        "question": "How would you describe how Sarah felt after she walked past the homeless person?",
+        "text": "Sarah walked past a homeless man asking for money but didn't have any to give. She felt guilty later.",
+        "options": [
+          "Compassionate",
+          "Unable to help",
+          "Confused"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa414",
+      "input": {
+        "question": "What will Aubrey want to do next after putting the baby down for a nap?",
+        "text": "Aubrey had been keeping the baby awake at night but now was ready to put her down for a nap.",
+        "options": [
+          "Take care of the baby's needs",
+          "Prepare for the next activity",
+          "Get the baby comfortable and ready for bed"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa170",
+      "input": {
+        "question": "Why did James leave the gathering with his friends?",
+        "text": "James went out with his friend's group, but left early because he had work in the morning.",
+        "options": [
+          "Get enough sleep",
+          "Drive to his home",
+          "Go to bed later"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa183",
+      "input": {
+        "question": "Why did Max sneak into the kitchen after his little brother went to bed?",
+        "text": "After his brother went to bed, Max crept into the kitchen and ate his brother's candy.",
+        "options": [
+          "Begin a new weight loss diet",
+          "Give his brother all of the candy",
+          "Enjoy a late-night snack"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa030",
+      "input": {
+        "question": "What will Robin do next after changing Aubrey into clean clothes?",
+        "text": "Robin changed Aubrey into clean clothes, so they could both go to the big play.",
+        "options": [
+          "Do laundry",
+          "Find clothes for themselves",
+          "Prepare to go to the play"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa313",
+      "input": {
+        "question": "How would Ethan feel after receiving a painkiller from Chloe for his headache?",
+        "text": "Ethan had a bad headache and Chloe offered him some painkillers when he didn't have any of his own.",
+        "options": [
+          "Appreciative of Chloe's kindness",
+          "Angry that Chloe gave him medicine",
+          "Relieved but cautious"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa426",
+      "input": {
+        "question": "How would you describe Riley's reaction to Jesse's behavior?",
+        "text": "Riley gave Jesse a cold, scornful look after Jesse made a mistake.",
+        "options": [
+          "Annoyed",
+          "Happy",
+          "Pleased"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa205",
+      "input": {
+        "question": "How would Sarah feel after predicting a drop in cancer rates due to new medical treatments?",
+        "text": "Sarah was excited about the new breakthrough in cancer treatment and predicted a decline in cancer rates.",
+        "options": [
+          "Happy with the treatment",
+          "Angry with the treatment",
+          "Disappointed with the treatment"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa408",
+      "input": {
+        "question": "What will Addison want to do after taking Casey's money?",
+        "text": "Addison had secretly taken Casey's money without permission and knew that there could be consequences for her actions.",
+        "options": [
+          "Return the money to Casey",
+          "Hide the money so no one finds it",
+          "Spend the money before getting caught"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa185",
+      "input": {
+        "question": "Why did Ryan stay at the beach house an extra week?",
+        "text": "Ryan decided to stay at the beach house for an extra week.",
+        "options": [
+          "Was having his apartment fumigated",
+          "Swim every morning before breakfast",
+          "Loves the beach and didn't want to leave"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa123",
+      "input": {
+        "question": "How might David feel after crying, believing that no one cared about him?",
+        "text": "David cried because he felt unloved and unimportant to others.",
+        "options": [
+          "Depressed",
+          "Lonely",
+          "Isolated"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa162",
+      "input": {
+        "question": "How would Jamie feel after stealing a jacket from their close friend Avery's locker?",
+        "text": "Jamie knew Avery well and, despite their friendship, broke into Avery's locker to steal a jacket.",
+        "options": [
+          "Encouraged",
+          "Ashamed",
+          "Grateful"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa422",
+      "input": {
+        "question": "What will Tracy want to do after taking Jesse's students on the field trip?",
+        "text": "Tracy took Jesse's students on a field trip while Jesse stayed home sick.",
+        "options": [
+          "Return the students to their school",
+          "Make sure the students are safe",
+          "Ensure the students had fun"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa350",
+      "input": {
+        "question": "How would you describe Ethan after learning that he needed a root canal due to severe tooth pain?",
+        "text": "Ethan had been experiencing intense tooth pain and learned that he would need a root canal to fix the issue.",
+        "options": [
+          "Seeking a solution",
+          "Unsettled by the diagnosis",
+          "Enduring pain"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa190",
+      "input": {
+        "question": "What will Ava want to do after Lucas cancels plans due to illness?",
+        "text": "Ava was excited about the concert but Lucas had to cancel their plans because he was sick.",
+        "options": [
+          "Find someone else to go with",
+          "Get mad",
+          "Rest in bed"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa392",
+      "input": {
+        "question": "What will Remy likely do next after handing Skylar her account to check into the hotel?",
+        "text": "Remy gave Skylar, the concierge, her account details so she could check into the hotel.",
+        "options": [
+          "Receive the room key from Skylar",
+          "Find a different hotel",
+          "Go out to explore the area"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa220",
+      "input": {
+        "question": "What will John do after his best friend, Paul, lost his father last week?",
+        "text": "Paul was deeply grieving the loss of his grandfather, and John, being his best friend, wanted to offer his support.",
+        "options": [
+          "Comfort Paul",
+          "Celebrate the grandfather's life",
+          "Hug Paul"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa310",
+      "input": {
+        "question": "How would you describe Jenna based on her interaction with Alex?",
+        "text": "Jenna exchanged phone numbers with Alex after meeting them at a party and felt an instant connection.",
+        "options": [
+          "Interested in getting to know Alex",
+          "Already in a relationship",
+          "Shy and reserved"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa173",
+      "input": {
+        "question": "What will happen to Emily after finding out her partner cheated on her?",
+        "text": "Emily, who was dating Olivia, discovered Olivia had been unfaithful.",
+        "options": [
+          "Try to be friends with Olivia's new partner",
+          "Hit Olivia and get arrested",
+          "Get dumped"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa388",
+      "input": {
+        "question": "What will the students likely do next after Skylar found them in a restricted room?",
+        "text": "Skylar heard a commotion coming from a room where no students were supposed to be. When Skylar entered, they found several students inside.",
+        "options": [
+          "Run out of the room",
+          "Apologize for being there",
+          "Pretend nothing happened"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa243",
+      "input": {
+        "question": "What does Olivia need to do before letting Lucas explain what happened at school to their parents?",
+        "text": "Olivia decided to let Lucas explain what had happened at school, despite feeling it was difficult.",
+        "options": [
+          "Think Lucas should handle it",
+          "Argue with Lucas",
+          "Hope their parents understand"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa447",
+      "input": {
+        "question": "How would the others feel after Taylor repeated the instructions for clarity?",
+        "text": "Taylor repeated the Lord's request so everyone would understand what they needed to do.",
+        "options": [
+          "Sad to have a clear direction",
+          "Happy to have a clear direction",
+          "Annoyed by the request"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa411",
+      "input": {
+        "question": "Why did Remy invite them to a racquetball game?",
+        "text": "Remy, feeling a bit bored, decided to challenge some friends to a game of racquetball at the local YMCA gym.",
+        "options": [
+          "Was bored and wanted a fun game",
+          "Wanted to impress them with his skills",
+          "Thought it would be a quiet game"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa440",
+      "input": {
+        "question": "How would Sasha feel after Skylar earns her black belt?",
+        "text": "Skylar had been working hard to earn her black belt, and after much effort, she finally achieved it, joining Sasha.",
+        "options": [
+          "Happy for Skylar",
+          "Proud of her own achievement",
+          "Relieved Skylar didn't quit"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa267",
+      "input": {
+        "question": "Why did Chloe ask her friend Alex for a ride to school?",
+        "text": "Chloe needed to get to school, but she didn’t have transportation, so she asked Alex for a ride.",
+        "options": [
+          "To see her friends",
+          "To thank Alex for the ride",
+          "To drive to school"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa309",
+      "input": {
+        "question": "What would Taylor's boss think of Taylor after the successful project completion?",
+        "text": "Taylor worked tirelessly on the company's major project and earned a promotion as a result of their dedication.",
+        "options": [
+          "A hard worker",
+          "A loyal employee",
+          "A team player"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa193",
+      "input": {
+        "question": "What will Ethan want to do after witnessing the cashier steal from the register?",
+        "text": "Ethan saw the cashier stealing from the till and knew exactly what was going on.",
+        "options": [
+          "Work with the cashier",
+          "Needed to steal from the till too",
+          "Report the crime"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa488",
+      "input": {
+        "question": "What does Skylar need to do before touring a house for purchase?",
+        "text": "Skylar lent little attention to the view of the house while touring it for a home purchase.",
+        "options": [
+          "Tour the house for purchase",
+          "Look at house details",
+          "Purchase a house"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa268",
+      "input": {
+        "question": "What will happen to Ava after she received a vague answer from her friend about what they were doing?",
+        "text": "Ava asked her friend what they were doing, but her friend gave her a vague response.",
+        "options": [
+          "Lose a friend",
+          "Discuss what they were actually doing",
+          "Wonder about their plans"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa494",
+      "input": {
+        "question": "What will Bailey want to do next after studying hard for the big exam?",
+        "text": "Bailey and Jesse both studied hard for the big exam.",
+        "options": [
+          "Rub in his success",
+          "Open a book",
+          "Encourage Jesse to try again"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa471",
+      "input": {
+        "question": "Why did Olivia wear a dress to the costume party?",
+        "text": "Olivia wore a dress to her friend's costume party, but secretly enjoyed wearing dresses.",
+        "options": [
+          "She secretly liked to wear dresses",
+          "She had never worn a dress before",
+          "Her friends were angry, not amused"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa022",
+      "input": {
+        "question": "What will Alex likely feel while walking Robin to the execution chamber?",
+        "text": "Alex walked Robin towards the execution chamber for her last meal.",
+        "options": [
+          "Sympathy for Robin",
+          "Anxiety about the situation",
+          "Satisfaction from the task"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa405",
+      "input": {
+        "question": "How would you describe Cameron after being challenged to a duel?",
+        "text": "Cameron was challenged to a duel, and now he must either face the challenge or back down.",
+        "options": [
+          "Nervous",
+          "Brave",
+          "Unprepared"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa299",
+      "input": {
+        "question": "What will Sarah do after she made a serious mistake involving her friend?",
+        "text": "Sarah accidentally hurt Emily by holding her breath too long until she stopped breathing.",
+        "options": [
+          "Run away",
+          "Seek help immediately",
+          "Call emergency services"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa341",
+      "input": {
+        "question": "What might a student do after learning that their teacher is dedicated to teaching every day?",
+        "text": "Maria, a math teacher, dedicated herself to teaching students every day, helping them understand complex topics while earning a living.",
+        "options": [
+          "Start to appreciate math more",
+          "Dislike learning math",
+          "Skip her classes"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa476",
+      "input": {
+        "question": "How would Carson feel when Kai grabs the tools for him?",
+        "text": "Kai grabbed Carson's tools for him when Carson was unable to get them himself.",
+        "options": [
+          "Feel inconvenienced",
+          "Feel grateful",
+          "Feel angry"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa385",
+      "input": {
+        "question": "How would you describe Jan's approach when dealing with disruptive students?",
+        "text": "Jan calmly walked back to the disruptive students who were making noise and gave them a stern look.",
+        "options": [
+          "Calm but firm",
+          "No-nonsense",
+          "Annoyed but professional"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa137",
+      "input": {
+        "question": "Why did Ethan lean toward Mia when he wanted to share a private conversation?",
+        "text": "Ethan wanted to tell Mia a secret, so he leaned in closer to make sure no one else could hear.",
+        "options": [
+          "Ensure no one overheard",
+          "Listen to Mia",
+          "Acknowledge Mia"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa032",
+      "input": {
+        "question": "How would Kai feel after Aubrey gave the item to someone else?",
+        "text": "Aubrey gave it to Kai's friend. Kai had thought for sure and hoped that she would get it instead.",
+        "options": [
+          "Happy for others",
+          "Betrayed by Aubrey",
+          "Wanting to help others"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa005",
+      "input": {
+        "question": "How would you describe Kendall after their unexpected outburst?",
+        "text": "Kendall opened their mouth to speak, and what came out shocked everyone around them.",
+        "options": [
+          "A reserved person",
+          "A quiet and introverted person",
+          "A surprisingly outspoken person"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa052",
+      "input": {
+        "question": "What will Skylar want to do next after being pushed by the bully?",
+        "text": "Skylar was pushed by the bully in the lunch line, so Skylar poured milk over their head.",
+        "options": [
+          "Run away",
+          "Wait for a reaction",
+          "Confront the bully"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa390",
+      "input": {
+        "question": "How might others feel after Casey put food into the oven to cook?",
+        "text": "Casey, feeling hungry, decided to prepare food by putting it into the oven.",
+        "options": [
+          "Impressed with Casey's cooking skills",
+          "Annoyed by the smell of food",
+          "Wondering why Casey cooks so much"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa345",
+      "input": {
+        "question": "Why did Claire decide to go on a weekend getaway after working tirelessly for weeks?",
+        "text": "Claire had been working hard without taking a break, so she took a weekend off to travel and relax.",
+        "options": [
+          "To take a break",
+          "To enjoy the view",
+          "To visit relatives"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa249",
+      "input": {
+        "question": "What will the scientific community want to do after Emily developed an accurate method to predict heart disease rates?",
+        "text": "Emily has successfully developed a foolproof way to predict heart disease rates, a breakthrough in medical science.",
+        "options": [
+          "Share this knowledge with other researchers",
+          "Disregard Emily's discovery",
+          "Offer Emily a research grant"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa245",
+      "input": {
+        "question": "What will Mark want to do next after selling his friend's painting, but realizing he doesn't have enough money?",
+        "text": "Mark sold his friend's painting at an auction but soon realized the price wasn't enough to cover his expenses.",
+        "options": [
+          "Try to sell the painting again",
+          "Borrow money",
+          "Get more funds from a different source"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa121",
+      "input": {
+        "question": "What could be said about Sarah after indulging in a lot of sugary foods and then being told she had a cavity?",
+        "text": "Sarah ate too many sweet treats and drank sugary drinks, only for her dentist to tell her she had a cavity.",
+        "options": [
+          "Likes healthy food",
+          "Embarrassed by the situation",
+          "Has a sweet tooth"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa300",
+      "input": {
+        "question": "How would you describe Lily based on her love for nature?",
+        "text": "Lily enjoyed going apple picking and had just gotten a fresh batch of apples the other day.",
+        "options": [
+          "Generous",
+          "Adventurous",
+          "Enthusiastic"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa016",
+      "input": {
+        "question": "How would you describe Sasha's method of handling the trash?",
+        "text": "Sasha decided to quickly dispose of the trash by setting it on fire.",
+        "options": [
+          "Careless",
+          "Very efficient",
+          "Irresponsible"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa176",
+      "input": {
+        "question": "How would the town feel after Peter saved them from destruction following the tornado?",
+        "text": "Peter heroically saved the town after it was devastated by a tornado.",
+        "options": [
+          "Very grateful",
+          "Glad they were saved",
+          "Very bitter"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa033",
+      "input": {
+        "question": "What will the others want to do after visiting NYC for the first time?",
+        "text": "Jan took them to NYC so they could experience the city for the first time.",
+        "options": [
+          "Explore the city",
+          "Stay in one spot",
+          "Make sure they get a great first impression of NYC"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa142",
+      "input": {
+        "question": "What will Naomi likely do next after she instigated a confrontation between her colleagues?",
+        "text": "Naomi deliberately provoked her coworkers because she wanted to stir up trouble.",
+        "options": [
+          "Keep stirring up trouble",
+          "Stay silent",
+          "Get everyone upset"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa064",
+      "input": {
+        "question": "How would Robin feel after receiving job interview advice from Jordan?",
+        "text": "Jordan gave Robin advice about a job interview as Jordan already worked at the company and knew the questions that would be asked at the interview stage.",
+        "options": [
+          "Be disgusted",
+          "Be prepared",
+          "Feel supported"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa194",
+      "input": {
+        "question": "What will the other students want to do after Max makes fun of them for being on time?",
+        "text": "Max entered the classroom late and made fun of everyone for being on time.",
+        "options": [
+          "Tell Max to keep it up",
+          "Try to dodge a late detention",
+          "Avoid Max"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa044",
+      "input": {
+        "question": "What will happen to Aubrey after keeping the baby awake?",
+        "text": "Aubrey kept the baby up at night to watch for a concussion.",
+        "options": [
+          "The baby fell asleep anyway",
+          "Aubrey stayed awake but felt sleepy",
+          "Both Aubrey and the baby fell asleep late"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa151",
+      "input": {
+        "question": "How did Maya's friends react when she showed off her new bike?",
+        "text": "Maya proudly showed her new motorcycle to all her friends, eager to share her excitement.",
+        "options": [
+          "Jealous and wanting one",
+          "Boastful",
+          "Proud of her"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa041",
+      "input": {
+        "question": "How will Jordan feel after talking behind Ash's back?",
+        "text": "Jordan was talking to a group of friends. Jordan talked behind Ash's back to fit in.",
+        "options": [
+          "Lose a bet",
+          "Feel proud",
+          "Feel guilty"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa086",
+      "input": {
+        "question": "How would Alex feel after vacationing with their significant other?",
+        "text": "Alex grew closer to their significant other after they vacationed together.",
+        "options": [
+          "In love",
+          "Happy",
+          "Back from vacation"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa491",
+      "input": {
+        "question": "What will happen to others after Carson took his son to the eye doctor instead of attending the birthday party?",
+        "text": "Carson took his son to the eye doctor instead of going to the birthday party for their other child.",
+        "options": [
+          "Make the child with the birthday upset",
+          "Be happy",
+          "Be annoyed"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa492",
+      "input": {
+        "question": "What will happen to Robin after Alex carries him to the execution?",
+        "text": "Alex carried Robin into the execution room when Robin refused to walk.",
+        "options": [
+          "Be given a pardon",
+          "Be executed",
+          "Live a long life"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa320",
+      "input": {
+        "question": "How would you describe Olivia after she covered all the costs for her team's outing?",
+        "text": "Olivia took her colleagues on a team-building trip and paid for everything out of her own pocket.",
+        "options": [
+          "Generous",
+          "Self-centered",
+          "Very caring"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa321",
+      "input": {
+        "question": "Why did Sarah cancel her date with Mark at the last minute?",
+        "text": "Sarah had agreed to meet Mark for dinner, but then decided to stand him up unexpectedly.",
+        "options": [
+          "To see someone else",
+          "Apologize",
+          "Explain later"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa226",
+      "input": {
+        "question": "What does Claire need to do before receiving the package her mom sent?",
+        "text": "Claire's mom called to let her know she had mailed her a package, and Claire was excited to receive it.",
+        "options": [
+          "Wait for the package delivery",
+          "Check her mailbox",
+          "Open the mailbox"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa210",
+      "input": {
+        "question": "How would George feel after dismissing Liam for not following military conduct?",
+        "text": "Liam was not meeting the standards of behavior in the military, so George discharged him from duty.",
+        "options": [
+          "Sad",
+          "Conflicted",
+          "Relieved"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa133",
+      "input": {
+        "question": "How would you describe Sophia after she asked Alex to go out on a serious date?",
+        "text": "Sophia told Alex that she was interested in going out with them on a meaningful, serious date.",
+        "options": [
+          "In love",
+          "Hesitant",
+          "Shy"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa099",
+      "input": {
+        "question": "Why did Taylor continue teaching after receiving praise for his style?",
+        "text": "Taylor taught math in the schools and got a lot of praise for his style of teaching.",
+        "options": [
+          "Educate other teachers",
+          "Continue teaching",
+          "Loved teaching"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa389",
+      "input": {
+        "question": "What will Sydney likely do next after getting ready for the day?",
+        "text": "Sydney woke up, got dressed, and was ready to start the day.",
+        "options": [
+          "Go to work",
+          "Take a nap",
+          "Go for a run"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa415",
+      "input": {
+        "question": "What will Jan do after lighting a fire in her backyard?",
+        "text": "Jan decided to start a fire in her backyard pit on a Friday evening.",
+        "options": [
+          "Watch the fire until it burns out",
+          "Roasting marshmallows",
+          "Prepare a barbecue"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa452",
+      "input": {
+        "question": "How would Quinn's friend feel after Quinn brought up painful past memories?",
+        "text": "Quinn got into an argument with a friend and rubbed salt in the wound by bringing up painful memories from the past.",
+        "options": [
+          "Forgiving",
+          "Upset",
+          "Unsure"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa480",
+      "input": {
+        "question": "What will Sydney do after Austin offers her a position?",
+        "text": "Austin offered Sydney a new job opportunity, knowing she was tired of living with her parents.",
+        "options": [
+          "Move out of her parents' home",
+          "Earn money",
+          "Move to a new city"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa031",
+      "input": {
+        "question": "What will others likely do after Kendall measures the collar of a shirt?",
+        "text": "Kendall wrapped string around their neck to measure the collar of a shirt.",
+        "options": [
+          "Measure other body parts",
+          "Go shopping for pants",
+          "Buy a new shirt"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa103",
+      "input": {
+        "question": "How would you describe Bailey after deciding to change their perspective on work?",
+        "text": "Bailey was not doing well at work but wanted to change the perspective to feel better.",
+        "options": [
+          "Confident",
+          "Worried",
+          "Hopeful"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa457",
+      "input": {
+        "question": "How would Carson feel after giving his friend some milk?",
+        "text": "Carson offered his friend some milk when they were thirsty.",
+        "options": [
+          "Helpful",
+          "Generous",
+          "Rude"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa109",
+      "input": {
+        "question": "How would you describe Sydney after setting the red scarf on fire?",
+        "text": "Tom gave Sydney a red scarf. Sydney set it on fire.",
+        "options": [
+          "Hot-tempered",
+          "Angry at Tom",
+          "Regretful about destroying it"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa486",
+      "input": {
+        "question": "How would you describe Austin after taking the family out for dinner?",
+        "text": "Austin took the family out for dinner to their favorite downtown restaurant.",
+        "options": [
+          "Went there in the car",
+          "Could not remember the name of the restaurant",
+          "Got lost on the way"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa291",
+      "input": {
+        "question": "What will happen to Lily after she gives birth to her child at the hospital?",
+        "text": "Lily went into labor and gave birth to her daughter at the hospital, where she would now begin her new life as a mother.",
+        "options": [
+          "She will have a new life as a mother",
+          "She will experience the joy of parenthood",
+          "She will recover and rest after childbirth"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa231",
+      "input": {
+        "question": "How would Michael feel after trying to start a fight with Derek at the bar?",
+        "text": "Michael was in an argument with Derek at the bar and tried to escalate things to a fight.",
+        "options": [
+          "Angry",
+          "Regretful",
+          "Confused"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa057",
+      "input": {
+        "question": "What will Kendall want to do next after watering the plants?",
+        "text": "Kendall was really into house plants and often poured water into jars so the fluoride would evaporate out.",
+        "options": [
+          "Water a few of the plants",
+          "Gather more jars",
+          "Take care of her pets"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa258",
+      "input": {
+        "question": "How would Caroline feel after she climbed into bed to rest from a long day of work?",
+        "text": "Caroline had been working all day and decided to climb into bed to relax and recover from a headache.",
+        "options": [
+          "Relieved from the stress",
+          "Still in pain",
+          "Energized after her long day"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa094",
+      "input": {
+        "question": "What will Sydney want to do after Jan gave her an anniversary necklace with tears of joy?",
+        "text": "Jan fastened the anniversary necklace around Sydney's neck, amid her tears of joy and exclamations of how beautiful it was.",
+        "options": [
+          "Thank Jan for the necklace",
+          "Cry and run away",
+          "Get a kiss from Jan"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa250",
+      "input": {
+        "question": "How would Mark feel after he dropped his entire sandwich on the floor at a friend's barbecue?",
+        "text": "Mark was at his friend’s house enjoying a barbecue when he accidentally dropped his sandwich on the ground.",
+        "options": [
+          "Embarrassed for wasting the food",
+          "Excited to have an excuse for a new sandwich",
+          "Relieved that he wasn’t hungry anymore"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa102",
+      "input": {
+        "question": "Why did Alex take a moment to think before acting?",
+        "text": "Alex spent a minute thinking and finally decided to take action over it.",
+        "options": [
+          "Wanted to have the best response",
+          "Have free time",
+          "Wanted to be foolhardy"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa069",
+      "input": {
+        "question": "What does Quinn need to do before deciding to walk outside?",
+        "text": "It was a pretty sunny day outside. Quinn walked instead.",
+        "options": [
+          "Move their feet",
+          "Notice the sun",
+          "Have fun"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa361",
+      "input": {
+        "question": "How would Alex feel after earning an A on their test?",
+        "text": "Alex paid close attention during a lecture before an important test and was thrilled to score an A.",
+        "options": [
+          "Grateful for their efforts",
+          "Disappointed with the result",
+          "Embarrassed for caring too much"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa096",
+      "input": {
+        "question": "Why did Riley talk to their friends about what to do that night?",
+        "text": "Riley talked to their friends about what they should do that night.",
+        "options": [
+          "Go out",
+          "Hang out",
+          "Do something fun"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa192",
+      "input": {
+        "question": "Why did Mia decide to include Alex's perspective in her story?",
+        "text": "Mia was writing a story creatively and wanted to give the reader Alex's perspective.",
+        "options": [
+          "Assist Alex",
+          "Wanted to help the author write",
+          "Wanted to make it interesting"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa091",
+      "input": {
+        "question": "How would Remy feel after having a good talk with Aubrey that helped Aubrey understand her better?",
+        "text": "Remy had a good talk with Aubrey so Aubrey understood Remy better now.",
+        "options": [
+          "Calm",
+          "Anxious",
+          "Unsatisfied"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa088",
+      "input": {
+        "question": "How would you describe Riley after smiling at Jesse after they ate the last cookie?",
+        "text": "Riley regarded Jesse with observant eyes then smiled after they ate the last cookie.",
+        "options": [
+          "Like a person who was thoughtful",
+          "As silly",
+          "As talkative"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa221",
+      "input": {
+        "question": "What will Emma want to do after her cooking class when the cake she baked turned out burnt?",
+        "text": "Emma was teaching her friends how to bake a cake, but unfortunately, she left it in the oven too long and it burned.",
+        "options": [
+          "Try baking again",
+          "Share the burnt cake",
+          "Learn from the mistake"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa500",
+      "input": {
+        "question": "What will Jesse want to do next after asking Addison's friends to go to the woods with him?",
+        "text": "Jesse asked Addison's friends to go to the woods with him.",
+        "options": [
+          "Pitch a tent",
+          "Be alone in the woods",
+          "Sleep in his truck"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa148",
+      "input": {
+        "question": "Why did Lucas leave his savings in a bank account overseas?",
+        "text": "Lucas decided to keep his money in an international bank account to avoid complications at home.",
+        "options": [
+          "Avoid taxes",
+          "Save his money",
+          "Hide his money"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa336",
+      "input": {
+        "question": "Why did Lily help her kids get ready for school by laying out their clothes?",
+        "text": "Lily made sure her children were dressed and ready to go, helping them prepare for the day ahead.",
+        "options": [
+          "To ensure the kids are independent",
+          "To be a supportive mother",
+          "To make the kids lazy"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa467",
+      "input": {
+        "question": "How would you describe Ben after the bar fight?",
+        "text": "Ben started a bar fight and later told his friend James to leave quickly before things got worse.",
+        "options": [
+          "A troublemaker",
+          "Energized and full of adrenaline",
+          "A peacemaker"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa269",
+      "input": {
+        "question": "Why was Emily able to understand Lucy's mood better than anyone else?",
+        "text": "Emily had known Lucy for a long time and had always been there to listen when Lucy needed someone to talk to, understanding her like no one else.",
+        "options": [
+          "Had been a patient listener and understood Lucy's moods over time",
+          "Had been a good friend to Lucy and often ignored her needs",
+          "Had been a very good counselor for Lucy, providing constant support"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa214",
+      "input": {
+        "question": "How would Caroline feel after not hearing from an old friend for ten years?",
+        "text": "Caroline hadn't heard from her childhood friend in over ten years and wondered how their life had turned out.",
+        "options": [
+          "Curious",
+          "Angry",
+          "Worried"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa357",
+      "input": {
+        "question": "What will the rest of the band do after recruiting Ethan as their drummer?",
+        "text": "Ethan, a skilled drummer, joined a local band looking to create new music.",
+        "options": [
+          "Assign Ethan other responsibilities",
+          "Write new songs",
+          "Pursue more performances"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa397",
+      "input": {
+        "question": "How might others feel when they realize Taylor helped a friend and finished the task first?",
+        "text": "While the rest of the group struggled to figure out the task on their own, Taylor assisted a friend and finished early.",
+        "options": [
+          "Impressed",
+          "Jealous",
+          "Proud of their efforts"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa036",
+      "input": {
+        "question": "How would Robin feel after finishing a volleyball game outside?",
+        "text": "Robin stayed outside and tried to finish the game of volleyball she was playing.",
+        "options": [
+          "Energized",
+          "Brave for continuing",
+          "Tired after the game"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa050",
+      "input": {
+        "question": "What will happen to Tracy after failing to repay the money as promised?",
+        "text": "Tracy gave money to my friend who needed it but failed to pay it back as they promised.",
+        "options": [
+          "Yell at them",
+          "Be disappointed in themselves",
+          "Lose trust in their friend"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa001",
+      "input": {
+        "question": "What should Emma do next?",
+        "text": "Emma decided not to return to her apartment that night and chose to resist Mark's advances.",
+        "options": [
+          "Come up with a new plan",
+          "Go back and confront Mark",
+          "Look for another place to stay"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa252",
+      "input": {
+        "question": "How would you describe Emily after she organized a girls' night out for her friends and went to the club?",
+        "text": "Emily called her friends for a fun girls' night out and they all had a great time at the club.",
+        "options": [
+          "Enthusiastic and outgoing",
+          "Indifferent about the night",
+          "Alone and reserved"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa418",
+      "input": {
+        "question": "How might others feel after Sasha takes revenge on the people who wronged her?",
+        "text": "Sasha successfully got revenge on those who had stolen her car. Now, she felt at peace.",
+        "options": [
+          "Satisfied with her actions",
+          "Furious with the thieves",
+          "Relieved to get even"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa087",
+      "input": {
+        "question": "Why did Aubrey get gas at the station and snacks for the drive?",
+        "text": "Aubrey got gas at the station and got some snacks for the drive.",
+        "options": [
+          "Have fuel",
+          "Make a snack",
+          "Find a gas station to stop at"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa004",
+      "input": {
+        "question": "What would Jordan feel after forgetting to bring the camping food?",
+        "text": "Jordan was responsible for bringing food on the camping trip but accidentally left everything at home.",
+        "options": [
+          "Disappointed for letting the group down",
+          "Relieved not to have to cook",
+          "Pleased that the trip went smoothly"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa158",
+      "input": {
+        "question": "What will Sarah do after leaving her book in the library?",
+        "text": "Sarah had been studying at the library for hours, but when she realized she forgot her book, she wasn’t sure what to do next.",
+        "options": [
+          "Ask if anyone has seen the book",
+          "Go home",
+          "Return to the library to find the book"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa358",
+      "input": {
+        "question": "How would Jordan feel after Skylar declined their invitation to go to a new restaurant?",
+        "text": "Jordan wanted to take Skylar to a newly opened restaurant, but Skylar refused the invitation.",
+        "options": [
+          "Like Skylar dislikes them",
+          "Supported by a close friend",
+          "Indifferent"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa204",
+      "input": {
+        "question": "How would Chris feel after accidentally answering a question meant for someone else?",
+        "text": "Chris answered a question that was directed at another person, interrupting the conversation.",
+        "options": [
+          "Very happy",
+          "Feeling rude",
+          "Very smart"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa483",
+      "input": {
+        "question": "Why did Lee give his friend the rare guitar?",
+        "text": "Lee gave his friend a special gift of a rare and collectible acoustic guitar.",
+        "options": [
+          "Buy an acoustic guitar",
+          "Thought his friend deserved a special gift",
+          "Find someone with an acoustic guitar"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa477",
+      "input": {
+        "question": "What will happen to Casey after Alex helps him escape from jail?",
+        "text": "Alex helped Casey escape from jail because the guards weren't paying attention.",
+        "options": [
+          "Get into serious trouble",
+          "End up in more trouble",
+          "Be exonerated"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa108",
+      "input": {
+        "question": "How would others feel after Kai kept his temper in check when things were getting out of control?",
+        "text": "Kai knew that things were getting out of control and managed to keep his temper in check.",
+        "options": [
+          "Relieved",
+          "Anxious",
+          "Scared"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa384",
+      "input": {
+        "question": "Why did Jordan visit the baseball card shop?",
+        "text": "Jordan decided to try something new and went to a baseball card shop to pass the time.",
+        "options": [
+          "To explore a new hobby",
+          "To sell his cards",
+          "To look at rare cards"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa138",
+      "input": {
+        "question": "What was Zachary required to do before completing his community service hours?",
+        "text": "Zachary decided to pay back to society by completing several hours of community service as part of his sentence.",
+        "options": [
+          "Volunteer for community service",
+          "Commit a crime",
+          "Always obey the law"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa074",
+      "input": {
+        "question": "How would Carson feel after playing video games at his friend's house across town?",
+        "text": "Carson was at a friend's house across town from where he lived playing video games.",
+        "options": [
+          "Ready to go for a short stroll back to his home",
+          "Too dark outside",
+          "Sad that he will have to stop playing video games"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa417",
+      "input": {
+        "question": "How would Jesse feel after impressing his professor?",
+        "text": "Jesse admired his professor a lot, so he worked hard for the test. When he did well and his professor congratulated him, Jesse felt proud.",
+        "options": [
+          "Accomplished",
+          "Motivated to do better",
+          "Grateful for the praise"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa177",
+      "input": {
+        "question": "Why did Alex help the elderly woman outside the grocery store?",
+        "text": "An elderly woman dropped her groceries outside the store, and Alex went out of their way to help her collect the items.",
+        "options": [
+          "Go home",
+          "Walk to their car",
+          "Be a good person"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa409",
+      "input": {
+        "question": "How would you describe Carson's behavior as finals approached?",
+        "text": "Carson, despite being only a week away from finals, visited his friends every day to play video games.",
+        "options": [
+          "Unmotivated",
+          "Distracted",
+          "Focused on his studies"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa398",
+      "input": {
+        "question": "How might Sydney feel after rubbing Addison's head to relieve her headache?",
+        "text": "Addison had a terrible headache, so Sydney gently rubbed her head in an attempt to comfort her.",
+        "options": [
+          "Grateful",
+          "Expecting thanks",
+          "Surprised by Addison's reaction"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa294",
+      "input": {
+        "question": "What will happen to Timmy after visiting every house in the neighborhood for trick-or-treating?",
+        "text": "Timmy went trick-or-treating and made sure to visit every house in the neighborhood to gather as much candy as possible.",
+        "options": [
+          "Take the candy home",
+          "Encourage others to follow him",
+          "Ask which houses have the best candy"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa326",
+      "input": {
+        "question": "How would friends and family feel about the handmade sculptures sold by Lena that quickly disintegrated?",
+        "text": "Lena sold some handmade sculptures to friends and family, but they all fell apart within a week.",
+        "options": [
+          "Dissatisfied",
+          "Joyful",
+          "Disappointed by the quality"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa056",
+      "input": {
+        "question": "How would you describe Jan after giving birth to her daughter?",
+        "text": "Jan was pregnant and gave birth to a beautiful baby daughter.",
+        "options": [
+          "A mother",
+          "Exhausted",
+          "Ready for a spin class"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa046",
+      "input": {
+        "question": "What does Quinn need to do before giving Jordan the gift?",
+        "text": "Quinn wrapped their arms around Jordan before pulling out the gift that they had been hiding.",
+        "options": [
+          "Pick out a gift",
+          "Be caring",
+          "Hold the gift in plain sight"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa446",
+      "input": {
+        "question": "How would you describe Addison after noticing Austin watching but too shy to ask to play?",
+        "text": "Addison was playing poker when she noticed Austin standing in the background, watching the game but too shy to ask to join in.",
+        "options": [
+          "Caught off guard",
+          "Embarrassed",
+          "Kind"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa373",
+      "input": {
+        "question": "What will Taylor want to do after seeing their father perform well at his concert?",
+        "text": "Taylor attended their father’s concert and was thoroughly impressed by his performance on stage.",
+        "options": [
+          "Tell him how great he did",
+          "Leave before the concert ends",
+          "Enjoy the music more"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa474",
+      "input": {
+        "question": "How would you describe Sarah while teaching James how to swim underwater?",
+        "text": "Sarah was trying to teach James how to swim underwater, offering helpful advice.",
+        "options": [
+          "Bossy",
+          "Worked hard to help",
+          "Helpful"
+        ]
+      },
+      "output": {
+        "answer": "C"
+      }
+    },
+    {
+      "id": "ssqa449",
+      "input": {
+        "question": "How will Ash feel after retaking and passing the test they failed?",
+        "text": "Ash redeemed themselves after retaking the test they had failed previously.",
+        "options": [
+          "Relieved",
+          "Accomplished",
+          "Proud"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa386",
+      "input": {
+        "question": "Why did Austin often eat late after school?",
+        "text": "Austin had a lot to do after school, which often caused them to eat their meals much later than usual.",
+        "options": [
+          "To finish tasks they needed to do",
+          "To eat earlier",
+          "To stick to a schedule"
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "ssqa211",
+      "input": {
+        "question": "What does Jessica need to do before giving her friend the item she no longer needed?",
+        "text": "Jessica realized she wouldn’t need the item anymore and decided to pass it on to her friend.",
+        "options": [
+          "Find out if the friend needs it",
+          "Make sure the friend would want it",
+          "Ask why they needed it"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "ssqa376",
+      "input": {
+        "question": "What will Bailey likely do next after studying carefully for the end-of-course exam?",
+        "text": "Bailey carefully studied the book in preparation for the final exam in the course.",
+        "options": [
+          "Take a study break",
+          "Aim to pass with high marks",
+          "Review a few more chapters"
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    }
+  ],
+  "set_type": "openset"
+}

@@ -1,0 +1,3288 @@
+{
+  "task": "Multi-Turn_Daily_Dialogue_Generationid",
+  "type": "Dialogue",
+  "version": "1.0",
+  "data": [
+    {
+      "id": "mtddg028",
+      "dialog": [
+        "Good afternoon. I brought the extra blanket you requested.",
+        "Oh, thank you.",
+        "Is there anything else I can assist you with?",
+        "Yes, I’m quite tired and would like to go to bed early. Could you make the bed for me?"
+      ],
+      "output": {
+        "response": "Certainly, sir."
+      }
+    },
+    {
+      "id": "mtddg351",
+      "dialog": [
+        "Hey, Tom, where are you off to?",
+        "I’m heading to the movie theater. There’s a new action film out, a real thriller.",
+        "Another horror film? There’s so much violence and terror in these films. Do you enjoy watching them?"
+      ],
+      "output": {
+        "response": "I’m not fond of bloody scenes, but I do appreciate the realistic frames created with special effects."
+      }
+    },
+    {
+      "id": "mtddg152",
+      "dialog": [
+        "Good morning. Craftsman Company. How may I assist you?",
+        "Good morning. This is Mr. Suzuki from Video TV. May I speak with Mr. Johnson?",
+        "I’m sorry, but Mr. Johnson is out right now. Can I take a message?",
+        "Yes, please. Tell him John Suzuki called. That’s S-U-Z-U-K-I.",
+        "Yes.",
+        "From Video TV.",
+        "Yes, from Video TV.",
+        "Tell him I called. I’d like to meet him about the videotapes. Can he call me this afternoon?",
+        "Of course. What’s your phone number?",
+        "It’s area code 413, 447-9626.",
+        "Is that 413-447-9662?",
+        "No, it’s 447-9626.",
+        "Oh, sorry. 447-9626.",
+        "Yes, that’s correct. Extension 162.",
+        "Extension 162. Okay, Mr. Suzuki. I’ll make sure to give him the message.",
+        "Thank you. Goodbye."
+      ],
+      "output": {
+        "response": "Goodbye."
+      }
+    },
+    {
+      "id": "mtddg201",
+      "dialog": [
+        "Hey, Peter, have you eaten lunch yet?",
+        "No, not yet. How about you?"
+      ],
+      "output": {
+        "response": "Not yet either. How about we go to that place on the corner?"
+      }
+    },
+    {
+      "id": "mtddg097",
+      "dialog": [
+        "Hey, why did you take that money? You’re such a cheater! I should call the police!",
+        "I’m not cheating. When you pass 'Go,' you collect $200. Everyone knows that!",
+        "Well, you can’t just take the money. You need to ask the bank for it. I’m the banker.",
+        "Banker?",
+        "Yes...",
+        "Can I have my $200, please?"
+      ],
+      "output": {
+        "response": "Sure. Here’s your $200. Thanks, and please come again! Now, it’s my turn to roll the dice."
+      }
+    },
+    {
+      "id": "mtddg261",
+      "dialog": [
+        "Welcome to the company! We’re conducting a survey to understand why new employees chose us.",
+        "That’s easy. The office ergonomics sold me.",
+        "You’re joking! Something as simple as that?",
+        "Yes, it’s really important to me. My mom worked in offices for twenty years and ended up with carpal tunnel syndrome. I’ve read a lot about repetitive stress injuries, so I’m aware of the risks.",
+        "Yes, there’s been a lot of research on RSI. Something as simple as chair height can help prevent these injuries. Was there anything else that influenced your decision?",
+        "Yes, I noticed you have professional training and team-building days. I like that you invest in your staff."
+      ],
+      "output": {
+        "response": "Well, welcome to the team!"
+      }
+    },
+    {
+      "id": "mtddg311",
+      "dialog": [
+        "Good morning. How may I assist you?",
+        "Yes, I’d like to check out now. My name is Adams, room 312. Here’s the key.",
+        "One moment, please, sir... Here’s your bill. Would you like to verify the charges?",
+        "What’s the 14 pounds charge for?",
+        "That’s for the phone calls you made from your room.",
+        "Can I pay with traveler’s cheques?",
+        "Of course. May I please have your passport?",
+        "Here you go.",
+        "Could you sign each of the cheques here for me?",
+        "Sure.",
+        "Here are your receipts and change, sir. Thank you."
+      ],
+      "output": {
+        "response": "Thank you. Goodbye."
+      }
+    },
+    {
+      "id": "mtddg409",
+      "dialog": [
+        "Oh dear, my weight has gone up again.",
+        "I’m not surprised. You eat too much.",
+        "And I suppose sitting at a desk all day at the office doesn’t help.",
+        "No, I wouldn’t think so.",
+        "I really wish I could lose some weight.",
+        "Well, why don’t you try a diet?",
+        "I’ve tried dieting before, but it never works.",
+        "Maybe you should exercise more. How about joining an exercise class?"
+      ],
+      "output": {
+        "response": "Yes, maybe I should."
+      }
+    },
+    {
+      "id": "mtddg106",
+      "dialog": [
+        "Could you change these bills for me, please?",
+        "What would you like?",
+        "Twenties and some smaller notes, please.",
+        "Anything else?"
+      ],
+      "output": {
+        "response": "Yes. Could you also tell me my balance? Here’s the account number."
+      }
+    },
+    {
+      "id": "mtddg441",
+      "dialog": [
+        "Thank you for calling World Airline. How can I assist you?",
+        "I need to book a flight to London.",
+        "Round-trip or one-way?",
+        "One-way.",
+        "What date would you like to fly?",
+        "Saturday, July 25.",
+        "How many people will be traveling?",
+        "Just one adult.",
+        "Which class would you prefer?",
+        "Economy, please. Economy is the cheapest, right?"
+      ],
+      "output": {
+        "response": "Yes, that's correct. The fare is $700."
+      }
+    },
+    {
+      "id": "mtddg338",
+      "dialog": [
+        "Hey Julie, do you want to grab a bite?",
+        "Sure! What do you feel like eating?",
+        "I’m really craving a big juicy steak!",
+        "Oh, okay. I don’t eat meat, but that’s fine. I’m sure wherever we go, they’ll have other options, right?",
+        "I didn’t know you were a vegetarian!",
+        "I’m not, I’m actually a vegan.",
+        "A what?",
+        "A vegan. I don’t consume or use anything that comes from animals. No leather, no eggs, no milk, nothing. I used to be a pescatarian, which means I didn’t eat meat, but I still had fish and seafood.",
+        "Wow! That’s fascinating! That must be tough!"
+      ],
+      "output": {
+        "response": "It can be tricky to find vegan-friendly restaurants, but with more people adopting plant-based diets these days, it’s getting a little easier."
+      }
+    },
+    {
+      "id": "mtddg014",
+      "dialog": [
+        "Mr. Carter has asked me to invite you to a banquet in your honor at the Shangri-La Hotel tonight at 7:00. Here’s the invitation.",
+        "How thoughtful of him. I’d be happy to attend. But what time would be convenient?",
+        "If you could be ready by 6:30, I’ll come by the hotel to pick you up.",
+        "That sounds wonderful. It’s very considerate of you, Miss Rose.",
+        "It’s my pleasure. Well then, I’ll say goodbye for now."
+      ],
+      "output": {
+        "response": "Goodbye and see you tonight, Miss Rose."
+      }
+    },
+    {
+      "id": "mtddg473",
+      "dialog": [
+        "We also have another traditional holiday—the Dragon Boat Festival.",
+        "When is it?",
+        "It’s on the fifth day of the fifth lunar month.",
+        "Could you tell me the history of the two festivals?",
+        "Sure. The Dragon Boat Festival honors the great ancient poet Qu Yuan. People race boats on that day to symbolize the effort to save him when he drowned himself in the river.",
+        "Why do people eat rice cakes on this day?",
+        "To stop the fish from eating his body."
+      ],
+      "output": {
+        "response": "That’s so touching."
+      }
+    },
+    {
+      "id": "mtddg312",
+      "dialog": [
+        "This is the best dinner I’ve ever had.",
+        "How’s the soup?",
+        "I’ve never had anything better."
+      ],
+      "output": {
+        "response": "How kind of you to say that."
+      }
+    },
+    {
+      "id": "mtddg383",
+      "dialog": [
+        "Are you ready to head to the mall?",
+        "Yeah. Do you like my new pants?",
+        "Copycat!",
+        "What do you mean?",
+        "You went and bought khakis too!",
+        "No, mine are a soft brown. Yours are khaki."
+      ],
+      "output": {
+        "response": "Whatever."
+      }
+    },
+    {
+      "id": "mtddg308",
+      "dialog": [
+        "Guess who I just saw?",
+        "Who?",
+        "John Smith, the escaped criminal.",
+        "That troublemaker, who’s been on the wrong path since childhood.",
+        "I think I should report this to the police."
+      ],
+      "output": {
+        "response": "Okay."
+      }
+    },
+    {
+      "id": "mtddg532",
+      "dialog": [
+        "911 emergency. How can I assist you?",
+        "I’d like to report a break-in.",
+        "When did this break-in occur?",
+        "I think it happened last night.",
+        "Where did the break-in take place?",
+        "It was at my house.",
+        "Was anything taken?",
+        "I haven’t checked yet.",
+        "Why do you suspect a break-in?",
+        "My front window has been smashed.",
+        "We’ll send a patrol car over shortly."
+      ],
+      "output": {
+        "response": "I appreciate it, thank you."
+      }
+    },
+    {
+      "id": "mtddg128",
+      "dialog": [
+        "Did you know that abortion is still banned in many states in the USA?",
+        "Why? I thought Americans were supposed to be more open-minded than that.",
+        "Well, many religious people believe that those who have abortions are committing murder.",
+        "Do you think most people in the USA think abortion is wrong?",
+        "No, I believe it’s mostly the older generation that’s against abortion.",
+        "It’s no surprise that there are so many teenage pregnancies in America.",
+        "Religious people blame it on pre-marital sex, not on abortion being illegal.",
+        "What’s your opinion on abortion?",
+        "Personally, I’d never want to have one, but I think that since pregnancy can affect a woman’s entire life, she should have the right to make her own decision.",
+        "Do you think fathers should have a say in the decision?",
+        "I know this might sound sexist, but I don’t think men should have to give their approval for the mothers of their children.",
+        "Why not? It’s their children too.",
+        "That may be true, but when a woman becomes pregnant, it completely changes her life. Men can continue their lives after the birth just like before."
+      ],
+      "output": {
+        "response": "That may be the case, but I still think men should have some say in the matter."
+      }
+    },
+    {
+      "id": "mtddg044",
+      "dialog": [
+        "I don’t want you to worry, but our son has developed some troubling habits. He says hurtful things every day. ",
+        " What does he say? Could you give me some examples? ",
+        " He says things like 'kick mommy,' 'beat mommy,' or 'I don’t want mommy,' whenever I do something he doesn’t like. For instance, when I wash his face or change his clothes. ",
+        " Sweetheart, I’m not sure what to tell you. Of course, Tony is just a young child. But don’t underestimate his ability to understand and reason. ",
+        " Yes, but sometimes he’s just being unreasonable. ",
+        " I suggest you treat him with patience, love, and respect. If he needs to do something, like going to bed or getting washed, gently guide him to complete the task. ",
+        " It’s easier said than done, but I’ll try. ",
+        " Encourage Tony to cooperate by rewarding positive behavior, rather than focusing on punishment for bad moods. Don’t threaten him with punishment if he resists. "
+      ],
+      "output": {
+        "response": " I know, sometimes my parents threaten him, but it doesn’t seem to work. Instead, he picks up new bad habits. "
+      }
+    },
+    {
+      "id": "mtddg331",
+      "dialog": [
+        "How about visiting the Summer Palace tomorrow?",
+        "Sounds good. I don't want to leave Beijing without seeing it.",
+        "How far is it from our hotel?",
+        "It's approximately 5 kilometers.",
+        "If we leave early, do you think we will have time for Yuanmingyuan?"
+      ],
+      "output": {
+        "response": "I think we should. We can visit it in the afternoon if you'd like."
+      }
+    },
+    {
+      "id": "mtddg142",
+      "dialog": [
+        "Good afternoon, welcome to IBA. How can I assist you?",
+        "I’d like to inquire about the Group Account Deposit Service.",
+        "This refers to the deposit service offered for level 1 accounts of group companies.",
+        "What is the purpose of this? Why would one need such a special account?",
+        "Group companies use it to manage their funds more flexibly when dealing with their subsidiaries."
+      ],
+      "output": {
+        "response": "I see, so this really helps save time and centralize management. Very interesting..."
+      }
+    },
+    {
+      "id": "mtddg127",
+      "dialog": [
+        "Hey, son, do you have insurance?",
+        "Not yet, but I’m thinking about it. Have you gotten one, Dad?",
+        "I took out a life insurance policy and made your mom the beneficiary.",
+        "Can you tell me why you decided to get it?",
+        "I’m a fireman, and it’s a dangerous job. I need to make sure your mom is taken care of.",
+        "Oh, I see. Do you think I should get one?",
+        "You’ve got kids now. What if something, God forbid, happens to you?",
+        "That’s true. How much do you think I should get?"
+      ],
+      "output": {
+        "response": "A $100,000 policy shouldn’t be too expensive. Here, call my agent. He’ll give you a good deal."
+      }
+    },
+    {
+      "id": "mtddg418",
+      "dialog": [
+        "Jane, I was wondering if you had any plans for Saturday afternoon.",
+        "A friend and I are planning to go out. Why? What’s up?",
+        "There’s a special exhibition of French sculptures at the museum. I was hoping you’d like to join me.",
+        "I’m afraid I can’t. I’ll be out all day.",
+        "What about Sunday?",
+        "I wish I could, but it’s my mom’s birthday.",
+        "Maybe next week?",
+        "As much as I’d love to, I’m afraid I won’t be free next week. I’ve got a lot of work.",
+        "That’s too bad. I was really looking forward to spending more time with you. I really enjoyed our last conversation."
+      ],
+      "output": {
+        "response": "I’m sorry too. Maybe I’ll give you a call sometime."
+      }
+    },
+    {
+      "id": "mtddg162",
+      "dialog": [
+        "Hey Stacy, what's happening?",
+        "I’m feeling pretty exhausted these days.",
+        "Why? You’re not working, so you must have a lot of free time.",
+        "I have tons of housework to do. I need to take care of the kids, cook, clean, do laundry... it never ends.",
+        "What about your husband? Does he help out?",
+        "Not at all. He comes home, complains about his tough day at work, and expects me to do everything. Sometimes, he even wants me to feed him! Can you believe it?",
+        "That’s awful.",
+        "If he wasn’t so lazy, I wouldn’t have any complaints. He mows the lawn, but he even tried to convince me to do it!",
+        "That’s pushing it."
+      ],
+      "output": {
+        "response": "Well, I’ll have to deal with it. What else can I do?"
+      }
+    },
+    {
+      "id": "mtddg421",
+      "dialog": [
+        "This is the Bell Captain's Desk. How may I assist you?",
+        "Yes, I’ve been waiting for my bags to be delivered for the past half hour. Where are they?",
+        "I’m so sorry for the delay. Could you please provide your name and room number?",
+        "Yes, it’s Yao Lan, Room 406.",
+        "How many pieces of luggage do you have?",
+        "Two suitcases and a handbag. The suitcases are blue, and the handbag is red.",
+        "Do they have name tags on them?",
+        "Yes, they do."
+      ],
+      "output": {
+        "response": "We sincerely apologize for the delay. I will check on this immediately and call you back."
+      }
+    },
+    {
+      "id": "mtddg373",
+      "dialog": [
+        "Good morning! I’m new here in the office.",
+        "Good morning! Welcome to the office!",
+        "Nice to meet you! My name is Grace Williams.",
+        "Nice to meet you too! I’m Peter Smith.",
+        "Today’s my first day at work!",
+        "I hope you enjoy your first day! Feel free to ask if you need anything.",
+        "Thank you, that’s very kind of you."
+      ],
+      "output": {
+        "response": "You’re welcome."
+      }
+    },
+    {
+      "id": "mtddg395",
+      "dialog": [
+        "Do you have something to read?",
+        "Yes, I do.",
+        "Could you lend me one?",
+        "Sure. Here you go.",
+        "Thanks. It's pretty cold this morning, don’t you think?",
+        "You’re right.",
+        "Did you hear the news?",
+        "Which one?",
+        "Brazil won the World Cup."
+      ],
+      "output": {
+        "response": "Yes, I saw that."
+      }
+    },
+    {
+      "id": "mtddg302",
+      "dialog": [
+        "Nice to run into you here. How come you came to this company today?",
+        "My boss sent me to pick up some business documents for his office. I didn't know you worked here. What a surprise! How long have you been working here?",
+        "About two years.",
+        "That's great. Do you have to work night shifts?",
+        "No, usually not unless there's an urgent task. I work five days a week.",
+        "Do you enjoy working here?",
+        "It's hard to say. I started as a trainee, so I’m still gaining experience as a marketing assistant. Sometimes, the pressure is a lot when things get busy.",
+        "Don’t stress too much. I'm sure you'll gain plenty of experience as a marketing assistant. I hope you haven't had too many difficulties in the job.",
+        "Luckily not. The colleagues I meet are mostly friendly, and I have a supportive boss."
+      ],
+      "output": {
+        "response": "I'm glad to hear that."
+      }
+    },
+    {
+      "id": "mtddg452",
+      "dialog": [
+        "Are you done?",
+        "Yes. Could I have some more beer?",
+        "Sure. I’ll be back in a minute. Thanks for waiting. Here it is. Did you enjoy your meal?",
+        "Yes, the meal was really delicious, and I enjoyed it a lot. I’m full.",
+        "Is that so? I’m glad you liked it.",
+        "By the way, Miss, where’s the bathroom?",
+        "The restrooms are in the back. I’m afraid they’re all occupied right now."
+      ],
+      "output": {
+        "response": "What?"
+      }
+    },
+    {
+      "id": "mtddg072",
+      "dialog": [
+        "We have the orientation this afternoon.",
+        "What will be covered in the orientation?",
+        "The company introduction, our mission, vision, various policies, insurance, pension plan, company ID, badge, telephone, e-mail setup, and training.",
+        "That’s quite a bit. All of that in one afternoon?",
+        "Yes, it’s a lot to cover."
+      ],
+      "output": {
+        "response": "That's fine with me. I enjoy staying busy and learning new things."
+      }
+    },
+    {
+      "id": "mtddg052",
+      "dialog": [
+        "I need assistance with the office party. ",
+        " Of course, we can split the tasks. Which part would you prefer, the food or entertainment? ",
+        " I’m not sure what entertainment to organize. ",
+        " Let’s first make sure we’re on the same page. Do we want it to be formal or informal? ",
+        " Let’s go with a formal event. ",
+        " Agreed. For food, should we go with Chinese or American cuisine? ",
+        " I think American food would be the best option. ",
+        " Sounds great. What kind of music would you prefer? A live band or recorded music? ",
+        " We should hire a really good DJ. "
+      ],
+      "output": {
+        "response": " That works for me. Let’s plan our parts and meet again on Friday. "
+      }
+    },
+    {
+      "id": "mtddg045",
+      "dialog": [
+        "Hello, I have an appointment with Dr. Smith, but I can’t make it. ",
+        " When was your appointment scheduled? ",
+        " It was on Monday. ",
+        " What time was it for? ",
+        " It was set for 10:00. ",
+        " I see your appointment now. When would you prefer to reschedule? ",
+        " Next Thursday would be best for me. ",
+        " What time would work for you? ",
+        " 2:00 PM would be ideal. "
+      ],
+      "output": {
+        "response": " I’ve scheduled you for that time. We look forward to seeing you then. "
+      }
+    },
+    {
+      "id": "mtddg481",
+      "dialog": [
+        "Hi, Helen! How’s everything going?",
+        "I’ve been so busy lately. It feels like I can never finish my work.",
+        "Well, take it easy! Don’t let it get to you.",
+        "I’ll try, but I’m under a lot of pressure right now.",
+        "Why don’t you take a few days off?"
+      ],
+      "output": {
+        "response": "I can’t. I’m really behind on my work."
+      }
+    },
+    {
+      "id": "mtddg227",
+      "dialog": [
+        "Honey, we need to have a conversation.",
+        "Dad, I need to finish my homework.",
+        "No, honey, why didn’t you go to cram school last night?",
+        "Dad, I don’t want to talk about it now.",
+        "Honey, if you don’t want to go to cram school, you need to tell me why."
+      ],
+      "output": {
+        "response": "I’m sorry, dad. But I’d rather stay at school than go to cram school."
+      }
+    },
+    {
+      "id": "mtddg352",
+      "dialog": [
+        "Excuse me, is this seat taken?",
+        "Sorry, this seat is already taken.",
+        "Oh, I see. Thanks anyway.",
+        "You're welcome. Why don’t you check with the conductor when he passes by?"
+      ],
+      "output": {
+        "response": "Thank you."
+      }
+    },
+    {
+      "id": "mtddg316",
+      "dialog": [
+        "How clever of you to book the tickets in advance!",
+        "Oh, do you really think so?",
+        "Definitely, otherwise you'd be stuck waiting for hours."
+      ],
+      "output": {
+        "response": "But I just got a call from my sister, and now I have to cancel the movie tonight."
+      }
+    },
+    {
+      "id": "mtddg211",
+      "dialog": [
+        "The plumbing in my new apartment isn't working.",
+        "I need you to tell me what the issue is.",
+        "The bathroom sink is clogged.",
+        "Is the kitchen plumbing affected as well, or just the bathroom?",
+        "It’s just the bathroom plumbing that’s having issues.",
+        "Did this just start, or has it been happening for a while?",
+        "Everything was fine until a few hours ago.",
+        "Will you be home so I can come and check the problem?",
+        "I’m not sure if I’ll be home later."
+      ],
+      "output": {
+        "response": "I’ll stop by around 10 this morning. If you’re not home, I’ll just use my key."
+      }
+    },
+    {
+      "id": "mtddg513",
+      "dialog": [
+        "Do you need a guide?",
+        "Yes, we're looking for one. How much is the fee per day?",
+        "It's $20 a day. If you stay for more than 3 days in the city, the cost drops to $16 a day."
+      ],
+      "output": {
+        "response": "That seems reasonable."
+      }
+    },
+    {
+      "id": "mtddg322",
+      "dialog": [
+        "Darling, what’s for dinner?",
+        "Red-cooked carp and stir-fried rape with fresh mushrooms.",
+        "How about soup?",
+        "Sour and peppery soup.",
+        "What condiments are you using?",
+        "I’ll use ginger, garlic, scallions, hot pepper, and vinegar.",
+        "Sounds great, do you need any help?",
+        "No, I can handle it myself.",
+        "Thanks, I’ll watch TV now.",
+        "But you’ll have to cook next time."
+      ],
+      "output": {
+        "response": "Okay, I’ll do it next time."
+      }
+    },
+    {
+      "id": "mtddg415",
+      "dialog": [
+        "I think yoga might be a good fit for me.",
+        "Why’s that?",
+        "Because it doesn’t require too much energy, so it’s easy to stick with.",
+        "But I see people sweating quite a lot when they do yoga.",
+        "I’m not sure. I just need to try it out. I’m in desperate need of some exercise to lose weight."
+      ],
+      "output": {
+        "response": "You should try swimming then. It’s a great way to stay in shape."
+      }
+    },
+    {
+      "id": "mtddg370",
+      "dialog": [
+        "Hotel operator, how can I assist you?",
+        "I’ve been trying to reach the booking office for the past ten minutes, but the line’s been busy the whole time. Why is it taking so long?",
+        "I’m sorry about that. Unfortunately, this happens often during peak hours. Would you like me to have them call you back once the line is free?",
+        "Okay, please do. If it's not too much trouble.",
+        "Not at all. May I have your name and room number?",
+        "I’m Du Juan, in Room 312.",
+        "Got it. Please wait in your room, and we’ll take care of it."
+      ],
+      "output": {
+        "response": "Thank you for your kindness."
+      }
+    },
+    {
+      "id": "mtddg180",
+      "dialog": [
+        "How are you today?",
+        "I’m great, thanks.",
+        "Can I help you with anything?",
+        "I’d like to see the apartment for rent today.",
+        "I’m afraid you can’t view it today.",
+        "Why not?",
+        "You need to make an appointment first.",
+        "Oh, okay. Can I do that now?",
+        "Is Friday okay for you?",
+        "Is 6 o’clock on Friday evening alright?",
+        "Yes, that works. Thank you for scheduling me."
+      ],
+      "output": {
+        "response": "Thanks a lot. I’ll see you then."
+      }
+    },
+    {
+      "id": "mtddg449",
+      "dialog": [
+        "Why didn’t you tell me you had a girlfriend?",
+        "Sorry, I thought you knew.",
+        "But you should have told me you were in love with her.",
+        "Didn’t I?",
+        "You know you didn’t.",
+        "Well, I’m telling you now.",
+        "Yes, but you could’ve told me earlier.",
+        "I didn’t think it would interest you.",
+        "You can’t be serious. How could you not tell me you’re marrying her?",
+        "Sorry, I didn’t think it mattered."
+      ],
+      "output": {
+        "response": "Oh, you men! You’re all the same."
+      }
+    },
+    {
+      "id": "mtddg430",
+      "dialog": [
+        "Good evening. What can I get for you?",
+        "I'd like a beer. What kind of beers do you have?",
+        "We have draft beer and canned beer. Which one would you prefer?",
+        "I'll have a draft beer, please.",
+        "Here you go.",
+        "Could I have some fruit too?"
+      ],
+      "output": {
+        "response": "Of course. Please wait a moment."
+      }
+    },
+    {
+      "id": "mtddg431",
+      "dialog": [
+        "What are the most popular sports in your country?",
+        "Swimming in summer and ice skating in winter. What about you? What’s your favorite sport?",
+        "Jogging and bowling. Do you know how to practice Kung Fu?",
+        "No, but I do Taijiquan, or shadow boxing. People all over China usually practice Taijiquan early in the morning. It helps people stay healthy, and it’s been around for over 300 years.",
+        "Is it hard to learn?",
+        "No, it’s pretty easy. I could teach you if you’re interested.",
+        "Thanks! I can teach you how to bowl."
+      ],
+      "output": {
+        "response": "Sounds like a good plan. Let's help each other out."
+      }
+    },
+    {
+      "id": "mtddg313",
+      "dialog": [
+        "Wow, it looks like everyone in your family is here, from the youngest to the oldest.",
+        "Easter is a great time for family reunions. The whole family goes to church together.",
+        "And after church, they all come here for lunch?",
+        "Yes, a big potluck buffet. And notice how there are no kids around?",
+        "Yeah, what’s going on?"
+      ],
+      "output": {
+        "response": "The kids wait in the house while the adults hide the Easter eggs. Hide them well, Yi-jun!"
+      }
+    },
+    {
+      "id": "mtddg405",
+      "dialog": [
+        "Hello, ma’am, can I assist you in finding something?",
+        "Yes, actually I’m looking to buy a camera.",
+        "We have a wide range. Do you know if you want a point-and-shoot or something a bit more advanced? Are you shopping for yourself or for someone else?",
+        "Actually, I’m buying a camera for my husband.",
+        "Ah, in that case, I’d recommend a good entry-level digital SLR.",
+        "Really? Can I take a look at the SLRs you have?",
+        "Sure, follow me. Here’s the selection.",
+        "The Canon EOS. It’s okay, but I’m looking for something that performs better in low light, has a better display, and longer battery life.",
+        "Ah, well, the Nikon D60 might be a good option.",
+        "Yeah, but what kind of kit lens does it come with? I don’t want some huge telephoto lens.",
+        "Well, this one comes with the... uh...",
+        "Looks like an 18-55mm lens. That’s pretty standard. It should be fine. Not like my husband will be stalking celebrities or anything!",
+        "So, ahem, may I interest you in any accessories?",
+        "Accessories? Do you have polarizing filters?",
+        "Polarizing filter? We should... oh, I’m sorry, ma’am. It looks like we’re out of stock.",
+        "No, you're not! There are some right here!",
+        "Oh, well, would you look at that! Polarizing filters.",
+        "Thanks for your help, Ralph!"
+      ],
+      "output": {
+        "response": "No problem, ma’am."
+      }
+    },
+    {
+      "id": "mtddg289",
+      "dialog": [
+        "Hello, is this the ABC company?",
+        "Yes, how can I assist you?",
+        "We just arrived from Tokyo, and we were looking for a reserved car from your company. However, we can’t seem to find it.",
+        "What’s your reservation number?",
+        "Our reservation number is J-221.",
+        "Let me check. Oh, yes, I see your reservation number here.",
+        "So you haven't arranged a car for us?",
+        "I'm afraid not."
+      ],
+      "output": {
+        "response": "In that case, I’ll take a taxi. How can you refund us?"
+      }
+    },
+    {
+      "id": "mtddg272",
+      "dialog": [
+        "Could I ask a question?",
+        "Sure, what’s on your mind?",
+        "What does 'mph' mean?"
+      ],
+      "output": {
+        "response": "It stands for miles per hour."
+      }
+    },
+    {
+      "id": "mtddg036",
+      "dialog": [
+        "Have you found a new job yet?",
+        "Not yet. I’m still searching. I’ve been doing some temporary work through an agency, though.",
+        "What kind of work?",
+        "I’m working as a temp at a pharmaceutical company.",
+        "What are you doing there?",
+        "Mainly office work, like filing and organizing.",
+        "How long is the assignment?"
+      ],
+      "output": {
+        "response": "Until the end of the month."
+      }
+    },
+    {
+      "id": "mtddg074",
+      "dialog": [
+        "Hi Jim. Do you have a moment?",
+        "Sure, what’s going on?",
+        "Some of us are starting a soccer team. Would you like to join us?",
+        "I don’t really know much about soccer. It’s not as big in my country as it is here.",
+        "That’s okay. We’ll teach you.",
+        "Is it anything like American football?",
+        "Not quite. It’s a bit like hockey, but with a big ball and no sticks.",
+        "I’ll come down one day and watch you play, see what it’s like."
+      ],
+      "output": {
+        "response": "Great idea. I think you’ll like it if you give it a try."
+      }
+    },
+    {
+      "id": "mtddg347",
+      "dialog": [
+        "Excuse me. I’m looking for a book called Little Women, but I can’t find it anywhere.",
+        "Let me check. I’m sorry, we just sold out of it.",
+        "Will you have it again later?",
+        "I believe so. Could I get your name and phone number? I’ll call you when we have it in stock."
+      ],
+      "output": {
+        "response": "That’s great. Thank you!"
+      }
+    },
+    {
+      "id": "mtddg329",
+      "dialog": [
+        "Is it Fred's fault?",
+        "No, I don’t think he’s to blame. The driver in the other car made a mistake."
+      ],
+      "output": {
+        "response": "But he’s still partially responsible since he tried to overtake you."
+      }
+    },
+    {
+      "id": "mtddg069",
+      "dialog": [
+        "I’d like to buy three tickets. How much does it cost to enter?",
+        "$10 per person.",
+        "Here’s $30. By the way, where can I find a guide?",
+        "Go to the next window, and they’ll help you find one."
+      ],
+      "output": {
+        "response": "Thanks so much."
+      }
+    },
+    {
+      "id": "mtddg196",
+      "dialog": [
+        "I’d like to order breakfast, please.",
+        "What would you like, ma’am?",
+        "Two muffins and a cup of coffee. Will it take long?"
+      ],
+      "output": {
+        "response": "No, just a few minutes."
+      }
+    },
+    {
+      "id": "mtddg071",
+      "dialog": [
+        "Is there anything I can assist you with?",
+        "Could you please show me that mural?",
+        "Of course. Here you go.",
+        "It’s really beautiful. How much is it?",
+        "Four hundred yuan.",
+        "That's a little more than I had in mind. Can you lower the price a bit?",
+        "Sorry, but we have fixed prices here, and I assure you this is the best deal you’ll find for a mural like this.",
+        "You’re probably right. Alright, I'll take it.",
+        "Great, I’ll wrap it up for you.",
+        "Thank you. Here's four hundred yuan."
+      ],
+      "output": {
+        "response": "Thanks! Please come again."
+      }
+    },
+    {
+      "id": "mtddg154",
+      "dialog": [
+        "Sunset Hotel. How can I help you?",
+        "Yes, I have a reservation for the 24th. It’s a double room.",
+        "Please hold on for a moment. Let me check it for you. Yes, you’re right. Your booking is for 3 days.",
+        "Actually, I’d like to change the dates from the 24th to the 28th."
+      ],
+      "output": {
+        "response": "Okay, I’ll make that change for you."
+      }
+    },
+    {
+      "id": "mtddg504",
+      "dialog": [
+        "Could you do me a favor?",
+        "What do you need?",
+        "Could you mail this at the post office for me? I have a doctor's appointment and won't have time to go myself."
+      ],
+      "output": {
+        "response": "Sure, no problem. And could you pick up some cold medicine for me while you're at the doctor's?"
+      }
+    },
+    {
+      "id": "mtddg161",
+      "dialog": [
+        "When can you have the final product ready?",
+        "We should have it finished by the end of next week.",
+        "That’s excellent! Ahead of schedule! Great work."
+      ],
+      "output": {
+        "response": "Well, as they say, we aim to please!"
+      }
+    },
+    {
+      "id": "mtddg392",
+      "dialog": [
+        "Did you catch the volleyball game last night?",
+        "Yeah.",
+        "Who won?",
+        "China.",
+        "What was the score?",
+        "China defeated Brazil 3-0."
+      ],
+      "output": {
+        "response": "That’s fantastic!"
+      }
+    },
+    {
+      "id": "mtddg053",
+      "dialog": [
+        "Come in, come in! How can I help you? ",
+        " Professor Donald, will you be teaching your advanced geology course again next semester? ",
+        " Yes, I am planning to. ",
+        " I was wondering if I could enroll in it. I know it's a graduate-level course, and I’m just a junior, but... ",
+        " Aren’t you a bit young for this course? I usually have seniors taking it, and they often struggle to keep up. ",
+        " I understand, but geology of the American West is my main interest, and I’ve already done extensive reading on the subject. ",
+        " Well, if you feel prepared, I’ll allow you to enroll. "
+      ],
+      "output": {
+        "response": " Thank you so much, Professor Donald. I really appreciate it. "
+      }
+    },
+    {
+      "id": "mtddg492",
+      "dialog": [
+        "What did you do today?",
+        "I played poker with some colleagues from work.",
+        "Did you win?"
+      ],
+      "output": {
+        "response": "Of course, I did."
+      }
+    },
+    {
+      "id": "mtddg046",
+      "dialog": [
+        "Doctor, what’s wrong with me? I’ve been feeling so tired lately. ",
+        " It’s your blood pressure. It’s alarmingly high. ",
+        " What caused that? ",
+        " Overwork, among other things. You can’t be working around the clock. You need to slow down. ",
+        " But I can’t just stop working. ",
+        " You have to, I’m afraid. And look at this — you weigh 200 pounds. That’s too much for your height and build. ",
+        " So, I need to lose weight? "
+      ],
+      "output": {
+        "response": " Yes. You should cut down on bread and potatoes, and get more exercise. "
+      }
+    },
+    {
+      "id": "mtddg197",
+      "dialog": [
+        "Allan, I’m really disappointed by your lack of effort on this project.",
+        "Look, Sally. I’ve put in just as much work as anyone else.",
+        "No, I’m sorry, but I disagree. I don’t think you’ve been working at full capacity."
+      ],
+      "output": {
+        "response": "Well, I’m sorry you feel that way."
+      }
+    },
+    {
+      "id": "mtddg118",
+      "dialog": [
+        "I need some help with the washer and dryer.",
+        "Tell me what the problem is.",
+        "I can’t figure out how to turn them on.",
+        "Do you have any quarters?",
+        "I didn’t know I needed change.",
+        "The washer costs 50 cents, and the dryer costs a dollar.",
+        "Where do I put the change?",
+        "Put the quarters into the slot. You have to push the slot in, and then the machine will turn on.",
+        "Is that everything I need to do?",
+        "That’s all there is to it.",
+        "Thanks for helping me with this."
+      ],
+      "output": {
+        "response": "If you need anything else, just let me know."
+      }
+    },
+    {
+      "id": "mtddg037",
+      "dialog": [
+        "I’m so tired right now. I’ve already worked 12 hours of overtime!",
+        "Oh my gosh! Don’t you think they should assign you an assistant?",
+        "They were supposed to, but no one has shown up yet. I’m doing everything myself. This is the first break I’ve had all day.",
+        "They’re really pushing you to the limit. Why don’t you ask for some time off? Maybe take a long weekend to rest.",
+        "I don’t think I can take time off until I finish this project.",
+        "You should definitely prioritize your health.",
+        "I will. Thanks for your concern."
+      ],
+      "output": {
+        "response": "You’re welcome."
+      }
+    },
+    {
+      "id": "mtddg414",
+      "dialog": [
+        "How old is Keith?",
+        "He's 21. How old is James?",
+        "He’s a year older than Keith, but he looks younger.",
+        "How’s your father?",
+        "He’s doing well. He retired last week. It’s a new chapter in his life. Now he can finally relax and enjoy his retirement.",
+        "He'll have more time to spend with his grandchildren.",
+        "Oh, I don’t think that’s what he wants. He’s planning to travel to several countries around the world.",
+        "So, he’s looking for a more active retirement. That sounds like a great idea!",
+        "How do you envision spending your retirement?"
+      ],
+      "output": {
+        "response": "Probably in the same way, I imagine."
+      }
+    },
+    {
+      "id": "mtddg412",
+      "dialog": [
+        "Have you ever been invited to a Chinese banquet?",
+        "Yes, I have. People in Beijing are known for their warmth and hospitality.",
+        "From your perspective, is dining at a Chinese table a unique experience? How does it compare to dining in your home country?",
+        "Well, first of all, I need to use chopsticks.",
+        "But you seem pretty skilled with them now.",
+        "Of course. After two years here, it's not that difficult for a foreigner to adjust to Chinese eating utensils. However, I do find myself unsure about how to act properly at a Chinese table.",
+        "Yes, table manners. There are numerous rules that foreigners might not know until they're explained. Some customs even seem strange or impolite to Westerners, though they're perfectly normal here.",
+        "Anything strange about that?",
+        "Perhaps you should have laid your chopsticks horizontally over your bowl or plate. They resemble incense sticks used during sacrifices. It's considered very inauspicious and might upset the people around you."
+      ],
+      "output": {
+        "response": "Oh, sorry! There's quite a story behind just a pair of chopsticks!"
+      }
+    },
+    {
+      "id": "mtddg507",
+      "dialog": [
+        "Ms. Montgomery? This is Richard Thomas. I'm sorry to bother you at home, but I have a bit of a situation.",
+        "Oh? What happened?"
+      ],
+      "output": {
+        "response": "My daughter hurt her knee pretty badly, and I need to take her to the hospital. I'll be about two hours late."
+      }
+    },
+    {
+      "id": "mtddg217",
+      "dialog": [
+        "How about another beer?",
+        "No, thanks. I’ve had enough. Actually, I really need to head out.",
+        "Stick around for a bit. The party’s just getting started."
+      ],
+      "output": {
+        "response": "Sorry, but I have to leave. I need to get up early tomorrow."
+      }
+    },
+    {
+      "id": "mtddg062",
+      "dialog": [
+        "How do you plan to celebrate Valentine’s Day with your wife? "
+      ],
+      "output": {
+        "response": " I’ll take a rain check on that. "
+      }
+    },
+    {
+      "id": "mtddg464",
+      "dialog": [
+        "Where are you headed?",
+        "I'm going to buy a CD.",
+        "Why not just listen to music online?",
+        "I’d have to pay quite a bit to stream music online, wouldn't I?",
+        "You can stream music online and even listen offline after downloading, so you won’t need to pay.",
+        "I downloaded one, but I still can't listen to it.",
+        "You need the right software to listen to it.",
+        "Can you recommend any?",
+        "Sure, RealPlayer is a good option.",
+        "Can I download it?",
+        "Yes, but you'll need to install it after downloading so it works."
+      ],
+      "output": {
+        "response": "I’ll try it tonight."
+      }
+    },
+    {
+      "id": "mtddg552",
+      "dialog": [
+        "Excuse me, could you tell me where Main Street is?",
+        "Turn left at the second light, then go straight for two blocks.",
+        "Is it far?",
+        "No, it’s just a five-minute walk. You won’t miss it.",
+        "Thanks so much."
+      ],
+      "output": {
+        "response": "You're welcome."
+      }
+    },
+    {
+      "id": "mtddg406",
+      "dialog": [
+        "Excuse me, Mr. Emory? Mr. Macmillan would like to know if you have the final schedule for next week?",
+        "Yes, I do, Susan. Just a moment. Here it is.",
+        "Thank you, sir. Sorry to bother you."
+      ],
+      "output": {
+        "response": "Not at all, Susan. Just tell him to leave it with my secretary once he’s done with it."
+      }
+    },
+    {
+      "id": "mtddg005",
+      "dialog": [
+        "Doris, I’m so relieved you're home. I’m scared and don’t know what to do!",
+        "What’s going on? What happened?",
+        "I think someone’s following me.",
+        "No, that’s impossible. Really? Who is it?",
+        "I don’t know. I first saw him on Tuesday at the café. He was staring at me. Not the usual glance, but he was really fixated on me. He just kept staring and wouldn’t stop.",
+        "What did you do?",
+        "I didn’t do anything. Eventually, he left. But then I saw him again today, outside the shoe store, near the café. I went into a CD shop and pretended to look at CDs, but he came in there too.",
+        "Did he leave when you did?",
+        "Yes, but then I saw him walking behind me on the sidewalk. He was following me."
+      ],
+      "output": {
+        "response": "What did you do?"
+      }
+    },
+    {
+      "id": "mtddg228",
+      "dialog": [
+        "Excuse me, I need some assistance.",
+        "Yes? I’d be happy to help you.",
+        "An hour ago, I bought this vase with my tourist voucher.",
+        "Oh, yes. I remember. Is there something wrong with it?",
+        "I’m afraid so. We found a crack at the bottom when I returned to my hotel.",
+        "Oh, that’s terrible! Let me take a look. I’m so sorry. That was careless of me. Please forgive me.",
+        "Oh, it’s alright, I suppose. Sometimes things like this can happen.",
+        "That’s very kind of you to say. Would you like to exchange it for another one?",
+        "Alright. Thank you.",
+        "One moment, please. I’ll be right back. I’m sure this one will be perfect. You can inspect it carefully.",
+        "Oh, yes, it’s perfect. I’ll take this one.",
+        "I’m very sorry for the inconvenience."
+      ],
+      "output": {
+        "response": "Well, there’s no need to apologize for something so small."
+      }
+    },
+    {
+      "id": "mtddg349",
+      "dialog": [
+        "What kind of job are you looking for?",
+        "I’m looking for a desk job, as I’ve previously worked as an operator.",
+        "We are currently hiring for an operator position."
+      ],
+      "output": {
+        "response": "That's exactly the job I've been searching for."
+      }
+    },
+    {
+      "id": "mtddg266",
+      "dialog": [
+        "How many languages can you speak?",
+        "I can speak French and German.",
+        "How well do you speak them?",
+        "I’m fluent in German, but my French isn’t very strong.",
+        "Can you help me translate these sentences into German right now?"
+      ],
+      "output": {
+        "response": "Not right now, but I can help you tomorrow."
+      }
+    },
+    {
+      "id": "mtddg116",
+      "dialog": [
+        "I think you’re being a bit too optimistic.",
+        "If I want, I can protect myself by using an escrow account, which holds the money until I receive the item.",
+        "That proves my point! Protect yourself, or you’ll get burned.",
+        "eBay also offers free insurance. You can get a refund of up to $200 if you’re not happy with the purchase."
+      ],
+      "output": {
+        "response": "$200? If they get hold of your credit card info, you could lose a lot more than $200! I had a friend who..."
+      }
+    },
+    {
+      "id": "mtddg304",
+      "dialog": [
+        "It's your turn now, Helen.",
+        "Alright. I'm coming.",
+        "This song is for you. I picked it especially.",
+        "Thanks, that's very thoughtful of you.",
+        "Press the red button on the mic to turn it on.",
+        "Okay. This key is a bit high for me.",
+        "I think you’ll handle it easily.",
+        "Alright, let me give it a try...",
+        "Well done! I hope I can sing as well as you someday.",
+        "Thank you. I’m sure you will."
+      ],
+      "output": {
+        "response": "I hope so. Thanks for the encouragement."
+      }
+    },
+    {
+      "id": "mtddg443",
+      "dialog": [
+        "Lili, let’s take a holiday!",
+        "George, how are we supposed to do that? Vacations cost money, and we don’t have much left after paying the rent this month.",
+        "Well, Lili, we can visit various places around the state in our van. We won’t need a plane or a hotel this time. Trust me, it won’t be expensive.",
+        "Where will we stay then?",
+        "In the van.",
+        "What about other costs?",
+        "Let’s see. Gas, food, activities— we won’t spend a lot. Come on, don’t hesitate. We need to take a break from the house. We’ve been working hard, haven’t we?",
+        "Maybe you're right. When do you want to go?",
+        "The sooner, the better! I’m really looking forward to it!",
+        "Oh, I don’t know where we’re going yet.",
+        "As long as we’re going somewhere, you can pick the destination. I trust your choices. I know you miss Chinese food, so we can eat at a Chinese restaurant this time.",
+        "Let’s head to Chicago! We can have lunch in Chinatown and then catch a ball game at Wrigley Field!"
+      ],
+      "output": {
+        "response": "You have such great ideas!"
+      }
+    },
+    {
+      "id": "mtddg040",
+      "dialog": [
+        "It seems like no one in your class likes Paul. ",
+        " That boy is completely useless. ",
+        " As a teacher, I'm not sure how to assist him. "
+      ],
+      "output": {
+        "response": " He's beyond help. "
+      }
+    },
+    {
+      "id": "mtddg245",
+      "dialog": [
+        "Silly girl, making me spend all this money, now I have to get it from the ATM...",
+        "Hello, welcome to Universal Bank. Please insert your card into the slot.",
+        "I know where to put my card! Stupid machine, treating me like I’m an idiot...",
+        "Please enter your 6-digit PIN code followed by the pound key. Thank you. Now, please select an option. You have selected withdrawal.",
+        "Yeah, yeah, I know what I selected. Just give me my money!",
+        "Please enter the amount you would like to withdraw. Thank you. You are attempting to transfer 10,000 USD to the World Wildlife Foundation. If this is correct, press 1.",
+        "No, no! What are you doing, stupid machine? No!",
+        "Confirmed. Thank you for using our bank! Please remove your card from the slot. Goodbye!",
+        "No, no! What happened? Give me my money!"
+      ],
+      "output": {
+        "response": "Danger, danger! The exits have been sealed, and the doors will remain locked until local authorities arrive. Thank you for using our bank. Have a nice day."
+      }
+    },
+    {
+      "id": "mtddg110",
+      "dialog": [
+        "Hello, Miao Li. Where are you headed?",
+        "Hi, I’m going to the store to buy some fruit.",
+        "Oh, could you do me a favor?",
+        "Sure, what is it?",
+        "Could you mail this letter for me while you're at the store?",
+        "Of course. Do you want it registered?",
+        "Yes, I think so. There are some photos in it. It’d be a real shame if they were lost.",
+        "Sure, I’ll be happy to mail it for you.",
+        "Thanks."
+      ],
+      "output": {
+        "response": "You’re welcome."
+      }
+    },
+    {
+      "id": "mtddg447",
+      "dialog": [
+        "Oh, hey, Jessica, are you planning to watch this movie too?",
+        "I’d love to. The movie is a huge hit.",
+        "Let’s go in then.",
+        "I can’t. I’m waiting for Paul, but he’s late.",
+        "The movie is about to start.",
+        "I know. I wonder what’s taking him so long.",
+        "Looks like he’s not coming. He’s done this before, hasn’t he?",
+        "Yeah, several times.",
+        "What’s his deal?",
+        "I don’t know. But this is the final straw.",
+        "Maybe you should start seeing someone else."
+      ],
+      "output": {
+        "response": "You’re right. Okay, let’s go in, Sandy."
+      }
+    },
+    {
+      "id": "mtddg049",
+      "dialog": [
+        "Excuse me, could you tell me the way to City Hall? ",
+        " Sure. Go to the next corner and turn left onto Center Street. Walk three blocks to Second Avenue, then turn right. Walk two more blocks, and City Hall will be on your left. ",
+        " I’m sorry, I didn’t quite follow. Could you repeat that? ",
+        " No problem. First, go to the next corner and turn left onto Center Street. ",
+        " Got it. ",
+        " Next, walk three blocks to Second Avenue, then turn right. Are you with me? ",
+        " Yes, I’m following. ",
+        " Then, walk two more blocks and you’ll see City Hall on the left. Got it? "
+      ],
+      "output": {
+        "response": " Yes, now I understand. Thanks a lot! "
+      }
+    },
+    {
+      "id": "mtddg361",
+      "dialog": [
+        "I’m really interested in Chinese antiques.",
+        "We have a wide selection of Chinese antiques. We also have landscape, portrait, and flower-and-bird paintings.",
+        "I’d like to see a flower-and-bird painting.",
+        "How about this one with cranes and pine trees? It was painted by a famous Chinese artist during the Qing Dynasty.",
+        "Wow, the cranes look so lifelike."
+      ],
+      "output": {
+        "response": "Yes, and in traditional Chinese culture, cranes and pine trees are symbols of longevity."
+      }
+    },
+    {
+      "id": "mtddg047",
+      "dialog": [
+        "Do you carry sports shirts for women? ",
+        " We have several options. Which one are you interested in? ",
+        " I think the red one looks great. Can I try it on? ",
+        " Certainly. Of course. ",
+        " Where is the fitting room? "
+      ],
+      "output": {
+        "response": " It's over there, next to the mirror. "
+      }
+    },
+    {
+      "id": "mtddg467",
+      "dialog": [
+        "I’d like to schedule an appointment with Dr. Cooper. Could you arrange it for me?",
+        "Sure. Would tomorrow morning work for you?",
+        "Sorry, I have a meeting from 9 to 10. How about Monday afternoon?"
+      ],
+      "output": {
+        "response": "I’m afraid he’s booked. Could you pick another time?"
+      }
+    },
+    {
+      "id": "mtddg446",
+      "dialog": [
+        "Can I borrow this magazine? It’s really interesting, and I can’t stop reading it.",
+        "Sorry, I can’t lend it to you right now because I haven’t finished it. If you want, I can lend you some past issues.",
+        "That’s very kind of you. By the way, is it a monthly publication?"
+      ],
+      "output": {
+        "response": "No, it’s biweekly. So, I’ll be getting the next issue soon."
+      }
+    },
+    {
+      "id": "mtddg120",
+      "dialog": [
+        "I’m looking for a good multivitamin. Do you have any suggestions?",
+        "Sure. Come with me to the vitamin section.",
+        "I knew there’d be a few options, but this selection is huge!",
+        "You’re looking for a multi, right?",
+        "That’s right. Just a basic multivitamin that I can take every day.",
+        "Alright, then I recommend this one. It’s made specifically for men your age.",
+        "Oh! You’ve made that choice so easy for me."
+      ],
+      "output": {
+        "response": "That’s my job! Is there anything else I can help you with?"
+      }
+    },
+    {
+      "id": "mtddg387",
+      "dialog": [
+        "What’s wrong, John?",
+        "Nothing.",
+        "Why do you look so down?",
+        "I’m really disappointed that I couldn’t see my best friend off.",
+        "Oh, cheer up. He’ll understand."
+      ],
+      "output": {
+        "response": "I hope so."
+      }
+    },
+    {
+      "id": "mtddg359",
+      "dialog": [
+        "Hi, I need to make a copy right away.",
+        "We have a copy machine in the computer lab on the first floor, sir.",
+        "Great! How much does it cost per copy?",
+        "It’s ten cents per copy.",
+        "Okay, I’ll head down there in a bit."
+      ],
+      "output": {
+        "response": "You probably won’t have to wait, sir."
+      }
+    },
+    {
+      "id": "mtddg372",
+      "dialog": [
+        "Here’s the fish counter. Look at the lobsters and crabs. Should we get some?",
+        "I’m allergic to those, you know.",
+        "Sorry, I forgot. I’m not fond of seafood either.",
+        "Let’s go over there and pick up some milk, a couple dozen eggs, and some orange juice.",
+        "Let’s get frozen juice instead. It’s really good. We’ve got plenty of food. Let’s head to the checkout."
+      ],
+      "output": {
+        "response": "Okay, but let me grab a bottle of cooking wine and some oil as we pass by."
+      }
+    },
+    {
+      "id": "mtddg157",
+      "dialog": [
+        "Sorry I'm late."
+      ],
+      "output": {
+        "response": "Better late than never."
+      }
+    },
+    {
+      "id": "mtddg457",
+      "dialog": [
+        "Good morning.",
+        "Good morning.",
+        "What does the paper say?",
+        "Not much — the usual bad news.",
+        "So, what’s the weather like?",
+        "It’s sunny and mild today, but tomorrow it’ll be cloudy and rainy.",
+        "Did they catch the bank robbers?",
+        "Not yet. They were holding two men in Ohio, but they released them. They weren’t the criminals after all.",
+        "What about the sports section? What were the scores from last night’s games?"
+      ],
+      "output": {
+        "response": "Here’s the paper. You can read the scores yourself."
+      }
+    },
+    {
+      "id": "mtddg203",
+      "dialog": [
+        "I really need to start eating better.",
+        "I also need to improve my diet.",
+        "What kind of food do you usually eat?",
+        "I try to stick to fruits, vegetables, and chicken.",
+        "Is that really all you eat?",
+        "Pretty much, yeah.",
+        "How do you manage to stick to just those foods?",
+        "Actually, fruits and veggies are really good for you.",
+        "I know, but what about the chicken?",
+        "I mostly eat baked chicken because it’s lower in fat.",
+        "That sounds pretty good."
+      ],
+      "output": {
+        "response": "I know, and that’s because it is!"
+      }
+    },
+    {
+      "id": "mtddg027",
+      "dialog": [
+        "They don't actually think you took it, do they?",
+        "I’m not sure. All I know is I've never been asked so many questions before.",
+        "How many of them were there?",
+        "Three, but one of them kept asking really silly questions.",
+        "Like what?",
+        "Well, he asked what time I woke up this morning and whether I took a bath or a shower, you know, stuff like that.",
+        "What does any of that have to do with money going missing?",
+        "I have no idea. Oh, and here’s the most absurd part – he even asked what I had for breakfast this morning.",
+        "Well, that’s it then. They clearly think you're a desperate criminal who steals to survive. I’d guess you’ll be facing a long sentence."
+      ],
+      "output": {
+        "response": "Hmm. Thanks for the advice."
+      }
+    },
+    {
+      "id": "mtddg085",
+      "dialog": [
+        "How's everything going?",
+        "I'm doing fine, thanks. Just trying to get used to things here. It’s hard to keep track of everything.",
+        "I can imagine. You're new here, right?"
+      ],
+      "output": {
+        "response": "Yeah, I just arrived a couple of days ago. What about you?"
+      }
+    },
+    {
+      "id": "mtddg442",
+      "dialog": [
+        "Look! I bought these shoes just three weeks ago, and now there’s a hole in them!",
+        "If that happened to me, I’d take them back to the store.",
+        "I did, but they said they won’t exchange them."
+      ],
+      "output": {
+        "response": "That’s awful. But if they refuse to change them, I know what I’d do."
+      }
+    },
+    {
+      "id": "mtddg489",
+      "dialog": [
+        "Hi, Monica. How’s everything going?",
+        "Everything’s going well, but I’m thinking of quitting my current job.",
+        "Why? Are you not happy anymore?",
+        "I just feel like I can’t grow anymore. My boss isn’t really supporting me. I’m looking at positions in other JV companies, but I need to do more research before sending out my applications.",
+        "That’s important. Doing thorough research on a company will definitely help your application.",
+        "Definitely. It’s been nice talking to you, but I really need to go now. Catch you later."
+      ],
+      "output": {
+        "response": "Okay, good luck to you."
+      }
+    },
+    {
+      "id": "mtddg191",
+      "dialog": [
+        "Your English skills are really impressive.",
+        "Oh, it’s really nothing to boast about.",
+        "No, seriously. I’m quite impressed."
+      ],
+      "output": {
+        "response": "Thank you. I appreciate the compliment."
+      }
+    },
+    {
+      "id": "mtddg043",
+      "dialog": [
+        "Hello, Mr. Waterstone, what can I do for you today? ",
+        " Hello, Becky. I have a Fixed Deposit Certificate, and I just noticed the date on it. ",
+        " I see. You have two options: you can either redeem it or renew it. ",
+        " I think I’ll redeem it, if that’s okay. ",
+        " No problem at all, Mr. Waterstone. Do you have a preference for how you'd like the money? ",
+        " Whatever works, but I’d prefer not too many large bills. Smaller denominations are more practical. ",
+        " Here you go, Mr. Waterstone. Here's your money along with the interest note. "
+      ],
+      "output": {
+        "response": " Yes, everything seems fine. Thank you very much, Becky. "
+      }
+    },
+    {
+      "id": "mtddg129",
+      "dialog": [
+        "How can I assist you?",
+        "Can I ask you something?",
+        "What’s your question?",
+        "How many hours behind the wheel do I need?",
+        "What do you need to take it for?",
+        "I’m trying to get my driver’s license.",
+        "You need six hours.",
+        "Can I complete all six hours in one day?",
+        "You have to complete it over three days.",
+        "Is that all I need to do?",
+        "That’s everything."
+      ],
+      "output": {
+        "response": "Well, that’s a relief."
+      }
+    },
+    {
+      "id": "mtddg185",
+      "dialog": [
+        "May I assist you, madam?",
+        "Excuse me, where can I catch the flight to New York?",
+        "First, you need to check in at Counter No. 4.",
+        "Is that the one right there?",
+        "Yes, that’s the one. Then follow the signs to Gate 85."
+      ],
+      "output": {
+        "response": "Thank you. You’ve been very helpful."
+      }
+    },
+    {
+      "id": "mtddg336",
+      "dialog": [
+        "Do you speak English?",
+        "Yes, a little.",
+        "Can you tell me how to get to the Jade Buddha Temple?"
+      ],
+      "output": {
+        "response": "I’m sorry. I didn’t quite catch that. Could you please speak slowly?"
+      }
+    },
+    {
+      "id": "mtddg493",
+      "dialog": [
+        "Hey, what's up?",
+        "Not much. Just having some Chinese food here. Is that the newspaper? Why don't you open it and read my horoscope?",
+        "Okay, just a moment... I'm a Taurus, and it says Mars is in the third house and will soon eclipse Venus. I don't really know what that means, but it also says, 'Your charm and determination will win others to your side. Stay positive.' Sounds good to me.",
+        "What about Gemini? What does it say for them?",
+        "Since Mercury has crossed paths with Jupiter, your luck is on the decline. You will experience loss today, and bad fortune will follow you. Be cautious.",
+        "That sounds terrible! I'm really concerned, should I just stay home for the rest of the day?"
+      ],
+      "output": {
+        "response": "But we have a date tonight! You can't stay in just because of a silly horoscope."
+      }
+    },
+    {
+      "id": "mtddg141",
+      "dialog": [
+        "The last thing to be overlooked at a Chinese dinner table is maintaining modesty.",
+        "Does that mean diners should avoid speaking much? It’s similar in the West.",
+        "No, absolutely not! On the contrary, you’ll be seen as a well-connected, sociable person if you stay engaged in the conversation. But always be mindful of what you say. If there is a senior guest at the table, try to say something positive and cheerful. Or, you could let them speak and listen attentively as if you’re really interested.",
+        "You mean keeping a low profile in the presence of elders? That aligns with Confucius' teachings, right?",
+        "Exactly. Show respect for older people. Traditionally, before the meal starts, younger members should greet each elderly person at the table individually. Others wait until the most senior guest begins the meal and takes the first bite. Toasts are also made to these elders first before anyone else toasts.",
+        "Are there any other rules to follow in order to maintain modesty?",
+        "Yes, plenty. Don’t eat too quickly! People usually match their dining pace with others. And no dish should be completely finished.",
+        "Is it because finishing everything might give the impression that there wasn’t enough food?"
+      ],
+      "output": {
+        "response": "Haha, no, it’s actually because no one wants to stand out by finishing their plate."
+      }
+    },
+    {
+      "id": "mtddg082",
+      "dialog": [
+        "Professor, I’ve submitted my paper. Did you read it?",
+        "Yes, I did. You've done a great job, but there’s one thing. You should narrow your topic down."
+      ],
+      "output": {
+        "response": "What if I focus on water pollution instead of pollution in general?"
+      }
+    },
+    {
+      "id": "mtddg155",
+      "dialog": [
+        "Is this a picture of your family?",
+        "Yes, it is. It was taken just before I left for college.",
+        "You look absolutely beautiful!"
+      ],
+      "output": {
+        "response": "Time really flies! I’ll never be twenty again."
+      }
+    },
+    {
+      "id": "mtddg333",
+      "dialog": [
+        "Can I sit at the window seat over there?",
+        "Sorry, sir. That table has already been reserved.",
+        "In that case, this table is the only option.",
+        "Actually, you can sit by the window if you're okay with a ten-minute wait."
+      ],
+      "output": {
+        "response": "No need, thank you."
+      }
+    },
+    {
+      "id": "mtddg068",
+      "dialog": [
+        "I’m sorry, but I can't find the book you lent me.",
+        "That's okay, no problem.",
+        "I really apologize. I'll buy you a new one tomorrow."
+      ],
+      "output": {
+        "response": "Oh no, you don't have to do that. I wouldn’t want you to."
+      }
+    },
+    {
+      "id": "mtddg353",
+      "dialog": [
+        "Christine, have you seen James’s file?",
+        "I had it right here just a moment ago, Mr. Emory. Umm... Just a second...",
+        "Christine, I understand you’re new here and still learning, but you need to keep your work better organized. We can’t afford to lose important documents."
+      ],
+      "output": {
+        "response": "Yes, sir. I’m sorry about that. Here’s the file you requested, Mr. Emory."
+      }
+    },
+    {
+      "id": "mtddg104",
+      "dialog": [
+        "May I come in?",
+        "Yes, please. I’m Mr. Peter, the Director of Personnel. How can I help you?",
+        "Nice to meet you, Mr. Peter. I’m Wang Sian. I’ve come for the interview as scheduled.",
+        "Ah, yes. How do you do, Miss Wang? Please take a seat.",
+        "Thank you.",
+        "What was your major in university?",
+        "I majored in Public Relations.",
+        "Have you worked in this field before?",
+        "Yes, after graduation, I worked for a trade company in Macao for a year.",
+        "What department did you work in?",
+        "The Export Business Department.",
+        "So you’re quite familiar with export procedures.",
+        "Yes, very much so."
+      ],
+      "output": {
+        "response": "That’s good."
+      }
+    },
+    {
+      "id": "mtddg506",
+      "dialog": [
+        "You must be Wily. Nice to meet you.",
+        "Nice to meet you, Mr. Wilson.",
+        "Tim, please. Take a seat.",
+        "Thank you.",
+        "So, Wily, you've been with IBM for two years. Are you ready for a change?"
+      ],
+      "output": {
+        "response": "Well, I think I'm ready for some new challenges."
+      }
+    },
+    {
+      "id": "mtddg001",
+      "dialog": [
+        "Nani Bookstore. How may I assist you?",
+        "Do you have a copy of 'The Old Man and the Sea' by Ernest Hemingway?",
+        "Yes, we have one copy remaining."
+      ],
+      "output": {
+        "response": "Could you reserve it for me?"
+      }
+    },
+    {
+      "id": "mtddg234",
+      "dialog": [
+        "Pompous. How can I help you?",
+        "I’d like to book a table for dinner.",
+        "How many people are you expecting?",
+        "Six couples.",
+        "Would you like a private dining room?",
+        "That sounds good.",
+        "Alright. Can I have your name, please?"
+      ],
+      "output": {
+        "response": "My name is Ron Kollwitz."
+      }
+    },
+    {
+      "id": "mtddg226",
+      "dialog": [
+        "I’m sorry, our appointment needs to be rescheduled.",
+        "What a shame!",
+        "If you don’t mind, could we push it to tomorrow?"
+      ],
+      "output": {
+        "response": "That’s fine."
+      }
+    },
+    {
+      "id": "mtddg081",
+      "dialog": [
+        "How much is the rent?",
+        "The rent is $1500 per month.",
+        "What about the deposit?"
+      ],
+      "output": {
+        "response": "The deposit is $500."
+      }
+    },
+    {
+      "id": "mtddg440",
+      "dialog": [
+        "Hello!",
+        "Hi, is this Stefan?",
+        "Sorry, I think you’ve dialed the wrong number. There’s no Stefan here.",
+        "Really? Are you sure? I called before and he was there.",
+        "Yes, I’m sure. You have the wrong number. I’ve had this number for over 20 years.",
+        "That can’t be right. I remember the number clearly. Is it 1199886?",
+        "No, it’s 1199866. Looks like you’ve misdialed.",
+        "Oh, I’m sorry for bothering you. My apologies.",
+        "It’s fine. It happens to everyone.",
+        "Sorry again for disturbing you."
+      ],
+      "output": {
+        "response": "No problem at all."
+      }
+    },
+    {
+      "id": "mtddg064",
+      "dialog": [
+        "What seems to be the problem, Mr. Brown? ",
+        " I’m not feeling too well, Dr. Ford. ",
+        " What’s going on? ",
+        " No appetite, always feeling tense, and I can’t sleep properly. ",
+        " Have you lost any weight? ",
+        " Yes, I’ve lost quite a bit in the last month. ",
+        " When did you last have a check-up? ",
+        " About two months ago. ",
+        " Let me take your blood pressure. You appear anemic. ",
+        " Well, Mr. Brown, I’m glad to tell you it’s nothing serious. ",
+        " You’re just a bit worn out from overwork. ",
+        " What should I do? ",
+        " I think all you need is a good vacation. ",
+        " Try to spend more time outdoors and make sure to get plenty of rest. "
+      ],
+      "output": {
+        "response": " Thanks, doctor. I’ll follow your advice. "
+      }
+    },
+    {
+      "id": "mtddg009",
+      "dialog": [
+        "Let me explain a bit more. The interest is settled on the 20th of the last month of each quarter and is paid quarterly. It also needs to be settled if you decide to cancel the account.",
+        "Miao Ping, what’s your opinion? Should we choose Type A or Type B Account?",
+        "Well, the Type B Account has a lot of restrictions. If your goal is to use the account like your Settlement Account, I would recommend the Type A Account for you."
+      ],
+      "output": {
+        "response": "Thanks for your input. I’ll discuss everything with my partner and get back to you later."
+      }
+    },
+    {
+      "id": "mtddg236",
+      "dialog": [
+        "Excuse me, can you tell me the name of the book you're reading?",
+        "Harry Potter.",
+        "Harry Potter? Is it funny?",
+        "Actually, the language isn’t all that funny, but the scenes are quite amusing.",
+        "I see.",
+        "Have you read this book before?",
+        "No, but my younger brother really likes it.",
+        "It’s a great book. I think you’ll enjoy it too.",
+        "I’ll give it a try. I really enjoy literature.",
+        "Wow, that sounds scholarly. By the way, who’s your favorite author?",
+        "Jane Austen.",
+        "Me too. Pride and Prejudice is my favorite."
+      ],
+      "output": {
+        "response": "I like that one too. But Sense and Sensibility is my favorite."
+      }
+    },
+    {
+      "id": "mtddg429",
+      "dialog": [
+        "What did you do last night?",
+        "I just stayed at home and watched TV.",
+        "Did you catch the Barcelona vs. Madrid game?",
+        "Yes, it was a very close match.",
+        "What was the final score?",
+        "It ended in a draw.",
+        "What was the exact score?",
+        "It was 3-3.",
+        "Really? I thought Barcelona would win. They're much stronger than Madrid.",
+        "If Barcelona had played their usual game, they probably would have won.",
+        "What happened?",
+        "Their goalkeeper got injured after the first goal, but he kept playing.",
+        "That explains it.",
+        "How many games are left in the season?",
+        "That was the last match before the playoffs.",
+        "When do the playoffs start?",
+        "In a couple of weeks. Are you planning to watch them?",
+        "Of course! I love watching football on TV.",
+        "Me too! Want to come over and watch the next game at my place? I'm having a few friends over.",
+        "Sure, that sounds great."
+      ],
+      "output": {
+        "response": "Great, it’s a plan then!"
+      }
+    },
+    {
+      "id": "mtddg402",
+      "dialog": [
+        "Hi, Mary! What do you enjoy doing in your spare time?",
+        "Well, I spend a lot of time watching movies.",
+        "What a coincidence! I watch tons of movies too.",
+        "Oh really, Frank? What kinds of movies do you like?",
+        "Actually, I watch pretty much any movie, whether it's a comedy, a sci-fi, or a thriller. How about you?",
+        "I prefer art films, but thrillers are fun too.",
+        "That’s interesting. Those two genres are completely different.",
+        "Yes, I enjoy both of them a lot.",
+        "How often do you go to the cinema?",
+        "Not too often, but I usually rent movies from Movie Salon.",
+        "Movie Salon? Where is that?",
+        "It’s a movie rental shop in my neighborhood. I have a membership there.",
+        "Is it any good?",
+        "Yes, they have almost every new release.",
+        "Really? Maybe I should sign up for a membership too."
+      ],
+      "output": {
+        "response": "Why not?"
+      }
+    },
+    {
+      "id": "mtddg321",
+      "dialog": [
+        "Do you believe in UFOs?",
+        "Of course, they’re out there.",
+        "But I’ve never seen one.",
+        "Are you kidding? They’re called UFOs because not everyone can see them.",
+        "You mean you can see them?",
+        "That’s right. I can see them in my dreams.",
+        "They come to Earth?",
+        "No, their job is to send aliens here from outer space.",
+        "Aliens from outer space? Do you talk to them? What do they look like?",
+        "Okay, okay, one question at a time! They look like robots, but they can talk. Their mission is to befriend humans.",
+        "So, you talk to them? In which language?",
+        "Of course, in English. They learn English on Mars too."
+      ],
+      "output": {
+        "response": "Wow, that sounds incredible!"
+      }
+    },
+    {
+      "id": "mtddg051",
+      "dialog": [
+        "Good morning, Vane Theater. How can I assist you? ",
+        " Hello, I’m considering taking a foreign guest to see a traditional Chinese opera this weekend. What’s showing? ",
+        " There’s a charity performance on Saturday night, and on Sunday night, a solo concert by an opera star. ",
+        " It's great that I have some options. Could you tell me more about the one on Saturday? ",
+        " Sure. The performance is a charity event to support the homeless. ",
+        " What about the performance itself? ",
+        " It’s a classic opera called *The Monkey Creates Havoc in Heaven*. ",
+        " Wow, the clever Monkey King! That’s a classic and a favorite among children. ",
+        " Exactly. The cast is top-notch as well. ",
+        " Wonderful! How much are the tickets? "
+      ],
+      "output": {
+        "response": " Ticket prices vary depending on the seating. It’s 300 for front row, 200 for middle, and 50 for the back. "
+      }
+    },
+    {
+      "id": "mtddg024",
+      "dialog": [
+        "I deeply apologize for causing you so much inconvenience."
+      ],
+      "output": {
+        "response": "That's perfectly fine."
+      }
+    },
+    {
+      "id": "mtddg025",
+      "dialog": [
+        "Could I please see your ticket and passport?",
+        "Of course, here they are.",
+        "Do you have any luggage?",
+        "Just this one suitcase.",
+        "Your backpack is quite large and today’s flight is quite full. I’m afraid you’ll need to check your backpack as well.",
+        "No problem. What about this carry-on bag?",
+        "You may keep that with you.",
+        "Could I please have an aisle seat?",
+        "Of course. I’ll assign you an aisle seat in the center row. Here’s your ticket, passport, and boarding pass. Please board the flight at Gate 15.",
+        "Thank you. What is the latest time I can board the plane?",
+        "You must board at least 15 minutes before departure. The flight is scheduled to leave on time.",
+        "Thank you so much!"
+      ],
+      "output": {
+        "response": "You're welcome! Wishing you a pleasant flight."
+      }
+    },
+    {
+      "id": "mtddg391",
+      "dialog": [
+        "Hello, I'm here to catch flight 513 to New York.",
+        "Could I see your ticket, please?",
+        "Here it is. Do you need to see my passport as well?",
+        "Any form of picture ID will be fine.",
+        "Hmm... a photo ID. I have my New Jersey driver's license. Is that okay?",
+        "That works. What an interesting photo! How old is it?",
+        "It was taken just last year, but I had a shaved head and a beard. Do you still recognize me?",
+        "Barely. Will you be checking any luggage today?",
+        "Yes, one suitcase. I also have a carry-on bag."
+      ],
+      "output": {
+        "response": "Okay, Mr. Lee, you're all set. Your flight departs from gate 10. Boarding starts at 10:30."
+      }
+    },
+    {
+      "id": "mtddg350",
+      "dialog": [
+        "Do you have maps of the downtown area?",
+        "Yes, here you go.",
+        "How much do they cost?",
+        "They’re free of charge."
+      ],
+      "output": {
+        "response": "Thanks a lot."
+      }
+    },
+    {
+      "id": "mtddg458",
+      "dialog": [
+        "Hey, Dan. What’s up?",
+        "Where have you been? I’ve been trying to reach you for two days.",
+        "I went to Salt Lake City for work. What’s going on?",
+        "I got fired.",
+        "How come? Last time we talked, you said it was a great job and you wanted to make it a career. That was just a month ago. What happened?",
+        "It’s a long story. Basically, I messed up a business deal that would have earned us ten million dollars.",
+        "What are you going to do now?",
+        "I’m trying to find a new job as quickly as possible. Lily doesn’t know yet. I didn’t tell her. I’ve been hanging out at the coffee shop near your office, and she thinks I’ve been working.",
+        "That’s not the way to handle this. Have you looked at the classifieds?",
+        "Yes, but I wasn’t qualified for most of the jobs I was interested in.",
+        "Listen, I’ll see what I can do. Go home and talk to Lily about this. She’s your wife, and I’m sure she’ll understand."
+      ],
+      "output": {
+        "response": "I just don’t know how to bring it up. Well, alright. She deserves to know."
+      }
+    },
+    {
+      "id": "mtddg176",
+      "dialog": [
+        "Do you have plans after this?",
+        "No, I don’t.",
+        "How about we grab a couple of drinks somewhere?",
+        "That sounds great.",
+        "I know a really cool spot."
+      ],
+      "output": {
+        "response": "Oh, do you? Sounds good."
+      }
+    },
+    {
+      "id": "mtddg404",
+      "dialog": [
+        "This is our final offer, Mr. Lee.",
+        "If that’s the case, then there’s no point in continuing the discussion. We might as well cancel the whole deal.",
+        "What I mean is, we won’t be able to meet your price. The difference is just too large.",
+        "I think it’s unwise for either of us to be too rigid. How about we try to meet each other halfway?",
+        "What do you propose?",
+        "Your unit price is $100 higher than what we’re willing to pay. I suggest we split the difference and meet halfway.",
+        "Do you mean reducing our price by $50? That’s not possible!",
+        "What do you suggest instead?",
+        "The best we can do is a $30 reduction. That’s the lowest we can go.",
+        "That still leaves a $20 gap. Let’s meet halfway again and split the difference. I think this is a price we can both agree on."
+      ],
+      "output": {
+        "response": "Okay. We’ll meet halfway again."
+      }
+    },
+    {
+      "id": "mtddg249",
+      "dialog": [
+        "Who’s at the door?",
+        "I think it’s the postman. Could you open the door?"
+      ],
+      "output": {
+        "response": "Sure. I’ll get it."
+      }
+    },
+    {
+      "id": "mtddg437",
+      "dialog": [
+        "Jenny, what’s wrong? Why are you crying like that?",
+        "Mary told me she saw you with John last night. I found out that you’re seeing someone else."
+      ],
+      "output": {
+        "response": "Honey, I swear, I’ve never looked at another woman since the first day I met you! Believe me, it’s the truth."
+      }
+    },
+    {
+      "id": "mtddg290",
+      "dialog": [
+        "Oh, Linda, you must be thrilled about studying in America.",
+        "Yes, I am! I've always wanted to go to the States. I love meeting new people and making new friends.",
+        "I’m sure you’ll have a great time.",
+        "Well, there’s one thing...",
+        "What’s wrong?"
+      ],
+      "output": {
+        "response": "I’m a little nervous about my host family. You know, in the agreement, I have to cook for them sometimes."
+      }
+    },
+    {
+      "id": "mtddg067",
+      "dialog": [
+        "Sarah, you don’t look so well. What’s going on?",
+        "I’ve got a really bad headache, and my stomach hurts."
+      ],
+      "output": {
+        "response": "Sounds like you might be coming down with something."
+      }
+    },
+    {
+      "id": "mtddg296",
+      "dialog": [
+        "Are you sure you can’t lend me five thousand dollars?",
+        "Hmm... here’s the deal. I’ll lend you four thousand dollars, but you have to pay me back next week."
+      ],
+      "output": {
+        "response": "It’s a deal."
+      }
+    },
+    {
+      "id": "mtddg281",
+      "dialog": [
+        "You’re from New York, right?",
+        "Yes, that’s correct.",
+        "What do you recommend I should see in New York?",
+        "Well, how about the Museum of Modern Art?",
+        "No, I don’t like museums. They’re boring.",
+        "How about visiting the Empire State Building?"
+      ],
+      "output": {
+        "response": "Ah! That sounds interesting."
+      }
+    },
+    {
+      "id": "mtddg537",
+      "dialog": [
+        "I have a stomach ache.",
+        "You should lie down. You need some rest."
+      ],
+      "output": {
+        "response": "Alright, I’ll do that."
+      }
+    },
+    {
+      "id": "mtddg518",
+      "dialog": [
+        "Do you speak any other foreign languages besides English?",
+        "Yes, I know a little Japanese, which is similar to Chinese, both in culture and language.",
+        "What level did you pass in the Japanese Language Proficiency Test?"
+      ],
+      "output": {
+        "response": "I passed Band two, but I’m planning to aim for Band one, the highest level."
+      }
+    },
+    {
+      "id": "mtddg516",
+      "dialog": [
+        "Do you want to hang out tomorrow?",
+        "I can't, I have a date!",
+        "Really? Who with?",
+        "This girl I’ve been talking to for a couple of months. She's cool, and she’s driving over here this weekend.",
+        "Wait, you met her online?",
+        "Yeah! I joined a site called match@.com and it’s great! You fill out your profile with details and preferences, like whether you smoke or have pets. Then you find people who match, and you can chat or email them.",
+        "That sounds kind of strange! What if she’s a psycho or something?",
+        "It’s the same as meeting anyone else, just through the internet! I’m tired of going to bars or having my friends set me up. This feels like a cool alternative, especially if you're a little shy."
+      ],
+      "output": {
+        "response": "I guess it makes sense. I’ll have to give it a try!"
+      }
+    },
+    {
+      "id": "mtddg166",
+      "dialog": [
+        "Hi, could we have two orange juice smoothies?",
+        "Would you like them with yogurt?",
+        "Sure, why not?",
+        "Anything else you’d like to add? We highly recommend caterpillar fungus.",
+        "Caterpillar fungus?! What’s that?"
+      ],
+      "output": {
+        "response": "It’s a special type of Chinese herb. It’s really good for you!"
+      }
+    },
+    {
+      "id": "mtddg138",
+      "dialog": [
+        "Take a seat inside and see what you think. So, you’re going with the Porsche, sir?",
+        "Yes, and I’d like to buy the insurance too. I think it’s essential.",
+        "Good choice. At $45 for three days, it’s a great deal.",
+        "Can I return the car in San Francisco?",
+        "San Francisco? Sorry, sir, we only have this office here. You’ll need to return it here.",
+        "Really? I thought in America you could return rental cars in different cities.",
+        "No, sir, that’s only with the major rental companies. Sorry, but this car must be returned here.",
+        "Well, I guess I’ll have to drive back then. Hmm, I didn’t think of that.",
+        "Do you still want the car, sir?",
+        "Yes. It’ll be fun driving back down the coast. My girlfriend will enjoy it.",
+        "It’s a beautiful drive.",
+        "Where are the keys?"
+      ],
+      "output": {
+        "response": "Just a moment, sir. We still need to finish filling out the forms."
+      }
+    },
+    {
+      "id": "mtddg521",
+      "dialog": [
+        "What do you think of that restaurant?",
+        "It wasn’t all that great.",
+        "What didn’t you like about it?",
+        "I don’t think they were well-organized. They didn’t seem ready.",
+        "Did you think the food was good?",
+        "I wasn’t that impressed by it.",
+        "The service could have been better.",
+        "Yes, the service didn’t help at all.",
+        "Would you go back to that restaurant?"
+      ],
+      "output": {
+        "response": "No, I’m not interested in returning."
+      }
+    },
+    {
+      "id": "mtddg109",
+      "dialog": [
+        "Good afternoon. British Airlines. How can I assist you?",
+        "I’d like to make a reservation for flight FW58 to San Marino.",
+        "Of course. When would you like to depart?",
+        "Next Monday.",
+        "Would you prefer first class or economy?",
+        "What’s the price for a first-class seat?",
+        "$200."
+      ],
+      "output": {
+        "response": "Oh, I’m not a Wall Street executive. I’ll go with economy."
+      }
+    },
+    {
+      "id": "mtddg423",
+      "dialog": [
+        "I’m so glad I bought this watch!",
+        "Cool! Those flashy red lines are awesome!",
+        "I think this is the best watch I’ve ever owned.",
+        "Is it waterproof?",
+        "Isn’t that a silly question? You know how much of an athlete I am.",
+        "Uh huh... So, what sports do you need a waterproof watch for?"
+      ],
+      "output": {
+        "response": "Well, surfing, scuba diving..."
+      }
+    },
+    {
+      "id": "mtddg220",
+      "dialog": [
+        "Hey, could you help me figure out how to prepare for my job interview?",
+        "The most important thing is to research the company and understand what services or products they offer. Do you know about them?",
+        "Yes, I pretty much get it.",
+        "After doing your research, you need to figure out if the company is casual or formal. Have you decided what they are yet?",
+        "Yes, I’ve been observing them.",
+        "When picking what to wear, keep that in mind. Have you decided on an outfit?",
+        "I’ve already picked something.",
+        "I’m always ready to go shopping with you! Should we discuss other essentials?",
+        "Okay, I’m ready to think about other things."
+      ],
+      "output": {
+        "response": "Make sure you arrive on time, smile, be friendly, look them in the eye, and answer all questions to the best of your ability. You’ll do great!"
+      }
+    },
+    {
+      "id": "mtddg112",
+      "dialog": [
+        "Do you have any round-neck sweaters?",
+        "Yes. Actually, our collection of sweaters is the most comprehensive around.",
+        "Can I try this one on?",
+        "Sure, go ahead."
+      ],
+      "output": {
+        "response": "The color is a bit too bright. For my age, I’d prefer a more subtle color."
+      }
+    },
+    {
+      "id": "mtddg204",
+      "dialog": [
+        "How do you celebrate National Day in your country?",
+        "There are parades in many cities, and almost every public building displays the national flag.",
+        "What kind of parades are there?",
+        "Mostly military parades, but sometimes there are processions with people carrying flags and singing patriotic songs. What do you do for National Day in your country?",
+        "We don’t actually have a National Day.",
+        "Really? That’s unusual.",
+        "I suppose it is. Most countries have one, but we don’t."
+      ],
+      "output": {
+        "response": "Actually, although we have parades, most people just use the day to visit family or go shopping. In the evening, many watch special TV shows celebrating the National Day."
+      }
+    },
+    {
+      "id": "mtddg533",
+      "dialog": [
+        "Leo! I just wanted to thank you for all your hard work on the budget. We’re having a small celebration after work tonight at Carl’s Karaoke Club to celebrate finishing it. We’d love for you to join us.",
+        "That sounds like fun! Normally, I’d love to, but I’ve got to stay late tonight. I need to finish the contract for Miss King.",
+        "Ah, right. You’re tied up with that contract. How about joining us later?",
+        "Unfortunately, I won’t be able to. I need to head straight home. It’s my second wedding anniversary, and we’re supposed to have a big dinner. Susan would be really upset if I missed it.",
+        "Happy anniversary! It’s too bad you can’t join us, but maybe next time?"
+      ],
+      "output": {
+        "response": "Yeah, maybe. Thanks, though. I hope you all have a great time!"
+      }
+    },
+    {
+      "id": "mtddg408",
+      "dialog": [
+        "Good morning, sir. How may I assist you?",
+        "Good morning, I have an appointment with Mr. Johnson at 10:00.",
+        "Excuse me, sir, are you Mr. Richard from World Trading Company?",
+        "Yes, that’s correct.",
+        "I’m sorry, Mr. Richard. Mr. Johnson is on his way to the office. He just called and asked you to wait a moment.",
+        "Alright, I’ll wait.",
+        "Would you like something to drink, sir? Coffee or tea?",
+        "Thank you. I’ll have coffee, please.",
+        "Here you are, Mr. Richard. This is the cream, and here’s the sugar. If you need anything else, don’t hesitate to ask."
+      ],
+      "output": {
+        "response": "Thank you very much."
+      }
+    },
+    {
+      "id": "mtddg033",
+      "dialog": [
+        "What’s wrong with you, young man?",
+        "Doctor, I have a bad cough and a headache.",
+        "Do you have a fever?",
+        "I’m not sure, but I feel really awful.",
+        "Let me examine you. Don’t worry, it’s nothing too serious.",
+        "Do you think I should stay in bed?",
+        "Yes, stay in bed and drink plenty of fluids. Your fever should clear up in a day or two.",
+        "Okay. Do you think I’ll be able to play football tomorrow?",
+        "Of course not! You need to rest properly."
+      ],
+      "output": {
+        "response": "Alright, I’ll follow your advice."
+      }
+    },
+    {
+      "id": "mtddg436",
+      "dialog": [
+        "Did you get your bus pass?",
+        "I’m not planning to buy one.",
+        "Why not?",
+        "I think it’s a waste of money.",
+        "But it’s actually cheaper if you get a bus pass.",
+        "How is that?",
+        "You can use it as many times as you want.",
+        "Really?",
+        "Yep, and you’ll save money in the long run.",
+        "That sounds good.",
+        "You should get yours then."
+      ],
+      "output": {
+        "response": "Yeah, I think I will."
+      }
+    },
+    {
+      "id": "mtddg184",
+      "dialog": [
+        "Can I get this roll of film developed here?",
+        "Sure, of course.",
+        "Here’s the film. Can I pick up my photos tomorrow?",
+        "Definitely."
+      ],
+      "output": {
+        "response": "Also, I’d like two copies of each photo."
+      }
+    },
+    {
+      "id": "mtddg358",
+      "dialog": [
+        "I’m starving.",
+        "Me too.",
+        "Where should we go for lunch?",
+        "How about the cafeteria?",
+        "I’ve never gotten food from the cafeteria.",
+        "You haven’t? They have a lot of great options.",
+        "What do they serve?",
+        "They have everything.",
+        "Well, I’m in the mood for Chinese food.",
+        "I’ve had chow mein from there before.",
+        "Alright, let’s eat there then."
+      ],
+      "output": {
+        "response": "Trust me, the food isn’t half bad."
+      }
+    },
+    {
+      "id": "mtddg341",
+      "dialog": [
+        "You’ve been looking fresh lately. What’s your secret?",
+        "I go to an aerobics class three times a week.",
+        "Aren’t you exhausted?"
+      ],
+      "output": {
+        "response": "No, I feel young, fresh, and full of energy."
+      }
+    },
+    {
+      "id": "mtddg326",
+      "dialog": [
+        "You’re an outgoing person, easy to talk to.",
+        "Yes, my friends find it easy to get along with me.",
+        "Do you have many friends?",
+        "Yes, I love making new friends.",
+        "What do you usually do with them?"
+      ],
+      "output": {
+        "response": "We like to hang out, chat, and enjoy some good music."
+      }
+    },
+    {
+      "id": "mtddg235",
+      "dialog": [
+        "I can’t attend your party."
+      ],
+      "output": {
+        "response": "That’s unfortunate."
+      }
+    },
+    {
+      "id": "mtddg375",
+      "dialog": [
+        "Hello, Daisy! How have you been?",
+        "I’m good, thanks. It’s been a while since I’ve seen you. What have you been up to?",
+        "I’ve been spending a lot of time watching movies at home, so you probably haven’t seen me. Lately, I’ve been obsessed with horror films.",
+        "Oh, how can you be into horror films? They’re so terrifying.",
+        "Yeah, I used to avoid them, but after watching *Silence of the Lambs* with Mike last month, I got hooked.",
+        "That’s amazing. But if I were you, I wouldn’t have the courage to watch the first one.",
+        "But it’s so thrilling!",
+        "Maybe, but I’d rather watch romance, sci-fi, crime, or even disaster movies. I wouldn’t be able to sleep after a horror movie.",
+        "So, basically, you’ll watch any genre except horror.",
+        "Yep.",
+        "Maybe you should try watching one. You might change your mind."
+      ],
+      "output": {
+        "response": "Maybe. After all, I’m an adult now."
+      }
+    },
+    {
+      "id": "mtddg048",
+      "dialog": [
+        "Hey, look! There's a circus performance over there. ",
+        " I'm not in the mood. ",
+        " But it’s a circus! ",
+        " I don’t want to sit there watching them abuse animals. ",
+        " Oh, come on, they treat them well too. And look, that little monkey is so cute. ",
+        " Cute? I’ll believe it when I see it. ",
+        " Oh, it’s coming over to us. Ben, go ahead and give it a banana. ",
+        " Me? No way! Keep it away from me. ",
+        " Why are you acting so strange today? ",
+        " I told you, I have an issue with circuses. I’m not joking. "
+      ],
+      "output": {
+        "response": " That’s odd! "
+      }
+    },
+    {
+      "id": "mtddg376",
+      "dialog": [
+        "Can you tell me about yourself and your previous experience?",
+        "I’ve worked as an executive secretary for five years—first for trading companies, and now I’m employed at a trust company. I interact well with colleagues, clients, managers, and executives. I thrive in challenging situations and excel in high-pressure environments.",
+        "How are your typing and shorthand skills?",
+        "I can type 100 Chinese characters per minute and take dictation in English at 150 words per minute.",
+        "Are you skilled at operating computers?",
+        "Yes, I am. I’ve received specialized computer training, and I am proficient with common office equipment, such as fax machines and copiers.",
+        "Sometimes we get very busy and need to work overtime. How do you feel about that?",
+        "I’m fine with it. But could you let me know how frequently and how many hours I would be expected to work overtime?",
+        "It depends. If we have important visiting delegations, you will need to stay with us. It’s not uncommon.",
+        "Mr. Smith, I’d like to ask you a question.",
+        "Sure, go ahead.",
+        "What specific duties would I be responsible for if I am hired?",
+        "Nothing outside the usual secretary tasks. However, as our company is focused on international trade, are you comfortable handling English documents and writing English correspondence?",
+        "Yes, I specialized in English secretary studies at university, and that’s a key part of my current role.",
+        "What are your salary expectations?",
+        "I’d prefer to have more details about the position before discussing salary. Could you share the budget for this role?",
+        "The starting salary will be ¥2,000 per month, with increases after six months based on your performance.",
+        "I think that’s acceptable, and I’m really interested in the job. When will I hear back about your decision?",
+        "We will let you know by early July. Do you have any other questions?"
+      ],
+      "output": {
+        "response": "No, thank you for your time."
+      }
+    },
+    {
+      "id": "mtddg434",
+      "dialog": [
+        "Hey Mel, want to play some tennis today?",
+        "Sorry, I can't! I’ve got to go to work, pick up Jake and Maddie from school, make them a snack, then take Jake to soccer practice and Maddie to dance class.",
+        "You sound exhausted. Maybe you should hire a nanny to help out! She could pick up the kids and take them to their activities, and even help with household chores.",
+        "I don’t know... It’s tricky to find the right nanny. You have to think about her experience, the tasks you want her to do, and how she gets along with the kids. But I’d love to have one.",
+        "I think it would really help! That way, you wouldn’t have to juggle everything, and you’d still have time for the kids in the evenings. I can recommend a great one."
+      ],
+      "output": {
+        "response": "Oh, that's great. Thanks, Grace. Can you give me her number? I’ll talk to Dan and give her a call tomorrow. Maybe this way, I won’t be so tired all the time, and Dan and I might even get to go out once in a while."
+      }
+    },
+    {
+      "id": "mtddg397",
+      "dialog": [
+        "This looks like a beautiful house.",
+        "You know, I fell in love with this house the moment I saw it.",
+        "The exterior style is exactly what I've been looking for!",
+        "The exterior is just part of it. The inside is even more impressive.",
+        "This house is stunning on the inside!",
+        "Everything you see on the walls, floors, and windows is brand new.",
+        "The wall colors really complement the style of this house.",
+        "Straight ahead is the gourmet kitchen.",
+        "I love the bamboo floors and the granite countertops.",
+        "The master suite is the best part. Let’s check that out next.",
+        "There’s plenty of space for our king-sized bed, and I love how much natural light comes in."
+      ],
+      "output": {
+        "response": "I know you really like this house, but let’s see the others before you make your decision."
+      }
+    },
+    {
+      "id": "mtddg445",
+      "dialog": [
+        "How was your work trip?"
+      ],
+      "output": {
+        "response": "It was great — they treated us like royalty all week."
+      }
+    },
+    {
+      "id": "mtddg002",
+      "dialog": [
+        "How do you spend your day, Helen?",
+        "Well, on weekdays I wake up around 10 a.m. Then I read the newspaper for an hour and have lunch at around noon.",
+        "Really? What time do you start work?",
+        "I begin work at three o'clock.",
+        "And when do you return home at night?",
+        "I usually get home quite late, around midnight.",
+        "So, what exactly is your job?",
+        "I'm a TV announcer. Don't you recognize me? I present the weather on KNT!"
+      ],
+      "output": {
+        "response": "Oh, I’m sorry. I don’t watch TV."
+      }
+    },
+    {
+      "id": "mtddg298",
+      "dialog": [
+        "I’m just calling to check if you’ve made any decision about the position.",
+        "Sorry, we haven’t reached a decision yet.",
+        "Do you have any idea when a decision will be made?",
+        "We’ll probably let you know by next Monday. I hope to give you a positive response."
+      ],
+      "output": {
+        "response": "I’m willing to wait until you've made your decision."
+      }
+    },
+    {
+      "id": "mtddg168",
+      "dialog": [
+        "Phew! I had to wait almost an hour to get to the front of the line.",
+        "You have a lot of patience.",
+        "Wow! Your calligraphy is beautiful. Definitely worth the wait!",
+        "Thank you! Today, I’m writing a Chinese couplet.",
+        "What does it say?",
+        "This is a famous one. It says, 'May the passing days bring you health and longevity. May this season of renewal bring you wealth and prosperity.'",
+        "That’s lovely. Is it for sale?",
+        "No, I never sell my artwork.",
+        "Really? Then what do you do with it?",
+        "I give it away. Here, this one’s for you.",
+        "Wow! Really? Are you sure? I’m going to have a lucky year now!"
+      ],
+      "output": {
+        "response": "Remember, true luck must be created by yourself. It can't be given or taken away..."
+      }
+    },
+    {
+      "id": "mtddg250",
+      "dialog": [
+        "I noticed you don’t spend much on phone bills. Do you have a trick?",
+        "It’s simple. You can use call forwarding.",
+        "Is it really that simple?",
+        "Of course. We spend most of our time at home or at the office, so I receive calls through the hands-free telephone. This way, I don’t have to pay much for receiving calls.",
+        "That makes sense.",
+        "Call forwarding has other advantages too. When I’m in places where there’s no network coverage, like a tall building, I use call forwarding to direct my calls to the hands-free phone so I never miss any.",
+        "Is that it?"
+      ],
+      "output": {
+        "response": "When you’re in hospitals or on planes, mobile phones can interfere with equipment, so we have to turn them off. If you set up call forwarding, you won’t have that problem."
+      }
+    },
+    {
+      "id": "mtddg487",
+      "dialog": [
+        "Excuse me. How much does the chocolate bar cost?",
+        "One dollar.",
+        "So, can I get five for five dollars?",
+        "Actually, you can only get four.",
+        "Oh, right. I forgot about the tax. I’ll take four, please."
+      ],
+      "output": {
+        "response": "Okay. Thanks."
+      }
+    },
+    {
+      "id": "mtddg233",
+      "dialog": [
+        "I have a cell phone in my car. It’s probably on the floor on the passenger side. Could you get it for me? Then I can call the police.",
+        "Okay.",
+        "It doesn’t work. Looks like it's broken. I need to get to a hospital. You should drive me there.",
+        "Hmm, it’s better to file a police report first, then you can go to the hospital.",
+        "Damn it! I’m hurt here. We could wait forever for the police.",
+        "You’ll have to wait. I’m not moving my car until the police arrive. I’ll use a phone in one of those houses over there. Don’t worry, you’ll get to the hospital in time.",
+        "It really hurts.",
+        "Yeah, maybe it does. But if you're going to drive like you did, you'll need to get used to some pain. You know what I mean?",
+        "To hell with you! The accident was your fault!",
+        "I’m afraid it wasn’t. And when the police arrive, you'll see that it wasn’t. But enough arguing. I’m going to find a phone. Don’t move your arm while I’m gone, okay?"
+      ],
+      "output": {
+        "response": "To hell with you."
+      }
+    },
+    {
+      "id": "mtddg189",
+      "dialog": [
+        "Look, here’s a very unique business card from an illustrator. Whenever I go through my collection of business cards, I always notice this one. It's really striking.",
+        "Wow, it’s incredible! I really like the font and color used for his name. It’s both creative and personal.",
+        "Yes, it’s a bold design. People will think he can create illustrations just as impressive as his business card. It stands out compared to the plain and typical ones used by government workers or large corporations."
+      ],
+      "output": {
+        "response": "I agree. Business cards are powerful tools for promoting a personal brand. It doesn’t take much to design a standout card, but it can make a significant impact. And you’ll always remember it because of its distinctive color, design, and non-standard size. I’d love to have one like this. But, of course, our company has its own corporate design, which all employees must follow."
+      }
+    },
+    {
+      "id": "mtddg550",
+      "dialog": [
+        "I was surprised to see how few staff you have. You offer a wide range of products and services but with a very small team.",
+        "It depends on the season. During peak times, we hire temporary workers to help with packing and dispatch. We also contract out certain services year-round, like cleaning. We run a very efficient operation!",
+        "Do you handle the recruitment process in-house?"
+      ],
+      "output": {
+        "response": "Sometimes we work with a local employment agency, depending on the role."
+      }
+    },
+    {
+      "id": "mtddg480",
+      "dialog": [
+        "I give up! I just can’t seem to learn French!",
+        "Why do you think that? I think you're making a lot of progress.",
+        "No, I’m not. I keep trying, but I still can’t speak it well.",
+        "Learning any language takes time and effort. But don’t give up. Why don’t we practice those dialogues together?"
+      ],
+      "output": {
+        "response": "Great idea. That might help."
+      }
+    },
+    {
+      "id": "mtddg356",
+      "dialog": [
+        "Did you hear that our company is coming up with new methods to test us?",
+        "I’ve heard a little about it. The company often organizes different seminars to improve our professional skills.",
+        "These lectures take up most of our weekends, and I can’t stand it anymore. I heard they are planning tests to evaluate our management skills.",
+        "Is that true?",
+        "Definitely!"
+      ],
+      "output": {
+        "response": "If that’s the case, it seems the company is looking to promote someone."
+      }
+    },
+    {
+      "id": "mtddg543",
+      "dialog": [
+        "Good afternoon. I'd like to speak with Tom Smith.",
+        "I'm afraid he's not at his desk right now.",
+        "Do you know when he'll return?",
+        "He's on a business trip. He won’t be back until sometime next week.",
+        "Is there any way I can get in touch with him?",
+        "The best way to reach him is by cell phone. I'll give you his number.",
+        "Thanks. And could I also have his email, in case I can’t reach him by phone?",
+        "Sure. His number is 0911222333, and his email is lowercase t, smith, that’s one word, at, c, c, w, dot, com, dot, t, w.",
+        "Thanks a lot. Does he check his emails daily?",
+        "Yes. He usually replies right away.",
+        "Great. Thanks again. You've been really helpful."
+      ],
+      "output": {
+        "response": "My pleasure. I hope you can get in touch with him."
+      }
+    },
+    {
+      "id": "mtddg384",
+      "dialog": [
+        "Could you show me what you’ve got?",
+        "We have several great chicken dishes if you like chicken.",
+        "Let’s try one of your specials this time."
+      ],
+      "output": {
+        "response": "This one is definitely worth trying."
+      }
+    },
+    {
+      "id": "mtddg264",
+      "dialog": [
+        "Can you tell me about your past work achievements?",
+        "Sure, ma’am. When I was sales manager at the Beijing Friendship Store, I successfully increased annual sales by 25% and profit margins from 50% to 80%.",
+        "That’s impressive! Do you consider that your most rewarding work experience?",
+        "Not really. I plan to achieve even more in the future.",
+        "Have you received any honors?",
+        "Yes. I was awarded the title of 'Advanced Worker' in 2006.",
+        "Do you have any publications?"
+      ],
+      "output": {
+        "response": "Yes, I wrote an article titled 'On Interpersonal Relations in the Socialist Market Economy' that was published in China Daily."
+      }
+    },
+    {
+      "id": "mtddg207",
+      "dialog": [
+        "Alright, I want to bring everyone back to this topic. When can we start working on it?",
+        "We could probably kick things off with a meeting this afternoon at 2:00.",
+        "2:00 doesn’t work for me, but you can start without me. I’ll join you around 3:00.",
+        "That works for me. How much time do you think we’ll have to work on this?"
+      ],
+      "output": {
+        "response": "Maybe about a year, but I’m not certain."
+      }
+    },
+    {
+      "id": "mtddg096",
+      "dialog": [
+        "Hey, Tom, did you like your lunch?",
+        "Oh, don’t even ask. It was terrible.",
+        "What happened?",
+        "The food station was packed, as usual. I waited for 20 minutes for my sandwich, and when I finally got it, the chicken was undercooked.",
+        "I see. You can’t really blame the staff for that.",
+        "Yeah, I know. Fast food is so popular in this area.",
+        "That’s true.",
+        "Anyway, how was your lunch, Catherine?",
+        "It was good. I brought my lunch from home today.",
+        "You did? I thought you’d feel at home here with so many fast food restaurants like in America.",
+        "Well, I don’t really like them. I don’t think they’re healthy.",
+        "I guess you’re right. Most people go there for convenience. The food may taste good, but it’s usually high in calories, salt, and fat.",
+        "Yes. I’m guessing you think fast food is a major part of our lifestyle, don’t you?",
+        "You bet. Almost all the top chains, like McDonald's and KFC, are from the U.S.",
+        "Well, actually, two-thirds of Americans try to avoid these places.",
+        "Really?"
+      ],
+      "output": {
+        "response": "Yeah, it’s hard to believe, but it’s true."
+      }
+    },
+    {
+      "id": "mtddg078",
+      "dialog": [
+        "I need to check out now. My name is Ruth Carson. Could I get my bill, please?",
+        "Sure, it’s $167."
+      ],
+      "output": {
+        "response": "Thank you."
+      }
+    },
+    {
+      "id": "mtddg463",
+      "dialog": [
+        "Did you read the letter in the paper about smoking? The writer must be crazy.",
+        "I don't think so. I believe the government should do everything possible to discourage smoking.",
+        "Maybe, but a ban on cigarettes won’t work."
+      ],
+      "output": {
+        "response": "No, you can’t make smoking illegal overnight, but the government could ban smoking in public spaces like cinemas and theaters."
+      }
+    },
+    {
+      "id": "mtddg385",
+      "dialog": [
+        "Hi, Paul. How are you, my friend?",
+        "Not great. My cousin is really driving me crazy.",
+        "How so?",
+        "He stays up until all hours of the night, and he never helps out.",
+        "Have you talked to him about it?",
+        "Not yet, but I need to soon. He’s eating me out of house and home. I caught him raiding the fridge again last night.",
+        "Haha, maybe that’ll help you lose some weight.",
+        "This is no laughing matter, Nick.",
+        "Sorry, Paul. I couldn’t help it. So why doesn’t he give you a hand?",
+        "He watches TV too much. Honestly, I don’t know. But I can’t take it much longer."
+      ],
+      "output": {
+        "response": "Well, talk to him and let me know how it goes, okay?"
+      }
+    },
+    {
+      "id": "mtddg425",
+      "dialog": [
+        "Did you attend the concert last weekend?",
+        "No, I didn’t. How about you? Was it good?",
+        "Yes, I did. I had a great time. There was a folk singer, a violinist, and a pianist.",
+        "How much was the ticket?"
+      ],
+      "output": {
+        "response": "I only paid two dollars for mine."
+      }
+    },
+    {
+      "id": "mtddg276",
+      "dialog": [
+        "When was America discovered, Tony?",
+        "I’m not sure. Do you know?",
+        "America was discovered by Christopher Columbus in 1492.",
+        "That’s partially correct. But the Vikings arrived there long before Columbus. And what about the Native Americans?",
+        "Alright, now it’s your turn. Ask me a question.",
+        "Who invented the electric light bulb?",
+        "That’s easy. It was Edison.",
+        "Correct. Now, here’s a tough one. Who will be the first people on Mars?",
+        "I’m not sure. But I believe humans will visit Mars before the end of this century.",
+        "Ask me something now.",
+        "Okay, what is the closest planet to the sun?"
+      ],
+      "output": {
+        "response": "That’s easy... um... Venus. No, Pluto. Wait, it's on the tip of my tongue. Oh dear, what is the closest planet to the sun?"
+      }
+    },
+    {
+      "id": "mtddg146",
+      "dialog": [
+        "You look so happy, Anna. Any good news?",
+        "Yes, I won the first prize in the math contest.",
+        "Really? Congratulations!",
+        "Thank you, Paul.",
+        "By the way, would you like to have dinner with me tomorrow evening? Tomorrow is my birthday.",
+        "Great, happy birthday!",
+        "Not yet. It’s not my birthday today. So, will you come?",
+        "Sure, I’ll come. Thanks for inviting me."
+      ],
+      "output": {
+        "response": "My pleasure."
+      }
+    },
+    {
+      "id": "mtddg502",
+      "dialog": [
+        "Could I have a look at that vase, please?",
+        "Sure. It's the best one I have here, and it's only 300 yuan.",
+        "Oh, it's beautiful, but to be honest, that's way too expensive."
+      ],
+      "output": {
+        "response": "Really? Even for such a fine piece?"
+      }
+    },
+    {
+      "id": "mtddg403",
+      "dialog": [
+        "Good morning, I’m from the New York Book Review. May I ask you some questions about your latest book?",
+        "Of course. Please have a seat... what would you like to know?",
+        "First, I’ve heard that your newest book is based on a true story.",
+        "That’s correct. It’s a murder mystery inspired by real murders that took place in Florida a few years ago. The main character—the detective—is based on the real person who worked on the case.",
+        "How do you research for your books?",
+        "I always visit the locations I use as settings for my stories. Readers like things to be as accurate as possible—even in fiction! I usually base my characters on people I’ve met. Most characters are a mix of traits from two or more people.",
+        "I really enjoy your books. I just finished this one, reading it from start to finish in one day. Congratulations on making the bestseller list again!",
+        "Thank you. Let me sign it for you... there you go.",
+        "Oh! Thank you so much. I heard you’re currently working on a collection of short stories. What are they about?",
+        "There’s a real variety in the book. I haven’t finished all of them yet, though. Many are detective stories, but there are also some horror and sci-fi stories. If you give me your business card, I’ll make sure you get an advance copy to review."
+      ],
+      "output": {
+        "response": "Thanks a lot. I’m sure it’ll sell well. I can’t wait to read it. Here’s my card. Thank you for your time."
+      }
+    },
+    {
+      "id": "mtddg254",
+      "dialog": [
+        "Did you adjust your clock for daylight savings time?",
+        "What? Why do we need to do that?",
+        "Well, during the spring, we get more daylight in the mornings and less in the afternoons. This is due to our position on the Earth and its rotation. To make better use of the daylight, we move the clocks forward by one hour.",
+        "I see. That’s convenient! I’ve never really understood things like this, like GMT. I never know what time zone we’re in or when to change my clock!",
+        "GMT stands for Greenwich Mean Time. Here in California, we’re in Pacific Standard Time, which is eight hours behind Greenwich. Remember when we were in Beijing? We were in China Standard Time, which is eight hours ahead of Greenwich!"
+      ],
+      "output": {
+        "response": "That’s why it was so weird traveling from Beijing to LA! Despite leaving Beijing at noon and flying for over eight hours, we still arrived in LA at noon on the same day! It felt like we went back in time!"
+      }
+    },
+    {
+      "id": "mtddg330",
+      "dialog": [
+        "Well, Jim, I’m generally in favor of computers. I think they teach kids to think logically.",
+        "But I don’t agree with that. Computers weaken kids’ ability to think because they don’t learn basic skills.",
+        "What do you mean?",
+        "They can’t spell, they can’t add or subtract, and they don’t even remember things anymore. They rely too much on gadgets."
+      ],
+      "output": {
+        "response": "It’s not about the gadgets. Creating programs stimulates thought. It engages their imagination and sharpens their minds."
+      }
+    },
+    {
+      "id": "mtddg150",
+      "dialog": [
+        "Hello?",
+        "Hi, Mr. Smith. This is Mary. Is Jenny there?",
+        "No, I’m afraid she isn’t, Mary. Would you like to leave a message?",
+        "Yes, please. Tell her that band practice has been rescheduled to Tuesday night at 8:30.",
+        "Okay, no problem. Anything else?",
+        "No, but if she has any questions, she can call me at 555-2345.",
+        "Alright, I’ll leave her the message, Mary. Thanks for calling.",
+        "Thank you. Bye."
+      ],
+      "output": {
+        "response": "Goodbye."
+      }
+    },
+    {
+      "id": "mtddg256",
+      "dialog": [
+        "Excuse me, Miao Li. Could you tell me who Jackie Chan is?",
+        "Certainly. Jackie Chan is a very famous movie star from Hong Kong. His Chinese name is Cheng Long.",
+        "Ah, I know Cheng Long well. He’s made over 40 films since 1976 and was promoted as the next Bruce Lee. But I’m not familiar with his English name.",
+        "Okay. So tell me what else you know about him.",
+        "Some movie stars measure their worth by how much money they make. Do you know how Jackie Chan measures his worth?",
+        "He measures his worth by how many bones he’s broken performing his incredible stunts. By the way, can you count all his injuries?",
+        "Sure. He’s broken his skull, his eyes, his nose three times, his jaw, his shoulder, his chest, two fingers, and a knee. As he says, 'Everything from the top of my head to the bottom of my feet!'",
+        "Wow, you really know a lot about him."
+      ],
+      "output": {
+        "response": "That’s because he’s the ultimate action movie star, the action hero extraordinaire worldwide."
+      }
+    },
+    {
+      "id": "mtddg136",
+      "dialog": [
+        "I’m going to head out to shop for groceries soon.",
+        "Why, do we need groceries?",
+        "I think we’ve run out of food.",
+        "Do you know what we need to buy?",
+        "I’m not sure what we need.",
+        "Why don’t you check the fridge?",
+        "I’d appreciate it if you could do that for me.",
+        "Why don’t you just grab the basics?",
+        "What do you mean?",
+        "Eggs, milk, bread. Things like that.",
+        "Go ahead and make that list."
+      ],
+      "output": {
+        "response": "Sure, no problem."
+      }
+    },
+    {
+      "id": "mtddg130",
+      "dialog": [
+        "What a mess!"
+      ],
+      "output": {
+        "response": "Sorry. I’ll clean it up."
+      }
+    },
+    {
+      "id": "mtddg284",
+      "dialog": [
+        "Did you happen to see the new Cosmo magazine I was reading earlier today?",
+        "I think I saw it on the kitchen table.",
+        "You're right, thanks! There's an interesting interview with a renowned director about his latest film that I still need to finish reading.",
+        "Who is the director?",
+        "It's Martin Scorsese. You enjoyed his movie, The Departed, didn't you?",
+        "Yes, it was amazing! Can I read the article once you're done?",
+        "Of course. It even has an online edition. You could read it online if you'd like to check it out now.",
+        "That's fine. I'll wait until you're finished. Just out of curiosity, do you have a subscription to that magazine?",
+        "No, I don't buy it regularly enough to make a subscription worth it.",
+        "How much does the magazine cost?",
+        "It's about three pounds now, but I think they're planning to raise the price to four pounds soon.",
+        "That's quite pricey. Who is their target audience?",
+        "Cosmo mainly caters to a middle-class readership, but I believe their circulation will drop significantly if the price increases further."
+      ],
+      "output": {
+        "response": "I bet you'll still buy it though. You can't live without your fashion magazine!"
+      }
+    },
+    {
+      "id": "mtddg540",
+      "dialog": [
+        "How may I assist you, Madam?",
+        "Could you help me with Comprehensive Credit Approval?",
+        "Of course, Madam. What would you like to know?",
+        "Well, everything, actually."
+      ],
+      "output": {
+        "response": "Alright. We can offer a Financing Promise Quota, provided you meet the requirements. This ensures that we can address all your needs quickly and efficiently. First, your Credit Rating needs to be A-class, and your Debt-to-Asset Ratio must be excellent, according to the standards of your industry."
+      }
+    },
+    {
+      "id": "mtddg422",
+      "dialog": [
+        "Could you give me more details on what's included in the package?",
+        "Of course. The coach departs at 6:30 a.m. from in front of our office. The journey lasts eight hours, with two stops to visit some attractions.",
+        "What about the hotel accommodations?",
+        "You’ll stay at the Holiday Inn. It’s a three-star hotel with two restaurants and a swimming pool.",
+        "Great! What activities are planned for Lushun Falls?"
+      ],
+      "output": {
+        "response": "On the second day, you’ll take a four-hour city tour. In the afternoon, you’ll enjoy the famous boat cruise under the falls."
+      }
+    },
+    {
+      "id": "mtddg139",
+      "dialog": [
+        "Peter, how often do you exercise?",
+        "I swim and run every day.",
+        "Now tell me, what do you eat?",
+        "I don’t eat meat, but I do eat fish and eggs.",
+        "Do you eat a lot of vegetables?",
+        "Oh yes, and fruit. I love fruit.",
+        "What do you drink?"
+      ],
+      "output": {
+        "response": "I never drink alcohol, coffee, or tea. They’re really bad for you."
+      }
+    },
+    {
+      "id": "mtddg098",
+      "dialog": [
+        "Please complete the arrival card and sign the register.",
+        "Okay. Which room will I be assigned to?"
+      ],
+      "output": {
+        "response": "Room 202, but I’m afraid we require a deposit of $200."
+      }
+    },
+    {
+      "id": "mtddg527",
+      "dialog": [
+        "Could we have a table for three, please?",
+        "Sorry, all the tables for three are already booked.",
+        "Do you have a table for four, by any chance?",
+        "Yes, would you prefer smoking or non-smoking?",
+        "We’d prefer a non-smoking table, thank you."
+      ],
+      "output": {
+        "response": "Please follow me."
+      }
+    },
+    {
+      "id": "mtddg274",
+      "dialog": [
+        "Hello! How can I get more amenities?",
+        "I’m sorry, sir. I’m not sure I understand.",
+        "I mean the complimentary items, like soap and shampoo.",
+        "Ah, I see. So, you’ve run out of your amenities?",
+        "No, no. I still have plenty.",
+        "Now I’m confused again! What’s the issue?",
+        "What about souvenirs?",
+        "Oh, I get it! You’re looking for souvenirs!",
+        "Yes, I have enough soap for myself, but I don’t have any extras for souvenirs.",
+        "Sir, our souvenir shop carries all of those items, and as a guest, you get a discount.",
+        "Please! Free souvenirs are the only true souvenirs."
+      ],
+      "output": {
+        "response": "I understand completely, sir. Housekeeping will bring you some souvenirs shortly."
+      }
+    },
+    {
+      "id": "mtddg297",
+      "dialog": [
+        "What’s that book you’re carrying?",
+        "It’s the best-seller everyone’s been talking about for months.",
+        "How did you get a copy? I’ve been on a waiting list at the library for weeks and still haven’t gotten it.",
+        "I checked it out from the rental library. It only costs five cents a day.",
+        "Is it really worth paying for?",
+        "I can’t say yet. I’ve only gotten through the first chapter."
+      ],
+      "output": {
+        "response": "If it’s good, I’ll buy a copy when it comes out in the pocket edition."
+      }
+    },
+    {
+      "id": "mtddg300",
+      "dialog": [
+        "This is really awful!",
+        "What do you mean?",
+        "Don’t you see that many parents are forcing their children to study things they consider important, but the kids are not interested in them at all?"
+      ],
+      "output": {
+        "response": "You're right. Many parents simply don't know how to properly educate their children."
+      }
+    },
+    {
+      "id": "mtddg332",
+      "dialog": [
+        "Susan is planning to get a divorce.",
+        "How do you know that?",
+        "She told me that she and Peter had a fight last night, and she left this morning with all her things."
+      ],
+      "output": {
+        "response": "Oh, I understand. But I think you're overreacting. They’ll probably make up. Just wait and see."
+      }
+    },
+    {
+      "id": "mtddg173",
+      "dialog": [
+        "Good afternoon, how can I assist you?",
+        "I need something to help with my upset stomach.",
+        "Are you also experiencing pain or fever?",
+        "Yes, and I’ve got diarrhea too.",
+        "I’ll give you some tablets that should help. One moment, please. Here they are. Take them three times a day with water.",
+        "When should I take them?",
+        "Take one after every meal.",
+        "How long should I keep taking them?",
+        "Take them for two days. If your symptoms last longer, you should see a doctor. Also, drink plenty of water to avoid dehydration."
+      ],
+      "output": {
+        "response": "Thanks for your advice."
+      }
+    },
+    {
+      "id": "mtddg288",
+      "dialog": [
+        "John, my father isn’t here at all. Are you joking?",
+        "Oh, come on, what's today’s date, buddy?",
+        "It’s... oh, it’s the 1st of April, April Fool's Day."
+      ],
+      "output": {
+        "response": "You completely forgot, didn’t you?"
+      }
+    },
+    {
+      "id": "mtddg546",
+      "dialog": [
+        "The weather is awful.",
+        "Yeah, it's been raining nonstop these days.",
+        "I've just been watching videos at home because of all the rain.",
+        "Do you know when it's supposed to clear up?",
+        "I saw the weather forecast; it's going to rain for the next eight days.",
+        "That's awful. What are we going to do?",
+        "I'm getting really bored. We should find something to do despite the rain.",
+        "I agree. What do you have in mind?",
+        "I haven't been to the mall in a while. Let's go there.",
+        "Sounds good. They have a movie theater there, so if we get bored, we can catch a film.",
+        "Great. I’ll come by your place now."
+      ],
+      "output": {
+        "response": "Okay. Don't forget your umbrella; the rain could start up again anytime."
+      }
+    },
+    {
+      "id": "mtddg061",
+      "dialog": [
+        "Hello, this is Mrs. Wilson. I’d like to buy a new car. Can you suggest something? ",
+        " Oh, madam, buy what? ",
+        " A new car. I have a small family, two children, and I don’t have a lot of money, so… ",
+        " Oh, I’m afraid you have the wrong number, madam. ",
+        " Isn’t this the car dealership? ",
+        " No, this is Mike's Sporting Goods. ",
+        " Oh, sorry. Do you know the number for a car dealership? ",
+        " No, I don’t. You might want to check the phone book. ",
+        " I’m sorry to bother you. "
+      ],
+      "output": {
+        "response": " No problem. "
+      }
+    },
+    {
+      "id": "mtddg542",
+      "dialog": [
+        "When is our field trip?",
+        "The science field trip is next Monday at 8 AM. Do you want to mark it on your calendar?",
+        "Yes, I'll jot that down.",
+        "Next Monday is December 2nd. The buses will depart at 8, but we need to start loading by 7.",
+        "I'll be there half an hour early.",
+        "You might want to inform whoever is picking you up that you'll return on December 8th. Do you have a ride?",
+        "Yes, someone will pick me up.",
+        "Will they get you back to campus by 8?",
+        "Not yet — maybe later though."
+      ],
+      "output": {
+        "response": "All the additional details you need are posted on the bulletin board in the hallway. See you on Monday!"
+      }
+    },
+    {
+      "id": "mtddg212",
+      "dialog": [
+        "Oh my God, I can’t take it anymore.",
+        "What’s the matter, honey? Calm down.",
+        "I’m just tired of doing this repetitive work. I count the same things over and over. It’s so monotonous.",
+        "I know the feeling. But I think we can change things up a bit.",
+        "You know, I work with my professional knowledge, not passion. Sometimes, I wonder what the purpose of my work even is.",
+        "But you do a great job. You always perform the best at our company.",
+        "Yeah, that was the case before. Maybe I need to talk to a psychologist for help.",
+        "Maybe you’re just tired and need a break.",
+        "I had big ambitions once, but now I don’t even know what direction my career should take.",
+        "Maybe we should keep studying to enrich our knowledge and make life more exciting.",
+        "That sounds interesting. But I’m not sure where to start.",
+        "What about a training course?",
+        "A training course? That must be expensive.",
+        "But it’s worth it. It might lift our spirits and teach us something valuable for the future.",
+        "Alright, let’s give it a shot."
+      ],
+      "output": {
+        "response": "Okay."
+      }
+    },
+    {
+      "id": "mtddg143",
+      "dialog": [
+        "Actually, I have a strong interest in Chinese literature.",
+        "You do?",
+        "Yeah, especially the classics from the great authors."
+      ],
+      "output": {
+        "response": "But I find Japanese literature better."
+      }
+    },
+    {
+      "id": "mtddg170",
+      "dialog": [
+        "I only want a little off the top, and I’d like the sides and back to be neat and tidy.",
+        "Okay. Is your hair naturally curly, or is it permed?",
+        "It’s natural. A friend told me you’re good with curly hair.",
+        "That’s my specialty. Let me put this cloth around your neck.",
+        "Do you have any product for controlling frizz?",
+        "With the cut I’m going to give you, we’ll reduce a lot of that.",
+        "Thanks!"
+      ],
+      "output": {
+        "response": "And when we’re done, I’ll show you some great products to help with the rest."
+      }
+    },
+    {
+      "id": "mtddg439",
+      "dialog": [
+        "Hey, Ken!",
+        "Hey, George!",
+        "Did you just come from the movies?",
+        "Yes, I did.",
+        "What’s playing?",
+        "Paris in the Spring.",
+        "Oh, I saw that already. I watched it on TV last year. It’s an old movie, but it’s really good.",
+        "Paris is such a beautiful city. I’ve never been there. Have you, Ken?",
+        "Yes, I have. I was there in April.",
+        "Paris in the spring, huh?",
+        "It was spring, but the weather was terrible. It rained non-stop."
+      ],
+      "output": {
+        "response": "Sounds like London in spring!"
+      }
+    },
+    {
+      "id": "mtddg360",
+      "dialog": [
+        "How do you do? It's nice to meet you, Diane.",
+        "How do you do, Jack? It’s a pleasure to meet you.",
+        "Well, I assume you’ve reconsidered our proposal, Diane.",
+        "Yes, you’re right. After all, the quality of your air conditioners is excellent. The only issue is the price.",
+        "I’m not surprised; many customers feel the same way. Do you have any suggestions? Our sales representative mentioned that the price could be negotiated.",
+        "That’s actually why I’m here today. We think that for the model WE-506, $590 would be reasonable, as similar air conditioners from other brands are priced between $579 and $649.",
+        "That’s true. But if you understand that quality is the key factor, you’ll agree that $679 isn’t too high, especially when we offer you a 10% discount.",
+        "I see your point. That means $611 per unit. Still, it’s higher than the market average. Could you possibly lower the price, Jack?",
+        "Well, considering the volume of your order, we could reduce the price to $600. That’s the best we can do. What do you think?",
+        "Alright, we’ll accept that. So, $600 per unit."
+      ],
+      "output": {
+        "response": "Great! Thank you."
+      }
+    },
+    {
+      "id": "mtddg215",
+      "dialog": [
+        "Hey, Blake! Are you still listening to Mozart?",
+        "Yes. Do you like it?",
+        "It’s amazing. I’ve heard that listening to Mozart can make you smarter.",
+        "Really? I’ve never heard that. I just enjoy it.",
+        "Is classical music your favorite genre?",
+        "Yes. What about you?",
+        "I prefer pop music. Classical music feels a bit heavy for me. I can’t fully unwind with it.",
+        "Pop music lacks depth for me.",
+        "Yeah, that’s why I can enjoy it more.",
+        "Did you always like pop music?",
+        "I think so, since elementary school. How long have you been into classical music?",
+        "I didn’t like it at all until I began learning the violin at eight. Since then, classical music has been a big part of my life.",
+        "Oh, I didn’t know you played the violin. Do you still play?"
+      ],
+      "output": {
+        "response": "Occasionally, but lately, I’m usually too busy."
+      }
+    },
+    {
+      "id": "mtddg243",
+      "dialog": [
+        "I finally found a new job, and I actually like this one even more than my last."
+      ],
+      "output": {
+        "response": "See? Every cloud has a silver lining."
+      }
+    },
+    {
+      "id": "mtddg121",
+      "dialog": [
+        "Do you have any cheaper ones?",
+        "Here are some. They’re on sale at the moment."
+      ],
+      "output": {
+        "response": "That’s more reasonable. I’ll take this one."
+      }
+    },
+    {
+      "id": "mtddg450",
+      "dialog": [
+        "Can you tell me the best way to find an apartment?",
+        "The local newspaper has housing ads.",
+        "Is there any way to find a roommate for an apartment?",
+        "You can sometimes post an ad saying you’re looking for a roommate.",
+        "How much do landlords charge for rent?",
+        "Do you want an apartment for just yourself, or do you need space for two people?",
+        "There are two of us, but we only need a one-bedroom apartment.",
+        "You should be able to find one for about twelve hundred dollars a month.",
+        "I’d really appreciate it if you could come look at apartments with me."
+      ],
+      "output": {
+        "response": "Sure, I’ll come look at apartments with you anytime."
+      }
+    },
+    {
+      "id": "mtddg090",
+      "dialog": [
+        "Did you watch the final last night? My favorite singer won!",
+        "Oh, I love him too. Not only is he a great singer, but he also showed a lot of perseverance throughout the contest.",
+        "Yeah, he got eliminated after his first audition performance, but he didn’t give up. He came back for two more auditions.",
+        "He barely made it through the third audition and finally got a chance to progress in the competition. That’s when I started paying attention to him.",
+        "Me too.",
+        "Before he reached the top three, I was so nervous. I was afraid he might be eliminated.",
+        "Yeah, there were so many talented contestants. It was hard to guess who would make it to the final.",
+        "Exactly. That’s why I was so excited when he made it to the final.",
+        "He really nailed it in the finale, especially in the PK round. His performance was amazing, and the audience voted for him in large numbers."
+      ],
+      "output": {
+        "response": "And the host announced he won!"
+      }
+    },
+    {
+      "id": "mtddg357",
+      "dialog": [
+        "Have you seen the new James Bond movie?",
+        "Oh yes, I have. How about you?",
+        "Yes, I saw it. What did you think?",
+        "I thought it was better than the previous ones—I really enjoyed it. What did you think?",
+        "I liked it too. It was thrilling, but not too extreme. Do you know what I mean?",
+        "Yes, exactly. I really enjoyed the car chase, and the opening credits were quite exciting. I always enjoy watching Pierce Brosnan.",
+        "Oh, definitely. He’s fantastic. Did you like the title song?",
+        "Not as much as last time. Do you know the name of the American actor who had a supporting role?",
+        "Hmm, I think it was Edward Norton. Did you like him?",
+        "Yes, he was great. They had great chemistry together, don’t you think?",
+        "I’m not sure. I think the female lead was even better. She was a great love interest. Lucky James Bond!"
+      ],
+      "output": {
+        "response": "Yes, indeed!"
+      }
+    },
+    {
+      "id": "mtddg270",
+      "dialog": [
+        "A friend of mine has been taking an online career planning course recently. He told me the other day that he’s learned a lot from it. He suggested I should sign up for it. What do you think?",
+        "I think it's great to know more about career planning. It helps us make smarter decisions. What else did he mention about it?",
+        "Well, just some general things, like the key steps in career planning and how to set realistic and achievable goals.",
+        "Sounds practical! Honestly, sometimes I feel uncertain about my future career. I’m not sure if this job is the right fit for me, even though I work hard and enjoy being dedicated. I've always wanted to try something different and pick up some new skills.",
+        "Making the decision to start fresh is never easy. It seems like this course would benefit you more than me. I really enjoy my current job. If I take this course, I’d like to learn some tips on staying organized at work. It would be great if they could offer advice on improving workplace relationships too, as that could help me enhance my current performance."
+      ],
+      "output": {
+        "response": "Alright, let's sign up together then."
+      }
+    }
+  ],
+  "modality": {
+    "in": [
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "set_type": "openset"
+}

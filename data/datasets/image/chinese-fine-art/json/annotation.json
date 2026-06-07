@@ -1,0 +1,1605 @@
+{
+  "task": "chinese fine art recognition",
+  "data_source": "https://www.kaggle.com/datasets/rickyjli/chinese-fine-art?select=Dataset",
+  "type": "comprehension",
+  "modality": {
+    "in": [
+      "image",
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "skill": "Object Recognition",
+  "domain": [
+    "Art"
+  ],
+  "general_capability": [
+    "Commonsense Knowledge"
+  ],
+  "version": "1.0",
+  "data": [
+    {
+      "input": {
+        "image_file": "Qin_Feng_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0253"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0105"
+    },
+    {
+      "input": {
+        "image_file": "Yu_Zhi_Ding_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yu Zhi Ding"
+      },
+      "id": "cfar0071"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0153"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_18.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0090"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0332"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0080"
+    },
+    {
+      "input": {
+        "image_file": "Ling_Jian_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ling Jian"
+      },
+      "id": "cfar0376"
+    },
+    {
+      "input": {
+        "image_file": "Wang_Hui_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wang Hui"
+      },
+      "id": "cfar0019"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Jian_Wu_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Jian Wu"
+      },
+      "id": "cfar0033"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0139"
+    },
+    {
+      "input": {
+        "image_file": "Ai_Xuan_21.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ai Xuan"
+      },
+      "id": "cfar0175"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0320"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Jian_Wu_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Jian Wu"
+      },
+      "id": "cfar0040"
+    },
+    {
+      "input": {
+        "image_file": "Chu_Chu_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chu Chu"
+      },
+      "id": "cfar0309"
+    },
+    {
+      "input": {
+        "image_file": "Ling_Jian_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ling Jian"
+      },
+      "id": "cfar0375"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0109"
+    },
+    {
+      "input": {
+        "image_file": "Lu_Xin_Jian_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Lu Xin Jian"
+      },
+      "id": "cfar0387"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0101"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0265"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0261"
+    },
+    {
+      "input": {
+        "image_file": "Jin_Ting_Biao_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Jin Ting Biao"
+      },
+      "id": "cfar0046"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0240"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0270"
+    },
+    {
+      "input": {
+        "image_file": "He_Jilan_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Jilan"
+      },
+      "id": "cfar0119"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0210"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0133"
+    },
+    {
+      "input": {
+        "image_file": "He_Jilan_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Jilan"
+      },
+      "id": "cfar0122"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0319"
+    },
+    {
+      "input": {
+        "image_file": "Ai_Xuan_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ai Xuan"
+      },
+      "id": "cfar0189"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0245"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Jian_Wu_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Jian Wu"
+      },
+      "id": "cfar0036"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0283"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0368"
+    },
+    {
+      "input": {
+        "image_file": "He_Baili_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Baili"
+      },
+      "id": "cfar0162"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_11.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0106"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_18.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0232"
+    },
+    {
+      "input": {
+        "image_file": "Gu_Wenda_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Gu Wenda"
+      },
+      "id": "cfar0065"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0301"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0281"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0290"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0156"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Jian_Wu_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Jian Wu"
+      },
+      "id": "cfar0032"
+    },
+    {
+      "input": {
+        "image_file": "Gu_Wenda_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Gu Wenda"
+      },
+      "id": "cfar0060"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0230"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_11.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0009"
+    },
+    {
+      "input": {
+        "image_file": "Jin_Ting_Biao_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Jin Ting Biao"
+      },
+      "id": "cfar0049"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0011"
+    },
+    {
+      "input": {
+        "image_file": "Wang_Hui_13.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wang Hui"
+      },
+      "id": "cfar0027"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0091"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0092"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_23.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0361"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0149"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0134"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0094"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0076"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_19.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0200"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0302"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0333"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0266"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0150"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_11.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0136"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0371"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_24.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0339"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0234"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0095"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0224"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0225"
+    },
+    {
+      "input": {
+        "image_file": "Jin_Ting_Biao_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Jin Ting Biao"
+      },
+      "id": "cfar0052"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0345"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_11.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0292"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0359"
+    },
+    {
+      "input": {
+        "image_file": "Chu_Chu_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chu Chu"
+      },
+      "id": "cfar0304"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_18.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0341"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_18.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0142"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_20.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0135"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0086"
+    },
+    {
+      "input": {
+        "image_file": "Chu_Chu_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chu Chu"
+      },
+      "id": "cfar0305"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0222"
+    },
+    {
+      "input": {
+        "image_file": "Ai_Xuan_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ai Xuan"
+      },
+      "id": "cfar0178"
+    },
+    {
+      "input": {
+        "image_file": "He_Jilan_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Jilan"
+      },
+      "id": "cfar0118"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0315"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0246"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_20.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0203"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0007"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0198"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0273"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0148"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0241"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0252"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0354"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0296"
+    },
+    {
+      "input": {
+        "image_file": "Jin_Ting_Biao_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Jin Ting Biao"
+      },
+      "id": "cfar0051"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0228"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0263"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0365"
+    },
+    {
+      "input": {
+        "image_file": "He_Baili_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Baili"
+      },
+      "id": "cfar0172"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0097"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_16.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0352"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0350"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_26.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0213"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_27.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0208"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0003"
+    },
+    {
+      "input": {
+        "image_file": "Chu_Chu_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chu Chu"
+      },
+      "id": "cfar0311"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_13.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0008"
+    },
+    {
+      "input": {
+        "image_file": "Lu_Xin_Jian_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Lu Xin Jian"
+      },
+      "id": "cfar0391"
+    },
+    {
+      "input": {
+        "image_file": "Li_Fang_Ying_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Fang Ying"
+      },
+      "id": "cfar0004"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0082"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0340"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0242"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0243"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0287"
+    },
+    {
+      "input": {
+        "image_file": "Qiu_Ying_11.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qiu Ying"
+      },
+      "id": "cfar0357"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0291"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0099"
+    },
+    {
+      "input": {
+        "image_file": "Wang_Hui_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wang Hui"
+      },
+      "id": "cfar0016"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0205"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0372"
+    },
+    {
+      "input": {
+        "image_file": "Ai_Xuan_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ai Xuan"
+      },
+      "id": "cfar0191"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_17.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0108"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0256"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_13.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0102"
+    },
+    {
+      "input": {
+        "image_file": "Jin_Ting_Biao_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Jin Ting Biao"
+      },
+      "id": "cfar0045"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0267"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_12.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0276"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_19.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0130"
+    },
+    {
+      "input": {
+        "image_file": "Gu_Wenda_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Gu Wenda"
+      },
+      "id": "cfar0058"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Kuo_Sung_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Kuo Sung"
+      },
+      "id": "cfar0075"
+    },
+    {
+      "input": {
+        "image_file": "He_Baili_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Baili"
+      },
+      "id": "cfar0165"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0364"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0237"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0260"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_13.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0145"
+    },
+    {
+      "input": {
+        "image_file": "Zhao_Kailin_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhao Kailin"
+      },
+      "id": "cfar0144"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0214"
+    },
+    {
+      "input": {
+        "image_file": "Lu_Xin_Jian_03.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Lu Xin Jian"
+      },
+      "id": "cfar0390"
+    },
+    {
+      "input": {
+        "image_file": "Li_Zijian_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Li Zijian"
+      },
+      "id": "cfar0367"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Zhongli_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Zhongli"
+      },
+      "id": "cfar0236"
+    },
+    {
+      "input": {
+        "image_file": "Lu_Xin_Jian_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Lu Xin Jian"
+      },
+      "id": "cfar0389"
+    },
+    {
+      "input": {
+        "image_file": "Qin_Feng_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Qin Feng"
+      },
+      "id": "cfar0254"
+    },
+    {
+      "input": {
+        "image_file": "Ai_Xuan_19.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Ai Xuan"
+      },
+      "id": "cfar0177"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0282"
+    },
+    {
+      "input": {
+        "image_file": "Zhang_Xiao_Gang_21.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zhang Xiao Gang"
+      },
+      "id": "cfar0220"
+    },
+    {
+      "input": {
+        "image_file": "He_Jilan_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Jilan"
+      },
+      "id": "cfar0114"
+    },
+    {
+      "input": {
+        "image_file": "Liu_Yuanshou_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Liu Yuanshou"
+      },
+      "id": "cfar0295"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0334"
+    },
+    {
+      "input": {
+        "image_file": "Zou_Chuan_An_15.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Zou Chuan An"
+      },
+      "id": "cfar0125"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_09.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0249"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_14.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0322"
+    },
+    {
+      "input": {
+        "image_file": "Chu_Chu_05.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chu Chu"
+      },
+      "id": "cfar0306"
+    },
+    {
+      "input": {
+        "image_file": "Gu_Wenda_02.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Gu Wenda"
+      },
+      "id": "cfar0067"
+    },
+    {
+      "input": {
+        "image_file": "Chang_Dai_Chien_07.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Chang Dai Chien"
+      },
+      "id": "cfar0098"
+    },
+    {
+      "input": {
+        "image_file": "Giuseppe_Castiglione_22.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Giuseppe Castiglione"
+      },
+      "id": "cfar0323"
+    },
+    {
+      "input": {
+        "image_file": "Wai_Ming_06.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Wai Ming"
+      },
+      "id": "cfar0248"
+    },
+    {
+      "input": {
+        "image_file": "Luo_Jian_Wu_04.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Luo Jian Wu"
+      },
+      "id": "cfar0034"
+    },
+    {
+      "input": {
+        "image_file": "He_Baili_08.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "He Baili"
+      },
+      "id": "cfar0167"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_01.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0280"
+    },
+    {
+      "input": {
+        "image_file": "Yao_Wen_Han_10.jpg",
+        "prompt": "Recognize which Chinese artist paint this picture"
+      },
+      "output": {
+        "text": "Yao Wen Han"
+      },
+      "id": "cfar0284"
+    }
+  ],
+  "others": {}
+}

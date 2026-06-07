@@ -1,0 +1,17 @@
+context_output_keys:
+  design_agent:
+    - short_topic
+    - modalities
+    - keywords
+    - subtasks
+    - proposed_subtasks
+    - design_agent_history
+    - design_result
+  grounding_agent:
+    - subtasks
+    - grounding_agent_history
+    - grounding_result
+  allocation_agent:
+    - last_allocation
+    - allocation_agent_history
+    - allocation_result

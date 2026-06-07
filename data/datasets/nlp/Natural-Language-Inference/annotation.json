@@ -1,0 +1,1977 @@
+{
+  "task": "natural_language_inference",
+  "data_source": "snli_dataset",
+  "type": "classification",
+  "modality": {
+    "in": [
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "version": "1.0",
+  "data": [
+    {
+      "id": "0291",
+      "input": {
+        "raw_text": "Premise: A shirtless man with a white hat and no shoes sitting crisscross with his back against the wall holding up a white plastic cup.\nHypothesis: A man is waiting for someone",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0355",
+      "input": {
+        "raw_text": "Premise: An old woman in a white hat and purple and blue cloths is sitting down by a wooden building.\nHypothesis: The building is brick.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0294",
+      "input": {
+        "raw_text": "Premise: Young man performing a skateboard trick on a sidewalk in a city.\nHypothesis: A young man is perfoming a good skill on a skateboard on the sidewalk in a metropolitan area.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0241",
+      "input": {
+        "raw_text": "Premise: A young man at a bowling alley posing on the scoring machine.\nHypothesis: A young man is at the bowling alley.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0350",
+      "input": {
+        "raw_text": "Premise: A man wearing an oxford shirt, sunglasses, and a hat smirks.\nHypothesis: A man hiding his true identity.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0331",
+      "input": {
+        "raw_text": "Premise: A man lying on the grass on a rugby field, holding a rugby ball.\nHypothesis: A man lying on a field holding a wrecking ball.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0453",
+      "input": {
+        "raw_text": "Premise: A little girl in a pink hat is in a lush green field walking an ox.\nHypothesis: A little girl is riding her ox in a desert.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0248",
+      "input": {
+        "raw_text": "Premise: A man in a lab coat is looking through a microscope.\nHypothesis: A lifeguard sits by the pool",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0027",
+      "input": {
+        "raw_text": "Premise: A young boy plays on a pile of rocks.\nHypothesis: A girl is having a tea party in her room.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0031",
+      "input": {
+        "raw_text": "Premise: A woman, in red and white, and wearing glasses, sits in a room with other people.\nHypothesis: A woman is sitting in a room with other people.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0054",
+      "input": {
+        "raw_text": "Premise: A man wearing a jacket is listening to headphones while walking down the sidewalk along a street.\nHypothesis: A person walking outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0458",
+      "input": {
+        "raw_text": "Premise: A choir made up of varying ages of people are performing.\nHypothesis: The choir is singing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0368",
+      "input": {
+        "raw_text": "Premise: Two kids in their pajamas.\nHypothesis: Two children are wearing bright bathing suits at the ocean.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0239",
+      "input": {
+        "raw_text": "Premise: A woman wearing a black t-shirt and green capri pants walks in front of a giant clock.\nHypothesis: The green clock wears black capri pants in front of the woman.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0109",
+      "input": {
+        "raw_text": "Premise: A person stands between two giant statues that look like faces.\nHypothesis: A human is standing between two large objects.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0065",
+      "input": {
+        "raw_text": "Premise: Two women are relaxing in a hot tub.\nHypothesis: Two women are on vacation in the hot tub.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0286",
+      "input": {
+        "raw_text": "Premise: A woman in an apron is looking for bread.\nHypothesis: A woman is wearing an apron.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0061",
+      "input": {
+        "raw_text": "Premise: There is a group of children getting their picture taken with presents.\nHypothesis: Two men carry a Christmas tree.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0162",
+      "input": {
+        "raw_text": "Premise: A man in a plaid shirt looking through a telescope lens.\nHypothesis: the man is watching the stars",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0015",
+      "input": {
+        "raw_text": "Premise: Man with black shirt and sunglasses makes something out of a balloon.\nHypothesis: A woman cuts celery.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0347",
+      "input": {
+        "raw_text": "Premise: a soccer player wearing a red uniform walks off the field after a game near a parking lot.\nHypothesis: A soccer player is walking to his car.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0391",
+      "input": {
+        "raw_text": "Premise: A land rover is being driven across a river.\nHypothesis: A sedan is stuck in the middle of a river.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0055",
+      "input": {
+        "raw_text": "Premise: Stick figures in the middle of the street.\nHypothesis: A painting of a stick figure",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0254",
+      "input": {
+        "raw_text": "Premise: A man with a pinstriped shirt and tan slacks adjust his tie while looking at a apple laptop computer.\nHypothesis: A man adjusts his tie looking at a laptop",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0262",
+      "input": {
+        "raw_text": "Premise: A man sitting with his head down on his arm and a roll of toilet paper and a cellphone sitting beside him.\nHypothesis: A man is sick next to the toilet.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0140",
+      "input": {
+        "raw_text": "Premise: Two girls walking, both with a white shirt and blue shorts on.\nHypothesis: Two girls are walking together.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0473",
+      "input": {
+        "raw_text": "Premise: Athletic men in matching black pants performing under the spotlight.\nHypothesis: A group of girls talk and laugh outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0171",
+      "input": {
+        "raw_text": "Premise: A birthday party for many little people to enjoy.\nHypothesis: Children enjoying a birthday party.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0011",
+      "input": {
+        "raw_text": "Premise: A young girl wearing a red shirt and cap smiling and holding a small toy is standing in front of a group of children playing behind her.\nHypothesis: The girl is smiling because she is having fun.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0164",
+      "input": {
+        "raw_text": "Premise: A barber in a sports themed barber shop waits for his next customer to arrive.\nHypothesis: A barber is closing his door.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0264",
+      "input": {
+        "raw_text": "Premise: A male baseball player for the baseball team The Indians prepares to catch a ball.\nHypothesis: That player has never missed a catch.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0370",
+      "input": {
+        "raw_text": "Premise: Two little kids without shirts are sitting down facing each other.\nHypothesis: Two children are sleeping at daycare",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0303",
+      "input": {
+        "raw_text": "Premise: A skateboard is grinding on a curb with his skateboard.\nHypothesis: The skateboard is resting.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0066",
+      "input": {
+        "raw_text": "Premise: A man in a tank top fixing himself a hotdog.\nHypothesis: two girls were ther",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0126",
+      "input": {
+        "raw_text": "Premise: Some kids are wrestling on an inflatable raft\nHypothesis: Some kids playing with a raft in the lake.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0429",
+      "input": {
+        "raw_text": "Premise: One confused man is standing and staring off into the distance in front of some ticket collecting machines.\nHypothesis: The man is confused.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0285",
+      "input": {
+        "raw_text": "Premise: A man is socializing with another man in the bar.\nHypothesis: Two friends talking while getting a drink after work.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0148",
+      "input": {
+        "raw_text": "Premise: Two girls feeding a horse an apple.\nHypothesis: Two girls are getting ready to ride horses.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0050",
+      "input": {
+        "raw_text": "Premise: Two bearded men sit side by side.\nHypothesis: Three women are sitting on a blanket.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0435",
+      "input": {
+        "raw_text": "Premise: Man holding torch of fire.\nHypothesis: There is a man.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0461",
+      "input": {
+        "raw_text": "Premise: A man playing billiards at a bar.\nHypothesis: A man is playing billiards.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0211",
+      "input": {
+        "raw_text": "Premise: A woman in black is getting ready in her bathroom.\nHypothesis: The woman is wearing black",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0268",
+      "input": {
+        "raw_text": "Premise: Three men dancing as a group of people watch.\nHypothesis: three men dancing as a stage",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0463",
+      "input": {
+        "raw_text": "Premise: A few young boys throwing a football over a volleyball net.\nHypothesis: A boy plays with a yoyo.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0116",
+      "input": {
+        "raw_text": "Premise: A young child joyfully pulls colorful tissue paper from a decorated box, looking for his present.\nHypothesis: a child pulls colorful tissue paper from a fancy box",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0098",
+      "input": {
+        "raw_text": "Premise: Man is shaving in the mirror.\nHypothesis: The man has no facial hair.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0010",
+      "input": {
+        "raw_text": "Premise: A man is playing the saxophone in the street and some people are sitting on the curb next to the street by him.\nHypothesis: A man is trying to earn money by playing for other people on the street.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0269",
+      "input": {
+        "raw_text": "Premise: A man is working in an art studio and is surrounded by art supplies.\nHypothesis: A man is is an artist teaching art classes",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0412",
+      "input": {
+        "raw_text": "Premise: Two girls jumping on a trampoline, one upright and the other landing on her back, in a backyard.\nHypothesis: There are girls on a trampoline.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0362",
+      "input": {
+        "raw_text": "Premise: Using a soccer ball for support, a young boy in blue sits atop a park bench.\nHypothesis: A boy is playing with other children.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0080",
+      "input": {
+        "raw_text": "Premise: A soldier using binoculars in a desert.\nHypothesis: A soldier standing outside of a palace.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0488",
+      "input": {
+        "raw_text": "Premise: Two small children walk away in a field.\nHypothesis: Two small children are sitting down, eating ice cream.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0304",
+      "input": {
+        "raw_text": "Premise: Six seated men converse and one man fiddles with an interesting contraption.\nHypothesis: Women are sitting around a table drinking coffee.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0300",
+      "input": {
+        "raw_text": "Premise: Police officer wearing a brown uniform talks into a wireless microphone.\nHypothesis: A police officer is moving his mouth.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0306",
+      "input": {
+        "raw_text": "Premise: A man and two kids standing in front of an ancient building.\nHypothesis: A man is sitting on the floor.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0108",
+      "input": {
+        "raw_text": "Premise: A lady teacher warning her students about their behavior in a museum setting, and inviting them to be quite.\nHypothesis: Students are inside of a movie theater",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0132",
+      "input": {
+        "raw_text": "Premise: A young man in an orange hat walks his bicycle down a street.\nHypothesis: A man broke his new bike.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0404",
+      "input": {
+        "raw_text": "Premise: A woman wearing a striped wrap is bent over in a cornfield while looking at the camera.\nHypothesis: A woman wearing a striped wrap is looking at the camera.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0202",
+      "input": {
+        "raw_text": "Premise: Two dancers in pink tops and striped capri bottoms perform on stage barefoot.\nHypothesis: Two magicians are performing on stage.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0478",
+      "input": {
+        "raw_text": "Premise: A group of people gathered at night watching an event.\nHypothesis: A group of friends are watching the music concert at night.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0247",
+      "input": {
+        "raw_text": "Premise: A man with two small boys making a purchase from a woman.\nHypothesis: The man with the little boys is buying a gift from the woman's store.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0379",
+      "input": {
+        "raw_text": "Premise: A dog leaps into the air for a tennis ball.\nHypothesis: A dog is outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0348",
+      "input": {
+        "raw_text": "Premise: A performance group is staged in one collective motion.\nHypothesis: The group is separate from one another.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0408",
+      "input": {
+        "raw_text": "Premise: A person in orange clothing rests above a metro entrance.\nHypothesis: A person is waiting for a train.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0485",
+      "input": {
+        "raw_text": "Premise: Several bicyclers are carrying their bikes up a grassy hill.\nHypothesis: People carrying bikes.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0145",
+      "input": {
+        "raw_text": "Premise: A blond woman wearing a pearl bracelet is about to kiss a man wearing a white shirt.\nHypothesis: Two men are kissing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0259",
+      "input": {
+        "raw_text": "Premise: A woman in black is getting ready in her bathroom.\nHypothesis: The woman is in the bathroom",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0118",
+      "input": {
+        "raw_text": "Premise: A man in a gray coat is walking on a fallen tree trunk in a forest.\nHypothesis: Two girls play tag in a forest.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0288",
+      "input": {
+        "raw_text": "Premise: A girl with curly hair and wearing a patriotic shirt is looking at a monarch butterfly sitting on her left index finger.\nHypothesis: A girl and a butterfly",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0376",
+      "input": {
+        "raw_text": "Premise: A bearded man with a backpack on his back holding a tripod in front of a rocky creek and bridge.\nHypothesis: The man was sitting indoors watching TV.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0078",
+      "input": {
+        "raw_text": "Premise: Middle-aged man cleaning the fallen snow on the roof of his car with a broom.\nHypothesis: The man is brushing the leaves off his car.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0204",
+      "input": {
+        "raw_text": "Premise: A female child in a white, long-sleeved shirt is kneeling on a couch, laughing as her hair is sticking up.\nHypothesis: A child laughs as her hair sticks up.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0424",
+      "input": {
+        "raw_text": "Premise: A U.S. soldier helps a young girl in the hands of her father, while other soldiers look on.\nHypothesis: The girl has a troubled expression.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0129",
+      "input": {
+        "raw_text": "Premise: A man looks back while laughing and walking.\nHypothesis: A man walks and hears a funny joke and starts to laugh.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0250",
+      "input": {
+        "raw_text": "Premise: Several women in headscarves are standing in a cobbled courtyard.\nHypothesis: Women wearing headscarves stand in a cobbled courtyard.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0372",
+      "input": {
+        "raw_text": "Premise: Several people talk and drink beer while sitting around a picnic table.\nHypothesis: People talking and drinking while sitting at a table outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0438",
+      "input": {
+        "raw_text": "Premise: Man playing a game with a young girl.\nHypothesis: The man and young girl are talking to the moon.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0188",
+      "input": {
+        "raw_text": "Premise: Two men roasting marshmallows in a fire pit.\nHypothesis: The two men are friends",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0467",
+      "input": {
+        "raw_text": "Premise: A man in a business suit has just crossed the street.\nHypothesis: The man is walking.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0353",
+      "input": {
+        "raw_text": "Premise: A young girl with a purple shirt and a pink hair band standing near the woods.\nHypothesis: A little girl is standing outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0127",
+      "input": {
+        "raw_text": "Premise: A man in khakis sitting at a table with a sign that reads \"poet for hire.\"\nHypothesis: The gentleman is standing by the table.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0028",
+      "input": {
+        "raw_text": "Premise: A girl in a purple top, baggy pants and sneakers is blowing a kiss, while another girl in black watches.\nHypothesis: A girl is smoking a cigar in a pool hall.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0123",
+      "input": {
+        "raw_text": "Premise: A boy whiffs a ball with a bat.\nHypothesis: The boy is playing baseball.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0152",
+      "input": {
+        "raw_text": "Premise: A woman is sitting outside at a table, using a knife to cut into a sandwich.\nHypothesis: A woman is sitting outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0487",
+      "input": {
+        "raw_text": "Premise: A group of young men are dumping soil onto the ground of their backyard.\nHypothesis: The young men laze about on the beach, sunning themselves in the afternoon sun.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0119",
+      "input": {
+        "raw_text": "Premise: Man sleeping in a couch in a sitting position wearing a blue jeans and a plaided shirt\nHypothesis: There is someone sleeping on the couch.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0033",
+      "input": {
+        "raw_text": "Premise: A man in a army uniform is holding a picture with trees in it.\nHypothesis: The man, wearing scuba gear, jumps off the side of the boat into the ocean below.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0308",
+      "input": {
+        "raw_text": "Premise: Three children in bathing suits are playing in foam\nHypothesis: adults at a foam party",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0143",
+      "input": {
+        "raw_text": "Premise: A woman in black walks past a shop selling a t-shirt depicting a tattooed woman smoking a cigarette.\nHypothesis: A woman is sitting on a train.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0070",
+      "input": {
+        "raw_text": "Premise: A group of people sitting around a small round table eating.\nHypothesis: The people are enjoying a meal.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0365",
+      "input": {
+        "raw_text": "Premise: A man in a suit with a purple striped tie talking to a lady wearing sunglasses.\nHypothesis: A man is talking to a lady about the weather.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0117",
+      "input": {
+        "raw_text": "Premise: Blue, red, yellow, and white are the dominant colors of a picture of two police vehicles outside of what looks like a smoke roll playing vehicle, a motorcycle in between the two cars with 6 people in the picture.\nHypothesis: The six people are all police.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0378",
+      "input": {
+        "raw_text": "Premise: A racer on a motorcycle lifts one hand in the air.\nHypothesis: A racer on horseback.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0245",
+      "input": {
+        "raw_text": "Premise: A dog jumping for a Frisbee in the snow.\nHypothesis: An animal is outside in the cold weather, playing with a plastic toy.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0030",
+      "input": {
+        "raw_text": "Premise: A group of young men are running in a grassy field.\nHypothesis: A man sits by himself in the grass reading a book.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0168",
+      "input": {
+        "raw_text": "Premise: The farmers are out working hard on there tractor, they have on their overalls and the machine is almost fixed.\nHypothesis: People wearing shorts are standing around doing nothing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0024",
+      "input": {
+        "raw_text": "Premise: two dogs run across the woods.\nHypothesis: The canines run around in the forest.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0172",
+      "input": {
+        "raw_text": "Premise: A person in a red shirt is mowing the grass with a green riding mower.\nHypothesis: A person in red is moving grass on a John Deer motor.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0086",
+      "input": {
+        "raw_text": "Premise: A woman in a green suit walking towards an escalator.\nHypothesis: A woman walks to an escalator.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0221",
+      "input": {
+        "raw_text": "Premise: A boy in an all blue uniform kicks a blue soccer ball in a grassy area.\nHypothesis: A boy is playing with the other children.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0311",
+      "input": {
+        "raw_text": "Premise: A group of women observing an event while one in military attire takes a photograph\nHypothesis: A group of people are watching a shuttle launch.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0214",
+      "input": {
+        "raw_text": "Premise: A happy woman who is preparing for dinner.\nHypothesis: A woman is cooking dinner for the guests.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0420",
+      "input": {
+        "raw_text": "Premise: The players manuever for the soccer ball.\nHypothesis: Bowlers are eating sandwiches.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0062",
+      "input": {
+        "raw_text": "Premise: The man walks among the large trees.\nHypothesis: The man walks among trees.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0002",
+      "input": {
+        "raw_text": "Premise: A brown dog and black and white dog run along the green grass.\nHypothesis: Two squirrels run after acorns in the grass.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0281",
+      "input": {
+        "raw_text": "Premise: A person in a large pink triangle-shaped costume waves as a man and a woman dressed in matching brightly-colored striped and polka-dotted outfits smile back.\nHypothesis: The person is moving her hand.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0201",
+      "input": {
+        "raw_text": "Premise: A man holding a baby who is petting a pony.\nHypothesis: A man with a baby is petting a pony.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0226",
+      "input": {
+        "raw_text": "Premise: A man is sitting in the green chair, talking on the phone, and working on the laptop, and there is construction site next to his building.\nHypothesis: A man can is on the phone.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0057",
+      "input": {
+        "raw_text": "Premise: Five children, two boys and three girls, with the girls wearing white scarves, sit on the pavement outside in front of a large window.\nHypothesis: There is snow outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0072",
+      "input": {
+        "raw_text": "Premise: A man with his arm around a woman.\nHypothesis: The woman and man are smiling.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0182",
+      "input": {
+        "raw_text": "Premise: An aisle at Best Buy with an employee standing at the computer and a Geek Squad sign in the background.\nHypothesis: The employee is wearing a blue shirt.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0349",
+      "input": {
+        "raw_text": "Premise: A guy taking a nap in the back of a vehicle.\nHypothesis: A man is sleeping in the rear of an automobile.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0301",
+      "input": {
+        "raw_text": "Premise: A horse has fallen down on the green grass and the jockey riding on top is trying his hardest to not fall off.\nHypothesis: The horse is riding gallantly through the grass.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0261",
+      "input": {
+        "raw_text": "Premise: A dark-haired man is smiling while in a storage unit while four other men stand outside the unit watching.\nHypothesis: Four men are making sure that the man in the storage unit stays put.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0025",
+      "input": {
+        "raw_text": "Premise: Several adults look on while a young girl plays in a ball pit.\nHypothesis: A young girl is having fun.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0417",
+      "input": {
+        "raw_text": "Premise: The German shepherd runs happily in the park.\nHypothesis: Dog lays down outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0335",
+      "input": {
+        "raw_text": "Premise: A cheerleader in a tight red and white uniform is passing out white t-shirts at a sporting event.\nHypothesis: A cheerleader passes out team shirts",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0403",
+      "input": {
+        "raw_text": "Premise: A man jumping a dirt ramp on a bmx bike.\nHypothesis: A man jumps his bike.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0436",
+      "input": {
+        "raw_text": "Premise: A young girl is playing a musical instrument and singing into a microphone.\nHypothesis: A little girl belts one out while playing the violin.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0037",
+      "input": {
+        "raw_text": "Premise: A surfer is riding a wave in a large body of water.\nHypothesis: The surfer is skateboarding.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0282",
+      "input": {
+        "raw_text": "Premise: A woman wearing a tank top and black pants is laying on the ground while looking at a book.\nHypothesis: A woman is looking at a book.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0344",
+      "input": {
+        "raw_text": "Premise: Two women's volleyball teams are competing against each other on a salmon-colored and turquoise court while a referee in black watches.\nHypothesis: 12 ladies play volleyball",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0260",
+      "input": {
+        "raw_text": "Premise: Two women are reading, one woman has a magazine with a Dior ad on the back of it, while the other woman is reading fro ma hard cover book.\nHypothesis: Two women are reading, one has a magazine, while the other has a book.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0093",
+      "input": {
+        "raw_text": "Premise: A man playing a piano\nHypothesis: A man is playing a black piano.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0401",
+      "input": {
+        "raw_text": "Premise: Island native fishermen reeling in their nets after a long day's work.\nHypothesis: The men caught many fish.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0003",
+      "input": {
+        "raw_text": "Premise: A person in full astronaut suit and gear trains in an underwater lab as a scuba diver assists.\nHypothesis: A female astronaut adjusting to the feeling of low gravity by training underwater.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0081",
+      "input": {
+        "raw_text": "Premise: A man wearing dark knee boots, a green cape, and a hat with two big feathers on the front is sitting by himself on a bench in front of a building with a blue and white patterned piece of wheeled luggage to his right while he rests both his hands on a walking stick.\nHypothesis: A man sits by himself at Mardi Gras.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0092",
+      "input": {
+        "raw_text": "Premise: A woman with a navy sweater is looking through a blue telescope at a statue of a dinosaur.\nHypothesis: The woman is watching television",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0297",
+      "input": {
+        "raw_text": "Premise: Three boys in white shirts are walking behind an older model Ford car.\nHypothesis: there are three boys",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0389",
+      "input": {
+        "raw_text": "Premise: A boy in sports themed pajamas is in front of a Christmas tree.\nHypothesis: the kid is in front of the tree on christmas eve",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0386",
+      "input": {
+        "raw_text": "Premise: A man performing auto repair in front of a building.\nHypothesis: The man is a mechanic.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0150",
+      "input": {
+        "raw_text": "Premise: A school aged child wearing makeup and doing a hand sign sits on the ground among similar aged children who are all making the same sign.\nHypothesis: The children are all holding up paper drawings.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0085",
+      "input": {
+        "raw_text": "Premise: A man in a brown shirt and a white baseball cap uses a plastic barrel to water tomato plants.\nHypothesis: A man watering plants.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0356",
+      "input": {
+        "raw_text": "Premise: The man is performing a trick on a motorcycle high in the air.\nHypothesis: A man is performing a trick on a bike.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0283",
+      "input": {
+        "raw_text": "Premise: A man in orange and a man in a light blue top are walking down the street towards something.\nHypothesis: Two mean are wearing clothes and walking",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0480",
+      "input": {
+        "raw_text": "Premise: A man and a child are purchasing ice cream from a man with a hand pushed ice cream cart.\nHypothesis: People are buying food from a street vendor.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0289",
+      "input": {
+        "raw_text": "Premise: A lady wearing a blue dress and earrings, is sitting at a table with a napkin in her hand and her elbow on the table.\nHypothesis: The woman is standing by a lake.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0472",
+      "input": {
+        "raw_text": "Premise: A person lies in a grassy area near a building.\nHypothesis: A man is outside.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0034",
+      "input": {
+        "raw_text": "Premise: A woman with a bag, talking on her cellphone, standing on the corner of the street, waiting to cross.\nHypothesis: A man yells at the television for no reason.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0415",
+      "input": {
+        "raw_text": "Premise: A barber in a sports themed barber shop waits for his next customer to arrive.\nHypothesis: A barber waits for business.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0377",
+      "input": {
+        "raw_text": "Premise: A child looks at a cactus garden.\nHypothesis: A human is looking at plants.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0441",
+      "input": {
+        "raw_text": "Premise: A man in a yellow shirt and helmet mountain biking down a dusty path.\nHypothesis: A man with headphones is biking.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0183",
+      "input": {
+        "raw_text": "Premise: a boy in a blue uniform is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.\nHypothesis: Three boys are holding gloves.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0163",
+      "input": {
+        "raw_text": "Premise: A Ford car is making a right turn as 3 males are walking across the street behind the car.\nHypothesis: A sedan was turning a corner as walkers were crossing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0390",
+      "input": {
+        "raw_text": "Premise: Boy in green pajamas play with his toy while his mother sits on the couch and watches him.\nHypothesis: A boy in white pajamas plays.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0295",
+      "input": {
+        "raw_text": "Premise: Black and yellow teams are trying to get the basketball in the goal.\nHypothesis: Two teams are playing a sport.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0234",
+      "input": {
+        "raw_text": "Premise: The man in camouflage pants telephones 911 for the man in black sneakers who is lying on the ground having a heart attack.\nHypothesis: The men are terrified.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0486",
+      "input": {
+        "raw_text": "Premise: Two small boys dressed in tuxedos sitting on a red carpeted floor.\nHypothesis: Two groomsmen sit on a carpet dressed in tuxedos.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0042",
+      "input": {
+        "raw_text": "Premise: A man reads the paper in a bar with green lighting.\nHypothesis: The man is climbing a mountain.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0392",
+      "input": {
+        "raw_text": "Premise: Two oriental older women gathering rice from the fields.\nHypothesis: Some Asian women are walking in the field of rice.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0256",
+      "input": {
+        "raw_text": "Premise: Three men dressed in white shirts and white hats, (two with baseball caps, the leader with a white construction helmet), pounding sticks on steel and plastic drums.\nHypothesis: Three men pound on some drums",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0063",
+      "input": {
+        "raw_text": "Premise: A person is climbing a wooden ladder on a very steep, jagged, rock cliff.\nHypothesis: A person is mountain climbing using nothing but his hands and the rocks.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0398",
+      "input": {
+        "raw_text": "Premise: The man in white is playing basketball against the man in blue.\nHypothesis: Two men are engaging in a sporting activity.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0102",
+      "input": {
+        "raw_text": "Premise: Man in robe making designs on dirt ground.\nHypothesis: A man playing in the sand at the beach.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0337",
+      "input": {
+        "raw_text": "Premise: Boys in what appears to be a library or school room.\nHypothesis: Children are indoors.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0114",
+      "input": {
+        "raw_text": "Premise: A man with black clothing is sweeping steps with a broom.\nHypothesis: The man has white clothing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0120",
+      "input": {
+        "raw_text": "Premise: A woman is shaving the hair off of a black and white dog.\nHypothesis: The boy is walking the dog in the park.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0174",
+      "input": {
+        "raw_text": "Premise: A woman in a spaghetti strap tank wearing a flower in her hair is staring towards the right.\nHypothesis: The woman is sleeping on a pillow.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0277",
+      "input": {
+        "raw_text": "Premise: Three people are sitting at a small table near a screen with the words, \"DEMOS, The Business of Care.\"\nHypothesis: A trio of humans is sitting.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0130",
+      "input": {
+        "raw_text": "Premise: A man wearing a stocking hat and has a beard is looking at the camera with two women sitting on the couch next to him.\nHypothesis: there are people in a house taking pictures",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0049",
+      "input": {
+        "raw_text": "Premise: A large number of people are watching men dressed in kilts, one of whom has thrown a long pole.\nHypothesis: a cow moo's",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0228",
+      "input": {
+        "raw_text": "Premise: A dog jumps to catch a red ball outside.\nHypothesis: the dog is jumping.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0223",
+      "input": {
+        "raw_text": "Premise: Three young Asian women walk on a rain soaked street with traffic in the background.\nHypothesis: The women each have umbrellas.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0218",
+      "input": {
+        "raw_text": "Premise: Three men are playing frisbee in the woods.\nHypothesis: Three brothers are playing a friendly game of Frisbee before dinner.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0431",
+      "input": {
+        "raw_text": "Premise: A man, boy and a white dog are looking at a display of postcards.\nHypothesis: A man has his boy and his dog out enjoying time spent together while shopping.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0016",
+      "input": {
+        "raw_text": "Premise: A man in a suit stands on a walkway with is suitcase with a large display in front of him announcing airline flights.\nHypothesis: A man is at an airport.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0384",
+      "input": {
+        "raw_text": "Premise: Two dogs are playing catch in a field.\nHypothesis: The two dogs are playing with a frisbee.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0328",
+      "input": {
+        "raw_text": "Premise: A woman in bridal wear embraces an individual.\nHypothesis: The bride hugs the other person.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0489",
+      "input": {
+        "raw_text": "Premise: Little boy in a green sweatshirt playing with his toy train.\nHypothesis: A boy is playing his xbox.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0014",
+      "input": {
+        "raw_text": "Premise: Three men drink at a reflective bar.\nHypothesis: Three men are socializing during happy hour.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0338",
+      "input": {
+        "raw_text": "Premise: A clown performs in a park among other people.\nHypothesis: Inside the closet is dark.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0339",
+      "input": {
+        "raw_text": "Premise: A red-haired woman in a pink shirt attempts to descend a tree.\nHypothesis: A woman with red hair.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0125",
+      "input": {
+        "raw_text": "Premise: Two people sitting on the sand.\nHypothesis: The people are standing.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0087",
+      "input": {
+        "raw_text": "Premise: One person kneels in front of a plastic bucket, while another leans toward a doorway and a third person looks on from a dilapidated building.\nHypothesis: One person kneels before zod in the oval office.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0013",
+      "input": {
+        "raw_text": "Premise: A small child in a red jacket is sitting on a man's shoulders and holding his head.\nHypothesis: The child's hands are on the man's head.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0192",
+      "input": {
+        "raw_text": "Premise: People sitting in chairs along a tree-lined sidewalk.\nHypothesis: People are standing on the pavement",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0265",
+      "input": {
+        "raw_text": "Premise: Two uniformed women, wearing jackets saying \"Politie\" on the back, are looking at each other in front of a crowd.\nHypothesis: The women are married.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0316",
+      "input": {
+        "raw_text": "Premise: The dog is in the snow in front of some trees.\nHypothesis: A dog is playing in the snow.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0088",
+      "input": {
+        "raw_text": "Premise: A guy with piercings, tattoos and a mohawk is looking at the camera while lounging in a chair.\nHypothesis: A male model with a mohawk, tattoos, and piercings strikes a lazy pose in a lounge chair for the camera.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0388",
+      "input": {
+        "raw_text": "Premise: Two cars are being driven in a car race.\nHypothesis: Two horses are pacing each other on a race track.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0238",
+      "input": {
+        "raw_text": "Premise: An organ grinder, in World War I helmet and clown makeup, speaks to an older man in a blue, striped polo shirt.\nHypothesis: Two men are seated on a park bench, one in clown makeup and the other in a striped polo shirt.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0352",
+      "input": {
+        "raw_text": "Premise: Two musicians and a singer are on a stage performing a song.\nHypothesis: Band performing a song on stage.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0483",
+      "input": {
+        "raw_text": "Premise: A man holds two children in his arms.\nHypothesis: Three humans together.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0474",
+      "input": {
+        "raw_text": "Premise: Four women competitively rollerskating around an area.\nHypothesis: Women rollerskating around an are",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0329",
+      "input": {
+        "raw_text": "Premise: Two men are shirtless on the beach on a beautiful day.\nHypothesis: Men are riding bicycles.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0035",
+      "input": {
+        "raw_text": "Premise: People waiting on a train platform.\nHypothesis: People survive a horrible train crash.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0410",
+      "input": {
+        "raw_text": "Premise: A woman wearing colonial clothing is sitting on the grass reading to a young girl.\nHypothesis: The people are riding in a plane.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0040",
+      "input": {
+        "raw_text": "Premise: A woman wearing a beige sweater and black pants talking to man wearing black pants and top\nHypothesis: The man and woman are engaged.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0236",
+      "input": {
+        "raw_text": "Premise: A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background.\nHypothesis: A man waits outside a garage.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0008",
+      "input": {
+        "raw_text": "Premise: A gray-haired man rides a bike in front of a bus advertising Ironman.\nHypothesis: An older man rides his bike and is almost hit by a bus because he is looking at the Ironman poster.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0428",
+      "input": {
+        "raw_text": "Premise: A man dressed in black and white is standing on the side of the street eating an ice cream cone.\nHypothesis: The man is eating chocolate ice cream.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0434",
+      "input": {
+        "raw_text": "Premise: The man in the black shirt is showing the man in the orange shirt something that he has for sale.\nHypothesis: A man is being served a dish in a restaurant.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0131",
+      "input": {
+        "raw_text": "Premise: Two formally dressed, bald older women\nHypothesis: Two bald women.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    },
+    {
+      "id": "0381",
+      "input": {
+        "raw_text": "Premise: Two men in punk-style clothing stand in front of a wall.\nHypothesis: Two men standing in front of a wall looking for trouble.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "neutral"
+      }
+    },
+    {
+      "id": "0137",
+      "input": {
+        "raw_text": "Premise: Several people in blue scrubs and one in a skirt and black blouse.\nHypothesis: Several people are naked.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "contradiction"
+      }
+    },
+    {
+      "id": "0178",
+      "input": {
+        "raw_text": "Premise: A man in a tie-dyed shirt and jeans is sitting on a bench with a dog and a guitar on his lap, as well as a harmonica near his mouth.\nHypothesis: A guy is next to a dog while holding some musical instruments.",
+        "prompt": "<<<raw_text>>>. What is the relationship between the premise and hypothesis? Choose from: entailment, contradiction, or neutral. Provide only the category name as output."
+      },
+      "output": {
+        "category": "entailment"
+      }
+    }
+  ],
+  "set_type": "openset"
+}

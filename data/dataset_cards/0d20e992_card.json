@@ -1,0 +1,76 @@
+{
+    "dataset_id": "0d20e992",
+    "name": "Ethical-Reasoning",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "A multiple-choice ethical reasoning dataset where each example presents a short everyday scenario and asks the model to select the most appropriate moral or character-based description. It evaluates the model's ability to infer traits or ethical judgments from brief narratives.",
+    "card_text": "This dataset consists of short, single-sentence scenarios describing everyday actions or situations, often involving moral choices, social behavior, or emotional reactions. For each scenario, a set of multiple-choice options is provided, typically adjectives that characterize the subject’s behavior or disposition (e.g., dishonest, generous, impulsive). The task is to select the option that best captures the ethical or psychological interpretation implied by the scenario. Inputs are purely textual and concise, focusing on everyday life contexts rather than specialized domains such as law or medicine. The data assumes familiarity with common social norms and moral evaluations and is intended to probe ethical reasoning, social understanding, and trait attribution from minimal textual cues.",
+    "tasks": [
+        "multiple_choice_qa",
+        "question_answering",
+        "classification_multiclass"
+    ],
+    "domain": "everyday life stories",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "narrative",
+                "semantics": "A short, self-contained sentence describing an everyday situation or action, often involving a moral or social decision. This narrative provides the sole context from which the ethical or character judgment must be inferred.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "options": {
+                "paths": [
+                    "input.options"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "A list of candidate answer phrases, typically adjectives that describe character traits or moral evaluations (e.g., dishonest, generous). One option is the intended correct characterization of the scenario in the question field.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.answer"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The gold label indicating the correct option, usually encoded as a letter index (e.g., A, B, C) corresponding to one of the provided options that best reflects the ethical or character judgment of the scenario.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains a short narrative scenario in `input.question`, a small set of multiple-choice options in `input.options` that describe possible moral or character interpretations, and a ground-truth label in `output.answer` indicating which option best matches the scenario. There is no additional context, dialog, or auxiliary metadata."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Ethical-Reasoning/annotation.json",
+        "existing_tags": {
+            "task": "Ethical Reasoning",
+            "type": "MultipleChoiceQA",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

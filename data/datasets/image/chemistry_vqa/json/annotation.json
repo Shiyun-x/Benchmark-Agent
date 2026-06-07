@@ -1,0 +1,508 @@
+{
+  "task": "chemistry vqa",
+  "data_source": "https://github.com/lupantech/ScienceQA",
+  "type": "comprehension",
+  "modality": {
+    "in": [
+      "image",
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "skill": "Image Visual Question Answering",
+  "domain": [
+    "Chemistry"
+  ],
+  "general_capability": [
+    "Reasoning Ability"
+  ],
+  "version": "1.0",
+  "data": [
+    {
+      "id": "ckv0027",
+      "input": {
+        "image_file": "6272_image.png",
+        "question": "Which solution has a higher concentration of green particles? The candidate choices are ['Solution B', 'Solution A', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0057",
+      "input": {
+        "image_file": "12369_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['Solution B', 'Solution A', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0056",
+      "input": {
+        "image_file": "12252_image.png",
+        "question": "Which solution has a higher concentration of yellow particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0005",
+      "input": {
+        "image_file": "1386_image.png",
+        "question": "Which solution has a higher concentration of yellow particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0109",
+      "input": {
+        "image_file": "20879_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0088",
+      "input": {
+        "image_file": "16813_image.png",
+        "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium. The candidate choices are ['to the right than to the left', 'to the left than to the right'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "to the left than to the right"
+      }
+    },
+    {
+      "id": "ckv0108",
+      "input": {
+        "image_file": "20614_image.png",
+        "question": "Which solution has a higher concentration of yellow particles? The candidate choices are ['Solution B', 'neither; their concentrations are the same', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0055",
+      "input": {
+        "image_file": "12122_image.png",
+        "question": "Complete the statement.\nPlatinum is (). The candidate choices are ['an elementary substance', 'a compound'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "an elementary substance"
+      }
+    },
+    {
+      "id": "ckv0048",
+      "input": {
+        "image_file": "10722_image.png",
+        "question": "Which solution has a higher concentration of green particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0030",
+      "input": {
+        "image_file": "7363_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['Solution A', 'neither; their concentrations are the same', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "neither; their concentrations are the same"
+      }
+    },
+    {
+      "id": "ckv0089",
+      "input": {
+        "image_file": "17105_image.png",
+        "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium. The candidate choices are ['to the right than to the left', 'to the left than to the right'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "to the right than to the left"
+      }
+    },
+    {
+      "id": "ckv0092",
+      "input": {
+        "image_file": "17614_image.png",
+        "question": "Complete the statement.\nPhosphorus tribromide is (). The candidate choices are ['an elementary substance', 'a compound'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "a compound"
+      }
+    },
+    {
+      "id": "ckv0029",
+      "input": {
+        "image_file": "7174_image.png",
+        "question": "Which of the following statements is true? The candidate choices are [\"A substance's chemical structure determines its flavor.\", \"A substance's chemical structure depends only on the number and types of atoms in each molecule of the substance.\"].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "A substance's chemical structure determines its flavor."
+      }
+    },
+    {
+      "id": "ckv0076",
+      "input": {
+        "image_file": "15124_image.png",
+        "question": "Which solution has a higher concentration of blue particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0007",
+      "input": {
+        "image_file": "1956_image.png",
+        "question": "Complete the statement.\nBromomethane is (). The candidate choices are ['a compound', 'an elementary substance'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "a compound"
+      }
+    },
+    {
+      "id": "ckv0069",
+      "input": {
+        "image_file": "14339_image.png",
+        "question": "Which solution has a higher concentration of purple particles? The candidate choices are ['Solution A', 'neither; their concentrations are the same', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0041",
+      "input": {
+        "image_file": "9553_image.png",
+        "question": "Which solution has a higher concentration of yellow particles? The candidate choices are ['Solution A', 'neither; their concentrations are the same', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0096",
+      "input": {
+        "image_file": "18208_image.png",
+        "question": "Which solution has a higher concentration of green particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0083",
+      "input": {
+        "image_file": "16131_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0101",
+      "input": {
+        "image_file": "19148_image.png",
+        "question": "Which solution has a higher concentration of purple particles? The candidate choices are ['Solution B', 'neither; their concentrations are the same', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0049",
+      "input": {
+        "image_file": "10811_image.png",
+        "question": "Which solution has a higher concentration of blue particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0053",
+      "input": {
+        "image_file": "11538_image.png",
+        "question": "Which solution has a higher concentration of purple particles? The candidate choices are ['Solution A', 'neither; their concentrations are the same', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0018",
+      "input": {
+        "image_file": "3625_image.png",
+        "question": "Complete the statement.\nOzone is (). The candidate choices are ['a compound', 'an elementary substance'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "an elementary substance"
+      }
+    },
+    {
+      "id": "ckv0067",
+      "input": {
+        "image_file": "13836_image.png",
+        "question": "Complete the statement.\nTitanium is (). The candidate choices are ['a compound', 'an elementary substance'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "an elementary substance"
+      }
+    },
+    {
+      "id": "ckv0045",
+      "input": {
+        "image_file": "10092_image.png",
+        "question": "Which solution has a higher concentration of purple particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0077",
+      "input": {
+        "image_file": "15338_image.png",
+        "question": "Which solution has a higher concentration of green particles? The candidate choices are ['neither; their concentrations are the same', 'Solution A', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0105",
+      "input": {
+        "image_file": "19951_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['Solution B', 'neither; their concentrations are the same', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0104",
+      "input": {
+        "image_file": "19560_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['dichloromethane', 'silane', 'oxygen'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "oxygen"
+      }
+    },
+    {
+      "id": "ckv0013",
+      "input": {
+        "image_file": "2459_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['ozone', '2-chloroethanol', 'benzene'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "ozone"
+      }
+    },
+    {
+      "id": "ckv0095",
+      "input": {
+        "image_file": "17791_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['Solution B', 'Solution A', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0020",
+      "input": {
+        "image_file": "4418_image.png",
+        "question": "Which solution has a higher concentration of blue particles? The candidate choices are ['Solution A', 'neither; their concentrations are the same', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0028",
+      "input": {
+        "image_file": "6532_image.png",
+        "question": "Complete the statement.\nPotassium chloride is (). The candidate choices are ['a compound', 'an elementary substance'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "a compound"
+      }
+    },
+    {
+      "id": "ckv0003",
+      "input": {
+        "image_file": "1266_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['carbon tetrachloride', 'chlorine', 'ethanol'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "chlorine"
+      }
+    },
+    {
+      "id": "ckv0002",
+      "input": {
+        "image_file": "759_image.png",
+        "question": "Which solution has a higher concentration of yellow particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0081",
+      "input": {
+        "image_file": "15865_image.png",
+        "question": "Which solution has a higher concentration of purple particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "neither; their concentrations are the same"
+      }
+    },
+    {
+      "id": "ckv0062",
+      "input": {
+        "image_file": "13085_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['dichloromethane', 'propane', 'chlorine'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "chlorine"
+      }
+    },
+    {
+      "id": "ckv0107",
+      "input": {
+        "image_file": "20199_image.png",
+        "question": "Which solution has a higher concentration of pink particles? The candidate choices are ['neither; their concentrations are the same', 'Solution A', 'Solution B'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0051",
+      "input": {
+        "image_file": "10958_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['ethanol', 'ozone', 'hydrazine'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "ozone"
+      }
+    },
+    {
+      "id": "ckv0010",
+      "input": {
+        "image_file": "2275_image.png",
+        "question": "Complete the statement.\nPropane is (). The candidate choices are ['an elementary substance', 'a compound'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "a compound"
+      }
+    },
+    {
+      "id": "ckv0023",
+      "input": {
+        "image_file": "5495_image.png",
+        "question": "Look at the models of molecules below. Select the elementary substance. The candidate choices are ['tetraphosphorus', 'carbon tetraiodide', 'acetaldehyde'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "tetraphosphorus"
+      }
+    },
+    {
+      "id": "ckv0021",
+      "input": {
+        "image_file": "4612_image.png",
+        "question": "Complete the statement.\nHydrogen sulfide is (). The candidate choices are ['an elementary substance', 'a compound'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "a compound"
+      }
+    },
+    {
+      "id": "ckv0009",
+      "input": {
+        "image_file": "2183_image.png",
+        "question": "Which solution has a higher concentration of blue particles? The candidate choices are ['neither; their concentrations are the same', 'Solution B', 'Solution A'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution B"
+      }
+    },
+    {
+      "id": "ckv0084",
+      "input": {
+        "image_file": "16357_image.png",
+        "question": "Which solution has a higher concentration of green particles? The candidate choices are ['Solution A', 'Solution B', 'neither; their concentrations are the same'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "Solution A"
+      }
+    },
+    {
+      "id": "ckv0017",
+      "input": {
+        "image_file": "3591_image.png",
+        "question": "Complete the text to describe the diagram.\nSolute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium. The candidate choices are ['to the right than to the left', 'to the left than to the right'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "to the left than to the right"
+      }
+    }
+  ]
+}

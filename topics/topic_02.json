@@ -1,0 +1,5 @@
+{
+    "id": "multi_language_conversational_understanding_v1",
+    "description": "I want to evaluate the model's comprehension of mixed-language speech-based conversations. The model should not only recognize and understand spoken content in multiple languages, but also track the dialogue context and logical structure across turns, and finally answer a question that requires cross-turn, cross-language reasoning.",
+    "target_size": 120
+}

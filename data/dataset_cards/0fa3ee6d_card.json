@@ -1,0 +1,75 @@
+{
+    "dataset_id": "0fa3ee6d",
+    "name": "Event-Coreference-Resolution",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "A multiple-choice event coreference dataset where models read short news or discussion snippets and decide which pair of event mentions refers to the same underlying event. Each example provides candidate event pairs annotated with lemmas and offsets, and the task is to select the coreferential pair.",
+    "card_text": "This dataset consists of short text passages, mainly news articles and forum posts, annotated for event coreference in a multiple-choice format. For each sample, the input is a raw text document plus a prompt that embeds the text and then asks which pair of event mentions is coreferential. The options list several candidate event pairs, each represented by the surface form, a character offset, token length, and an abstract event lemma. The model must choose the single correct option whose two event mentions refer to the same real-world event in the passage, such as an execution, massacre, or death. The data focuses on fine-grained reasoning over event identity in context and disambiguation between related but distinct events. All inputs and outputs are textual.",
+    "tasks": [
+        "coreference_resolution",
+        "multiple_choice_qa"
+    ],
+    "domain": "news",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.raw_text"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "mixed",
+                "semantics": "This field contains the main document text, typically a short news article or forum-style post with embedded XML-like markup. It provides the narrative context in which event mentions occur and from which event coreference relationships must be inferred.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "instruction",
+                "semantics": "This field embeds the raw document text followed by an explicit question asking which pair of events is coreferential, along with multiple labeled answer options. It defines the task to be solved over the given context and specifies the candidate event pairs.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field is the gold multiple-choice label for the example, given as a single letter such as 'A', 'B', 'C', or 'D'. It identifies which candidate event pair in the prompt is annotated as referring to the same underlying event.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample includes a main text context in `input.raw_text` containing a short news or discussion document with event mentions. The `input.prompt` field restates the raw text and then poses an instruction-style multiple-choice question about which pair of event mentions is coreferential, listing several labeled options. The `output.text` field provides the correct option label, indicating the true coreferential event pair for that context and question."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Event-Coreference-Resolution/annotation.json",
+        "existing_tags": {
+            "task": "event_coreference_mcq",
+            "type": "multiple choice",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

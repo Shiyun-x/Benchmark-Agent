@@ -1,0 +1,88 @@
+{
+    "dataset_id": "cc0d075c",
+    "name": "Dialogue-Relation-Extraction",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "Dialogue-Relation-Extraction is a text dataset of multi-speaker dialogues where the task is to extract interpersonal and social relations between mentioned entities. Each example provides a short dialogue, a natural-language extraction instruction, and a gold relational annotation in a constrained textual format. The dataset evaluates a model’s ability to perform relation extraction in conversational settings with specific relation types.",
+    "card_text": "This dataset contains short, multi-turn dialogues involving named speakers (e.g., \"Speaker 1\") and other entities referenced in natural conversation, often from everyday or sitcom-like scenarios. For each sample, the raw dialogue text is provided along with a prompt that instructs the model to extract all relations between entities, constrained to a fixed set of relation types such as per:spouse, per:children, per:roommate, per:friends, and per:title. The target output is a text string listing all discovered relations in a normalized template format, including entity roles and relation types. The data focuses on understanding interpersonal relationships in context, interpreting indirect references (like nicknames or titles), and aggregating information across multiple conversational turns. It is useful for evaluating relation extraction models under noisy, informal, and dialog-style language.",
+    "tasks": [
+        "relation_extraction",
+        "instruction_following",
+        "constrained_output"
+    ],
+    "domain": "everyday conversational dialogs",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.raw_text"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "dialog",
+                "semantics": "This field contains the full multi-speaker dialogue text for a single example, including speaker labels and utterances in temporal order. It provides the conversational context from which entities and their interpersonal relations must be inferred. All relation annotations in the output are grounded in this dialogue content.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "instruction",
+                "semantics": "This field is an instruction-style prompt that embeds the dialogue (via a placeholder) and specifies the task: extract all relations between entities using a fixed set of relation types and a particular output format. It clarifies what the model should do with the dialogue in the context field and constrains the form of the expected answer.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "This field contains the gold-standard relation extraction output as a structured text listing relations in the format '(entity1 (type1) => relation => entity2 (type2))'. It encodes which entities are linked, their semantic types, and the specific relation labels, serving as the supervision target for the task.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "dialog": {
+                "paths": [
+                    "input.raw_text"
+                ],
+                "modality": "text",
+                "content_extent": "medium",
+                "style": "dialog",
+                "semantics": "This field represents the same multi-speaker conversation as the context but viewed specifically as a dialogue: a sequence of turns marked by 'Speaker X:'. It captures speaker roles and utterance boundaries, which are crucial for identifying speaker entities and their social relations.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a dialogue text (`input.raw_text`) containing multi-speaker conversational turns, an instruction prompt (`input.prompt`) that describes how to extract and format entity relations from that dialogue, and an answer field (`output.text`) with the structured relation-extraction output. The context/dialog provides the raw conversational content, the question specifies the extraction task and constraints, and the answer encodes the resulting entity relations in a normalized textual format."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Dialogue-Relation-Extraction/annotation.json",
+        "existing_tags": {
+            "task": "dialogue_relation_extraction",
+            "type": "extraction",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

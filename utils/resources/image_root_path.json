@@ -1,0 +1,27 @@
+{
+  "root_path": "dataset/image/comprehension",
+  "076fdf72": [
+    "car_brands_recognition/images"
+  ],
+  "5f3dbd05": [
+    "ArtImageVisualQuestionAnswering/images"
+  ],
+  "6f1bd1c5": [
+    "BirdDetection/images"
+  ],
+  "791bc8ca": [
+    "chinese-fine-art/images"
+  ],
+  "9155fd9c": [
+    "chemistry_vqa/images"
+  ],
+  "91f29c38": [
+    "mathematical_word_problem_vqa/images"
+  ],
+  "a538c57a": [
+    "lung_nodule_diagnosis_vqa/images"
+  ],
+  "b06e6da3": [
+    "fall-human-detection/images"
+  ]
+}

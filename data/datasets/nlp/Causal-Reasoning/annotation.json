@@ -1,0 +1,2616 @@
+{
+  "task": "Causal Reasoning",
+  "type": "MultipleChoiceQA",
+  "modality": {
+    "in": [
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "version": "1.0",
+  "data": [
+    {
+      "id": "cr452",
+      "input": {
+        "question": "What is the effect of: He said he saw a hellhound running on the street.?",
+        "options": [
+          "I knew he told a lie.",
+          "I believed what he said."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr022",
+      "input": {
+        "question": "What is the effect of: Mary read some papers.?",
+        "options": [
+          "She made many mistakes because of her frets.",
+          "She knew lots of details."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr459",
+      "input": {
+        "question": "What is the effect of: The adhesives producing factory forgot to add rubber silicone acrylic into the its new products.?",
+        "options": [
+          "These products didn't function as they used to do.",
+          "Tom goes to a chemist."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr018",
+      "input": {
+        "question": "What is the cause of: As he walked, he felt much heavier than before.?",
+        "options": [
+          "Mr. Howard was going to hiking who had a big bag on his back.",
+          "Jack had stomach cramps."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr156",
+      "input": {
+        "question": "What is the cause of: This monster was pleased.?",
+        "options": [
+          "This monster killed a boy.",
+          "This monster saved a boy."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr434",
+      "input": {
+        "question": "What is the cause of: Fox and rabbit in this stroy are in the place of people.?",
+        "options": [
+          "This story belongs to a fable.",
+          "It is evening."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr006",
+      "input": {
+        "question": "What is the effect of: Grande opened the drawers.?",
+        "options": [
+          "The red blood flew out.",
+          "He saw his old clothing."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr200",
+      "input": {
+        "question": "What is the cause of: The bulk of the heart's mass was negatively affected.?",
+        "options": [
+          "The heart contracted.",
+          "This disease caused degenerative changes of the myocardium in Tom's heart."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr493",
+      "input": {
+        "question": "What is the cause of: People on the street didn't get wet even without an umbrella.?",
+        "options": [
+          "It has been hailing heavily outside for a few hours.",
+          "Too many international activities were held in this city."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr455",
+      "input": {
+        "question": "What is the effect of: Tom relinquished his citizenship of his motherland.?",
+        "options": [
+          "Tom became a citizen of another country.",
+          "Conflicts between the natives and the immigrants increased."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr235",
+      "input": {
+        "question": "What is the effect of: The chemistry teacher used some polymers for experiments.?",
+        "options": [
+          "He changed its ranges many times.",
+          "The experiment produced a lot of smoke."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr146",
+      "input": {
+        "question": "What is the effect of: They went to catch eels today.?",
+        "options": [
+          "Many were found after seeing a leaking head in crevices.",
+          "Both of them took Penicillins and recovered."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr446",
+      "input": {
+        "question": "What is the cause of: He expressed himself through dance.?",
+        "options": [
+          "Tom is a dancer.",
+          "Mike wanted to feel what it felt like to move through the air."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr076",
+      "input": {
+        "question": "What is the effect of: All relatives entered the family room.?",
+        "options": [
+          "Their ages ranged from 20 to 50 years old.",
+          "They sat on the chairs one by one."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr218",
+      "input": {
+        "question": "What is the cause of: The birds located this zone as habitat.?",
+        "options": [
+          "No part of zones is good for living.",
+          "This part of zone is comfortable for birds to live."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr480",
+      "input": {
+        "question": "What is the cause of: His mother gave him a ladybug.?",
+        "options": [
+          "He told his mother that he wanted a beetle.",
+          "He needed a hard brittle lustrous dense transition metal of the platinum family."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr238",
+      "input": {
+        "question": "What is the cause of: His mother cooked some custards and milk for him.?",
+        "options": [
+          "John wanted to eat the first discovered variety of macaques.",
+          "Tom was hungry when he got up."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr409",
+      "input": {
+        "question": "What is the cause of: He first studied tulips.?",
+        "options": [
+          "Tom wanted some flowers to decorate his bedroom.",
+          "He wanted to study the flowers of the lily family."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr198",
+      "input": {
+        "question": "What is the cause of: They can live well in winter.?",
+        "options": [
+          "They dig to the subsoil.",
+          "Seals are mammals."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr355",
+      "input": {
+        "question": "What is the cause of: They feed ducks every morning.?",
+        "options": [
+          "There live several girls.",
+          "There are two grey armadillos."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr141",
+      "input": {
+        "question": "What is the cause of: His legs are entangled in duckweed.?",
+        "options": [
+          "Tom was walking in the jungle.",
+          "Tom was standing in the river and can't move a step."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr189",
+      "input": {
+        "question": "What is the effect of: Tom was a homosexual.?",
+        "options": [
+          "He also had basic needs to make love as others.",
+          "The hospital put him in an isolation ward and sterilized him daily."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr253",
+      "input": {
+        "question": "What is the effect of: All the animals went to participate in the travel competition.?",
+        "options": [
+          "Almost no aspect of man's everyday life would be affected.",
+          "Albatross won the championship."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr302",
+      "input": {
+        "question": "What is the cause of: He suffered from the smallpox.?",
+        "options": [
+          "Tom was in the hospital.",
+          "There was a virus spreading in the air of Tom's class."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr052",
+      "input": {
+        "question": "What is the cause of: He found the pyridine disappeared.?",
+        "options": [
+          "The doctor traced the sources of this toxin.",
+          "The scientist put some pyridine in the water."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr327",
+      "input": {
+        "question": "What is the effect of: John wants to have a scientific study of the complex water systems of the Earth and help solve water problems.?",
+        "options": [
+          "He decided to major in malacology.",
+          "He chooses hydrology as his major."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr405",
+      "input": {
+        "question": "What is the effect of: The chemist added many reagents to the two enantiomers respectively.?",
+        "options": [
+          "All reagents proved the identical chemical properties of the enantiomers except the optically active reagents.",
+          "The former has only one cotyledon, while the latter has two cotyledons."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr246",
+      "input": {
+        "question": "What is the effect of: It is a freshwater lake.?",
+        "options": [
+          "Various species live in this lake.",
+          "There is no living beings in this lake."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr244",
+      "input": {
+        "question": "What is the effect of: Tom felt so nervous in the running competition.?",
+        "options": [
+          "His leg cramps.",
+          "His natural temperament was affected."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr371",
+      "input": {
+        "question": "What is the cause of: He was diagnosed with Leptospirosis.?",
+        "options": [
+          "This little man abused inhalants in his life.",
+          "This boy was exposed to contaminated rat urine."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr347",
+      "input": {
+        "question": "What is the cause of: He had to bear their great vocal sounds.?",
+        "options": [
+          "The worker in zoo lives with capybaras.",
+          "Tom had to gather the people."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr395",
+      "input": {
+        "question": "What is the cause of: He have studied al extraterrestrial objects.?",
+        "options": [
+          "Tom studies physics.",
+          "Tom is an expert studying astronomy."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr088",
+      "input": {
+        "question": "What is the effect of: Their new baby born yesterday.?",
+        "options": [
+          "This new life starts to cry.",
+          "He is likely to see cottonmouths around."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr124",
+      "input": {
+        "question": "What is the effect of: Tom believes that dogs and wolves belong to the same phylum.?",
+        "options": [
+          "Tom is wrong.",
+          "Tom is right."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr073",
+      "input": {
+        "question": "What is the effect of: Tom feels that his asthma is about to attack.?",
+        "options": [
+          "He was injected with some water.",
+          "He eats some singulars."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr349",
+      "input": {
+        "question": "What is the cause of: Artificial snow is impossible in summer of Hong Kong.?",
+        "options": [
+          "Small soft white pieces of frozen water melt in hot weather.",
+          "Rainwater distribution decreases with the increase of mountain altitude."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr012",
+      "input": {
+        "question": "What is the cause of: It cannot produce oxygen.?",
+        "options": [
+          "Tom's experiment produced some methanol gas.",
+          "No energy is available for the dying plant anymore."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr326",
+      "input": {
+        "question": "What is the cause of: I should concentrate on the writing of a time a place an era.?",
+        "options": [
+          "Product with good quality will sale well.",
+          "My research interest is about Literature."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr075",
+      "input": {
+        "question": "What is the cause of: The scientist observed its appearance.?",
+        "options": [
+          "Nobody has seen edaphosauruses before.",
+          "A scientist has picked up a paramecium and curious about it."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr222",
+      "input": {
+        "question": "What is the effect of: The country lacks carbohydrates.?",
+        "options": [
+          "They are short of the primary source of fuel.",
+          "Nutritionists suggest balanced food mix."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr064",
+      "input": {
+        "question": "What is the effect of: The workers are in charge of cleaning debris.?",
+        "options": [
+          "They have to consider the waste.",
+          "Tom brings a clean dry rag and start cleaning the dirty floor ."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr316",
+      "input": {
+        "question": "What is the cause of: He gets some concentrated phytoestrogens.?",
+        "options": [
+          "He processes flaxseeds.",
+          "He picks cucumbers."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr337",
+      "input": {
+        "question": "What is the effect of: There is several little insects on the tree.?",
+        "options": [
+          "They were hunted by the spider.",
+          "They were hungry."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr225",
+      "input": {
+        "question": "What is the cause of: He was diagnosed with a kind of syndrome.?",
+        "options": [
+          "Tom suffers from hypocalcemia.",
+          "Tom got infected by something unknown."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr314",
+      "input": {
+        "question": "What is the cause of: Weevils were born.?",
+        "options": [
+          "It is not too hot but a little wet at this time in summer.",
+          "A flu attacked this town."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr499",
+      "input": {
+        "question": "What is the effect of: The naughty boy knew his sistar hate animals with big mouths.?",
+        "options": [
+          "He pulls out the spines that emit venom.",
+          "He caught a bass to scare her."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr470",
+      "input": {
+        "question": "What is the effect of: Jim faces the stress of finding a job.?",
+        "options": [
+          "He often gets cramps.",
+          "He is too distressed to sleep at night."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr121",
+      "input": {
+        "question": "What is the cause of: It can hold water up to two liters.?",
+        "options": [
+          "The sink has great capacity.",
+          "Tom is a mathematician."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr095",
+      "input": {
+        "question": "What is the effect of: The victims were taken to the police office to identify the crimnimal.?",
+        "options": [
+          "They tried to recall the face of the criminal.",
+          "They found the body as a female college student."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr248",
+      "input": {
+        "question": "What is the effect of: The doctor check the CT of my brain.?",
+        "options": [
+          "He found that there were some dinoflagellates.",
+          "He found Abscesses."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr208",
+      "input": {
+        "question": "What is the effect of: Lucy has reached her sexual maturity.?",
+        "options": [
+          "She had involuntary movements in her body.",
+          "Her menstruation starts."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr154",
+      "input": {
+        "question": "What is the effect of: Judy suffered from tics.?",
+        "options": [
+          "The vet asserted it has panleukopenia.",
+          "She had involuntary movements in her body."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr399",
+      "input": {
+        "question": "What is the effect of: Monkeys are particularly abundant in the forests of this habitat.?",
+        "options": [
+          "They use their nema-tocysts to capyure prey.",
+          "The population of monkey is high."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr488",
+      "input": {
+        "question": "What is the effect of: Tom gave his patient a barbiturates injection in order to relieve his pain during the operation.?",
+        "options": [
+          "Tom was happy and perform in a better way.",
+          "The patient still suffered from serious pain."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr201",
+      "input": {
+        "question": "What is the cause of: My baby was baptized.?",
+        "options": [
+          "The Father gave my baby immersion.",
+          "The whole famly has made a complete plan."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr228",
+      "input": {
+        "question": "What is the cause of: He was surprised at their ways similar to multicellular animals.?",
+        "options": [
+          "The experimenter expected the Paramecium has a special way of consuming food.",
+          "Tom has met two plesiosaurs."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr259",
+      "input": {
+        "question": "What is the cause of: Some patients worry about recurrences after their recovery.?",
+        "options": [
+          "The virus inside the nerve cell can be reactivated.",
+          "The chairman passed away."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr013",
+      "input": {
+        "question": "What is the effect of: Tom has good eyesight.?",
+        "options": [
+          "Tom found the poisonous snake in time.",
+          "Tom pays great attention to eye protection."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr243",
+      "input": {
+        "question": "What is the cause of: Batteries should not be casually thrown.?",
+        "options": [
+          "Tom accidentally threw some waste containing curium into a lake.",
+          "Anything containing caustic mixtures of chemicals should not be casually thrown."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr054",
+      "input": {
+        "question": "What is the cause of: Human might get infected owing to sick mosquitoes.?",
+        "options": [
+          "Harmful bacteria can make people sick.",
+          "Virus attacked the mosquitoes."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr390",
+      "input": {
+        "question": "What is the effect of: Lilia has a gift for singing.?",
+        "options": [
+          "Other ladies are jealous.",
+          "Although she has not received vocal training, her singing are very skilled."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr127",
+      "input": {
+        "question": "What is the effect of: He invited his partners to his residence.?",
+        "options": [
+          "They entered his residence.",
+          "In view of employment, China's economic activities have increased after the Reform and Opening Up."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr406",
+      "input": {
+        "question": "What is the effect of: Linda's father is a builder.?",
+        "options": [
+          "Linda's house is built by her father.",
+          "His father said grain can be used to make food, sell money, and even make decorations."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr267",
+      "input": {
+        "question": "What is the effect of: Mother asks Tom to play the violin in front of relatives.?",
+        "options": [
+          "He is very good at piano, accordion and violin.",
+          "Tom plucks the strings all the time."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr062",
+      "input": {
+        "question": "What is the effect of: The children will be shipped off to a boarding school.?",
+        "options": [
+          "Their parents taught their children how to solve living problems independently before going to school.",
+          "Various elimination processes was adopted to achieve that."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr310",
+      "input": {
+        "question": "What is the cause of: They bought a chiller in a joint venture.?",
+        "options": [
+          "They did an experiment about aeration.",
+          "Students want to cool the hot water in a rapid way."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr079",
+      "input": {
+        "question": "What is the effect of: Tom ran into an anemone.?",
+        "options": [
+          "Spontaneous ignition occurred.",
+          "He was poisoned."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr001",
+      "input": {
+        "question": "What is the cause of: The child brought psycho-physical phenomena on a new life.?",
+        "options": [
+          "The woman gave birth to a child.",
+          "The baby feels the awareness through physical sensations."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr035",
+      "input": {
+        "question": "What is the effect of: Various features show that this is a dicot in the family Piperaceae.?",
+        "options": [
+          "This seed is a monocot rather than dicot.",
+          "Researchers suspected it is a peperomia."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr059",
+      "input": {
+        "question": "What is the cause of: She cannot have contact with dough.?",
+        "options": [
+          "Lucy has constipation.",
+          "She is allergic to yeast."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr478",
+      "input": {
+        "question": "What is the cause of: Jack's mother learns that Jack has an appointment.?",
+        "options": [
+          "Time goes on.",
+          "Jack's mother peeks at Jack's diary."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr353",
+      "input": {
+        "question": "What is the effect of: He wanted to have a more exciting track.?",
+        "options": [
+          "He pulls out the spines that emit venom.",
+          "He changed the type of track."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr320",
+      "input": {
+        "question": "What is the effect of: Hydration comes from pure, clean water.?",
+        "options": [
+          "The sewage is carried away efficiently.",
+          "We need to drink water to maintain proper hydration."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr249",
+      "input": {
+        "question": "What is the cause of: He wants to eat a pie.?",
+        "options": [
+          "The hobo was extremely hungry.",
+          "Tom ate a lot of irritants."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr420",
+      "input": {
+        "question": "What is the cause of: I sent out bullets of different sizes.?",
+        "options": [
+          "I used pea seeds as the bullets of my catapult.",
+          "My husband taught me shotting."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr369",
+      "input": {
+        "question": "What is the cause of: He found bring bulges in the flat disk-like spiral.?",
+        "options": [
+          "He looked at the center of the spiral of the star with Kepler telescope.",
+          "He looked at the center of the spiral of the tree with Kepler telescope."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr495",
+      "input": {
+        "question": "What is the effect of: Waterwheels satrted work efficiently.?",
+        "options": [
+          "The mills can set to work.",
+          "The scientists have invented replacements."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr498",
+      "input": {
+        "question": "What is the cause of: People can always recognize aardvark easily.?",
+        "options": [
+          "The Aardwolf show its butt.",
+          "Aardvark always looks different from other sea creatures."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr437",
+      "input": {
+        "question": "What is the cause of: This poor girl has suffered from leukemia.?",
+        "options": [
+          "Basophils cause some allergic diseases.",
+          "The number of basophils in this poor girl is outside the bounds of normality."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr080",
+      "input": {
+        "question": "What is the cause of: The company loses one million due to rust after a few months.?",
+        "options": [
+          "The company keeps the steel in a wet warehouse.",
+          "Qualcomm Company has applied for many patents."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr328",
+      "input": {
+        "question": "What is the cause of: He was considered as one of the greatest hero in the history.?",
+        "options": [
+          "The killer gave John too much laxative.",
+          "Yuan Longping has made a great contribution to solving the problem of people's starving."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr396",
+      "input": {
+        "question": "What is the effect of: Many patients were given medication.?",
+        "options": [
+          "Some of them had allergic reactions.",
+          "The medicine affected the aggregate of lymph nodules."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr115",
+      "input": {
+        "question": "What is the effect of: Jane wanted to buy a book full of maps bound together.?",
+        "options": [
+          "She booked a ticket of a museum.",
+          "She bought some atlases."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr481",
+      "input": {
+        "question": "What is the cause of: The results showed she was infected with streptococcus.?",
+        "options": [
+          "Mary's white blood cell count was significantly lower.",
+          "The patient has been infected with hepatitis b virus."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr254",
+      "input": {
+        "question": "What is the effect of: Jack kept a civet.?",
+        "options": [
+          "He thought it was too noisy.",
+          "Jack can beautify his house."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr398",
+      "input": {
+        "question": "What is the cause of: We cannogt get clean water from those underground reservoirs.?",
+        "options": [
+          "The Aquifers were mostly clean.",
+          "The Aquifers were mostly pollution."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr288",
+      "input": {
+        "question": "What is the cause of: She became a background singer in the chorus.?",
+        "options": [
+          "Lucy was always crying.",
+          "Mary was a singer."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr074",
+      "input": {
+        "question": "What is the cause of: But the students can't understand the example.?",
+        "options": [
+          "The teacher gives an example to illustrate the grammar point.",
+          "Researchers are debating."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr265",
+      "input": {
+        "question": "What is the effect of: Pregnant woman Alice decides to take more folic acid.?",
+        "options": [
+          "She often eats hazelnuts among nuts.",
+          "This kept her from gaining weight easily."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr105",
+      "input": {
+        "question": "What is the effect of: Gongress passed some proposals.?",
+        "options": [
+          "The economy has been improved a lot.",
+          "Small buiness benefited from these proposals."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr360",
+      "input": {
+        "question": "What is the cause of: He was shocked by his chemical deficiency.?",
+        "options": [
+          "The food Tom ate contained bacteria.",
+          "The patient with addiction watched the neuroscientist's lecture."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr418",
+      "input": {
+        "question": "What is the effect of: John is an experienced thief.?",
+        "options": [
+          "He is good at catching mice and other animals.",
+          "He has stolen something."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr368",
+      "input": {
+        "question": "What is the cause of: The pistachio is infected with the disease.?",
+        "options": [
+          "It's cloudy today.",
+          "It has been raining and humid recently."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr379",
+      "input": {
+        "question": "What is the cause of: Jenny's mother called this behavior a crime.?",
+        "options": [
+          "Jenny wants to show her strength without restrictions.",
+          "Tom plucked the strings and the friction between the strings and the air produced vibrations."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr262",
+      "input": {
+        "question": "What is the cause of: H was attached to the former by a covalent bond.?",
+        "options": [
+          "The electronegative atom meet the hydrogen H.",
+          "This atom had reduction and the other had reduction."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr346",
+      "input": {
+        "question": "What is the cause of: Tom bought a lot of mangoes and coconuts.?",
+        "options": [
+          "Tom buys imported tropical fruit every day.",
+          "The doctor advised Tom to eat more tropical fruits to supplement his vitamins."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr300",
+      "input": {
+        "question": "What is the effect of: He was a monotheist.?",
+        "options": [
+          "Many altars have been set up in his courtyard.",
+          "He believes in only one god."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr380",
+      "input": {
+        "question": "What is the cause of: One should preserve acids in a bottle with alkalis.?",
+        "options": [
+          "Acids should not be preseved with chemicals of cheap prices.",
+          "Acids should not be preseved with chemicals of opposite features."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr063",
+      "input": {
+        "question": "What is the effect of: He went to school.?",
+        "options": [
+          "He learned a lot.",
+          "He was good at social interaction."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr032",
+      "input": {
+        "question": "What is the effect of: His action led to the movement of the wheels.?",
+        "options": [
+          "The machine was set in motion.",
+          "The second step followed it soon after."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr170",
+      "input": {
+        "question": "What is the cause of: The doctor said he was suffering from a skin disease.?",
+        "options": [
+          "The thinning of glomerular basement membrane seriously affected his health.",
+          "Tom sweats a lot."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr354",
+      "input": {
+        "question": "What is the effect of: He buried some seeds in the flowerpot.?",
+        "options": [
+          "Flowers grew soon after.",
+          "Saguaros grew soon after."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr247",
+      "input": {
+        "question": "What is the effect of: Tom is doing his experiment with his classmate.?",
+        "options": [
+          "His classmate was eliminated.",
+          "His classmates were a disservice."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr428",
+      "input": {
+        "question": "What is the cause of: The docter said that was just after image.?",
+        "options": [
+          "Jack said he could see some spots in his field of vision.",
+          "The saint looked up to physical manifestation of deity."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr149",
+      "input": {
+        "question": "What is the effect of: Lucy gave me a pen.?",
+        "options": [
+          "I added black ink into it.",
+          "I bought ink for the pen."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr463",
+      "input": {
+        "question": "What is the effect of: Astronauts wear spacesuits with lithium hydroxide canisters to work in space.?",
+        "options": [
+          "Their exhaled carbon dioxide combines with lithium hydroxide to produce water and purify the air around them.",
+          "Spacesuits keep them from being affected by gravity."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr305",
+      "input": {
+        "question": "What is the cause of: They subdivide a whole year.?",
+        "options": [
+          "The mating season finally ends.",
+          "There are four seasons."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr171",
+      "input": {
+        "question": "What is the cause of: He found ways to prevent oxidation.?",
+        "options": [
+          "Tom doesn't know Berkelium.",
+          "The seller should avoid nature's way of spoiling things like food."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr055",
+      "input": {
+        "question": "What is the cause of: It is difficult for him to get mind equilibrium now.?",
+        "options": [
+          "Henry always runs into hindrances in doing business.",
+          "He suffers from epilepsy."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr333",
+      "input": {
+        "question": "What is the effect of: Tom wants to go to space.?",
+        "options": [
+          "He aspired to be an astronaut.",
+          "He aspired to be a calligrapher."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr139",
+      "input": {
+        "question": "What is the cause of: He opened his mouth.?",
+        "options": [
+          "The anaconda saw his food in the forest.",
+          "The mayor gathered the people of the whole city in the square."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr029",
+      "input": {
+        "question": "What is the effect of: Simon's mother often let Simon eat soys.?",
+        "options": [
+          "Simon grows healthy.",
+          "Simon is often sick."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr475",
+      "input": {
+        "question": "What is the cause of: He found the latter has a much wider ranges of distribution.?",
+        "options": [
+          "The botanist specialized in vascular plants investigated bryohytes.",
+          "Tom looked at the arterioles with the naked eye and with a microscope."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr426",
+      "input": {
+        "question": "What is the effect of: The child eats cereals every day.?",
+        "options": [
+          "He is healthy.",
+          "He was healthy."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr236",
+      "input": {
+        "question": "What is the effect of: Tom listened to the advice from his teacher.?",
+        "options": [
+          "He learned about his teacher's experience as well.",
+          "The teacher told him to open to each moment with calm awareness."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr266",
+      "input": {
+        "question": "What is the effect of: This kind of young animal grow rapidly.?",
+        "options": [
+          "This kind of young animal is likely to be healthy.",
+          "This kind of young animal is likely to suffer from  scurvy."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr391",
+      "input": {
+        "question": "What is the effect of: Peter put the mallard in the lake.?",
+        "options": [
+          "Its shape ranges from highly irregular to sphere.",
+          "The mallard swam to the middle of the lake."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr414",
+      "input": {
+        "question": "What is the cause of: I smelt fine flavour.?",
+        "options": [
+          "I cooked the flesh in the kitchen.",
+          "I sniffed the basil."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr447",
+      "input": {
+        "question": "What is the effect of: Tom is trying to make a plywood.?",
+        "options": [
+          "He got some lancelets.",
+          "He is cutting a thin continous layer of wood off a log as it is spins around."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr004",
+      "input": {
+        "question": "What is the cause of: The chance she gets flu becomes smaller.?",
+        "options": [
+          "The fish has suffered from the infection.",
+          "She has been vaccined."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr344",
+      "input": {
+        "question": "What is the effect of: Tom's car is always drawn by dendrites.?",
+        "options": [
+          "They fly away when Tom tries to approach.",
+          "Tom measured the length of the dendrites in order to measure the distance between his car and the dendrite."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr207",
+      "input": {
+        "question": "What is the cause of: She can have a rest after the daytime.?",
+        "options": [
+          "Lucy works in a courthouse.",
+          "Lucy works in a bar."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr065",
+      "input": {
+        "question": "What is the cause of: The doctor said that his heart rhythm is uneven.?",
+        "options": [
+          "Jack's infusion speed was uneven.",
+          "He asked the cardiologist to watch the condition of the heart."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr202",
+      "input": {
+        "question": "What is the effect of: Tom wandered in the early spring.?",
+        "options": [
+          "Tom saw penguins.",
+          "Tom saw snowdrops."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr440",
+      "input": {
+        "question": "What is the cause of: He bought an avocado.?",
+        "options": [
+          "He bought a booklet.",
+          "His mother asked him to buy a green vegetable."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr028",
+      "input": {
+        "question": "What is the effect of: Jack wanted to know why Quasars drown out the light from all the other stars in the same galaxy.?",
+        "options": [
+          "He took use of stoichimetry.",
+          "He looked it up and found out that it was because they were so bright."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr151",
+      "input": {
+        "question": "What is the cause of: Tom is American.?",
+        "options": [
+          "Tom is a homo.",
+          "Tom was born and brought up in Indinana."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr290",
+      "input": {
+        "question": "What is the cause of: The phenomenon of accretion happened.?",
+        "options": [
+          "Scientists study the effect of induction on plant variation.",
+          "Tom rubbed two small pills together into one big pill."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr279",
+      "input": {
+        "question": "What is the cause of: It has the function of Glycolysis.?",
+        "options": [
+          "The Myofibrils have different numbers of myofilaments.",
+          "This enzyme facilitated the breakdown of glucose."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr318",
+      "input": {
+        "question": "What is the cause of: We can see the green concrete paving of this rail.?",
+        "options": [
+          "The Urban Construction Bureau has added a new railway here.",
+          "This streetcar girder rail is dyed green."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr066",
+      "input": {
+        "question": "What is the effect of: Enzymes are necessary for children's growth.?",
+        "options": [
+          "Then kids can grow taller.",
+          "Children are encouraged to eat sprouts."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr192",
+      "input": {
+        "question": "What is the effect of: Tom is taking a course in cryobiology.?",
+        "options": [
+          "When he does experiments, he needs to freeze the biological specimens in advance for observation.",
+          "He took use of stoichimetry."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr263",
+      "input": {
+        "question": "What is the cause of: Tom had an epileptic seizure on the street.?",
+        "options": [
+          "Tom's brain was stimulated a lot.",
+          "Lucy has waited for Tom for a long time."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr298",
+      "input": {
+        "question": "What is the effect of: Usually girls showed better attitude than boys in learning English.?",
+        "options": [
+          "Those girl got higher ability in using English.",
+          "He noticed the shoots it produced one day."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr125",
+      "input": {
+        "question": "What is the effect of: The light was off at 10 pm.?",
+        "options": [
+          "My pupils became samller suddenly.",
+          "My pupils became bigger suddenly."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr403",
+      "input": {
+        "question": "What is the cause of: His serious condition needed immediate medical treatment.?",
+        "options": [
+          "Jerry fainted with a shock.",
+          "My father has mild to moderate hypertension."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr477",
+      "input": {
+        "question": "What is the cause of: The anole climbed out along the wall of the glass cabinet and ran away.?",
+        "options": [
+          "Peter kept a anole in a glass cabinet.",
+          "The alien was blocked from water, air  and dust."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr315",
+      "input": {
+        "question": "What is the effect of: Tom always touches his eyes with his dirty hands.?",
+        "options": [
+          "He got eye irritation.",
+          "He has suffered the trachoma."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr486",
+      "input": {
+        "question": "What is the cause of: Scientists pick one out of thousands of breeds.?",
+        "options": [
+          "The mathematician met a math problem.",
+          "Farmers want to grow sweeter oranges."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr387",
+      "input": {
+        "question": "What is the effect of: Lili will choose a branch of systematics to continue her study.?",
+        "options": [
+          "She chooses taxonomy.",
+          "The water splashed wet people nearby."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr046",
+      "input": {
+        "question": "What is the cause of: This phenomenon is called speciation.?",
+        "options": [
+          "Scientists say that many species have become extinct since ancient times.",
+          "A species gradually adapted to its environment."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr466",
+      "input": {
+        "question": "What is the effect of: Tom was a diabetic when he was 13.?",
+        "options": [
+          "Doctor thinks Tom has insomnia.",
+          "He had impotence when he was 25."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr393",
+      "input": {
+        "question": "What is the cause of: Her mother always buys minnows.?",
+        "options": [
+          "Mary likes animals with thick brown fur.",
+          "Mary likes eating fish very much."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr014",
+      "input": {
+        "question": "What is the effect of: Tom wants to know more about production.?",
+        "options": [
+          "He bought a soda.",
+          "Tom set out to go to the dense regions."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr287",
+      "input": {
+        "question": "What is the cause of: The load divided by its drainage area is large.?",
+        "options": [
+          "This river is of high field.",
+          "The flood overwhelmed many dikes."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr015",
+      "input": {
+        "question": "What is the cause of: He observed tracks on the ground where the jaguar had moved its all tour legs.?",
+        "options": [
+          "The neighbor gave Tom a saguaro.",
+          "The zoologist made an observation of the jaguar's habits."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr471",
+      "input": {
+        "question": "What is the cause of: Our teacher pointed out our thought was wrong.?",
+        "options": [
+          "We were ready to go take some nice pictures.",
+          "We thought macromolecules were scant in cells."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr211",
+      "input": {
+        "question": "What is the cause of: The vegetation there is exceptionally vigorous.?",
+        "options": [
+          "This place is warm and humid.",
+          "The rain forest abounds with rain."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr216",
+      "input": {
+        "question": "What is the cause of: The pond is teemed with eggs. .?",
+        "options": [
+          "Jack often goes to the pond to watch tadpoles.",
+          "The frogs have spawned these days."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr239",
+      "input": {
+        "question": "What is the effect of: Lymphocytes around the patient's buttom got disease.?",
+        "options": [
+          "The surrounding vessels were influenced.",
+          "The patient went into convulsions."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr219",
+      "input": {
+        "question": "What is the cause of: He found a lot of taurine.?",
+        "options": [
+          "John was studying the cellular composition of mammals.",
+          "My son wanted to learn distribution of plant species."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr182",
+      "input": {
+        "question": "What is the cause of: He recently was diagnosed with the multiple sclerosis.?",
+        "options": [
+          "Tom has wristed his hands.",
+          "Tom suffered from the demyelination many years ago."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr240",
+      "input": {
+        "question": "What is the cause of: She eats some laxatives and her colon expels shit swiftly from the bowel.?",
+        "options": [
+          "Linda has suffered from constipation for a week.",
+          "Anna lacks pepper in her intestinal area."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr184",
+      "input": {
+        "question": "What is the effect of: Luke's backbones received outside pressure.?",
+        "options": [
+          "His rigid bones bent.",
+          "Luke has the right to hold concils."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr365",
+      "input": {
+        "question": "What is the cause of: Many anthropologist disagree with him.?",
+        "options": [
+          "Tim holds the division of humankind.",
+          "Jack is a naturalist."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr351",
+      "input": {
+        "question": "What is the cause of: Biologist stand out to protect these significant creatures.?",
+        "options": [
+          "Bushbucks are favored by humans, especially hunters.",
+          "People in this city are destroying the lives of mollusks."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr258",
+      "input": {
+        "question": "What is the effect of: He keeps many gnus.?",
+        "options": [
+          "He travels with them together for food.",
+          "The gnus have eaten up the grass on his lawn."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr161",
+      "input": {
+        "question": "What is the cause of: They found there were  a basilar turn with a cystic cavity.?",
+        "options": [
+          "They dissected the human ear to see the structure of cochlea.",
+          "The dentist in need of cavity samples checked many children's teeth."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr356",
+      "input": {
+        "question": "What is the cause of: The sales team will provide different services according to the different needs of customers.?",
+        "options": [
+          "The voltage of the electric field has changed.",
+          "Different customers have different needs."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr227",
+      "input": {
+        "question": "What is the effect of: Tom's father is a chef.?",
+        "options": [
+          "He has a recipe of the dishes that he is good at.",
+          "Tom wants to show off his cooking skills."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr270",
+      "input": {
+        "question": "What is the effect of: Atmosphere of the two regions are totally different.?",
+        "options": [
+          "His thyroid function was promoted for more intake of iodine.",
+          "The surfaces of rocky bodies in the two regions are different."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr071",
+      "input": {
+        "question": "What is the effect of: The root of the plant rotted.?",
+        "options": [
+          "In order to save the plant, Tom gave it a rhizoid.",
+          "The plants were beginning to wilt."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr050",
+      "input": {
+        "question": "What is the effect of: The villagers were happy about the harvest.?",
+        "options": [
+          "They responded with a public press.",
+          "They had enough food this year."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr492",
+      "input": {
+        "question": "What is the effect of: Jessy flattened the blanket on her bed.?",
+        "options": [
+          "The colorful pillows of the blanket faces up.",
+          "The colorful surface of the blanket faces up."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr427",
+      "input": {
+        "question": "What is the effect of: People there have no literacy.?",
+        "options": [
+          "They can not understand the words on paper or wirte any words.",
+          "They can not write but they can read papers."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr490",
+      "input": {
+        "question": "What is the cause of: Tom ate a lot of pots of brambles this year.?",
+        "options": [
+          "Tom's crops were eaten by insects.",
+          "Tom sowed bramble seeds last year."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr401",
+      "input": {
+        "question": "What is the cause of: The radiolarian was observed to be much bigger.?",
+        "options": [
+          "There samples of radiolarian and dinausour teeth were placed under the microscope.",
+          "There samples of radiolarian and protozoan were placed under the microscope."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr193",
+      "input": {
+        "question": "What is the cause of: Temperature in this house can be very low in winter.?",
+        "options": [
+          "This house has some infiltration problem.",
+          "These people lives on the torrid zone."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr094",
+      "input": {
+        "question": "What is the effect of: The angry patient was injected depressants.?",
+        "options": [
+          "He felt angry and scrared.",
+          "He felt calm and relaxed."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr280",
+      "input": {
+        "question": "What is the effect of: The tips of the chromosome shortens each time the cell divides.?",
+        "options": [
+          "The telomeres shorten as the cell divides.",
+          "The number of mastodons is becoming less and less."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr237",
+      "input": {
+        "question": "What is the cause of: His father was getting weak and suffering from lung cancer.?",
+        "options": [
+          "Mike was 30 years old.",
+          "His father often smokes."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr322",
+      "input": {
+        "question": "What is the effect of: Lisa had scorpionfish for lunch.?",
+        "options": [
+          "She got stuck in her throat by the bones of the scorpionfish.",
+          "Lisa eats the parfait in the refrigerator."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr291",
+      "input": {
+        "question": "What is the effect of: Tom's heart is beating abnormally.?",
+        "options": [
+          "The doctor insert a pacemaker for him.",
+          "The doctor measured his electrocardiogram."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr153",
+      "input": {
+        "question": "What is the effect of: Many goods have been reduced in price recently.?",
+        "options": [
+          "Deflation makes all kinds of shops miserable.",
+          "Buys are satisfied with the  trend."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr044",
+      "input": {
+        "question": "What is the cause of: Tom has observed charge movement.?",
+        "options": [
+          "Tom give the circuit voltage.",
+          "Tom has bought a mayfly."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr157",
+      "input": {
+        "question": "What is the effect of: Hardwoods are deciduous.?",
+        "options": [
+          "They lose their leaves each fall.",
+          "There is mud to help them grow."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr497",
+      "input": {
+        "question": "What is the effect of: Alice eats some health products containing antacids.?",
+        "options": [
+          "Alice felt headache.",
+          "The painkillers he took before have failed."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr483",
+      "input": {
+        "question": "What is the cause of: She got the frequency of the sound.?",
+        "options": [
+          "Madame Curie studied radium all her life.",
+          "My mentor calculated the number of recurring periodic waves in one second."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr284",
+      "input": {
+        "question": "What is the cause of: The doctor told him not to worry. There was basically no pathological change.?",
+        "options": [
+          "Tom has met an archaeopteryx on his way home.",
+          "Einstein's father was detected with retinoblastoma."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr214",
+      "input": {
+        "question": "What is the effect of: Weightlifters train very hard.?",
+        "options": [
+          "Their muscles grow fast.",
+          "They are constantly learning new skills."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr070",
+      "input": {
+        "question": "What is the effect of: The primates didn't want to be exhibit animals.?",
+        "options": [
+          "They escaped from the zoo.",
+          "They ran to the dianosaurs."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr129",
+      "input": {
+        "question": "What is the cause of: Another bilogist helps him.?",
+        "options": [
+          "The botanist needs natural extraction of Terpenes.",
+          "This biologist has problems in other scientific fields to solve."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr103",
+      "input": {
+        "question": "What is the effect of: The baby ground squirrels were hidden by their mom.?",
+        "options": [
+          "They were not found by the rattlesnakes.",
+          "Visitors find it hard to distinguished them."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr394",
+      "input": {
+        "question": "What is the effect of: The docter suggested Phytotherapy.?",
+        "options": [
+          "Tom received treatment using plant products.",
+          "He applied a design for specific use."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr350",
+      "input": {
+        "question": "What is the cause of: I saw him swallowing movement.?",
+        "options": [
+          "I noticed the stranger's spitting.",
+          "He stood under the trees."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr072",
+      "input": {
+        "question": "What is the effect of: Tom was a shepherd.?",
+        "options": [
+          "He took care of a flock of sheep.",
+          "I respected his extensive observations."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr297",
+      "input": {
+        "question": "What is the cause of: Everyone can be susceptible to other people or things.?",
+        "options": [
+          "The virus spreads widely.",
+          "Every human is a life."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr412",
+      "input": {
+        "question": "What is the cause of: They shouldn't be exposed to common eradication chemicals.?",
+        "options": [
+          "Snails are invertebrates.",
+          "The security inks should be preserved properly."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr166",
+      "input": {
+        "question": "What is the effect of: Breast tissue is expected to be activated.?",
+        "options": [
+          "Prolactin is needed.",
+          "The sperm can swim freely."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr449",
+      "input": {
+        "question": "What is the effect of: Tom's gas cooker won't work.?",
+        "options": [
+          "His disease deteriorate slowly but continuously.",
+          "He started the fire with a piece of paper."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr348",
+      "input": {
+        "question": "What is the cause of: He bought a pair of shoes made of rubber.?",
+        "options": [
+          "Tom wants to protect his ankles when he runs.",
+          "Jack needed some silicone rubber."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr224",
+      "input": {
+        "question": "What is the cause of: Scientists arrived in the ice free coastal areas of the Arctic highlands to investigate.?",
+        "options": [
+          "Scientists observe the reproduction process of perch.",
+          "Scientists want to study narwhals in the summer."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr289",
+      "input": {
+        "question": "What is the effect of: Whiskers are closely connected to the nervous system.?",
+        "options": [
+          "They are sensitive.",
+          "The clerk refused him on the grounds that he didn't have prescription from a psychiatrist."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr089",
+      "input": {
+        "question": "What is the cause of: Compression sound waves were produced.?",
+        "options": [
+          "Tom plucked the strings and the friction between the strings and the air produced vibrations.",
+          "The vocal folds vibrated."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr160",
+      "input": {
+        "question": "What is the cause of: The reader felt  as though it had human capacities.?",
+        "options": [
+          "The author used Personification to descibe the inanimate object.",
+          "Some human events were engraved on the people's mind."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr306",
+      "input": {
+        "question": "What is the cause of: He brought a lawsuit against the company.?",
+        "options": [
+          "His business followed the failure.",
+          "Jack and his boss had a resignation problem."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    },
+    {
+      "id": "cr155",
+      "input": {
+        "question": "What is the effect of: Tom wants to have a bath.?",
+        "options": [
+          "Tom filled the bath tub with hot water.",
+          "His owner poured a bowl of water for him."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr472",
+      "input": {
+        "question": "What is the effect of: A stove is an enclosed space in which fuel is burned to provide heating.?",
+        "options": [
+          "Its surfaces protect people from hurting.",
+          "The electrons tiny charged particles inside atoms carried the heat."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr134",
+      "input": {
+        "question": "What is the effect of: Tom's family go hiking on the plain.?",
+        "options": [
+          "They find mangroves.",
+          "They saw many swamps."
+        ]
+      },
+      "output": {
+        "answer": "A"
+      }
+    },
+    {
+      "id": "cr458",
+      "input": {
+        "question": "What is the cause of: We saw Vegetation.?",
+        "options": [
+          "They did an experiment about aeration.",
+          "We came to the boundary of the wildlife habitat."
+        ]
+      },
+      "output": {
+        "answer": "B"
+      }
+    }
+  ],
+  "set_type": "openset"
+}

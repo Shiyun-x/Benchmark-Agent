@@ -1,0 +1,3824 @@
+{
+    "task": "Bird Detection",
+    "data_source": "https://www.kaggle.com/datasets/sovitrath/cub-200-bird-species-xml-detection-dataset",
+    "type": "image comprehension",
+    "modality": {
+        "in": [
+            "image",
+            "text"
+        ],
+        "out": [
+            "boxes"
+        ]
+    },
+    "skill": "Object Detection",
+    "domain": "General",
+    "general_capability": "Content Recognition",
+    "version": "1.0",
+    "set_type": "openset",
+    "others": {
+        "bbox_format": "(x_min, y_min, width, height)"
+    },
+    "data": [
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0087_56435.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            67,
+                            64,
+                            366,
+                            242
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0165"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0055_185230.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            23,
+                            90,
+                            251,
+                            344
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0384"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0049_31889.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            191,
+                            57,
+                            247,
+                            328
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0046"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0059_56674.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            152,
+                            48,
+                            124,
+                            225
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0157"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0090_31893.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            185,
+                            153,
+                            201,
+                            264
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0054"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0041_100060.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            178,
+                            104,
+                            182,
+                            123
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0073"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0008_797115.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            104,
+                            159,
+                            359,
+                            191
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0316"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0007_794563.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            124,
+                            121,
+                            141,
+                            229
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0210"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0046_100240.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            154,
+                            101,
+                            222,
+                            108
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0075"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0065_159722.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            94,
+                            75,
+                            307,
+                            290
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0334"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0139_184839.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            52,
+                            161,
+                            319,
+                            283
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0404"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0070_160354.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            6,
+                            84,
+                            388,
+                            181
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0416"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0121_100040.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            79,
+                            102,
+                            236,
+                            211
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0093"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0019_794567.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            203,
+                            72,
+                            116,
+                            192
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0216"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0046_797494.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            67,
+                            175,
+                            409,
+                            185
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0480"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0116_31943.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            103,
+                            28,
+                            177,
+                            446
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0060"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0093_70360.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            180,
+                            94,
+                            226,
+                            151
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0369"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0086_56495.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            108,
+                            163,
+                            116,
+                            135
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0164"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0011_794577.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            75,
+                            29,
+                            142,
+                            109
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0211"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0125_88450.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            167,
+                            63,
+                            164,
+                            226
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0252"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0027_26319.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            90,
+                            75,
+                            340,
+                            177
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0444"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0025_159957.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            180,
+                            130,
+                            254,
+                            142
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0321"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0019_130555.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            132,
+                            60,
+                            183,
+                            175
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0290"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0073_185049.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            182,
+                            250,
+                            133,
+                            123
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0390"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0011_25151.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            37,
+                            58,
+                            272,
+                            233
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0008"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0091_26246.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            31,
+                            148,
+                            262,
+                            226
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0463"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0112_87447.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            21,
+                            90,
+                            272,
+                            255
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0250"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0037_87337.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            148,
+                            182,
+                            144,
+                            208
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0229"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0087_89726.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            141,
+                            24,
+                            270,
+                            275
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0246"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0012_794552.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            110,
+                            136,
+                            129,
+                            299
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0212"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0019_179870.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            114,
+                            191,
+                            187,
+                            186
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0130"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0085_56756.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            85,
+                            38,
+                            282,
+                            337
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0163"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0050_787316.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            195,
+                            54,
+                            241,
+                            258
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0224"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0034_32371.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            43,
+                            89,
+                            332,
+                            153
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0042"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0046_129742.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            82,
+                            64,
+                            389,
+                            217
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0279"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0079_25463.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            26,
+                            22,
+                            438,
+                            297
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0022"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0006_26233.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            197,
+                            104,
+                            264,
+                            233
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0435"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0017_99902.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            153,
+                            58,
+                            291,
+                            233
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0069"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0019_88186.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            269,
+                            137,
+                            117,
+                            168
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0228"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0034_56614.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            112,
+                            20,
+                            295,
+                            426
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0152"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0094_70698.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            73,
+                            15,
+                            288,
+                            279
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0370"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0023_794559.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            46,
+                            76,
+                            284,
+                            315
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0218"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0053_56112.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            98,
+                            68,
+                            222,
+                            335
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0155"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0015_141829.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            67,
+                            92,
+                            430,
+                            136
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0178"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0109_185170.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            98,
+                            130,
+                            155,
+                            102
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0398"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0040_796180.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            92,
+                            102,
+                            134,
+                            274
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0140"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0045_796148.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            45,
+                            35,
+                            279,
+                            463
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0142"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0042_797160.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            48,
+                            42,
+                            208,
+                            116
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0327"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0011_143355.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            29,
+                            66,
+                            449,
+                            165
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0176"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0117_55785.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            128,
+                            74,
+                            217,
+                            398
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0171"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0104_100147.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            316,
+                            26,
+                            127,
+                            178
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0089"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0012_103385.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            55,
+                            104,
+                            212,
+                            108
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0097"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0018_26218.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            6,
+                            94,
+                            384,
+                            206
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0440"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0055_131933.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            86,
+                            100,
+                            267,
+                            306
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0304"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0074_32265.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            39,
+                            169,
+                            250,
+                            206
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0051"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0119_142682.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            1,
+                            110,
+                            430,
+                            221
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0200"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0041_131860.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            152,
+                            105,
+                            147,
+                            192
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0298"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0022_179933.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            103,
+                            162,
+                            162,
+                            157
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0132"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0119_104057.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            74,
+                            95,
+                            228,
+                            136
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0121"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0057_70582.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            223,
+                            44,
+                            144,
+                            193
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0359"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0024_143268.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            220,
+                            81,
+                            239,
+                            251
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0181"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0096_70347.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            130,
+                            28,
+                            341,
+                            220
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0371"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0018_32324.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            62,
+                            49,
+                            202,
+                            139
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0038"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0074_56917.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            127,
+                            62,
+                            226,
+                            315
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0161"
+        },
+        {
+            "input": {
+                "image_file": "Acadian_Flycatcher_0073_795628.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            144,
+                            24,
+                            226,
+                            453
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0005"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0123_99929.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            24,
+                            45,
+                            414,
+                            313
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0094"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0062_132755.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            35,
+                            129,
+                            422,
+                            221
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0305"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0041_142079.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            21,
+                            150,
+                            230,
+                            133
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0189"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0112_70634.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            201,
+                            160,
+                            200,
+                            237
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0375"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0051_795318.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            37,
+                            72,
+                            360,
+                            288
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0454"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0124_99848.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            43,
+                            170,
+                            260,
+                            200
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0095"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0023_797486.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            39,
+                            58,
+                            205,
+                            145
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0469"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0023_130325.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            19,
+                            85,
+                            215,
+                            228
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0293"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0090_797128.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            67,
+                            42,
+                            217,
+                            133
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0341"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0024_160057.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            45,
+                            52,
+                            402,
+                            270
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0408"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0025_160584.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            153,
+                            104,
+                            335,
+                            180
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0409"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0037_141141.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            51,
+                            96,
+                            389,
+                            280
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0188"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0067_159895.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            163,
+                            111,
+                            136,
+                            129
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0335"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0015_794573.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            40,
+                            36,
+                            215,
+                            275
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0214"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0014_179882.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            180,
+                            98,
+                            142,
+                            360
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0128"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0030_25092.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            173,
+                            124,
+                            162,
+                            132
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0012"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0004_25819.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            14,
+                            51,
+                            462,
+                            334
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0007"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0024_795331.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            161,
+                            75,
+                            183,
+                            164
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0443"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0090_87054.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            111,
+                            129,
+                            203,
+                            119
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0247"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0106_185013.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            132,
+                            62,
+                            220,
+                            197
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0397"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0106_160014.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            22,
+                            104,
+                            275,
+                            185
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0426"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0008_70668.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            274,
+                            96,
+                            139,
+                            119
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0346"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0109_99710.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            246,
+                            88,
+                            192,
+                            238
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0090"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0109_160245.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            31,
+                            26,
+                            316,
+                            463
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0427"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0104_25086.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            32,
+                            23,
+                            465,
+                            351
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0027"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0066_99961.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            53,
+                            96,
+                            358,
+                            200
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0078"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0034_142022.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            49,
+                            35,
+                            334,
+                            291
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0185"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0019_129788.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            188,
+                            105,
+                            155,
+                            200
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0263"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0005_794565.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            14,
+                            222,
+                            242,
+                            200
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0208"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0029_142220.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            13,
+                            92,
+                            475,
+                            210
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0183"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0002_103723.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            80,
+                            119,
+                            231,
+                            286
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0096"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0035_103017.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            24,
+                            49,
+                            433,
+                            258
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0101"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0083_160237.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            175,
+                            107,
+                            320,
+                            184
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0420"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0092_184901.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            107,
+                            64,
+                            301,
+                            239
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0395"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0055_56396.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            142,
+                            149,
+                            170,
+                            229
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0156"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0042_87216.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            178,
+                            70,
+                            187,
+                            194
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0231"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0066_70356.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            132,
+                            44,
+                            332,
+                            248
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0363"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0065_87303.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            195,
+                            121,
+                            100,
+                            135
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0238"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0025_70501.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            121,
+                            102,
+                            256,
+                            201
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0354"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0098_99986.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            197,
+                            136,
+                            160,
+                            127
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0086"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0032_797150.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            48,
+                            98,
+                            265,
+                            198
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0324"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0119_56309.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            74,
+                            115,
+                            268,
+                            216
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0172"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0087_184918.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            137,
+                            87,
+                            276,
+                            183
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0394"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0037_56587.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            107,
+                            70,
+                            293,
+                            243
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0154"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0093_130121.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            0,
+                            38,
+                            431,
+                            340
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0314"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0022_32111.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            42,
+                            146,
+                            193,
+                            197
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0039"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0085_185474.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            123,
+                            100,
+                            186,
+                            395
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0393"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0022_100227.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            51,
+                            86,
+                            244,
+                            191
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0070"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0048_104021.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            107,
+                            104,
+                            315,
+                            114
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0107"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0012_70325.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            74,
+                            44,
+                            196,
+                            417
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0349"
+        },
+        {
+            "input": {
+                "image_file": "Black_Footed_Albatross_0006_796065.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            37,
+                            40,
+                            262,
+                            184
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0490"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0114_160537.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            33,
+                            109,
+                            363,
+                            207
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0429"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0066_56486.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            230,
+                            185,
+                            235,
+                            280
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0159"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0127_25412.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            182,
+                            56,
+                            208,
+                            266
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0032"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0086_88375.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            46,
+                            83,
+                            282,
+                            387
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0245"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0014_25287.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            133,
+                            22,
+                            294,
+                            255
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0009"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0028_129754.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            178,
+                            79,
+                            121,
+                            146
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0268"
+        },
+        {
+            "input": {
+                "image_file": "Black_Footed_Albatross_0001_796111.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            69,
+                            57,
+                            199,
+                            141
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0486"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0054_89825.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            159,
+                            68,
+                            329,
+                            242
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0234"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0018_129891.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            157,
+                            99,
+                            144,
+                            162
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0262"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0123_185069.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            43,
+                            69,
+                            347,
+                            246
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0402"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0022_130631.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            61,
+                            63,
+                            293,
+                            411
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0292"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0117_143394.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            15,
+                            119,
+                            426,
+                            148
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0199"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0023_179909.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            72,
+                            75,
+                            331,
+                            222
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0133"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0034_159861.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            229,
+                            113,
+                            247,
+                            180
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0325"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0031_797137.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            44,
+                            86,
+                            246,
+                            140
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0323"
+        },
+        {
+            "input": {
+                "image_file": "Acadian_Flycatcher_0071_795627.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            16,
+                            26,
+                            225,
+                            257
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0003"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0066_25827.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            70,
+                            78,
+                            278,
+                            239
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0019"
+        },
+        {
+            "input": {
+                "image_file": "Black_Footed_Albatross_0005_796090.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            1,
+                            2,
+                            499,
+                            286
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0489"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0022_129923.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            135,
+                            109,
+                            226,
+                            333
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0264"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0059_99628.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            97,
+                            89,
+                            207,
+                            233
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0077"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0001_129516.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            189,
+                            150,
+                            103,
+                            298
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0254"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0007_797118.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            45,
+                            76,
+                            270,
+                            116
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0315"
+        },
+        {
+            "input": {
+                "image_file": "Belted_Kingfisher_0017_70342.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            116,
+                            109,
+                            130,
+                            109
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0352"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0032_797470.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            173,
+                            96,
+                            136,
+                            218
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0472"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0048_796163.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            101,
+                            20,
+                            318,
+                            390
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0144"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0043_795324.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            62,
+                            165,
+                            174,
+                            291
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0450"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0007_99808.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            34,
+                            104,
+                            244,
+                            189
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0067"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0023_140898.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            83,
+                            121,
+                            356,
+                            169
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0180"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0026_796157.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            138,
+                            104,
+                            181,
+                            285
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0134"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0050_796186.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            179,
+                            109,
+                            154,
+                            312
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0145"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0010_160200.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            138,
+                            18,
+                            295,
+                            217
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0407"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0050_129780.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            174,
+                            68,
+                            137,
+                            251
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0281"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0032_129491.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            164,
+                            17,
+                            169,
+                            333
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0270"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0019_797479.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            134,
+                            49,
+                            343,
+                            255
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0467"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0006_794579.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            84,
+                            86,
+                            181,
+                            187
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0209"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0001_56960.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            137,
+                            92,
+                            218,
+                            273
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0146"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0128_160803.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            71,
+                            115,
+                            406,
+                            233
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0433"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0043_129685.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            161,
+                            95,
+                            199,
+                            207
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0278"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0101_797146.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            203,
+                            51,
+                            140,
+                            152
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0342"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0017_797492.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            83,
+                            71,
+                            226,
+                            186
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0466"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0016_797134.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            226,
+                            126,
+                            189,
+                            147
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0318"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0053_25203.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            82,
+                            65,
+                            351,
+                            433
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0018"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0042_795308.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            164,
+                            45,
+                            178,
+                            329
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0449"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0069_25506.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            195,
+                            111,
+                            126,
+                            171
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0021"
+        },
+        {
+            "input": {
+                "image_file": "American_Three_Toed_Woodpecker_0020_179828.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            52,
+                            10,
+                            317,
+                            311
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0131"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0066_87380.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            6,
+                            94,
+                            325,
+                            208
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0239"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0038_132780.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            134,
+                            95,
+                            196,
+                            373
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0297"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0007_131030.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            231,
+                            63,
+                            114,
+                            169
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0287"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0076_159996.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            0,
+                            97,
+                            324,
+                            186
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0337"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0052_131539.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            100,
+                            32,
+                            301,
+                            229
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0301"
+        },
+        {
+            "input": {
+                "image_file": "Anna_Hummingbird_0027_55873.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            37,
+                            111,
+                            251,
+                            345
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0150"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0142_142078.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            120,
+                            73,
+                            318,
+                            205
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0204"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0066_184928.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            197,
+                            67,
+                            275,
+                            210
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0388"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0113_185113.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            45,
+                            34,
+                            232,
+                            217
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0399"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0048_142372.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            80,
+                            58,
+                            284,
+                            188
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0191"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0129_141395.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            63,
+                            49,
+                            435,
+                            269
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0202"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0076_160173.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            149,
+                            70,
+                            220,
+                            253
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0419"
+        },
+        {
+            "input": {
+                "image_file": "American_Crow_0048_25062.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            165,
+                            58,
+                            290,
+                            218
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0015"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0105_32238.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            61,
+                            95,
+                            185,
+                            315
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0056"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0048_100140.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            157,
+                            119,
+                            110,
+                            141
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0076"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0003_130086.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            169,
+                            230,
+                            311,
+                            199
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0285"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0029_32218.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            244,
+                            137,
+                            148,
+                            317
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0040"
+        },
+        {
+            "input": {
+                "image_file": "Bewick_Wren_0082_185021.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            90,
+                            130,
+                            175,
+                            137
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0392"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0085_795294.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            190,
+                            54,
+                            208,
+                            299
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0461"
+        },
+        {
+            "input": {
+                "image_file": "Bank_Swallow_0012_129518.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            212,
+                            133,
+                            142,
+                            141
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0258"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0019_141922.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            28,
+                            33,
+                            290,
+                            436
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0179"
+        },
+        {
+            "input": {
+                "image_file": "Baird_Sparrow_0013_794587.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            207,
+                            64,
+                            212,
+                            196
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0213"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0033_797474.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            201,
+                            94,
+                            121,
+                            214
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0473"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0085_160110.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            29,
+                            74,
+                            304,
+                            397
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0421"
+        },
+        {
+            "input": {
+                "image_file": "American_Pipit_0010_99843.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            258,
+                            149,
+                            138,
+                            147
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0068"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0034_102866.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            74,
+                            189,
+                            180,
+                            227
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0100"
+        },
+        {
+            "input": {
+                "image_file": "Black_Capped_Vireo_0038_797465.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            41,
+                            64,
+                            334,
+                            247
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0477"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0020_104027.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            196,
+                            188,
+                            168,
+                            143
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0098"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0102_141453.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            129,
+                            48,
+                            188,
+                            236
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0197"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0085_797107.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            168,
+                            98,
+                            270,
+                            176
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0340"
+        },
+        {
+            "input": {
+                "image_file": "Barn_Swallow_0014_130403.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            135,
+                            96,
+                            308,
+                            189
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0289"
+        },
+        {
+            "input": {
+                "image_file": "Bay_Breasted_Warbler_0018_159897.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            22,
+                            85,
+                            274,
+                            240
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0319"
+        },
+        {
+            "input": {
+                "image_file": "Black_Billed_Cuckoo_0073_795304.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            42,
+                            18,
+                            179,
+                            152
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0458"
+        },
+        {
+            "input": {
+                "image_file": "American_Redstart_0137_102848.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            30,
+                            159,
+                            371,
+                            211
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0125"
+        },
+        {
+            "input": {
+                "image_file": "Baltimore_Oriole_0082_87838.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            170,
+                            61,
+                            140,
+                            267
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0243"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0036_31910.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            6,
+                            127,
+                            223,
+                            266
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0043"
+        },
+        {
+            "input": {
+                "image_file": "American_Goldfinch_0118_32210.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            156,
+                            103,
+                            283,
+                            113
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0061"
+        },
+        {
+            "input": {
+                "image_file": "Artic_Tern_0060_141955.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            24,
+                            20,
+                            462,
+                            374
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0193"
+        },
+        {
+            "input": {
+                "image_file": "Black_And_White_Warbler_0089_160370.jpg",
+                "prompt": "Detect the bird in the given image"
+            },
+            "output": {
+                "text": {
+                    "bird": [
+                        [
+                            100,
+                            109,
+                            236,
+                            329
+                        ]
+                    ]
+                }
+            },
+            "id": "bd_0423"
+        }
+    ]
+}

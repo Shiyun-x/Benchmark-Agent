@@ -1,0 +1,75 @@
+{
+    "dataset_id": "7fb63e11",
+    "name": "Causal-Reasoning",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "This dataset contains short causal reasoning multiple-choice questions, where a consequence or effect is given and the model must choose the most plausible cause from two options. It evaluates the ability to understand everyday causal relations expressed in simple text. Each example is self-contained and does not rely on external background passages.",
+    "card_text": "This is a small text-only dataset focused on causal reasoning in everyday scenarios. Each sample presents a short question phrase describing an outcome or effect (e.g., \"What is the cause of: It cannot produce oxygen.?\") and two candidate causes as multiple-choice options labeled implicitly as A and B. The model’s task is to infer which option best explains the given effect, capturing commonsense and scientific causal knowledge about plants, experiments, choices, and everyday events. Inputs are brief, usually a single sentence for the query plus two short option sentences. The outputs are single-letter labels indicating the correct option. The dataset is suitable for evaluating multiple-choice causal reasoning, basic commonsense understanding, and the ability to map from effects back to likely causes without additional context passages.",
+    "tasks": [
+        "multiple_choice_qa",
+        "question_answering"
+    ],
+    "domain": "everyday causal reasoning",
+    "meta": {
+        "fields": {
+            "question": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "A short interrogative prompt asking for the cause of a described effect or outcome, sometimes including the effect itself inside the question. It specifies the reasoning task and frames which event needs to be explained by the answer options.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "options": {
+                "paths": [
+                    "input.options"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "A list of two candidate cause sentences corresponding to multiple-choice options (implicitly A and B). Each option is a possible explanation for the effect described in the question.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.answer"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The gold multiple-choice label indicating the correct cause option, represented as a single uppercase letter such as 'A' or 'B' that maps directly to one of the entries in input.options.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains a textual question describing an effect and asking for its cause, a short list of textual options providing possible causal explanations, and a single-letter answer denoting which option is correct. The question defines the target event, the options enumerate candidate causes, and the answer selects the option that best explains the event."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Causal-Reasoning/annotation.json",
+        "existing_tags": {
+            "task": "Causal Reasoning",
+            "type": "MultipleChoiceQA",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

@@ -1,0 +1,2568 @@
+{
+    "task": "Art Image Visual Question Answering",
+    "data_source": "AQUA",
+    "type": "image comprehension",
+    "modality": {
+        "in": [
+            "image",
+            "text"
+        ],
+        "out": [
+            "text"
+        ]
+    },
+    "skill": "Image Visual Question Answering",
+    "domain": "Art",
+    "general_capability": "Content Recognition, Reasoning Ability",
+    "version": "1.0",
+    "set_type": "openset",
+    "data": [
+        {
+            "id": "art_image_vqa_0164",
+            "input": {
+                "image_file": "17098-1arles10.jpg",
+                "prompt": "who stand in the middle of a dirt field"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0383",
+            "input": {
+                "image_file": "12047-nocturn3.jpg",
+                "prompt": "what sit around a table"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0045",
+            "input": {
+                "image_file": "15832-altar2.jpg",
+                "prompt": "what do a group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "painting"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0156",
+            "input": {
+                "image_file": "37331-6orsini.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0053",
+            "input": {
+                "image_file": "42915-4allego1.jpg",
+                "prompt": "who sit on a bench"
+            },
+            "output": {
+                "text": [
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0072",
+            "input": {
+                "image_file": "28695-bouquet1.jpg",
+                "prompt": "what do a vase of flowers sit on"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0315",
+            "input": {
+                "image_file": "24309-0markok.jpg",
+                "prompt": "who walk down a dirt road next to the ocean"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0209",
+            "input": {
+                "image_file": "16041-franc16.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0074",
+            "input": {
+                "image_file": "21441-mouline1.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0333",
+            "input": {
+                "image_file": "04171-2matteo1.jpg",
+                "prompt": "what stand in a room"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0403",
+            "input": {
+                "image_file": "36950-models.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0415",
+            "input": {
+                "image_file": "31973-11nolime.jpg",
+                "prompt": "what do a couple of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0092",
+            "input": {
+                "image_file": "15246-reading.jpg",
+                "prompt": "what do a woman sit in a bed reading"
+            },
+            "output": {
+                "text": [
+                    "book"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0215",
+            "input": {
+                "image_file": "35743-wheat_f.jpg",
+                "prompt": "where do a person stand"
+            },
+            "output": {
+                "text": [
+                    "road"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0479",
+            "input": {
+                "image_file": "05890-standrew.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0059",
+            "input": {
+                "image_file": "07847-051cruci.jpg",
+                "prompt": "what stand around a statue"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0368",
+            "input": {
+                "image_file": "33312-kitchen1.jpg",
+                "prompt": "what did a table top with"
+            },
+            "output": {
+                "text": [
+                    "pans"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0163",
+            "input": {
+                "image_file": "00418-4saints2.jpg",
+                "prompt": "what stand next to a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0210",
+            "input": {
+                "image_file": "33617-06sp1629.jpg",
+                "prompt": "what do a close up of a person wear"
+            },
+            "output": {
+                "text": [
+                    "jacket"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0251",
+            "input": {
+                "image_file": "38248-the_cook.jpg",
+                "prompt": "who is sitting on a rock with a statue"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman",
+                    "girl"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0443",
+            "input": {
+                "image_file": "35614-16landsc.jpg",
+                "prompt": "what do a group of animals that are stand in"
+            },
+            "output": {
+                "text": [
+                    "dirt"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0320",
+            "input": {
+                "image_file": "04151-inte_bav.jpg",
+                "prompt": "what do a group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0289",
+            "input": {
+                "image_file": "20154-marriage.jpg",
+                "prompt": "what sit around a table with dogs"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0389",
+            "input": {
+                "image_file": "18330-1304grec.jpg",
+                "prompt": "what sit on a horse"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0007",
+            "input": {
+                "image_file": "11016-410david.jpg",
+                "prompt": "who wear a red shirt and a tie"
+            },
+            "output": {
+                "text": [
+                    "woman",
+                    "women"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0462",
+            "input": {
+                "image_file": "30741-tassin.jpg",
+                "prompt": "what do a man wear"
+            },
+            "output": {
+                "text": [
+                    "tie"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0249",
+            "input": {
+                "image_file": "00849-35_eucha.jpg",
+                "prompt": "what stand in front of a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0228",
+            "input": {
+                "image_file": "16678-arezzo5.jpg",
+                "prompt": "what do a statue of a man stand next to"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0245",
+            "input": {
+                "image_file": "12989-pepijn.jpg",
+                "prompt": "what is a man with a beard looking at"
+            },
+            "output": {
+                "text": [
+                    "something"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0211",
+            "input": {
+                "image_file": "14348-jesusdoc.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0129",
+            "input": {
+                "image_file": "29539-neudorfe.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0162",
+            "input": {
+                "image_file": "00418-4saints2.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0223",
+            "input": {
+                "image_file": "31314-altar_1.jpg",
+                "prompt": "what hold a baby"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0041",
+            "input": {
+                "image_file": "42495-talinn.jpg",
+                "prompt": "what stand next to a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0278",
+            "input": {
+                "image_file": "00581-05pazzi.jpg",
+                "prompt": "what do a large group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0021",
+            "input": {
+                "image_file": "06337-01games.jpg",
+                "prompt": "what do a large group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0434",
+            "input": {
+                "image_file": "38589-smokers3.jpg",
+                "prompt": "what do a man sit in a chair in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0068",
+            "input": {
+                "image_file": "21402-woodedla.jpg",
+                "prompt": "what do a group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "forest"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0227",
+            "input": {
+                "image_file": "25255-innocent.jpg",
+                "prompt": "what do a large group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0151",
+            "input": {
+                "image_file": "36850-st_peter.jpg",
+                "prompt": "what do a couple of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0369",
+            "input": {
+                "image_file": "44374-scene.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "horses"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0217",
+            "input": {
+                "image_file": "19786-dianacal.jpg",
+                "prompt": "what stand next to a body of water"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0154",
+            "input": {
+                "image_file": "03673-the_duet.jpg",
+                "prompt": "who sit on the floor next to a pile of luggage"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0177",
+            "input": {
+                "image_file": "19546-imagport.jpg",
+                "prompt": "what walk down a beach"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0397",
+            "input": {
+                "image_file": "21431-company.jpg",
+                "prompt": "what stand next to a tree"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0139",
+            "input": {
+                "image_file": "03068-hersemer.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0141",
+            "input": {
+                "image_file": "44513-landsc_r.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "river"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0326",
+            "input": {
+                "image_file": "10824-stvaast2.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0175",
+            "input": {
+                "image_file": "17237-5portra5.jpg",
+                "prompt": "what wear a blue shirt and tie"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0170",
+            "input": {
+                "image_file": "36036-storm.jpg",
+                "prompt": "where do a group of people stand"
+            },
+            "output": {
+                "text": [
+                    "beach"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0088",
+            "input": {
+                "image_file": "23165-04monaco.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0096",
+            "input": {
+                "image_file": "42289-0707vela.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "bed"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0439",
+            "input": {
+                "image_file": "38312-christ.jpg",
+                "prompt": "what do a group of people sit around"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0303",
+            "input": {
+                "image_file": "39533-rape_eur.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "cow"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0050",
+            "input": {
+                "image_file": "15167-13quarat.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0199",
+            "input": {
+                "image_file": "30322-viewforo.jpg",
+                "prompt": "what walk down a dirt road"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0297",
+            "input": {
+                "image_file": "29335-interior.jpg",
+                "prompt": "what stand in a room"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0131",
+            "input": {
+                "image_file": "09970-decadenc.jpg",
+                "prompt": "what sit on top of a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0120",
+            "input": {
+                "image_file": "20940-sewing.jpg",
+                "prompt": "who sit on a chair in front of a window"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0358",
+            "input": {
+                "image_file": "38197-portrai2.jpg",
+                "prompt": "what wear a hat"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0180",
+            "input": {
+                "image_file": "20194-oudekerk.jpg",
+                "prompt": "what stand in front of a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0370",
+            "input": {
+                "image_file": "35147-lastsup.jpg",
+                "prompt": "what stand around a table"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0037",
+            "input": {
+                "image_file": "18574-landsca1.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "wall"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0160",
+            "input": {
+                "image_file": "20876-woman.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0004",
+            "input": {
+                "image_file": "21427-camargo1.jpg",
+                "prompt": "where do a group of people stand"
+            },
+            "output": {
+                "text": [
+                    "forest"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0093",
+            "input": {
+                "image_file": "14908-early10.jpg",
+                "prompt": "what is a man sitting in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0304",
+            "input": {
+                "image_file": "39533-rape_eur.jpg",
+                "prompt": "what stand next to a cow"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0188",
+            "input": {
+                "image_file": "07231-canal601.jpg",
+                "prompt": "what stand on top of a wooden boat"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0374",
+            "input": {
+                "image_file": "09807-virgchil.jpg",
+                "prompt": "who sit in a chair holding a baby"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0453",
+            "input": {
+                "image_file": "31288-landscap.jpg",
+                "prompt": "what stand around a tree"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0094",
+            "input": {
+                "image_file": "04806-cremona4.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0468",
+            "input": {
+                "image_file": "17985-08scene.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0292",
+            "input": {
+                "image_file": "12539-07docto.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0340",
+            "input": {
+                "image_file": "36584-port_man.jpg",
+                "prompt": "what do a man in a suit and tie sit in"
+            },
+            "output": {
+                "text": [
+                    "chair"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0407",
+            "input": {
+                "image_file": "34710-avogadr2.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0408",
+            "input": {
+                "image_file": "34710-avogadr2.jpg",
+                "prompt": "what do a group of men stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0187",
+            "input": {
+                "image_file": "07231-canal601.jpg",
+                "prompt": "where do a group of people stand"
+            },
+            "output": {
+                "text": [
+                    "boat"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0334",
+            "input": {
+                "image_file": "15524-1expuls.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0213",
+            "input": {
+                "image_file": "09602-day.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0127",
+            "input": {
+                "image_file": "21604-bacchana.jpg",
+                "prompt": "where do a group of people sit"
+            },
+            "output": {
+                "text": [
+                    "tree"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0011",
+            "input": {
+                "image_file": "44173-ships.jpg",
+                "prompt": "what do a group of people stand on"
+            },
+            "output": {
+                "text": [
+                    "boat"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0006",
+            "input": {
+                "image_file": "34137-stjerome.jpg",
+                "prompt": "what do an old man sit on a bed holding"
+            },
+            "output": {
+                "text": [
+                    "book"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0442",
+            "input": {
+                "image_file": "10482-tolomeo.jpg",
+                "prompt": "what do a group of people that are sit on"
+            },
+            "output": {
+                "text": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0246",
+            "input": {
+                "image_file": "39711-1ferra2.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0396",
+            "input": {
+                "image_file": "33600-05group.jpg",
+                "prompt": "what are standing in a room"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0425",
+            "input": {
+                "image_file": "04013-madonna.jpg",
+                "prompt": "what do a large group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "clock"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0345",
+            "input": {
+                "image_file": "36765-daffodil.jpg",
+                "prompt": "what sit on a couch"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0089",
+            "input": {
+                "image_file": "23165-04monaco.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0426",
+            "input": {
+                "image_file": "03204-gatto.jpg",
+                "prompt": "what sit on a bed"
+            },
+            "output": {
+                "text": [
+                    "children"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0026",
+            "input": {
+                "image_file": "14208-medici.jpg",
+                "prompt": "what stand in a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0077",
+            "input": {
+                "image_file": "21882-stillife.jpg",
+                "prompt": "what sit on top of a table"
+            },
+            "output": {
+                "text": [
+                    "fruit"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0184",
+            "input": {
+                "image_file": "12185-cro_f_8.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0262",
+            "input": {
+                "image_file": "28888-grassi1.jpg",
+                "prompt": "what do a group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0207",
+            "input": {
+                "image_file": "15203-cecilia.jpg",
+                "prompt": "what do a trick"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0182",
+            "input": {
+                "image_file": "41145-adoratio.jpg",
+                "prompt": "what sit next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0095",
+            "input": {
+                "image_file": "04806-cremona4.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0100",
+            "input": {
+                "image_file": "03532-prodigal.jpg",
+                "prompt": "what stand around a statue"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0419",
+            "input": {
+                "image_file": "21843-lasource.jpg",
+                "prompt": "who stand on a rock next to a body of water"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0394",
+            "input": {
+                "image_file": "34073-3renoi201.jpg",
+                "prompt": "what sit on a couch"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "girls",
+                    "women"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0155",
+            "input": {
+                "image_file": "09514-massacr.jpg",
+                "prompt": "what stand around a group of people"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0230",
+            "input": {
+                "image_file": "10132-12religi.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0362",
+            "input": {
+                "image_file": "25284-07stpaul.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0237",
+            "input": {
+                "image_file": "37144-leith.jpg",
+                "prompt": "what do a group of people walk down"
+            },
+            "output": {
+                "text": [
+                    "street"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0353",
+            "input": {
+                "image_file": "23374-11holyfa.jpg",
+                "prompt": "what sit on the ground"
+            },
+            "output": {
+                "text": [
+                    "are"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0085",
+            "input": {
+                "image_file": "13772-mary_mag.jpg",
+                "prompt": "what do a woman sit on a bench with"
+            },
+            "output": {
+                "text": [
+                    "dog"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0323",
+            "input": {
+                "image_file": "15279-108geric.jpg",
+                "prompt": "who wear a hat and a hat"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0171",
+            "input": {
+                "image_file": "36036-storm.jpg",
+                "prompt": "what stand on top of a beach"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0393",
+            "input": {
+                "image_file": "11111-early02.jpg",
+                "prompt": "where do a group of people stand"
+            },
+            "output": {
+                "text": [
+                    "field"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0153",
+            "input": {
+                "image_file": "40059-3messal1.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0313",
+            "input": {
+                "image_file": "08723-desdemon.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0038",
+            "input": {
+                "image_file": "13039-emperor.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0392",
+            "input": {
+                "image_file": "11111-early02.jpg",
+                "prompt": "what do a group of people stand on"
+            },
+            "output": {
+                "text": [
+                    "field"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0069",
+            "input": {
+                "image_file": "30681-flowers2.jpg",
+                "prompt": "what do a vase of flowers sit on"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0106",
+            "input": {
+                "image_file": "04493-still_li.jpg",
+                "prompt": "where do a bowl of fruit sit"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0348",
+            "input": {
+                "image_file": "36344-luxembou.jpg",
+                "prompt": "what walk down a street"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0489",
+            "input": {
+                "image_file": "20406-virgin_c.jpg",
+                "prompt": "who sit in a chair holding a baby"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0428",
+            "input": {
+                "image_file": "35916-romuald.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "couch"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0158",
+            "input": {
+                "image_file": "41696-08visita.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0031",
+            "input": {
+                "image_file": "34181-0taste.jpg",
+                "prompt": "what do a man sit at a table with"
+            },
+            "output": {
+                "text": [
+                    "food"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0244",
+            "input": {
+                "image_file": "11120-early11.jpg",
+                "prompt": "what do a man in a suit sit on"
+            },
+            "output": {
+                "text": [
+                    "couch"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0008",
+            "input": {
+                "image_file": "33346-musician.jpg",
+                "prompt": "what do a man sit on a bed reading"
+            },
+            "output": {
+                "text": [
+                    "book"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0267",
+            "input": {
+                "image_file": "04577-pendant1.jpg",
+                "prompt": "who hold a cat in a womans hand"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0485",
+            "input": {
+                "image_file": "43591-9marymag.jpg",
+                "prompt": "who sit on top of a bed next to a tree"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0233",
+            "input": {
+                "image_file": "17564-22portra.jpg",
+                "prompt": "who sit in front of a pile of papers"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0261",
+            "input": {
+                "image_file": "30406-madchild.jpg",
+                "prompt": "who sit on a couch next to a child"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0401",
+            "input": {
+                "image_file": "15851-study1.jpg",
+                "prompt": "what stand around each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0291",
+            "input": {
+                "image_file": "12539-07docto.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0198",
+            "input": {
+                "image_file": "30322-viewforo.jpg",
+                "prompt": "what do a group of people walk down"
+            },
+            "output": {
+                "text": [
+                    "road"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0132",
+            "input": {
+                "image_file": "09970-decadenc.jpg",
+                "prompt": "where do a group of people sit"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0324",
+            "input": {
+                "image_file": "15279-108geric.jpg",
+                "prompt": "what do a man wear"
+            },
+            "output": {
+                "text": [
+                    "hat"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0322",
+            "input": {
+                "image_file": "19480-lovesick.jpg",
+                "prompt": "what stand next to a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0002",
+            "input": {
+                "image_file": "37099-predell4.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0018",
+            "input": {
+                "image_file": "41398-14deposi.jpg",
+                "prompt": "what sit in front of a wall"
+            },
+            "output": {
+                "text": [
+                    "couple"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0488",
+            "input": {
+                "image_file": "20406-virgin_c.jpg",
+                "prompt": "who do a woman sit in a chair holding"
+            },
+            "output": {
+                "text": [
+                    "baby",
+                    "child"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0263",
+            "input": {
+                "image_file": "05288-2lastjud.jpg",
+                "prompt": "what stand around in a park"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0076",
+            "input": {
+                "image_file": "05395-gallery.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "painting"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0253",
+            "input": {
+                "image_file": "18658-3carry.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0314",
+            "input": {
+                "image_file": "24309-0markok.jpg",
+                "prompt": "what do a man walk down a dirt road next to"
+            },
+            "output": {
+                "text": [
+                    "ocean"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0351",
+            "input": {
+                "image_file": "41095-04elizab.jpg",
+                "prompt": "what do a group of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0471",
+            "input": {
+                "image_file": "22909-pellegri.jpg",
+                "prompt": "what did a man in a suit cut"
+            },
+            "output": {
+                "text": [
+                    "paper"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0143",
+            "input": {
+                "image_file": "01103-manportr.jpg",
+                "prompt": "what wear a red shirt"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0449",
+            "input": {
+                "image_file": "22781-landmerc.jpg",
+                "prompt": "where do a group of people sit"
+            },
+            "output": {
+                "text": [
+                    "field"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0066",
+            "input": {
+                "image_file": "15191-judith_m.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0179",
+            "input": {
+                "image_file": "05757-nicolas.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0133",
+            "input": {
+                "image_file": "08007-st_peter.jpg",
+                "prompt": "what is a man standing in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0144",
+            "input": {
+                "image_file": "01103-manportr.jpg",
+                "prompt": "what do a close up of a person wear"
+            },
+            "output": {
+                "text": [
+                    "shirt"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0406",
+            "input": {
+                "image_file": "10109-14virgin.jpg",
+                "prompt": "what do a young girl hold a baby in"
+            },
+            "output": {
+                "text": [
+                    "arms"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0280",
+            "input": {
+                "image_file": "09981-venus_ad.jpg",
+                "prompt": "who sit on a bench"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0269",
+            "input": {
+                "image_file": "03516-roberts.jpg",
+                "prompt": "who stand in a room with a statue"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0466",
+            "input": {
+                "image_file": "20694-family.jpg",
+                "prompt": "what do a group of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0208",
+            "input": {
+                "image_file": "16041-franc16.jpg",
+                "prompt": "what stand around a table"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0145",
+            "input": {
+                "image_file": "26290-boy_draw.jpg",
+                "prompt": "who sit in a chair reading a book"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0432",
+            "input": {
+                "image_file": "38589-smokers3.jpg",
+                "prompt": "what do a man sit in in a room"
+            },
+            "output": {
+                "text": [
+                    "chair"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0277",
+            "input": {
+                "image_file": "00581-05pazzi.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0341",
+            "input": {
+                "image_file": "23120-12enthro.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "women"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0465",
+            "input": {
+                "image_file": "23242-interior.jpg",
+                "prompt": "what walk past a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0317",
+            "input": {
+                "image_file": "08017-dukepast.jpg",
+                "prompt": "who do a woman stand next to"
+            },
+            "output": {
+                "text": [
+                    "horse"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0017",
+            "input": {
+                "image_file": "41386-10colom1.jpg",
+                "prompt": "what do a group of people stand in"
+            },
+            "output": {
+                "text": [
+                    "building"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0448",
+            "input": {
+                "image_file": "22781-landmerc.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "field"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0020",
+            "input": {
+                "image_file": "06337-01games.jpg",
+                "prompt": "what stand around a building"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0130",
+            "input": {
+                "image_file": "41641-martyrjo.jpg",
+                "prompt": "what do a group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0238",
+            "input": {
+                "image_file": "17184-2enclos7.jpg",
+                "prompt": "what stand next to a stone wall"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0296",
+            "input": {
+                "image_file": "02911-gar_eden.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "tree"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0286",
+            "input": {
+                "image_file": "41502-2scene08.jpg",
+                "prompt": "what do a group of people sit around"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0336",
+            "input": {
+                "image_file": "11285-307delac.jpg",
+                "prompt": "what do a group of people that are sit on"
+            },
+            "output": {
+                "text": [
+                    "couch"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0300",
+            "input": {
+                "image_file": "26005-02last4.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0149",
+            "input": {
+                "image_file": "10289-03young3.jpg",
+                "prompt": "who wear a black hat and hat"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0203",
+            "input": {
+                "image_file": "11534-presenta.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0387",
+            "input": {
+                "image_file": "38230-augustin.jpg",
+                "prompt": "what stand around each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0398",
+            "input": {
+                "image_file": "21431-company.jpg",
+                "prompt": "what do a group of people stand next to"
+            },
+            "output": {
+                "text": [
+                    "tree"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0190",
+            "input": {
+                "image_file": "03570-04reale.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "wall"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0201",
+            "input": {
+                "image_file": "41512-dante.jpg",
+                "prompt": "what do a man sit on"
+            },
+            "output": {
+                "text": [
+                    "book"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0418",
+            "input": {
+                "image_file": "25210-0_virgin.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "women"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0014",
+            "input": {
+                "image_file": "05690-shepdrea.jpg",
+                "prompt": "who sit on a bed with a dog"
+            },
+            "output": {
+                "text": [
+                    "woman",
+                    "weman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0055",
+            "input": {
+                "image_file": "29136-portr_ab.jpg",
+                "prompt": "what wear a hat and tie"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0075",
+            "input": {
+                "image_file": "05395-gallery.jpg",
+                "prompt": "what sit in front of a painting"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0284",
+            "input": {
+                "image_file": "40132-virgin_c.jpg",
+                "prompt": "who do a woman sit next to in a room"
+            },
+            "output": {
+                "text": [
+                    "baby",
+                    "child"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0039",
+            "input": {
+                "image_file": "08476-madchild.jpg",
+                "prompt": "what do a group of people sit on"
+            },
+            "output": {
+                "text": [
+                    "bench"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0391",
+            "input": {
+                "image_file": "33357-meeting.jpg",
+                "prompt": "what do a couple of women stand next to"
+            },
+            "output": {
+                "text": [
+                    "other"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0460",
+            "input": {
+                "image_file": "28696-bouquet2.jpg",
+                "prompt": "what filled with flowers sitting on top of a table"
+            },
+            "output": {
+                "text": [
+                    "vase"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0257",
+            "input": {
+                "image_file": "12486-01father.jpg",
+                "prompt": "what do a man wear"
+            },
+            "output": {
+                "text": [
+                    "hat"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0178",
+            "input": {
+                "image_file": "44746-silver.jpg",
+                "prompt": "what stand next to each other"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0212",
+            "input": {
+                "image_file": "09602-day.jpg",
+                "prompt": "what sit in a room"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0472",
+            "input": {
+                "image_file": "22909-pellegri.jpg",
+                "prompt": "what did a man in a suit cut a piece of"
+            },
+            "output": {
+                "text": [
+                    "paper"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0420",
+            "input": {
+                "image_file": "43582-4lastsup.jpg",
+                "prompt": "what do a group of people sit around"
+            },
+            "output": {
+                "text": [
+                    "table"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0067",
+            "input": {
+                "image_file": "17815-719goya.jpg",
+                "prompt": "what stand around a group of elephants"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0099",
+            "input": {
+                "image_file": "03532-prodigal.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "statue"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0476",
+            "input": {
+                "image_file": "21762-muses2.jpg",
+                "prompt": "what sit on a bench reading a book"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0097",
+            "input": {
+                "image_file": "10866-08drama.jpg",
+                "prompt": "what stand around a stone wall"
+            },
+            "output": {
+                "text": [
+                    "people",
+                    "men",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0196",
+            "input": {
+                "image_file": "39709-1ferra1.jpg",
+                "prompt": "what do a large group of people sit in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0339",
+            "input": {
+                "image_file": "26700-lu04azo.jpg",
+                "prompt": "what do a couple of women sit on"
+            },
+            "output": {
+                "text": [
+                    "bench"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0288",
+            "input": {
+                "image_file": "09339-kitchen.jpg",
+                "prompt": "who stand in front of a table filled with food"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "woman"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0318",
+            "input": {
+                "image_file": "10778-portrait.jpg",
+                "prompt": "who sit in a chair reading a book"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0457",
+            "input": {
+                "image_file": "31749-12figure.jpg",
+                "prompt": "what do a person walk through"
+            },
+            "output": {
+                "text": [
+                    "flowers"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0124",
+            "input": {
+                "image_file": "04873-toilet.jpg",
+                "prompt": "what do a woman sit in a chair in"
+            },
+            "output": {
+                "text": [
+                    "room"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0242",
+            "input": {
+                "image_file": "10654-10csont.jpg",
+                "prompt": "who stand in front of a large crowd"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0042",
+            "input": {
+                "image_file": "41290-06martin.jpg",
+                "prompt": "what do a group of people stand around"
+            },
+            "output": {
+                "text": [
+                    "horse"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0060",
+            "input": {
+                "image_file": "09528-port_man.jpg",
+                "prompt": "who wear a black hat and a hat"
+            },
+            "output": {
+                "text": [
+                    "man"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0192",
+            "input": {
+                "image_file": "42322-1011vela.jpg",
+                "prompt": "what do a baby sit next to"
+            },
+            "output": {
+                "text": [
+                    "pet",
+                    "dog"
+                ]
+            }
+        },
+        {
+            "id": "art_image_vqa_0422",
+            "input": {
+                "image_file": "36456-adorshep.jpg",
+                "prompt": "who stand next to a baby on the ground"
+            },
+            "output": {
+                "text": [
+                    "person",
+                    "man"
+                ]
+            }
+        }
+    ]
+}

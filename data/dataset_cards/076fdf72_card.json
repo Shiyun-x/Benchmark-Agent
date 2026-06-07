@@ -1,0 +1,92 @@
+{
+    "dataset_id": "076fdf72",
+    "name": "Car Brands Recognition",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 192,
+    "description": "A small multimodal dataset for recognizing car brands from images. Each example presents a car image with a short instruction and requires the model to output the corresponding car manufacturer name.",
+    "card_text": "This dataset focuses on car brand recognition from images, pairing visual data with a brief textual prompt. Each sample consists of an image of a car, typically showing its exterior and brand logo, along with a short instruction like \"recognize the brand of the car in the image\". The target output is a single-word or short-phrase text label naming the car brand (e.g., Acura, Volvo). The images generally depict everyday vehicles and logos, making the task a straightforward visual object/category recognition problem rather than a complex scene understanding task. The dataset is suitable for evaluating visual classification models or multimodal systems that follow simple textual instructions to produce a brand label.",
+    "tasks": [
+        "classification_multiclass",
+        "visual_question_answering",
+        "instruction_following"
+    ],
+    "domain": "cars and vehicle brands",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "A short textual instruction asking the model to recognize or identify the car brand in the accompanying image. It frames the task for each sample but does not contain the answer itself.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "short",
+                "style": "objects",
+                "semantics": "A reference to the image showing a car, typically including its exterior and logo, from which the model should infer the car brand.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.prediction"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The ground-truth car brand name corresponding to the vehicle shown in the image, expressed as a short text label such as a manufacturer name.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "other_aux": {
+                "paths": [
+                    "id"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "A sample identifier string that uniquely labels each example but does not contribute semantic information to the recognition task.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample contains an image reference of a car (`image`) and a short textual instruction requesting the brand recognition (`context`), along with a textual brand label as the correct response (`answer`). An auxiliary identifier field (`other_aux`) uniquely tags each example but is not used for prediction."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/car_brands_recognition/json/annotation.json",
+        "existing_tags": {
+            "task": "Car Brands Recognition",
+            "type": "comprehension",
+            "skill": "Object Recognition(Object Recog)",
+            "domain": "General",
+            "set_type": "openset"
+        },
+        "original_raw_domain": "General"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "dataset_id": "2d36aa6b",
+    "name": "Social-Science-Question-Answering",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "Dataset of short social situations where a model must infer the most appropriate social-science interpretation by choosing among multiple-choice options. Each example provides a brief scenario, a question about attitudes or perceptions, and several plausible answers, with one labeled correct.",
+    "card_text": "This dataset contains short, everyday social scenarios paired with questions that test social reasoning and interpretation. For each item, a brief description of a person's behavior or a workplace or classroom situation is given, followed by a targeted question such as how someone would be perceived or how their behavior should be characterized. Three multiple-choice options offer plausible interpretations, often subtle variants of traits, attitudes, or approaches (e.g., \"Calm but firm\" vs. \"No-nonsense\"). The correct answer is indicated by a letter label referencing one of the options. The text is concise and written in simple, contemporary language about common social, school, and work contexts. The dataset evaluates a model's ability to understand social cues, infer intentions, and choose the most fitting social-science description from competing alternatives.",
+    "tasks": [
+        "multiple_choice_qa",
+        "question_answering"
+    ],
+    "domain": "everyday social situations",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "narrative",
+                "semantics": "A brief narrative description of a social or workplace scenario, typically one or two sentences, providing the behavioral context needed to answer the question.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.question"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "An explicit query about how to interpret the scenario, often asking about perceptions, traits, or characterizations of a person in the given context.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "options": {
+                "paths": [
+                    "input.options"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "A list of short candidate answers, each a brief phrase describing a possible interpretation or label for the situation or person described in the context.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.answer"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "The gold label for the correct option, represented as a single letter (e.g., 'A', 'B', 'C') that indexes into the provided multiple-choice options.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a short narrative context describing a social situation, a question that asks how to interpret the situation or a person’s behavior, a list of multiple-choice answer options, and a single-letter answer indicating which option is correct. The context supplies the facts, the question focuses the inference task, the options enumerate possible interpretations, and the answer specifies the intended correct interpretation."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Social-Science-Question-Answering/annotation.json",
+        "existing_tags": {
+            "task": "Social Science Question Answering",
+            "type": "MultipleChoiceQA",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

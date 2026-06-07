@@ -1,0 +1,165 @@
+# pure_audio_tools.yaml
+tools:
+  - name: text2speech
+    category: scenario_alignment
+    description: Convert text (single-turn or multi-turn dialog) into speech audio.
+    modalities: [audio]
+    io:
+      inputs: [text]
+      outputs: [audio]
+    behavior:
+      - speech synthesis
+      - multi-speaker (optional)
+      - multi-language (optional)
+    params:
+      - dialog: "list of {text: string, speaker: string (optional, required when multi-speaker), language: string (optional, default: \"en\"), gender: string (optional, male|female)}"
+    typical_uses:
+      - "Dataset has dialog text but evaluation expects speech input."
+      - "Benchmark requires multi-speaker or multilingual speech scenarios."
+    memory:
+      retain:
+        inputs:
+          - tool_args.dialog
+        outputs:
+          - result.merged_audio_path
+      stage1_summary:
+        max_chars: 500
+      stage2_payload:
+        mode: explicit_resource_only
+
+  - name: web_search
+    category: knowledge_grounding
+    description: Search the public web for up-to-date factual information and return concise answers with sources.
+    modalities: [text, image, audio]
+    io:
+      inputs: [text, image]
+      outputs: [text]
+    behavior:
+      - web retrieval
+      - source-grounded factual summarization
+      - model-internal iterative search when needed
+    params:
+      - query: "string, the concrete web search request for this tool call: state exactly what fact/information to retrieve for this sample, anchored in resource values or attached images; not a generic task description"
+      - image_paths: "list[string], optional local paths or URLs of images used as visual context"
+    typical_uses:
+      - "Need external facts or information during sample transformation."
+      - "Fill knowledge gaps or provide additional information not present in source dataset fields."
+    memory:
+      retain:
+        inputs:
+          - tool_args.query
+          - tool_args.image_paths
+        outputs:
+          - result.answer
+          - result.sources
+          - result.insufficient_info
+      stage1_summary:
+        max_chars: 700
+      stage2_payload:
+        mode: explicit_resource_only
+
+  - name: speech2text
+    category: scenario_alignment
+    description: Convert speech audio into text transcription.
+    modalities: [audio]
+    io:
+      inputs: [audio]
+      outputs: [text]
+    behavior:
+      - transcribe speech to text
+      - non-semantic transformation
+    params: 
+      - audio_path: string (path to input audio file)
+    typical_uses:
+      - "Dataset has audio questions, but downstream evaluation expects text inputs."
+    memory:
+      retain:
+        inputs:
+          - tool_args.audio_path
+        outputs:
+          - result.transcript
+          - result.text
+      stage1_summary:
+        max_chars: 500
+      stage2_payload:
+        mode: explicit_resource_only
+
+  - name: add_environmental_noise
+    category: scenario_alignment
+    description: Add environment scene noise to an audio file using a noise library.
+    modalities: [audio]
+    io:
+      inputs: [audio]
+      outputs: [audio]
+    behavior:
+      - background noise overlay
+      - scene-based noise (city/office/vehicle/etc.)
+      - adjustable SNR (low/medium/high)
+    params:
+      - audio_path: "string, path to clean audio file"
+      - noise_type: "string, noise scene label (e.g., 'office', 'city_center', 'car', 'library')"
+      - intensity: "string, {low|medium|high}, default='medium'"
+      - seed: "integer, optional, random seed for selecting noise file"
+    typical_uses:
+      - "Simulate real-world noisy audio conditions."
+      - "Convert clean speech into in-the-wild evaluation conditions."
+      - "Align dataset to tasks requiring robustness under noise."
+    memory:
+      retain:
+        inputs:
+          - tool_args.audio_path
+          - tool_args.noise_type
+          - tool_args.intensity
+        outputs:
+          - result.noisy_audio_path
+      stage1_summary:
+        max_chars: 400
+      stage2_payload:
+        mode: explicit_resource_only
+
+  - name: apply_image_degradation
+    category: scenario_alignment
+    description: Apply various degradation effects to images to simulate real-world quality issues.
+    modalities: [image]
+    io:
+      inputs: [image]
+      outputs: [image]
+    behavior:
+      - image degradation simulation
+      - multiple degradation modes
+      - adjustable severity levels
+    params:
+      - image_path: "string, path to input image file"
+      - mode: "string, {spatial|photometric|compression|occlusion|noise|random}, default='random'"
+      - severity: "int, 1-5, degradation severity level, default=3"
+    typical_uses:
+      - "Simulate real-world image quality issues."
+      - "Align dataset to tasks requiring robustness to degraded images."
+    memory:
+      retain:
+        inputs:
+          - tool_args.image_path
+          - tool_args.mode
+          - tool_args.severity
+        outputs:
+          - result.degraded_image_path
+          - result.image_path
+      stage1_summary:
+        max_chars: 400
+      stage2_payload:
+        mode: explicit_resource_only
+
+  - name: cleanup_interim_fields
+    category: pipeline_maintenance
+    description: Cleanup-only no-op pure tool used to mark deterministic deletion of interim fields.
+    modalities: [text, audio, image]
+    io:
+      inputs: [structure]
+      outputs: [structure]
+    behavior:
+      - no-op execution
+      - pipeline cleanup marker
+      - deterministic success
+    params: []
+    typical_uses:
+      - "Final cleanup step that only deletes interim fields via deleted_interim_fields metadata."

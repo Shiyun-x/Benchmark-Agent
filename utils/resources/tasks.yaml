@@ -1,0 +1,94 @@
+# ======================================
+# Task taxonomy (closed set)
+# Task describes WHAT to do (task form),
+# ======================================
+
+canonical:
+
+  # ----- Classification family -----
+  - classification_binary
+  - classification_multiclass
+  - classification_multilabel
+  - classification_sequence          # sequence labeling as classification
+
+  # ----- Detection / localization -----
+  - detection                        # detect presence (yes/no or category)
+  - localization                     # locate span/region/time segment
+  - segmentation                     # dense labeling (pixel/point/region)
+
+  # ----- Structured prediction / tagging -----
+  - tagging                          # POS, NER-like tagging (generic form)
+  - entity_recognition               # recognize entities (name/type)
+  - slot_filling                     # fill schema fields from input
+  - table_parsing                    # parse table/form into structured fields
+
+  # ----- Extraction -----
+  - span_extraction                  # extract text spans
+  - attribute_extraction             # extract attributes/properties
+  - relation_extraction              # extract relations
+  - event_extraction                 # trigger/argument extraction
+  - coreference_resolution           # link mentions across context
+
+  # ----- Matching / similarity / ranking -----
+  - similarity_scoring
+  - retrieval                        # retrieve items/passages
+  - ranking                          # rank candidates
+
+  # ----- QA / response -----
+  - question_answering               # generic QA
+  - multiple_choice_qa
+  - open_ended_qa
+  - table_question_answering
+  - visual_question_answering
+  - audio_question_answering
+
+  # ----- Generation / rewriting -----
+  - captioning                       # generate caption/description
+  - summarization                    # summary generation
+  - paraphrasing                     # rewrite meaning-preserving
+  - translation
+  - style_transfer
+  - dialogue_generation
+  - report_generation
+
+  # ----- Verification / judgment -----
+  - entailment_judgment              # entail/neutral/contradict style
+  - consistency_judgment             # consistency across inputs/turns
+  - fact_verification                # verify claim against evidence
+  - hallucination_detection          # detect unsupported content
+  - quality_assessment               # rate quality / preference
+
+  # ----- Reasoning-format tasks (still "task form", not capability claim) -----
+  - multi_hop_response               # response requires integrating multiple parts
+  - explanation_required             # require explanation/rationale in output
+
+aliases:
+  # Common folder-name patterns (generic, not dataset-specific)
+  binary_classification: classification_binary
+  multi_class_classification: classification_multiclass
+  multi_label_classification: classification_multilabel
+  sequence_labeling: classification_sequence
+
+  ner: tagging
+  pos_tagging: tagging
+  srl: tagging
+
+  extractive_qa: span_extraction
+  span_qa: span_extraction
+
+  open_domain_qa: question_answering
+  conversational_qa: question_answering
+  multihop_qa: multi_hop_response
+
+  vqa: visual_question_answering
+  aqa: audio_question_answering
+  table_qa: table_question_answering
+
+  abstractive_summarization: summarization
+  extractive_summarization: summarization
+
+  grammar_correction: paraphrasing
+  text_rewrite: paraphrasing
+
+  text_to_sql: constrained_output
+  structured_generation: constrained_output

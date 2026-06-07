@@ -1,0 +1,89 @@
+{
+    "dataset_id": "c78e5c5c",
+    "name": "Natural-Language-Inference",
+    "modalities": [
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 196,
+    "description": "This dataset contains natural language inference (NLI) examples where a model must judge the relationship between a premise and a hypothesis. Each sample provides a short premise sentence, a related hypothesis sentence, and a label indicating entailment, contradiction, or neutral. It evaluates a model's ability to understand textual meaning and infer logical relations between paired sentences.",
+    "card_text": "This dataset is a small natural language inference collection with short textual premises and hypotheses. Each example presents a premise describing a situation or event and a hypothesis that may be supported, contradicted, or left undetermined by the premise. The input prompt explicitly wraps the premise and hypothesis text and asks the model to classify their relationship as entailment, contradiction, or neutral, returning only the category name. Texts are short, everyday descriptions of scenes or actions, written in simple declarative language. The dataset focuses on semantic understanding and logical reasoning rather than domain-specific knowledge. It is suitable for evaluating sentence-level entailment judgment and basic natural language understanding in a classification setting.",
+    "tasks": [
+        "classification_multiclass",
+        "entailment_judgment",
+        "instruction_following",
+        "constrained_output"
+    ],
+    "domain": "everyday descriptions and situations",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.raw_text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "narrative",
+                "semantics": "This field contains a pair of short sentences: a premise describing a situation or event and a hypothesis that makes a claim about that situation. Together they form the textual context needed to decide the logical relationship between the two statements.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "This field is an explicit instruction to the model, embedding the raw premise–hypothesis text and asking for the relationship between them, with the allowed labels entailment, contradiction, or neutral. It specifies both the task and the constrained output format.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.category"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field is the gold label indicating the logical relation between the premise and hypothesis: one of entailment, contradiction, or neutral. It is the target classification the model should output given the context and instruction.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "category": {
+                "paths": [
+                    "output.category"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "This field encodes the same information as the answer but viewed as a discrete class tag from a fixed set of three labels representing the NLI relationship.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a text context (`input.raw_text`) containing a premise sentence and a hypothesis sentence, an instructional prompt (`input.prompt`) that poses the task and specifies the allowed relationship labels, and an output field (`output.category`) providing the correct NLI label as a categorical text tag. The prompt uses the raw text to guide the model to select the appropriate class based on the premise–hypothesis pair."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/nlp/Natural-Language-Inference/annotation.json",
+        "existing_tags": {
+            "task": "natural_language_inference",
+            "type": "classification",
+            "set_type": "openset"
+        },
+        "original_raw_domain": null
+    }
+}

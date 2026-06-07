@@ -1,0 +1,89 @@
+{
+    "dataset_id": "a538c57a",
+    "name": "Lung Nodule Diagnosis Vqa",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 120,
+    "description": "This dataset contains lung CT images with associated yes/no questions asking whether a visible lung nodule is malignant. Models must interpret the medical image to answer the malignancy question. It evaluates visual question answering and binary diagnostic decision-making in a medical imaging context.",
+    "card_text": "This dataset consists of paired medical images and short diagnostic questions focused on lung nodules. Each sample includes a CT image slice of the lungs and an English question that consistently asks whether the lung nodule in the image is malignant, constrained to a yes/no answer format. The ground truth output is a short text label such as \"yes\" or \"no\" indicating malignancy status. The data is single-turn and does not include additional clinical information beyond the image and question, so all relevant evidence must be inferred visually. The style is clinical and factual, aimed at evaluating visual question answering systems and binary classification performance in a radiology setting, specifically for lung nodule malignancy assessment.",
+    "tasks": [
+        "visual_question_answering",
+        "classification_binary",
+        "question_answering",
+        "constrained_output"
+    ],
+    "domain": "medical",
+    "meta": {
+        "fields": {
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field references a single medical image, typically a CT slice of the lungs showing a lung nodule. It provides the visual evidence needed to determine whether the nodule appears malignant. The question text refers to this image when asking about malignancy.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.question",
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "These fields contain the natural language instruction or query posed to the model. The `input.question` explicitly asks whether the lung nodule in the image is malignant and specifies that the answer should be yes or no, while `input.prompt` gives a brief instruction to answer based on the image. Together, they define the task to perform on the associated image.",
+                "path_types": [
+                    "str",
+                    "str"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "other",
+                "semantics": "This field contains the ground truth answer to the malignancy question, typically the word \"yes\" or \"no\". It represents the diagnostic label derived from the image and is the target output that models are expected to predict given the image and question.",
+                "path_types": [
+                    "str"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample consists of a lung CT image reference (`input.image_file`), a short text question and prompt (`input.question`, `input.prompt`) asking whether the lung nodule visible in the image is malignant, and a short text answer (`output.text`) giving the yes/no malignancy label. The image provides the visual diagnostic evidence, the question defines the specific classification task, and the answer supplies the corresponding ground truth outcome."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/lung_nodule_diagnosis_vqa/json/annotation.json",
+        "existing_tags": {
+            "task": "lung nodule diagnosis vqa",
+            "type": "comprehension",
+            "skill": "Image Visual Question Answering",
+            "domain": [
+                "Medicine"
+            ],
+            "general_capability": [
+                "Reasoning Ability"
+            ]
+        },
+        "original_raw_domain": [
+            "Medicine"
+        ]
+    }
+}

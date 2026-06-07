@@ -1,0 +1,106 @@
+{
+    "dataset_id": "6f1bd1c5",
+    "name": "Bird Detection",
+    "modalities": [
+        "image",
+        "text"
+    ],
+    "io_schemas": [
+        {
+            "in_": [
+                "image",
+                "text"
+            ],
+            "out": [
+                "text"
+            ]
+        }
+    ],
+    "size_samples": 200,
+    "description": "This dataset contains images of birds paired with short text prompts asking to detect the bird and annotated bounding boxes around the bird. It is designed to evaluate visual object detection capabilities focused on localizing birds in natural images.",
+    "card_text": "This dataset consists of about 200 samples, each combining an image of a bird with a simple text instruction such as “Detect the bird in the given image.” The primary goal is to localize the bird in each image using axis-aligned bounding boxes. Each annotation is stored as a list of one or more boxes under a `bird` key, with each box defined by four numerical coordinates. The images typically show a single bird in natural or everyday settings, making the visual scenes moderately simple and focused on one main object. The accompanying text is very short and purely instructional, not descriptive of the scene. This dataset is best suited for training or evaluating bird detection or generic object detection models conditioned on a short prompt plus an image.",
+    "tasks": [
+        "detection",
+        "visual_question_answering",
+        "instruction_following",
+        "constrained_output"
+    ],
+    "domain": "bird images, object detection",
+    "meta": {
+        "fields": {
+            "context": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "A short imperative text asking the model to detect the bird in the provided image. It frames the task as an instruction but does not include detailed scene information, instead indicating what object should be localized in the associated image.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "question": {
+                "paths": [
+                    "input.prompt"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "instruction",
+                "semantics": "A concise, standardized query such as \"Detect the bird in the given image\" that specifies the required operation on the image. It functions as the question or task request that the model must answer by predicting bounding boxes.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "image": {
+                "paths": [
+                    "input.image_file"
+                ],
+                "modality": "image",
+                "content_extent": "short",
+                "style": "objects",
+                "semantics": "A reference to an image file showing a bird, typically as the main object in the scene. The image content is what needs to be analyzed to locate the bird specified by the text prompt.",
+                "path_types": [
+                    "str"
+                ]
+            },
+            "bbox": {
+                "paths": [
+                    "output.text.bird"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "A list of one or more bounding boxes marking the location of the bird in the image, where each box is represented by four numeric coordinates. These coordinates are the target outputs the model should produce in response to the prompt and image.",
+                "path_types": [
+                    "list"
+                ]
+            },
+            "answer": {
+                "paths": [
+                    "output.text.bird"
+                ],
+                "modality": "text",
+                "content_extent": "short",
+                "style": "structured",
+                "semantics": "The ground-truth annotation containing the bird's bounding box coordinates in a structured list format. It represents the expected answer to the detection instruction given the corresponding image.",
+                "path_types": [
+                    "list"
+                ]
+            }
+        },
+        "meta_structure_description": "Each sample includes an image reference (`input.image_file`), a short instructional prompt (`input.prompt`) that acts as the question to detect the bird, and an answer consisting of structured bounding box annotations (`output.text.bird`). The image provides the visual content, the prompt defines the detection task, and the bounding boxes specify the bird’s location in the image as the target output."
+    },
+    "raw_meta": {
+        "source_json": "data/datasets/image/BirdDetection/bird_detection.json",
+        "existing_tags": {
+            "task": "Bird Detection",
+            "type": "image comprehension",
+            "skill": "Object Detection",
+            "domain": "General",
+            "general_capability": "Content Recognition",
+            "set_type": "openset"
+        },
+        "original_raw_domain": "General"
+    }
+}

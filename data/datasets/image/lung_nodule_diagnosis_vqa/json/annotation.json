@@ -1,0 +1,1344 @@
+{
+  "task": "lung nodule diagnosis vqa",
+  "data_source": "https://www.kaggle.com/code/zaibunnisaa/lung-cancer-cam-attempting-92-accuracy-ver5",
+  "type": "comprehension",
+  "modality": {
+    "in": [
+      "image",
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "skill": "Image Visual Question Answering",
+  "domain": [
+    "Medicine"
+  ],
+  "general_capability": [
+    "Reasoning Ability"
+  ],
+  "version": "1.0",
+  "data": [
+    {
+      "id": "lnd0013",
+      "input": {
+        "image_file": "0012.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0184",
+      "input": {
+        "image_file": "0183.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0192",
+      "input": {
+        "image_file": "0191.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0246",
+      "input": {
+        "image_file": "0245.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0291",
+      "input": {
+        "image_file": "0290.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0101",
+      "input": {
+        "image_file": "0100.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0147",
+      "input": {
+        "image_file": "0146.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0131",
+      "input": {
+        "image_file": "0130.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0091",
+      "input": {
+        "image_file": "0090.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0156",
+      "input": {
+        "image_file": "0155.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0092",
+      "input": {
+        "image_file": "0091.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0267",
+      "input": {
+        "image_file": "0266.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0274",
+      "input": {
+        "image_file": "0273.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0093",
+      "input": {
+        "image_file": "0092.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0056",
+      "input": {
+        "image_file": "0055.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0001",
+      "input": {
+        "image_file": "0000.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0231",
+      "input": {
+        "image_file": "0230.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0034",
+      "input": {
+        "image_file": "0033.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0141",
+      "input": {
+        "image_file": "0140.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0108",
+      "input": {
+        "image_file": "0107.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0235",
+      "input": {
+        "image_file": "0234.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0284",
+      "input": {
+        "image_file": "0283.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0067",
+      "input": {
+        "image_file": "0066.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0297",
+      "input": {
+        "image_file": "0296.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0041",
+      "input": {
+        "image_file": "0040.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0186",
+      "input": {
+        "image_file": "0185.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0057",
+      "input": {
+        "image_file": "0056.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0035",
+      "input": {
+        "image_file": "0034.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0084",
+      "input": {
+        "image_file": "0083.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0017",
+      "input": {
+        "image_file": "0016.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0018",
+      "input": {
+        "image_file": "0017.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0248",
+      "input": {
+        "image_file": "0247.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0080",
+      "input": {
+        "image_file": "0079.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0236",
+      "input": {
+        "image_file": "0235.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0161",
+      "input": {
+        "image_file": "0160.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0025",
+      "input": {
+        "image_file": "0024.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0043",
+      "input": {
+        "image_file": "0042.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0182",
+      "input": {
+        "image_file": "0181.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0164",
+      "input": {
+        "image_file": "0163.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0079",
+      "input": {
+        "image_file": "0078.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0203",
+      "input": {
+        "image_file": "0202.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0030",
+      "input": {
+        "image_file": "0029.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0145",
+      "input": {
+        "image_file": "0144.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0276",
+      "input": {
+        "image_file": "0275.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0010",
+      "input": {
+        "image_file": "0009.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0202",
+      "input": {
+        "image_file": "0201.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0238",
+      "input": {
+        "image_file": "0237.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0144",
+      "input": {
+        "image_file": "0143.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0146",
+      "input": {
+        "image_file": "0145.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0008",
+      "input": {
+        "image_file": "0007.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0281",
+      "input": {
+        "image_file": "0280.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0253",
+      "input": {
+        "image_file": "0252.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0185",
+      "input": {
+        "image_file": "0184.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0174",
+      "input": {
+        "image_file": "0173.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0205",
+      "input": {
+        "image_file": "0204.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0149",
+      "input": {
+        "image_file": "0148.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0157",
+      "input": {
+        "image_file": "0156.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0052",
+      "input": {
+        "image_file": "0051.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0265",
+      "input": {
+        "image_file": "0264.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0059",
+      "input": {
+        "image_file": "0058.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0023",
+      "input": {
+        "image_file": "0022.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0219",
+      "input": {
+        "image_file": "0218.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0294",
+      "input": {
+        "image_file": "0293.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0227",
+      "input": {
+        "image_file": "0226.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0038",
+      "input": {
+        "image_file": "0037.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0187",
+      "input": {
+        "image_file": "0186.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0029",
+      "input": {
+        "image_file": "0028.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0129",
+      "input": {
+        "image_file": "0128.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0148",
+      "input": {
+        "image_file": "0147.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0217",
+      "input": {
+        "image_file": "0216.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0163",
+      "input": {
+        "image_file": "0162.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0047",
+      "input": {
+        "image_file": "0046.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0180",
+      "input": {
+        "image_file": "0179.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0220",
+      "input": {
+        "image_file": "0219.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0003",
+      "input": {
+        "image_file": "0002.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0260",
+      "input": {
+        "image_file": "0259.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0262",
+      "input": {
+        "image_file": "0261.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0181",
+      "input": {
+        "image_file": "0180.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0255",
+      "input": {
+        "image_file": "0254.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0083",
+      "input": {
+        "image_file": "0082.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0134",
+      "input": {
+        "image_file": "0133.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0179",
+      "input": {
+        "image_file": "0178.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0070",
+      "input": {
+        "image_file": "0069.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0039",
+      "input": {
+        "image_file": "0038.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0259",
+      "input": {
+        "image_file": "0258.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0064",
+      "input": {
+        "image_file": "0063.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0213",
+      "input": {
+        "image_file": "0212.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0011",
+      "input": {
+        "image_file": "0010.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0087",
+      "input": {
+        "image_file": "0086.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0299",
+      "input": {
+        "image_file": "0298.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0245",
+      "input": {
+        "image_file": "0244.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0216",
+      "input": {
+        "image_file": "0215.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0221",
+      "input": {
+        "image_file": "0220.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0143",
+      "input": {
+        "image_file": "0142.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0016",
+      "input": {
+        "image_file": "0015.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0204",
+      "input": {
+        "image_file": "0203.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0065",
+      "input": {
+        "image_file": "0064.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0063",
+      "input": {
+        "image_file": "0062.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0116",
+      "input": {
+        "image_file": "0115.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0165",
+      "input": {
+        "image_file": "0164.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0206",
+      "input": {
+        "image_file": "0205.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0058",
+      "input": {
+        "image_file": "0057.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0077",
+      "input": {
+        "image_file": "0076.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0285",
+      "input": {
+        "image_file": "0284.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0150",
+      "input": {
+        "image_file": "0149.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0240",
+      "input": {
+        "image_file": "0239.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0060",
+      "input": {
+        "image_file": "0059.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0094",
+      "input": {
+        "image_file": "0093.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0167",
+      "input": {
+        "image_file": "0166.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0119",
+      "input": {
+        "image_file": "0118.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0244",
+      "input": {
+        "image_file": "0243.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0078",
+      "input": {
+        "image_file": "0077.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0020",
+      "input": {
+        "image_file": "0019.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0159",
+      "input": {
+        "image_file": "0158.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0055",
+      "input": {
+        "image_file": "0054.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0075",
+      "input": {
+        "image_file": "0074.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0211",
+      "input": {
+        "image_file": "0210.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "yes"
+      }
+    },
+    {
+      "id": "lnd0152",
+      "input": {
+        "image_file": "0151.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0189",
+      "input": {
+        "image_file": "0188.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "lnd0053",
+      "input": {
+        "image_file": "0052.png",
+        "question": "Cound you please tell me whether the lung nodule in the given image is malignant? Yes or no?",
+        "prompt": "Answer the question based on the given image"
+      },
+      "output": {
+        "text": "no"
+      }
+    }
+  ]
+}

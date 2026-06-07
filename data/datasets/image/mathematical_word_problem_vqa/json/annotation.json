@@ -1,0 +1,112 @@
+{
+  "task": "mathematical word problem vqa",
+  "data_source": "https://github.com/lupantech/MathVista?tab=readme-ov-file",
+  "type": "comprehension",
+  "modality": {
+    "in": [
+      "image",
+      "text"
+    ],
+    "out": [
+      "text"
+    ]
+  },
+  "skill": "Image Visual Question Answering",
+  "domain": [
+    "Mathematics"
+  ],
+  "general_capability": [
+    "Reasoning Ability"
+  ],
+  "version": "1.0",
+  "data": [
+    {
+      "id": "mwpv0021",
+      "input": {
+        "image_file": "663.jpg",
+        "question": "What time is shown? Answer by typing a time word, not a number. It is (_) past six. The candidate choices are ['half', 'quarter', \"o'clock\", 'quarter to', 'quarter past'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "quarter"
+      }
+    },
+    {
+      "id": "mwpv0012",
+      "input": {
+        "image_file": "404.jpg",
+        "question": "Look at the following schedule. Which activity begins at 11.50 A.M.?' The candidate choices are ['figure skating practice', 'private class', 'adult class', \"children's class\"].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "children's class"
+      }
+    },
+    {
+      "id": "mwpv0022",
+      "input": {
+        "image_file": "696.jpg",
+        "question": "Erica has $1,525.00. Does she have enough to buy a motorcycle and a canoe?' The candidate choices are ['yes', 'no'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "mwpv0013",
+      "input": {
+        "image_file": "412.jpg",
+        "question": "Tanner has $35. Does he have enough to buy a black jacket and a pair of shorts?' The candidate choices are ['yes', 'no'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "no"
+      }
+    },
+    {
+      "id": "mwpv0008",
+      "input": {
+        "image_file": "323.jpg",
+        "question": "Craig just downloaded the new game Gem Excavator on his phone. In the first level, Craig gains points for each green gem he finds. However, he loses points for each red gem he finds. The table shows how the gems affect Craig's points. Which color gem affects Craig's points less?' The candidate choices are ['green', 'red'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "green"
+      }
+    },
+    {
+      "id": "mwpv0001",
+      "input": {
+        "image_file": "7.jpg",
+        "question": "What time is shown? Answer by typing a time word, not a number. It is (_) after eight. The candidate choices are ['half', 'quarter', \"o'clock\", 'quarter to', 'quarter past'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "quarter"
+      }
+    },
+    {
+      "id": "mwpv0020",
+      "input": {
+        "image_file": "623.jpg",
+        "question": "What time is shown? Answer by typing a time word, not a number. It is twelve (_). The candidate choices are ['half', 'quarter', \"o'clock\", 'quarter to', 'quarter past'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "o'clock"
+      }
+    },
+    {
+      "id": "mwpv0010",
+      "input": {
+        "image_file": "341.jpg",
+        "question": "What time is shown? Answer by typing a time word, not a number. It is six (_). The candidate choices are ['half', 'quarter', \"o'clock\", 'quarter to', 'quarter past'].",
+        "prompt": "Please answer the question based on the image, selecting one from the given choices."
+      },
+      "output": {
+        "text": "o'clock"
+      }
+    }
+  ]
+}

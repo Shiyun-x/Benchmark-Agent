@@ -1,0 +1,4551 @@
+{
+    "set_type": "openset",
+    "task": "fall-human-detection",
+    "data_source": "roboflow",
+    "type": "comprehension",
+    "modality": {
+        "in": [
+            "image",
+            "text"
+        ],
+        "out": [
+            "text"
+        ]
+    },
+    "version": "2.0",
+    "skill": "Safety Detection",
+    "domain": "General",
+    "general_capability": [
+        "Content Recognition"
+    ],
+    "data": [
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8824-_jpg.rf.afca06ed86a35ca0100fcf3d3ec631bd.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            285.5,
+                            3.5,
+                            267.0,
+                            118.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0003"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8347-_jpg.rf.02d60d9fd9b97048ec4c1d3f90ef6358.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            115.0,
+                            388.5,
+                            464.0,
+                            210.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0004"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4555-_jpg.rf.3d8074c7eb0d973628e624e55aa29bb3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            73.5,
+                            245.0,
+                            554.0,
+                            395.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0009"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6545-_jpg.rf.75b4033725e47962b4b4387991ee037d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            119.0,
+                            0.0,
+                            409.0,
+                            506.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0014"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1774-_jpg.rf.11ea5d3a38dced4e31c6a689c61f5100.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            120.0,
+                            420.5,
+                            468.0,
+                            217.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0017"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2256-_jpg.rf.e4304a8332cb789ae9a71c5d3d8f7471.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            99.0,
+                            351.0,
+                            186.0,
+                            192.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0018"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4551-_jpg.rf.c70fed4493a54b1df4b559bc366cc57d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            77.0,
+                            62.0,
+                            484.0,
+                            439.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0020"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3550-_jpg.rf.b783e862375140ef12e713a05287e3c0.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            112.0,
+                            394.5,
+                            330.0,
+                            163.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0024"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3470-_jpg.rf.a82dca6a9d93ab601612b1a04d0da38d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            136.0,
+                            242.0,
+                            362.0,
+                            398.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0025"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4647-_jpg.rf.24627194549e1667ab6995f7cb0475bd.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            69.5,
+                            223.5,
+                            556.0,
+                            328.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0029"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4883-_jpg.rf.094bb7dc72486b21a120d2e25c58aa79.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            177.0,
+                            297.5,
+                            211.0,
+                            130.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0031"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2966-_jpg.rf.a3030264ab8d82baf6df1a232facb064.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            322.0,
+                            241.0,
+                            257.0,
+                            371.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0032"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7694-_jpg.rf.36b4c0ba811195e7ba8918f9c1e89a36.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            83.5,
+                            110.0,
+                            37.0,
+                            36.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0033"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6514-_jpg.rf.16d2fa0bee387a878c757dde8e8442fa.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            266.5,
+                            139.0,
+                            316.0,
+                            374.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0035"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3111-_jpg.rf.37b3e387c836ee226856be6a239fc562.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            0.0,
+                            640.0,
+                            640.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0036"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3160-_jpg.rf.adfd16e6ab6ee617974ad3e205f4907a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            99.5,
+                            395.5,
+                            307.0,
+                            239.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0038"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3291-_jpg.rf.0a27f095098f6a8bdb4fbc05a01a8b45.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            304.5,
+                            182.5,
+                            188.0,
+                            227.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0045"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-241-_jpg.rf.acbf01b843ba9555028a7eb7a0d492a6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            277.5,
+                            346.5,
+                            224.0,
+                            225.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0050"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_10_View_Right_jpeg_jpg.rf.52313f2ca55c18013f3f6168387bbae7.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            241.0,
+                            244.5,
+                            100.0,
+                            273.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0055"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5359-_jpg.rf.2e69f2b596a080a61a08aa571db7ad2a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            116.5,
+                            282.0,
+                            385.0,
+                            340.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0058"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4806-_jpg.rf.fa38686e0379a4e164c1fc0eb6e32201.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            61.0,
+                            314.0,
+                            378.0,
+                            203.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0059"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_66_jpeg_jpg.rf.47a27097e87b7bdf55849f004277dcbf.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            273.0,
+                            142.5,
+                            85.0,
+                            313.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            337.5,
+                            80.5,
+                            88.0,
+                            294.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            444.0,
+                            200.0,
+                            66.0,
+                            306.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            373.0,
+                            469.0,
+                            83.0,
+                            171.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            535.0,
+                            517.0,
+                            76.0,
+                            123.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            154.0,
+                            520.0,
+                            80.0,
+                            120.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            254.0,
+                            541.0,
+                            66.0,
+                            99.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            274.5,
+                            438.0,
+                            66.0,
+                            202.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            12.0,
+                            234.5,
+                            54.0,
+                            311.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            70.0,
+                            296.5,
+                            82.0,
+                            202.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            72.0,
+                            512.0,
+                            71.0,
+                            128.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            535.5,
+                            201.5,
+                            77.0,
+                            299.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            403.0,
+                            25.0,
+                            60.0,
+                            265.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            475.5,
+                            50.0,
+                            100.0,
+                            163.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            172.0,
+                            89.0,
+                            51.0,
+                            114.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            230.0,
+                            77.5,
+                            40.0,
+                            136.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            140.0,
+                            207.5,
+                            80.0,
+                            283.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0062"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-408-_jpg.rf.ca8019f53d0367c6d4db31de521dc458.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            142.0,
+                            315.0,
+                            273.0,
+                            322.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0066"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_3_jpeg_jpg.rf.6aa7a121893267e8f59201ce10b126c4.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            5.0,
+                            176.0,
+                            122.0,
+                            376.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            106.0,
+                            206.5,
+                            31.0,
+                            109.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            129.0,
+                            204.5,
+                            34.0,
+                            106.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            171.0,
+                            140.0,
+                            149.0,
+                            409.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            355.0,
+                            153.5,
+                            165.0,
+                            408.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            527.0,
+                            150.0,
+                            113.0,
+                            388.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0067"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1053-_jpg.rf.25ddfee6750249d5e2da74928a72c704.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            247.0,
+                            140.5,
+                            338.0,
+                            359.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0078"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7892-_jpg.rf.ec67736cd6d876ca52bc760877777f90.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            89.5,
+                            374.0,
+                            188.0,
+                            167.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0081"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1312-_jpg.rf.0f2a595c93f7f288b5d09be95c351a7f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            143.5,
+                            247.5,
+                            163.0,
+                            89.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0087"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1698-_jpg.rf.e1bd1030f9928bd0ee377d509ac66379.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            363.0,
+                            338.5,
+                            176.0,
+                            153.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0089"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-670-_jpg.rf.879a90daac308244daac5ff3f2c5e6f6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            241.0,
+                            341.0,
+                            138.0,
+                            197.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0090"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-995-_jpg.rf.1c32f77686ac1de19872b1fc27079ba3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            293.0,
+                            273.5,
+                            133.0,
+                            98.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0096"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1868-_jpg.rf.3d34dc2fd0eee23dd4b056966c7c8a5b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            270.0,
+                            309.0,
+                            370.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0097"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8911-_jpg.rf.c30387477eb9d56b719247a415f33fa3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            73.0,
+                            194.0,
+                            414.0,
+                            308.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0098"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6398-_jpg.rf.f85d7a52d9a039f1950acc1d1e79db5a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            145.0,
+                            298.5,
+                            118.0,
+                            124.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0099"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3683-_jpg.rf.8cf72ab05a2d053bfa5a9425a72657ac.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            111.5,
+                            316.5,
+                            212.0,
+                            251.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0100"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-961-_jpg.rf.3896317987f57124fd10964e223a0afa.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            220.5,
+                            281.5,
+                            244.0,
+                            300.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0102"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6910-_jpg.rf.3e52e1a9f1d1699a03c1184b70968b83.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            184.0,
+                            317.0,
+                            142.0,
+                            251.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0105"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6996-_jpg.rf.0aca2beaf168ffe4356c3c26eeae2674.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            336.5,
+                            200.5,
+                            247.0,
+                            371.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0106"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1797-_jpg.rf.4bb55f9334c01783eec9d2faaac09771.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            1.0,
+                            217.0,
+                            565.0,
+                            404.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0109"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5199-_jpg.rf.7a550f62725de9631d8ce6819b1e36f3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            59.0,
+                            184.0,
+                            581.0,
+                            456.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0110"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4718-_jpg.rf.bffea46d2f843c0c630cfd74cefc283c.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            256.0,
+                            292.0,
+                            192.0,
+                            340.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0111"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-117-_jpg.rf.387e050ba8b644b7b15f01e0e5432913.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            313.5,
+                            30.0,
+                            279.0,
+                            495.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0113"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-552-_jpg.rf.3ff28c8f59d1fbfeb42b14aa30da261f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            124.0,
+                            187.0,
+                            513.0,
+                            453.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0118"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4106-_jpg.rf.3c0375b0d1f6ae7f0dedc2c875796728.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            231.5,
+                            302.0,
+                            181.0,
+                            254.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0119"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5874-_jpg.rf.b4ccdfde4b317c2bcb4c5969ecf37a2c.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            28.5,
+                            254.0,
+                            446.0,
+                            382.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0121"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2538-_jpg.rf.ef9eea82caf6f6600732419c04ae571b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            48.0,
+                            450.0,
+                            340.0,
+                            188.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0122"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1082-_jpg.rf.b29f1de15bd72360064fbe81107faad3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            342.0,
+                            332.5,
+                            179.0,
+                            152.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0126"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6891-_jpg.rf.622d794f8ac4a947378618fc3b39f635.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            241.5,
+                            457.5,
+                            195.0,
+                            102.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0127"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6001-_jpg.rf.4a3b030371fd59c2c66e8a2d06da4a71.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            101.0,
+                            111.0,
+                            420.0,
+                            431.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0129"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8817-_jpg.rf.9bcddde3f93a1255ce0cb3d0619654a2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            304.5,
+                            213.5,
+                            189.0,
+                            81.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0130"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4481-_jpg.rf.c78db97f20892b769b31d5525759de96.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            355.0,
+                            126.5,
+                            185.0,
+                            314.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0131"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4877-_jpg.rf.dfdf5360ead357eafcfd255b7024123b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            277.0,
+                            241.5,
+                            136.0,
+                            394.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0133"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2235-_jpg.rf.91479c77d655b34526f463baeb352c4e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            283.5,
+                            287.5,
+                            123.0,
+                            87.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0134"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4964-_jpg.rf.a380a1cdaeab57c658113471c416212c.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            222.5,
+                            136.5,
+                            208.0,
+                            442.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0137"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4958-_jpg.rf.6b9ae9f6b2eb0029238474f084ae9c58.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            241.0,
+                            495.0,
+                            298.0,
+                            99.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0140"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7781-_jpg.rf.96fe32d53c5b37b69d59fc047c58ae80.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            162.5,
+                            84.5,
+                            371.0,
+                            483.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0143"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5838-_jpg.rf.8f8fd0242834c3c137661a29e4402439.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            247.0,
+                            110.0,
+                            117.0,
+                            255.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0147"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-778-_jpg.rf.35050ffcd8bb204bccdd353a0ee93dde.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            136.0,
+                            310.0,
+                            216.0,
+                            214.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0148"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3289-_jpg.rf.bf35ed43a0443b9c26555ce500a22213.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            72.5,
+                            306.0,
+                            422.0,
+                            241.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0149"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4855-_jpg.rf.82cea8f761cbb464bdd4b743936b162a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            115.0,
+                            395.5,
+                            345.0,
+                            240.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0155"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6353-_jpg.rf.261ae197e1b8f8e3312577fd8ed04578.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            124.0,
+                            126.5,
+                            502.0,
+                            446.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0158"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-568-_jpg.rf.8a01b8dca3b9d735c7bb0350f78a354d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            232.5,
+                            197.0,
+                            312.0,
+                            423.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0159"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4955-_jpg.rf.54efebf02b0aa786ef56467e2b597362.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            14.5,
+                            137.5,
+                            469.0,
+                            368.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0161"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4534-_jpg.rf.b4db9c3f15a857730362e04e19ee28ed.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            216.0,
+                            221.5,
+                            255.0,
+                            403.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0162"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-924-_jpg.rf.76fe725c1f654cd383234a5cca4ef281.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            194.5,
+                            378.0,
+                            442.0,
+                            155.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0164"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8087-_jpg.rf.c227dd8138ffffa840850d5510365702.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            261.0,
+                            254.0,
+                            365.0,
+                            244.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0166"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2755-_jpg.rf.6003310b9e79ba30f964db4f6dcf5e10.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            182.5,
+                            272.5,
+                            346.0,
+                            361.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0167"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8013-_jpg.rf.61c69dd67f111de44dea44e6d82c10e2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            253.5,
+                            524.5,
+                            115.0,
+                            110.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0168"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Senior_2_View_Back_jpeg_jpg.rf.2bb61a3a0e598c5aa92685607e52b11d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            254.5,
+                            184.5,
+                            103.0,
+                            253.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0174"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_14_png_jpg.rf.42300242c52628cb1d8c8c9887876bc6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            131.5,
+                            170.5,
+                            54.0,
+                            137.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            198.0,
+                            236.5,
+                            82.0,
+                            322.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            271.5,
+                            217.0,
+                            68.0,
+                            343.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            0.0,
+                            164.5,
+                            25.0,
+                            113.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            18.5,
+                            165.0,
+                            23.0,
+                            125.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            330.5,
+                            219.0,
+                            71.0,
+                            362.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            400.5,
+                            216.0,
+                            65.0,
+                            356.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            441.0,
+                            224.5,
+                            56.0,
+                            337.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            490.0,
+                            201.5,
+                            102.0,
+                            380.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0175"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5025-_jpg.rf.6f17fd42abcc016de417abfcb56d925f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            124.5,
+                            139.5,
+                            380.0,
+                            224.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0176"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2667-_jpg.rf.dca8f698e78c1b524b164f02185fcf66.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            297.5,
+                            230.5,
+                            132.0,
+                            196.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0177"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1174-_jpg.rf.f27d1bf5f998fbe00e6451ecad9908a5.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            308.5,
+                            443.0,
+                            234.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0179"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4781-_jpg.rf.de6004c928308f158afbce50169c95b8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            102.5,
+                            395.0,
+                            418.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0181"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8826-_jpg.rf.d80d8cf389b4c431aafb5c6d9def164d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            70.0,
+                            294.5,
+                            546.0,
+                            248.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0183"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7700-_jpg.rf.6d464e6fb945d03053e02449711785f8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            213.5,
+                            281.5,
+                            156.0,
+                            271.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0186"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_1_View_Back_jpeg_jpg.rf.4f53109dbf54f902bf02603ebc51ba90.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            270.0,
+                            181.5,
+                            123.0,
+                            345.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0189"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3083-_jpg.rf.4dbd24f6ae7d9e1c2a5eaaf68929aebb.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            186.0,
+                            395.5,
+                            420.0,
+                            201.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0191"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7928-_jpg.rf.8ca9eb27f1f1c5a3824572c0f9f54609.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            47.5,
+                            29.5,
+                            554.0,
+                            585.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0195"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3166-_jpg.rf.da20a30b9305fc008b400221873a0b9e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            153.5,
+                            322.5,
+                            282.0,
+                            308.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0198"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3500-_jpg.rf.88bc16594f7fbb4e3f41b780e7838b0f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            308.5,
+                            335.0,
+                            214.0,
+                            210.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0201"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2209-_jpg.rf.0f2a08d0301ff15092c4dbbd92c9aca3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            101.0,
+                            50.5,
+                            300.0,
+                            212.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0203"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6240-_jpg.rf.544d766d68808bb43f551f15b1cf28a2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            0.0,
+                            640.0,
+                            557.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0204"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1996-_jpg.rf.fb459182b723c334e5a64905320b8a80.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            214.5,
+                            194.0,
+                            200.0,
+                            374.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0208"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4782-_jpg.rf.1fe92bec42fa2c744bb153f93a6e0b60.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            153.5,
+                            44.5,
+                            133.0,
+                            282.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0209"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8676-_jpg.rf.05fbf32aa6f51e805560919a7e90a60a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            9.5,
+                            153.0,
+                            345.0,
+                            318.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0220"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5974-_jpg.rf.405c8fdb2793804fd247130170296789.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            55.0,
+                            126.0,
+                            547.0,
+                            320.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0221"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-148-_jpg.rf.15f065272de1cd9fc0e6c28c44a35027.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            26.5,
+                            286.0,
+                            493.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0222"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6378-_jpg.rf.7058f2c989b93745617f367aaa2a0869.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            105.0,
+                            580.0,
+                            430.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0223"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_27_jpeg_jpg.rf.4b4f5b2011b1d35bf78275b67939a26d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            181.5,
+                            82.5,
+                            91.0,
+                            533.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            3.0,
+                            117.5,
+                            25.0,
+                            88.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            14.5,
+                            117.5,
+                            51.0,
+                            313.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            51.5,
+                            116.5,
+                            49.0,
+                            282.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            109.0,
+                            147.0,
+                            19.0,
+                            60.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            110.5,
+                            139.5,
+                            42.0,
+                            329.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            144.5,
+                            153.5,
+                            43.0,
+                            325.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            267.5,
+                            134.5,
+                            40.0,
+                            297.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            316.0,
+                            101.5,
+                            56.0,
+                            371.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            376.0,
+                            123.0,
+                            51.0,
+                            219.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            450.0,
+                            107.5,
+                            25.0,
+                            154.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            474.5,
+                            108.0,
+                            17.0,
+                            162.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            357.5,
+                            138.0,
+                            25.0,
+                            59.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0224"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6412-_jpg.rf.246f805dc42bb479d40606811703f1e1.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            100.0,
+                            47.5,
+                            366.0,
+                            534.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0225"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5961-_jpg.rf.51f6d0660cdc4987cb32bc389fb891fc.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            17.5,
+                            226.5,
+                            337.0,
+                            335.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0226"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_10_View_Right_jpeg_jpg.rf.41cf7bf732a208963594c8145f8a57f8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            241.0,
+                            246.5,
+                            136.0,
+                            279.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0229"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3687-_jpg.rf.d807e0ea395937b636ecbf8c43bf055d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            263.5,
+                            141.0,
+                            370.0,
+                            368.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0231"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3868-_jpg.rf.0b158b8badee16b56e39a587867a7fd8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            263.5,
+                            165.0,
+                            369.0,
+                            439.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0233"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1043-_jpg.rf.40b2941cc60cdc98cc30b313a6615972.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            272.0,
+                            285.5,
+                            244.0,
+                            252.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0234"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7959-_jpg.rf.ae222c594f40586e30775ce9902dfa28.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            61.0,
+                            640.0,
+                            563.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0236"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2998-_jpg.rf.60e871423fb70e22f14af8b86e046823.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            207.5,
+                            304.5,
+                            160.0,
+                            234.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0241"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2700-_jpg.rf.81d5115b9cdbaf4bc5f13fa29c3709c6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            95.5,
+                            374.0,
+                            425.0,
+                            237.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0243"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_40_jpeg_jpg.rf.74f4ba7b6add65131dbc16c316b8c76b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            13.5,
+                            92.5,
+                            105.0,
+                            173.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            0.0,
+                            264.5,
+                            45.0,
+                            185.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            316.5,
+                            0.0,
+                            59.0,
+                            117.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            365.0,
+                            478.0,
+                            53.0,
+                            153.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            189.5,
+                            513.0,
+                            36.0,
+                            126.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            367.0,
+                            299.5,
+                            49.0,
+                            153.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            461.5,
+                            332.5,
+                            60.0,
+                            126.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            525.5,
+                            131.0,
+                            40.0,
+                            149.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            523.5,
+                            292.0,
+                            62.0,
+                            145.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            394.0,
+                            172.5,
+                            58.0,
+                            137.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            460.0,
+                            186.5,
+                            46.0,
+                            153.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            238.5,
+                            126.0,
+                            35.0,
+                            133.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            278.0,
+                            194.5,
+                            49.0,
+                            157.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            333.0,
+                            168.0,
+                            45.0,
+                            129.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            332.0,
+                            388.5,
+                            51.0,
+                            129.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            455.5,
+                            496.0,
+                            46.0,
+                            128.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            306.0,
+                            526.0,
+                            36.0,
+                            114.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            597.0,
+                            157.5,
+                            43.0,
+                            73.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            577.5,
+                            438.5,
+                            36.0,
+                            125.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            502.0,
+                            508.5,
+                            48.0,
+                            77.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            230.5,
+                            577.0,
+                            31.0,
+                            63.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            143.5,
+                            366.5,
+                            45.0,
+                            133.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            187.5,
+                            289.5,
+                            48.0,
+                            146.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            83.0,
+                            393.0,
+                            51.0,
+                            142.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0248"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4615-_jpg.rf.294a5aff40be05da73bd0d9e876ce0a6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            186.5,
+                            429.5,
+                            209.0,
+                            117.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0250"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2294-_jpg.rf.786caf9413d80bf2209219ff9f18e7ff.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            264.5,
+                            263.5,
+                            193.0,
+                            356.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0258"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-662-_jpg.rf.6448a9248f96fa0ef5bec37fdf543f96.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            102.5,
+                            379.5,
+                            298.0,
+                            207.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0259"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-755-_jpg.rf.5be62ce7546feef0927322f04ee8cbe7.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            198.0,
+                            5.0,
+                            434.0,
+                            562.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0260"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2053-_jpg.rf.98f29f3852f9b7fbdbc8f95c2310ac33.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            34.0,
+                            205.0,
+                            240.0,
+                            353.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0262"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3944-_jpg.rf.a3511e383d2085f975f2da9da4372da7.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            79.5,
+                            128.0,
+                            273.0,
+                            510.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0263"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1240-_jpg.rf.04d29fcac23fca5e2eeac97d8aef74ea.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            96.5,
+                            325.0,
+                            452.0,
+                            256.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0264"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/test_Moment_jpg.rf.05bad33ae30b123289471baae730c660.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            127.5,
+                            271.0,
+                            80.0,
+                            166.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            175.5,
+                            102.5,
+                            31.0,
+                            86.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            92.5,
+                            107.5,
+                            17.0,
+                            51.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            110.0,
+                            109.0,
+                            17.0,
+                            60.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            146.0,
+                            169.5,
+                            33.0,
+                            75.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            198.5,
+                            186.5,
+                            20.0,
+                            29.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            100.5,
+                            255.5,
+                            21.0,
+                            31.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            412.5,
+                            209.5,
+                            49.0,
+                            89.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            459.0,
+                            145.5,
+                            33.0,
+                            89.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            500.5,
+                            160.0,
+                            42.0,
+                            69.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            435.5,
+                            65.0,
+                            31.0,
+                            48.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            515.5,
+                            125.5,
+                            23.0,
+                            40.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            545.0,
+                            138.5,
+                            19.0,
+                            40.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0265"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_10_View_Left_jpeg_jpg.rf.e7a6396c8a51aec408b64788eec01d2a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            212.5,
+                            232.5,
+                            137.0,
+                            297.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0268"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2257-_jpg.rf.55bc9007237a8417a726d1793a9338b6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            66.0,
+                            149.5,
+                            371.0,
+                            385.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0276"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6350-_jpg.rf.996013c2d7cf027c8b7f9f210c5ed10d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            166.0,
+                            15.0,
+                            418.0,
+                            588.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0279"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4449-_jpg.rf.afe998f177663d1d40c38271705c89fd.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            106.5,
+                            289.0,
+                            269.0,
+                            324.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0283"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3052-_jpg.rf.d7f7d41828919db8dba51ae9e4428c7a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            267.5,
+                            297.0,
+                            150.0,
+                            257.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0284"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7841-_jpg.rf.8514acf6df95e5d55c12526150463fcd.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            95.5,
+                            100.0,
+                            468.0,
+                            350.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0287"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8955-_jpg.rf.36b4ee61b23a4903441a34d41b374f91.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            138.5,
+                            67.5,
+                            479.0,
+                            497.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0289"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_34_jpeg_jpg.rf.66f334aeb6abece1c45e040930942b6d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            250.0,
+                            112.0,
+                            217.0,
+                            528.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0290"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-957-_jpg.rf.843f3bd1bc7a1b278a8b5dab62ab5ade.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            258.0,
+                            409.5,
+                            130.0,
+                            107.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0292"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3902-_jpg.rf.66baeb026e7334451dfcd327478b16a9.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            206.0,
+                            276.5,
+                            98.0,
+                            50.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0293"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6906-_jpg.rf.bc8068939dd74772686371fe449f9faa.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            36.0,
+                            452.0,
+                            560.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0294"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5309-_jpg.rf.39e02ee9981f20aee678aba99af72de7.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            252.5,
+                            218.5,
+                            215.0,
+                            416.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0296"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3768-_jpg.rf.3991764a5b4b658ab801f7047bfedab4.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            237.5,
+                            261.5,
+                            229.0,
+                            306.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0298"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2273-_jpg.rf.58089059733b0feb12f0424a7af84964.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            193.0,
+                            260.5,
+                            187.0,
+                            201.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0300"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1192-_jpg.rf.66e73b680c329b014ad5bce8910ea8c5.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            61.5,
+                            249.5,
+                            307.0,
+                            284.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0301"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7082-_jpg.rf.b2c5ffe1fb24528a342755be7b519815.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            208.5,
+                            361.5,
+                            354.0,
+                            272.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0302"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2641-_jpg.rf.da53e56f837964b1925f83bb7796f2a8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            210.0,
+                            330.5,
+                            355.0,
+                            255.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0303"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1255-_jpg.rf.5cbfecc5241b3f522b580a1ef7946c82.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            6.0,
+                            301.0,
+                            613.0,
+                            240.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0306"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4977-_jpg.rf.ca34f36f6ad47635e419dcb6e8714ee2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            309.0,
+                            365.0,
+                            331.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0310"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8960-_jpg.rf.e04703061dcf01c5525062369b7b4893.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            24.0,
+                            29.5,
+                            592.0,
+                            565.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0311"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2505-_jpg.rf.6b1e760d7b87f03e2a3645ce44645dc4.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            209.0,
+                            219.5,
+                            153.0,
+                            248.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0323"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_1_View_Left_jpeg_jpg.rf.da6479bb3ddd036e2daf0280e003c00e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            251.5,
+                            234.0,
+                            108.0,
+                            294.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0324"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4990-_jpg.rf.a3c9100f26ab26eaccf4fd665c5ef284.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            46.0,
+                            338.5,
+                            342.0,
+                            249.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0327"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8956-_jpg.rf.3c5a2b662eab3ec4e67d522ef4142561.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            32.0,
+                            0.0,
+                            566.0,
+                            592.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0328"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-288-_jpg.rf.f4ceeb90e841dabfe899b99c0fb019b5.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            23.0,
+                            222.0,
+                            386.0,
+                            376.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0329"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_10_View_Left_jpeg_jpg.rf.1b6ce4b2e32ec84d079bf50421d01ddc.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            231.0,
+                            242.0,
+                            160.0,
+                            299.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0330"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1158-_jpg.rf.10fa5bf266fd658d98cff7c8104bf73e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            133.5,
+                            227.0,
+                            214.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0331"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1029-_jpg.rf.5fe21d59683a859a87ca2e1ebb1c9b19.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            421.5,
+                            397.0,
+                            108.0,
+                            159.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0333"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3569-_jpg.rf.92f43aeca41df9ee7790be2752ccde30.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            170.5,
+                            274.0,
+                            198.0,
+                            56.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0336"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6057-_jpg.rf.38ad7436aff6f4a02d5fe5fc8785c1a2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            199.5,
+                            92.0,
+                            187.0,
+                            520.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0337"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4044-_jpg.rf.dae0b9e6aaa24a9e7c461a0b70d4cc8f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            290.0,
+                            329.5,
+                            208.0,
+                            167.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0342"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5363-_jpg.rf.164c56e15c97aad031104396d7f323ee.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            221.0,
+                            289.0,
+                            268.0,
+                            235.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0343"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1916-_jpg.rf.390cff46d2a4b893774e5a04e8b0c4e9.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            223.0,
+                            416.5,
+                            128.0,
+                            77.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0345"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7651-_jpg.rf.58121a29a399bf3dc691b55c6ee41528.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            70.5,
+                            298.0,
+                            421.0,
+                            296.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0346"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2750-_jpg.rf.c6e244198962904341f0f7b0ac176a49.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            12.5,
+                            353.0,
+                            411.0,
+                            287.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0348"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2435-_jpg.rf.8787be79156316f62ec026ce79c187cc.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            128.0,
+                            63.5,
+                            512.0,
+                            564.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0349"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3704-_jpg.rf.d8ac84cb3576b4415c75db54b0a7fe49.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            315.5,
+                            403.5,
+                            94.0,
+                            143.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0356"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8312-_jpg.rf.5031944d44e1b5b2d37a992dc1aadc26.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            23.0,
+                            219.0,
+                            585.0,
+                            181.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0357"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-38-_jpg.rf.9a0f228bce6afe956850f748e5b87af1.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            202.0,
+                            108.0,
+                            420.0,
+                            358.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0359"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3720-_jpg.rf.125276fc04a8a9867ca1155c161024be.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            256.0,
+                            259.0,
+                            384.0,
+                            316.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0360"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4372-_jpg.rf.91edaa865859e24a0782557648de7083.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            220.5,
+                            434.0,
+                            336.0,
+                            181.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0363"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1612-_jpg.rf.5c450910b5a66fdc15d4e9d3448fa85a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            388.0,
+                            476.0,
+                            76.0,
+                            91.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0365"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4388-_jpg.rf.292882df32b5931bb60c3fc565b5b54e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            400.5,
+                            358.0,
+                            214.0,
+                            179.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0368"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7952-_jpg.rf.8e6d22b7552325fecea73c78618a5f9d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            258.5,
+                            305.5,
+                            188.0,
+                            310.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0370"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/b_jpg.rf.3a9c84f2c7f3e70dadef179e0c1ed239.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            135.5,
+                            261.5,
+                            69.0,
+                            180.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            134.5,
+                            161.5,
+                            48.0,
+                            80.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            99.0,
+                            248.5,
+                            28.0,
+                            43.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            8.0,
+                            192.5,
+                            33.0,
+                            69.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            89.0,
+                            96.0,
+                            22.0,
+                            66.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            112.0,
+                            95.5,
+                            16.0,
+                            69.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            416.5,
+                            208.5,
+                            45.0,
+                            89.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            194.5,
+                            179.5,
+                            29.0,
+                            49.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            465.0,
+                            158.0,
+                            28.0,
+                            66.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            500.0,
+                            151.5,
+                            43.0,
+                            77.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            514.5,
+                            112.0,
+                            22.0,
+                            53.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            437.5,
+                            73.5,
+                            17.0,
+                            24.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            543.5,
+                            117.5,
+                            25.0,
+                            65.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0371"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2352-_jpg.rf.35aead828dbed7896efaaaffbee2649c.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            548.0,
+                            291.5,
+                            90.0,
+                            129.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0374"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6421-_jpg.rf.b82dcbd83ed61ad85403dcf0cc193ce3.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            257.5,
+                            325.0,
+                            376.0,
+                            177.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0375"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8219-_jpg.rf.931111fcaf78a188fa09980090640474.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            311.0,
+                            249.5,
+                            192.0,
+                            135.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0377"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/pedestrian_7_jpeg_jpg.rf.916201667d0a601b4e7815d8a226a6e0.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            40.5,
+                            338.0,
+                            79.0,
+                            269.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            146.0,
+                            370.0,
+                            77.0,
+                            268.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            228.5,
+                            401.5,
+                            89.0,
+                            229.0
+                        ]
+                    },
+                    {
+                        "person": [
+                            322.0,
+                            384.0,
+                            51.0,
+                            246.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0379"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6464-_jpg.rf.fc811dd4ff1f42ebe49a755b22fb3271.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            34.5,
+                            299.5,
+                            567.0,
+                            320.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0380"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5370-_jpg.rf.bd74adf52546abbd3e58042a3afb178e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            268.5,
+                            342.5,
+                            107.0,
+                            58.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0382"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3801-_jpg.rf.0b9bf7aeb94968b4125c4aea63420a5f.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            114.5,
+                            335.5,
+                            216.0,
+                            297.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0384"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-766-_jpg.rf.e1fd85d0a1b34875d91dd33f85a59414.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            14.0,
+                            321.0,
+                            403.0,
+                            317.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0385"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6877-_jpg.rf.d5ac7bcb9283ec26d3a9a2d638617c29.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            72.5,
+                            100.0,
+                            443.0,
+                            363.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0386"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7627-_jpg.rf.d85613d8f0276b23d0f3e246ef609c4b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            21.5,
+                            153.5,
+                            600.0,
+                            406.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0390"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6798-_jpg.rf.86a9fc476d1787c0b3453fb633a6d2d5.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            12.0,
+                            62.0,
+                            615.0,
+                            576.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0391"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1831-_jpg.rf.c596b3db3a0d9a50c3a73c8b25307158.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            281.5,
+                            227.5,
+                            146.0,
+                            175.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0406"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_1_View_Back_jpeg_jpg.rf.df158f39f81c96720cb7ee41ba364f4b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            285.5,
+                            184.5,
+                            77.0,
+                            342.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0407"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Senior_2_View_Right_jpeg_jpg.rf.e198adfa63c81d3c96fa5fe129371ce4.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            251.5,
+                            203.0,
+                            82.0,
+                            279.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0409"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7333-_jpg.rf.169099d7a4c7b51ae0120d70f7484b26.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            9.5,
+                            640.0,
+                            609.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0411"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3959-_jpg.rf.e326a80332ab2954f9a19f7f100bade1.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            355.0,
+                            360.0,
+                            205.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0414"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4573-_jpg.rf.744d9f722753fbf1251f35900ea790b1.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            109.0,
+                            327.5,
+                            332.0,
+                            244.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0416"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1730-_jpg.rf.0c7f5a6c981ef7bfbf4c5ff925b96059.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            103.5,
+                            294.5,
+                            185.0,
+                            57.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0423"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8740-_jpg.rf.b6f9cac55f0442feabefa3566bb59a36.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            217.5,
+                            66.0,
+                            272.0,
+                            570.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0424"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7320-_jpg.rf.ae4348cbd59e9a67553847205493a223.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            16.0,
+                            361.0,
+                            115.0,
+                            87.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0425"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_2_View_Back_jpeg_jpg.rf.cf4f62a6b291455e7978f7d90d12f093.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            237.5,
+                            232.0,
+                            133.0,
+                            302.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0427"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4578-_jpg.rf.63fd53bf8934ead423e6b2f31ec0f58e.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            10.5,
+                            640.0,
+                            608.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0429"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3220-_jpg.rf.b7e7116fe32908a7a32b80b887e0cdfa.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            206.5,
+                            455.0,
+                            410.0,
+                            126.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0430"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Senior_2_View_Front_jpeg_jpg.rf.260321a4ddb708f4927c26de672ef38b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            238.0,
+                            160.0,
+                            69.0,
+                            309.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0434"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6125-_jpg.rf.f025cf56276274420b7eabe51ded4994.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            0.0,
+                            619.0,
+                            565.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0438"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-198-_jpg.rf.eb492eb012a1efce3a070780a3d9e8ef.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            152.0,
+                            337.5,
+                            390.0,
+                            221.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0441"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2211-_jpg.rf.7efcca6fd2b5b72c6255d2b53e33c689.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            178.0,
+                            260.0,
+                            397.0,
+                            380.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0442"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Adult_1_View_Right_jpeg_jpg.rf.dad6c9486ac2729663977476bd30637a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            256.0,
+                            239.5,
+                            126.0,
+                            279.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0449"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7908-_jpg.rf.9fe81e9ac6840de671f12ce74cac1192.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            33.5,
+                            211.5,
+                            522.0,
+                            345.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0459"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5034-_jpg.rf.2a546ff9caa4d5e785697ba260f9cd3b.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            183.0,
+                            413.0,
+                            260.0,
+                            206.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0461"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-6610-_jpg.rf.446f30417c1ef243ab2b6a397490bda2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            252.0,
+                            115.0,
+                            388.0,
+                            477.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0462"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7418-_jpg.rf.cd2c728430b6e6ea003a81ad571675f9.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            52.0,
+                            386.0,
+                            118.0,
+                            175.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0464"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4151-_jpg.rf.8190957b4548cc8d677d36186253b2de.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            230.0,
+                            311.5,
+                            134.0,
+                            211.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0466"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-431-_jpg.rf.3e082cff0f04d09f14223b2d88da02c2.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            339.5,
+                            365.5,
+                            237.0,
+                            261.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0467"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4758-_jpg.rf.26f47d362d823d1eed9df107fc7c6db0.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            164.5,
+                            236.5,
+                            258.0,
+                            141.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0470"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2183-_jpg.rf.e3f2dfb6abb130d81f5e3d7359b433b1.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            265.0,
+                            267.5,
+                            112.0,
+                            295.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0471"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-8713-_jpg.rf.051a942d40e042c956b689a6611e4a31.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            306.0,
+                            19.5,
+                            233.0,
+                            596.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0472"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1436-_jpg.rf.8e901f114c7c6c18065edf6dca25f249.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            120.5,
+                            293.0,
+                            345.0,
+                            266.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0475"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-3762-_jpg.rf.3bc23f06cd87c7f650b40b89974ecb7d.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            308.0,
+                            390.0,
+                            163.0,
+                            146.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0481"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-813-_jpg.rf.2e5fe91a365f2dc7a423fead35d70ec4.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            297.5,
+                            379.0,
+                            158.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0482"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2553-_jpg.rf.a319c5fe74df91a3db1ca5882c88e9ad.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            168.0,
+                            212.0,
+                            243.0,
+                            293.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0483"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-7468-_jpg.rf.199eda749a4c316a352ca8ca4947b34a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            84.5,
+                            53.0,
+                            544.0,
+                            587.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0484"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-211-_jpg.rf.7584ce6d11cc029fdb20235e37a1cf6a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            142.0,
+                            217.0,
+                            345.0,
+                            420.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0485"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-1734-_jpg.rf.3b52b34da9276c361ae44971e3cd0ce9.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            188.5,
+                            315.5,
+                            178.0,
+                            92.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0492"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-4700-_jpg.rf.9f3b06ac9e413aae20b035ffe48f3eb8.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            253.0,
+                            356.0,
+                            267.0,
+                            134.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0494"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-2386-_jpg.rf.82295a8fc98872cf1a185c9d5d5014e6.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            270.5,
+                            271.0,
+                            173.0,
+                            209.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0495"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/Group_23_Senior_2_View_Right_jpeg_jpg.rf.ae6ec617811c6ccbef8ad4efd8d36525.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "person": [
+                            244.5,
+                            196.0,
+                            86.0,
+                            279.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0496"
+        },
+        {
+            "input": {
+                "image_file": "./data/comprehension/fall-human-detection/images/people-5001-_jpg.rf.8c6f529f3d0d3b8ec80b040d53d5021a.jpg",
+                "prompt": "users' specifically-defined prompts for different models"
+            },
+            "output": {
+                "bbox": [
+                    {
+                        "Fall": [
+                            0.0,
+                            472.5,
+                            171.0,
+                            145.0
+                        ]
+                    }
+                ]
+            },
+            "id": "0499"
+        }
+    ]
+}

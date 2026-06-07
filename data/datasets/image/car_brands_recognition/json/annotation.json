@@ -1,0 +1,1942 @@
+{
+    "task": "Car Brands Recognition",
+    "data_source": "https://www.kaggle.com/datasets/mahaarajab/car-logo-dataset",
+    "type": "comprehension",
+    "skill": "Object Recognition(Object Recog)",
+    "domain": "General",
+    "capability": "Content Recognition",
+    "modality": {
+        "in": [
+            "image",
+            "text"
+        ],
+        "out": [
+            "text"
+        ]
+    },
+    "version": "1.0",
+    "data": [
+        {
+            "input": {
+                "image_file": "images/CarBrands0453.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "GMC"
+            },
+            "id": "CarBrands0453"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0246.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0246"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0465.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "GMC"
+            },
+            "id": "CarBrands0465"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0060.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Citroen"
+            },
+            "id": "CarBrands0060"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0268.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0268"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0093.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0093"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0216.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0216"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0382.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0382"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0426.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0426"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0170.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0170"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0245.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0245"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0315.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0315"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0427.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0427"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0095.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0095"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0199.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0199"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0449.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0449"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0096.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0096"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0110.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Honda"
+            },
+            "id": "CarBrands0110"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0264.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0264"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0188.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0188"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0144.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0144"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0392.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mercedes"
+            },
+            "id": "CarBrands0392"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0008.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0008"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0287.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0287"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0022.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Toyota"
+            },
+            "id": "CarBrands0022"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0208.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0208"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0089.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0089"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0269.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0269"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0254.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0254"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0046.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Citroen"
+            },
+            "id": "CarBrands0046"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0224.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0224"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0121.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0121"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0154.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0154"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0214.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0214"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0142.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0142"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0042.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0042"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0051.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Citroen"
+            },
+            "id": "CarBrands0051"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0372.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0372"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0399.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mercedes"
+            },
+            "id": "CarBrands0399"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0298.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0298"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0130.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0130"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0161.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0161"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0090.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0090"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0422.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0422"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0171.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0171"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0279.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Peugeot"
+            },
+            "id": "CarBrands0279"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0381.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0381"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0165.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0165"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0383.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0383"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0263.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0263"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0447.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0447"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0242.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0242"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0038.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0038"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0210.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0210"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0054.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Citroen"
+            },
+            "id": "CarBrands0054"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0003.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0003"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0209.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0209"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0155.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0155"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0359.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volvo"
+            },
+            "id": "CarBrands0359"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0460.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "GMC"
+            },
+            "id": "CarBrands0460"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0316.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0316"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0146.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0146"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0005.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0005"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0145.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0145"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0409.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Acura"
+            },
+            "id": "CarBrands0409"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0075.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0075"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0343.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Skoda"
+            },
+            "id": "CarBrands0343"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0107.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Honda"
+            },
+            "id": "CarBrands0107"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0128.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0128"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0258.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0258"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0178.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0178"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0176.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0176"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0319.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0319"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0231.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0231"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0181.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0181"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0012.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0012"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0007.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0007"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0262.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0262"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0250.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0250"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0202.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0202"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0324.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0324"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0101.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0101"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0320.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0320"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0027.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Toyota"
+            },
+            "id": "CarBrands0027"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0078.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0078"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0140.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0140"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0035.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0035"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0375.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0375"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0472.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0472"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0094.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0094"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0152.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0152"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0417.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Acura"
+            },
+            "id": "CarBrands0417"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0352.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volvo"
+            },
+            "id": "CarBrands0352"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0469.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0469"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0247.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0247"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0180.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0180"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0338.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Skoda"
+            },
+            "id": "CarBrands0338"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0086.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0086"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0156.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0156"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0133.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0133"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0377.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0377"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0442.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0442"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0039.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0039"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0222.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0222"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0070.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0070"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0452.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "GMC"
+            },
+            "id": "CarBrands0452"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0193.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0193"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0355.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volvo"
+            },
+            "id": "CarBrands0355"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0163.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0163"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0032.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0032"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0444.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0444"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0466.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0466"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0365.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0365"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0313.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0313"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0450.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0450"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0229.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0229"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0069.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0069"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0255.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0255"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0289.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0289"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0073.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0073"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0435.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0435"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0252.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0252"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0468.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0468"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0292.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0292"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0219.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0219"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0097.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0097"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0197.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0197"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0308.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0308"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0458.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "GMC"
+            },
+            "id": "CarBrands0458"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0077.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0077"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0238.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0238"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0301.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0301"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0337.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Skoda"
+            },
+            "id": "CarBrands0337"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0267.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mitsubishi"
+            },
+            "id": "CarBrands0267"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0354.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volvo"
+            },
+            "id": "CarBrands0354"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0431.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0431"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0067.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0067"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0412.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Acura"
+            },
+            "id": "CarBrands0412"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0134.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0134"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0390.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0390"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0157.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0157"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0446.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mazda"
+            },
+            "id": "CarBrands0446"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0325.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0325"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0031.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0031"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0211.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0211"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0376.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Dacia"
+            },
+            "id": "CarBrands0376"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0234.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0234"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0293.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0293"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0430.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Kia"
+            },
+            "id": "CarBrands0430"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0021.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Toyota"
+            },
+            "id": "CarBrands0021"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0131.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Nissan"
+            },
+            "id": "CarBrands0131"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0159.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0159"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0285.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Peugeot"
+            },
+            "id": "CarBrands0285"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0346.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volvo"
+            },
+            "id": "CarBrands0346"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0321.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0321"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0470.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0470"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0150.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Subaru"
+            },
+            "id": "CarBrands0150"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0191.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0191"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0164.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Volkswagen"
+            },
+            "id": "CarBrands0164"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0311.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0311"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0179.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Suzuki"
+            },
+            "id": "CarBrands0179"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0189.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0189"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0402.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mercedes"
+            },
+            "id": "CarBrands0402"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0015.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lancia"
+            },
+            "id": "CarBrands0015"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0056.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Citroen"
+            },
+            "id": "CarBrands0056"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0076.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "BMW"
+            },
+            "id": "CarBrands0076"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0204.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0204"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0040.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0040"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0183.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0183"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0397.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mercedes"
+            },
+            "id": "CarBrands0397"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0200.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Tesla"
+            },
+            "id": "CarBrands0200"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0369.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0369"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0404.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mercedes"
+            },
+            "id": "CarBrands0404"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0068.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Ford"
+            },
+            "id": "CarBrands0068"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0100.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0100"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0295.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Daewoo"
+            },
+            "id": "CarBrands0295"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0098.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Hyundai"
+            },
+            "id": "CarBrands0098"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0185.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Renault"
+            },
+            "id": "CarBrands0185"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0212.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0212"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0410.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Acura"
+            },
+            "id": "CarBrands0410"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0323.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Alfa Romeo"
+            },
+            "id": "CarBrands0323"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0371.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0371"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0241.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Land Rover"
+            },
+            "id": "CarBrands0241"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0228.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0228"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0043.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Seat"
+            },
+            "id": "CarBrands0043"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0278.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Peugeot"
+            },
+            "id": "CarBrands0278"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0406.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Acura"
+            },
+            "id": "CarBrands0406"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0307.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Mini"
+            },
+            "id": "CarBrands0307"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0239.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Jeep"
+            },
+            "id": "CarBrands0239"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0368.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Smart"
+            },
+            "id": "CarBrands0368"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0478.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Opel"
+            },
+            "id": "CarBrands0478"
+        },
+        {
+            "input": {
+                "image_file": "images/CarBrands0213.png",
+                "prompt": "recognize the brand of the car in the image"
+            },
+            "output": {
+                "prediction": "Lexus"
+            },
+            "id": "CarBrands0213"
+        }
+    ],
+    "others": {},
+    "set_type": "openset"
+}
