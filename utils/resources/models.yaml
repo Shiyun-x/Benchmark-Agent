@@ -1,0 +1,40 @@
+# Model Configuration for Benchmark Generation Pipeline
+# This file centralizes all model settings for agents and tools
+
+# API settings, temporarily, should be removed after testing
+api:
+  api_key: "YOUR_API_KEY"
+  base_url: "YOUR_API_BASE_URL"  # or set env LLM_API_BASE_URL
+# API settings, temporarily, should be removed after testing
+
+# Agent Models (used by Agent instances for decision-making)
+agents:
+  design: "gpt-5.1"        # Design Agent
+  grounding: "gpt-5.1"     # Grounding Agent
+  allocation: "gpt-5.1"     # Allocation Agent
+
+# Tool Models (used by individual tools for specific tasks)
+tools:
+  # Initialization & Parsing
+  parse_subtasks: "gpt-5.1"   # Parse topic to subtasks
+  
+  # Analyst Tools
+  analyst_model: "gpt-5.1"    # Used by llm_revise_one_subtask, llm_replan_subtasks
+  
+  # Scoring & Evaluation
+  transformability_check: "gpt-5.1"  # Check dataset transformability
+  scoring: "gpt-5.1"          # Score dataset candidates
+  
+  # Planning
+  importance_and_quota: "gpt-5.1"  # Calculate importance and quota
+  diagnose_allocation: "gpt-5.1"      # Diagnose allocation failures (uses DEFAULT_MODEL)
+  
+  # Generation & Transformation
+  transform_stage1: "gpt-5.1"  # Stage 1: Sample-level planning
+  transform_stage2: "gpt-5.1"  # Stage 2: Execute transformation
+  
+  # Verification
+  verify: "gpt-5.4"            # Verify transformed samples
+  
+  # Default model for tools that don't specify (used by llm_caller)
+  default: "gpt-5.1"

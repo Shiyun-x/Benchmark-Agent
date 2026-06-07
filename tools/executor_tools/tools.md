@@ -65,6 +65,33 @@ Audio file paths (`_tts_output_path`, `_final_audio_path`) are determined at ben
 
 ---
 
+## Adding a Custom Tool
+
+**Step 1 — Implement the function** in the appropriate `*_tools.py` file (or a new file):
+
+```python
+def my_tool(arg1: str, arg2: int = 1) -> dict:
+    # ... your logic ...
+    return {"result_field": ...}
+```
+
+The function must return a plain `dict`. If it produces a file (audio, image), include the output path in the dict so the pipeline can record it.
+
+**Step 2 — Register it in `utils/resources/tools.yaml`**:
+
+Key fields to set: `name`, `modalities` (controls which task types the agent may select this tool for), `description`, `params`, and `typical_uses`. See the existing entries in the file for the full schema including `memory.retain` (which inputs/outputs to log in the sample record).
+
+**Step 3 — Wire up the backend in `tools/executor_tools/run_pure_tools.py`**:
+
+Add a `_build_spec_my_tool()` function that defines `param_schema` (the structured parameter spec the LLM planner sees), `return_schema`, and sets `backend=my_tool`. Then register it in `build_pure_tool_registry`:
+
+```python
+elif name == "my_tool":
+    spec = _build_spec_my_tool(t)
+```
+
+---
+
 ## Note on partial implementations
 
 This release includes implementations for the tools required by the example topics. 
