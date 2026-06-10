@@ -216,19 +216,48 @@ All intermediate results are cached under `cache/{user_query_id}/`. You can edit
 
 ### 1️⃣ Design & Grounding
 
-The **Design Agent** decomposes the user query into a stable set of subtasks — identifying atomic capabilities, assigning modality constraints, and iterating via **propose → revise → discard** cycles until the design stabilizes.
+**📝 Design Agent**
 
-The **Grounding Agent** then validates each subtask against real datasets and transformation tools. Any subtask without at least one executable (dataset, transformation) pair is rejected or revised before the pipeline continues.
+- Decomposes the user query into a set of subtasks, each capturing one atomic capability
+- Assigns modality constraints (text / image / audio / mixed), answer type, and output schema per subtask
+- Iterates via **propose → revise → discard** cycles until the subtask set stabilizes
+
+**🔬 Grounding Agent**
+
+- Constructs dataset retrieval preferences from the subtask set
+- Searches, scores, and filters candidate datasets for each subtask
+- Assesses whether a concrete (dataset, transformation) execution plan is feasible
+- Rejects subtasks that cannot be grounded and feeds back to the Design Agent for revision; loops until all subtasks are grounded or the retry budget is exhausted
+
+---
 
 ### 2️⃣ Allocation
 
-The **Allocation Agent** distributes sample quotas across dataset–subtask pairs, subject to global target size, per-dataset capacity, subtask balance, and diversity constraints. If allocation falls short, the system loops back to grounding before proceeding.
+**💭 Allocation Agent**
+
+Distributes sample quotas across (dataset, subtask) pairs, balancing global target size, per-dataset capacity, subtask coverage, and diversity. If allocation falls short, the system loops back to grounding with feedback before retrying.
+
+---
 
 ### 3️⃣ Realization & Execution
 
-- **📚 Sample Planning**: builds (dataset, subtask, index) triples from allocation results and assigns a transformation plan to each
-- **⚙️ Execution Engine**: runs LLM-based transformations and non-LLM tools (TTS, OCR, image degradation, web search) with intermediate caching and failure retries
-- **🔍 Verification**: validates schema correctness, answer-type consistency, semantic alignment, and per-subtask quota coverage on every generated sample
+**📚 Sample Planning**
+
+- Expands allocation results into (dataset, subtask, index) triples
+- Assigns a step-by-step transformation plan to each triple
+
+**⚙️ Execution Engine**
+
+- Runs LLM-based steps (context construction, question rewriting, dialogue synthesis, reasoning transformation) in parallel across samples
+- Executes non-LLM tools (TTS, OCR, image degradation, web search, audio noise mixing) as pure backends with outputs cached to disk
+- Retries failed steps with fallback strategies before marking as failures
+
+**🔍 Verification Layer**
+
+- **Schema validation**: all required input/output fields are present and correctly typed
+- **Answer-type checking**: answer format matches the subtask spec; options are unique and non-trivial
+- **Semantic alignment**: the sample is answerable, faithful to the source, and does not leak the answer
+- **Quota checking**: per-subtask verified counts are compared against allocation targets; gaps trigger a replenishment round
 
 ---
 
