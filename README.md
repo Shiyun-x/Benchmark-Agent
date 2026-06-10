@@ -173,7 +173,6 @@ Benchmark Agent integrates both LLM-based and pure transformation tools. `utils/
 - OCR
 - Image degradation
 - Audio noise mixing
-- Web Search
 
 </td>
 </tr>
@@ -227,9 +226,9 @@ The **Allocation Agent** distributes sample quotas across dataset–subtask pair
 
 ### 3️⃣ Realization & Execution
 
-- **📚 Sample Planning** — builds (dataset, subtask, index) triples from allocation results and assigns a transformation plan to each
-- **⚙️ Execution Engine** — runs LLM-based transformations and non-LLM tools (TTS, OCR, image degradation, web search) with intermediate caching and failure retries
-- **🔍 Verification** — validates schema correctness, answer-type consistency, semantic alignment, and per-subtask quota coverage on every generated sample
+- **📚 Sample Planning**: builds (dataset, subtask, index) triples from allocation results and assigns a transformation plan to each
+- **⚙️ Execution Engine**: runs LLM-based transformations and non-LLM tools (TTS, OCR, image degradation, web search) with intermediate caching and failure retries
+- **🔍 Verification**: validates schema correctness, answer-type consistency, semantic alignment, and per-subtask quota coverage on every generated sample
 
 ---
 
