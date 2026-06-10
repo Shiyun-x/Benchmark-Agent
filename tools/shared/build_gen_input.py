@@ -27,6 +27,26 @@ def _load_dataset_cards(dataset_card_dir: str) -> List[Dict[str, Any]]:
     return cards
 
 
+def _load_dataset_cards_from_config(config_path: str) -> List[Dict[str, Any]]:
+    """Load dataset cards from a YAML config (dataset_cards.yaml).
+
+    The config specifies dataset_card_dir and an optional datasets list of IDs to include.
+    Paths in the config are resolved relative to the project root (two levels above utils/resources/).
+    """
+    with open(config_path, "r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    card_dir = cfg.get("dataset_card_dir", "")
+    if card_dir and not os.path.isabs(card_dir):
+        project_root = os.path.abspath(os.path.join(os.path.dirname(config_path), "..", ".."))
+        card_dir = os.path.join(project_root, card_dir)
+    cards = _load_dataset_cards(card_dir)
+    allowed_ids = cfg.get("datasets")
+    if allowed_ids:
+        allowed_set = {str(i) for i in allowed_ids}
+        cards = [c for c in cards if str(c.get("dataset_id", "")) in allowed_set]
+    return cards
+
+
 def _build_id2card(dataset_cards: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     """Build mapping: dataset_id -> dataset_card."""
     id2card = {}

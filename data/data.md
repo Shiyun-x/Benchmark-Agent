@@ -51,7 +51,7 @@ Every dataset is a JSON file with top-level metadata and a `data` array:
 }
 ```
 
-Each entry in `data[]` has a fixed envelope of `id`, `input`, and `output`. The fields inside `input` and `output` vary by dataset — a sample may carry any combination of fields such as `question`, `options`, `context`, `image_file`, `prompt`, `answer`, `text`, and more:
+Each entry in `data[]` has a fixed envelope of `id`, `input`, and `output`. The fields inside `input` and `output` vary by dataset. A sample may carry any combination of fields such as `question`, `options`, `context`, `image_file`, `prompt`, `answer`, `text`, and more:
 
 ```json
 {
@@ -68,15 +68,15 @@ Each entry in `data[]` has a fixed envelope of `id`, `input`, and `output`. The 
 ```
 
 Key fields:
-- `id` — unique sample identifier within the dataset
-- `input` — all model inputs; field names and count vary by task and modality
-- `output` — ground-truth response
+- `id`: unique sample identifier within the dataset
+- `input`: all model inputs; field names and count vary by task and modality
+- `output`: ground-truth response
 
 ---
 
 ## Adding Your Own Datasets
 
-You can add custom datasets to `datasets/nlp/` or `datasets/image/` following the same format above. After adding a dataset, generate its card with `utils/build_dataset_cards/built_dataset_card.py`.
+You can add custom datasets to `datasets/nlp/` or `datasets/image/` following the same format above. Then generate its card and register it in the dataset config.
 
 ### Generating Dataset Cards
 
@@ -105,3 +105,13 @@ python utils/build_dataset_cards/built_dataset_card.py --config path/to/config.j
 ```
 
 The script scans `root_dir` for JSON files and generates a `{dataset_id}_card.json` for each dataset in `out_dir`.
+
+**3. Register the new dataset** in `utils/resources/dataset_cards.yaml`:
+
+```yaml
+datasets:
+  - <new_dataset_id>   # Your Dataset Name
+  - ...                # existing entries
+```
+
+The `dataset_id` is printed by the script and also appears as the filename prefix of the generated card (e.g. `a1b2c3d4_card.json` → ID is `a1b2c3d4`).

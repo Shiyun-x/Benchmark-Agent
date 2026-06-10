@@ -22,6 +22,7 @@ from tools.planner_tools.allocation.allocation_tools import _build_allocation_or
 from tools.shared.build_gen_input import (
     build_generator_inputs,
     _load_dataset_cards,
+    _load_dataset_cards_from_config,
     _build_id2card,
     _compute_gap_per_subtask,
     _refill_idx_todo_for_replenishment,
@@ -455,7 +456,7 @@ class BenchmarkFlow(FlowModule):
         metadata = TopicMetadata(**topic_dict)
 
         # Step 1: load dataset cards and parse description → short_topic, modalities, keywords.
-        dataset_cards = _load_dataset_cards(dataset_card_dir)
+        dataset_cards = kwargs.pop("dataset_cards", None) or _load_dataset_cards(dataset_card_dir)
         context_variables["dataset_cards"] = dataset_cards
         id2card = _build_id2card(dataset_cards)
         context_variables["id2card"] = id2card
@@ -535,7 +536,7 @@ def main(args: Any):
     raw_description = config.get("description")
     target_size = config.get("target_size", 2000)
     bench_id = config.get("id", "benchmark")
-    dataset_card_dir = args.dataset_card_dir
+    dataset_cards = _load_dataset_cards_from_config(args.dataset_card_config)
     if raw_description is None:
         raise ValueError("Config JSON must contain a 'description' field")
 
@@ -551,21 +552,46 @@ def main(args: Any):
             task_id=task_id,
             description=raw_description,
             target_size=target_size,
-            dataset_card_dir=dataset_card_dir,
             topic_id=args.topic_id,
+            dataset_cards=dataset_cards,
         )
     )
 
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--instance_path", type=str, default=str(_PROJECT_ROOT) + os.sep)
-    parser.add_argument("--topic_id", type=str, default="topics/topic_03")
+    parser.add_argument(
+        "--instance_path",
+        type=str,
+        default=str(_PROJECT_ROOT) + os.sep,
+        help="Directory prefix for the user-query JSON; combined with --topic_id to form the full path (e.g. user_queries/user_query_01.json)",
+    )
+    parser.add_argument(
+        "--topic_id",
+        type=str,
+        default="user_queries/user_query_01",
+        help="User-query identifier (path stem without .json); selects which benchmark instance to run",
+    )
     parser.add_argument("--model", type=str, default=None, help="Override default agent model (deprecated, use --model_config_path instead)")
     parser.add_argument("--model_config_path", type=str, default=None, help="Path to model configuration YAML file")
-    parser.add_argument("--dataset_card_dir", type=str, default=str(_PROJECT_ROOT / "data" / "dataset_cards"))
-    parser.add_argument("--tool_config_path", type=str, default=str(_PROJECT_ROOT / "utils" / "resources" / "tools.yaml"))
-    parser.add_argument("--cache_path", type=str, default=str(_PROJECT_ROOT / "cache") + os.sep)
+    parser.add_argument(
+        "--dataset_card_config",
+        type=str,
+        default=str(_PROJECT_ROOT / "utils" / "resources" / "dataset_cards.yaml"),
+        help="Path to dataset_cards.yaml listing the dataset IDs and card directory to use",
+    )
+    parser.add_argument(
+        "--tool_config_path",
+        type=str,
+        default=str(_PROJECT_ROOT / "utils" / "resources" / "tools.yaml"),
+        help="Path to tools.yaml registering LLM and deterministic transformation tools",
+    )
+    parser.add_argument(
+        "--cache_path",
+        type=str,
+        default=str(_PROJECT_ROOT / "cache") + os.sep,
+        help="Directory prefix for intermediate artifacts; combined with --topic_id (e.g. cache/user_queries/user_query_01/)",
+    )
     args = parser.parse_args()
     return args
 

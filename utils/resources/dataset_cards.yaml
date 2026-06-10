@@ -1,0 +1,21 @@
+dataset_card_dir: data/dataset_cards
+
+datasets:
+  - 076fdf72   # Car Brands Recognition
+  - 0d20e992   # Ethical-Reasoning
+  - 0fa3ee6d   # Event-Coreference-Resolution
+  - 2681e85c   # Document-Level-Causal-Reasoning
+  - 2d36aa6b   # Social-Science-Question-Answering
+  - 37a67448   # Temporal-Reasoning
+  - 5f3dbd05   # Art Image Visual Question Answering
+  - 6f1bd1c5   # Bird Detection
+  - 791bc8ca   # Chinese-Fine-Art
+  - 7fb63e11   # Causal-Reasoning
+  - 9155fd9c   # Chemistry Vqa
+  - 91f29c38   # Mathematical Word Problem Vqa
+  - a538c57a   # Lung Nodule Diagnosis Vqa
+  - b06e6da3   # Fall-Human-Detection
+  - c78e5c5c   # Natural-Language-Inference
+  - ca4f9ec3   # Temporal-Event-Reasoning
+  - cc0d075c   # Dialogue-Relation-Extraction
+  - f219959e   # Multi-Turn-Daily-Dialogue-Generation

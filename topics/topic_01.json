@@ -1,5 +1,0 @@
-{
-  "id": "multi_perspective_event_reasoning_v1",
-  "description": "Different perspectives may offer drastically different accounts of the same event, and humans automatically integrate multiple viewpoints to form a consistent understanding. I want to build a benchmark model to test whether it can infer the true nature of an event from multiple perspectives and answer related questions.",
-  "target_size": 120
-}
