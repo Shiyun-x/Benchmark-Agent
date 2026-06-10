@@ -69,6 +69,7 @@ Given a high-level evaluation goal in natural language, **Benchmark-Agent** orch
   - [📂 Prepare Inputs](#-prepare-inputs)
   - [🚀 Run](#-run)
 - [✨ How Benchmark-Agent Works](#-how-benchmark-agent-works)
+- [📋 To-Do List](#-to-do-list)
 - [📖 Citation](#-citation)
 
 ---
@@ -258,6 +259,14 @@ Distributes sample quotas across (dataset, subtask) pairs, balancing global targ
 - **Answer-type checking**: answer format matches the subtask spec; options are unique and non-trivial
 - **Semantic alignment**: the sample is answerable, faithful to the source, and does not leak the answer
 - **Quota checking**: per-subtask verified counts are compared against allocation targets; gaps trigger a replenishment round
+
+---
+
+## 📋 To-Do List
+
+Roadmap items for upcoming releases. Contributions welcome! Please open an issue or PR if you'd like to help.
+
+- [ ] **Interactive UI** 
 
 ---
 
